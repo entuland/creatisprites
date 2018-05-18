@@ -1,0 +1,63 @@
+	body {
+		font-family: sans-serif;
+		background: #DDD;
+	}
+	#main {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 150px;
+		overflow-y: scroll;
+		padding: 1em;
+	}
+	
+	#output {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 150px;
+		width: 100%;
+		background: yellow;
+		box-shadow: 0 0 30px #000;
+		font-size: 130%;
+		font-weight: bolder;
+	}
+	
+	.container {
+		width: 96px;
+		height: 96px;
+		margin: 5px;
+		float: left;
+		background-image: url(../img/icons_00_reduce.jpg);
+		border: 1px solid #999;
+	}
+	
+	.icon {
+		width: 128px;
+		height: 128px;
+		background-image: url(../img/icons_00.jpg);		
+		display: none;
+	}
+	
+	.container:hover .icon {
+		border: 1px solid black;
+		box-shadow: 5px 5px 5px #999;
+		position: absolute;
+		transform-origin: center center;
+		transform: translate(-15%, -15%);
+		z-index: 1;
+		cursor: pointer;
+		display: block;
+	}
+	h2 {
+		float: left;
+		width: 100%;
+	}
+	td {
+		padding: 4px;
+		border: 1px solid #ccc;
+	}
+	#list {
+		display: none;
+	}
