@@ -59,3 +59,9 @@
 	#list {
 		display: none;
 	}
+	code {
+		margin: 5px;
+		padding: 5px;
+		background: #AFA;
+		font-size: 150%;
+	}

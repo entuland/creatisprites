@@ -2,24 +2,33 @@
 <html>
 <head>
 <title>Creativerse Sprites Picker</title>
-<script src="js/icondata.js?345344534"></script>
-<script src="js/index.js?345344534"></script>
-<link href="css/index.css?345344534" rel="stylesheet">
+<script src="js/icondata.js?34534453554"></script>
+<script src="js/index.js?34534453554"></script>
+<link href="css/index.css?34534453554" rel="stylesheet">
 </head>
 <body>
 <div id="main">
 	<h1>Creativerse Sprites Picker</h1>
-	<p style="font-weight: bolder; color: #900">THE SPRITES HERE SHOULD ALL WORK FINE NOW ... BUT: since the sprites codes have been changed by R50 and I've not been provided with the actual resource files that are being used by the game, I've had to screenshot the sprites myself. That's why they're all blurred and badly aligned. They should work fine in the game, though. [update: now I have access to the resource files but there are still issues with failing codes, for that reason I'm keeping the picker as it is until we get news from the developers]</p>
-	<p style="font-weight: bolder; color: #900">As far as I can tell, some sprites are currently missing (they don't appear here and they don't work in the game).</p>
+	<p style="font-weight: bolder; color: #060">Last updated February the 20th, 2018 - all of the following sprites should work correctly in the game!</p>
+	<p style="font-weight: bolder; color: #330">As far as I can tell, some sprites are currently missing (they don't appear here and they don't work in the game).</p>
 	<p>This tool lets you pick up sprite codes to be put into Arc Signs in the game <a href="http://store.steampowered.com/app/280790" target="_blank">Creativerse</a>, free to play on Steam.</p>
 	<p><a href="http://entuland.com/creatisign" target="_blank">Check out the CreatiSign Generator to import your images into Arc Signs!</a></p>
-	<p>Click on any icon to have its code appended to the yellow textarea below, then copy those codes into the Arc Signs and alter them as you please (in particular you can change their size by prepending &lt;size=2&gt; to those codes, the default size is 1 and you can make them really large, just play with the values, <a href="http://steamcommunity.com/app/280790/discussions/0/1479856439030191185/" target="_blank">more info about Arc Sign codes</a>).</p>
+	<p>Click on any icon to have its code appended to the yellow textarea below, then copy those codes into the Arc Signs and alter them as you please.</p>
+	<p>If you want to space sprites so that each goes on a different block you can use this code before them:</p>
+		<code>&lt;size=8&gt;&lt;width=8&gt;&lt;offset=1.5&gt;&lt;zoffset=0.5&gt;&lt;mspace=1&gt;&lt;line-height=1&gt;</code>
+	<p>fiddle with the "size", "offset" and "zoffset" values, the other tags should be left alone unless you know what they do and how they work.</p>
+	<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866813759228219/" target="_blank">More info about Arc Sign codes</a></p>
 	<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866180603763881/" target="_blank">CreatiSprites Picker discussion on Steam forums</a></p>
 	<p><a href="https://github.com/entuland/creatisprites" target="_blank">All versions on GitHub</a></p>
 	<p>Only tested in Chrome, may work in other browsers.</p>
-	<p style="font-weight: bolder; color: #900">This picker used to show some manually edited names for the unknown sprites. It's not like this anymore: the ones that lack a visible, in-game name are now marked by their internal name.</p>
+	<p style="font-weight: bolder; color: #330">I am currently unable to automatically collect visible names for all sprites and I am not going to manually edit any of these sprites. Internal names are used instead where a visible name is missing.</p>
 	<p><button id="switch">Switch to List View</button> Filter: <input type="text" id="filter" placeholder="type here to filter icons"> <small>(type just "?" to see items with a missing visible name)</small></p>
-	<p><label><input type="checkbox" id="outputname">Output sprite names too</label></p>
+	<p>
+		<label><input type="checkbox" id="useindices">Use indices instead of internal names</label>;
+		<label><input type="checkbox" id="appendspace">Append a space after each sprite</label>;
+		<label><input type="checkbox" id="outputname">Output sprite names as well</label>;
+	</p>
+	<p>(the sprites will appear here below as soon as the 2MB of resources will get loaded, be patient)</p>
 	<hr>
 	<div id="picker"></div>
 	<table id="list"></table>
