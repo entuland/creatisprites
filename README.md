@@ -8,7 +8,6 @@ Discussion about CreatiSprites on the [Steam Forums](https://steamcommunity.com/
 # License
 The data in the following files is copyright of [Playfulcorp](http://www.playfulcorp.com), creators of Creativerse, used here with their permission:
 - [img/ (whole folder)](img/)
-- [js/indices00.js](js/indices00.js)
-- [js/names00.js](js/names00.js)
+- [js/icondata.js](js/icondata.js)
 
 All the other files and resources are released under the WTFPL.

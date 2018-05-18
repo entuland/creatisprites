@@ -25,18 +25,16 @@
 	}
 	
 	.container {
-		width: 96px;
-		height: 96px;
+		width: 100px;
+		height: 100px;
 		margin: 5px;
 		float: left;
-		background-image: url(../img/icons_00_reduce.jpg);
 		border: 1px solid #999;
 	}
 	
 	.icon {
 		width: 128px;
 		height: 128px;
-		background-image: url(../img/icons_00.jpg);		
 		display: none;
 	}
 	

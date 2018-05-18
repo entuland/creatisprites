@@ -2,26 +2,25 @@
 <html>
 <head>
 <title>Creativerse Sprites Picker</title>
-<script src="js/indices00.js?57775884"></script>
-<script src="js/names00.js?57775884"></script>
-<script src="js/index.js?57775884"></script>
-<link href="css/index.css?57775884" rel="stylesheet">
+<script src="js/icondata.js?345344534"></script>
+<script src="js/index.js?345344534"></script>
+<link href="css/index.css?345344534" rel="stylesheet">
 </head>
 <body>
 <div id="main">
 	<h1>Creativerse Sprites Picker</h1>
-	<p style="font-weight: bolder; color: red">IMPORTANT: The sprites codes have been changed by R50, this picker will give you the right sprite in most cases BUT there still are some gotchas: first, some codes fail completely and also affect the surrounding / following sprites or text; second, some codes will not match until the developers release the current resource files to let me update this picker.</p>
-	<p style="font-weight: bolder; color: red">So, find the sprite you want and see if it's one of the failing ones, otherwise try it in the game and see if the code is still valid, and as a last resort head to <a href="sprites.html" target="_blank">this page</a> and patiently test out the ranges until you find the sprite you need (assuming that sprite is still there... who knows).</p>
+	<p style="font-weight: bolder; color: #900">THE SPRITES HERE SHOULD ALL WORK FINE NOW ... BUT: since the sprites codes have been changed by R50 and I've not been provided with the actual resource files that are being used by the game, I've had to screenshot the sprites myself. That's why they're all blurred and badly aligned. They should work fine in the game, though. [update: now I have access to the resource files but there are still issues with failing codes, for that reason I'm keeping the picker as it is until we get news from the developers]</p>
+	<p style="font-weight: bolder; color: #900">As far as I can tell, some sprites are currently missing (they don't appear here and they don't work in the game).</p>
 	<p>This tool lets you pick up sprite codes to be put into Arc Signs in the game <a href="http://store.steampowered.com/app/280790" target="_blank">Creativerse</a>, free to play on Steam.</p>
 	<p><a href="http://entuland.com/creatisign" target="_blank">Check out the CreatiSign Generator to import your images into Arc Signs!</a></p>
 	<p>Click on any icon to have its code appended to the yellow textarea below, then copy those codes into the Arc Signs and alter them as you please (in particular you can change their size by prepending &lt;size=2&gt; to those codes, the default size is 1 and you can make them really large, just play with the values, <a href="http://steamcommunity.com/app/280790/discussions/0/1479856439030191185/" target="_blank">more info about Arc Sign codes</a>).</p>
 	<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866180603763881/" target="_blank">CreatiSprites Picker discussion on Steam forums</a></p>
 	<p><a href="https://github.com/entuland/creatisprites" target="_blank">All versions on GitHub</a></p>
 	<p>Only tested in Chrome, may work in other browsers.</p>
-	<p><button id="switch">Switch to List View</button> Filter: <input type="text" id="filter" placeholder="type here to filter icons"> <small>(type just "?" to see all uncertain icons or those with a missing name)</small></p>
+	<p style="font-weight: bolder; color: #900">This picker used to show some manually edited names for the unknown sprites. It's not like this anymore: the ones that lack a visible, in-game name are now marked by their internal name.</p>
+	<p><button id="switch">Switch to List View</button> Filter: <input type="text" id="filter" placeholder="type here to filter icons"> <small>(type just "?" to see items with a missing visible name)</small></p>
 	<p><label><input type="checkbox" id="outputname">Output sprite names too</label></p>
 	<hr>
-	<div id="loading">Loading about 2.5MB of resources...</div>
 	<div id="picker"></div>
 	<table id="list"></table>
 </div>
