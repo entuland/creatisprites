@@ -2,37 +2,60 @@
 <html>
 <head>
 <title>Creativerse Sprites Picker</title>
-<script src="js/icondata.js?34534453554"></script>
-<script src="js/index.js?34534453554"></script>
-<link href="css/index.css?34534453554" rel="stylesheet">
+<script src="js/icondata.js?34554"></script>
+<script src="js/index.js?34554"></script>
+<link href="css/index.css?345548" rel="stylesheet">
 </head>
 <body>
-<div id="main">
-	<h1>Creativerse Sprites Picker</h1>
-	<p style="font-weight: bolder; color: #060">Last updated February the 20th, 2018 - all of the following sprites should work correctly in the game!</p>
-	<p style="font-weight: bolder; color: #330">As far as I can tell, some sprites are currently missing (they don't appear here and they don't work in the game).</p>
-	<p>This tool lets you pick up sprite codes to be put into Arc Signs in the game <a href="http://store.steampowered.com/app/280790" target="_blank">Creativerse</a>, free to play on Steam.</p>
-	<p><a href="http://entuland.com/creatisign" target="_blank">Check out the CreatiSign Generator to import your images into Arc Signs!</a></p>
-	<p>Click on any icon to have its code appended to the yellow textarea below, then copy those codes into the Arc Signs and alter them as you please.</p>
-	<p>If you want to space sprites so that each goes on a different block you can use this code before them:</p>
-		<code>&lt;size=8&gt;&lt;width=8&gt;&lt;offset=1.5&gt;&lt;zoffset=0.5&gt;&lt;mspace=1&gt;&lt;line-height=1&gt;</code>
-	<p>fiddle with the "size", "offset" and "zoffset" values, the other tags should be left alone unless you know what they do and how they work.</p>
-	<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866813759228219/" target="_blank">More info about Arc Sign codes</a></p>
-	<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866180603763881/" target="_blank">CreatiSprites Picker discussion on Steam forums</a></p>
-	<p><a href="https://github.com/entuland/creatisprites" target="_blank">All versions on GitHub</a></p>
-	<p>Only tested in Chrome, may work in other browsers.</p>
-	<p style="font-weight: bolder; color: #330">I am currently unable to automatically collect visible names for all sprites and I am not going to manually edit any of these sprites. Internal names are used instead where a visible name is missing.</p>
-	<p><button id="switch">Switch to List View</button> Filter: <input type="text" id="filter" placeholder="type here to filter icons"> <small>(type just "?" to see items with a missing visible name)</small></p>
-	<p>
-		<label><input type="checkbox" id="useindices">Use indices instead of internal names</label>;
-		<label><input type="checkbox" id="appendspace">Append a space after each sprite</label>;
-		<label><input type="checkbox" id="outputname">Output sprite names as well</label>;
-	</p>
-	<p>(the sprites will appear here below as soon as the 2MB of resources will get loaded, be patient)</p>
-	<hr>
-	<div id="picker"></div>
-	<table id="list"></table>
-</div>
-<textarea id="output" placeholder="(codes will appear here)"></textarea>
+	<div id="heading">
+		<strong><big>Creativerse Sprites Picker</big></strong>
+		<button class="rounded shadow" id="info-button">Help! What's this?</button> <a class="rounded shadow" target="_blank" href="http://entuland.com/en/support-entuland">Want to support me?</a> <a class="rounded shadow" style="background: #faa" target="_blank" href="http://entuland.com/creaticount">New! CreatiCount Tool!</a><hr>
+		<label class="rounded shadow">Filter: <input type="text" id="filter" placeholder="type here to filter icons" title='(type just "?" to see items with a missing visible name)'></label>
+		<button class="rounded shadow" id="switch">Switch to List View</button>
+		<label class="rounded shadow"><input type="checkbox" id="recentfirst" checked>List recent sprites first</label>
+	</div>
+	
+	<div id="picker-list">
+		<div id="picker"></div>
+		<table id="list"></table>
+	</div>
+	
+	<div id="design">
+		<label class="rounded shadow"><input type="checkbox" id="freemode">Free mode</label>
+		<label class="rounded shadow"><input type="checkbox" id="fourmode">Four sprites per block</label><br>
+		<label class="rounded shadow">Columns: <input type="number" id="columns" value="3" min="1" max="7" step="2"></label>
+		<label class="rounded shadow">Rows: <input type="number" id="rows" value="3"  min="1" max="7" step="1"></label>
+		<label class="rounded shadow"><input type="checkbox" id="useindices">Use indices instead of internal names</label>
+		<label class="rounded shadow"><input type="checkbox" id="appendspace">Append a space after each sprite</label>
+		<label class="rounded shadow"><input type="checkbox" id="outputname">Output sprite names as well</label>
+		<div id="disposition"></div>
+		<textarea id="output" placeholder="(codes will appear here)"></textarea>	
+		<button class="rounded shadow" id="addintro">Add intro code</button>
+		<button class="rounded shadow" id="cleartext">Clear text</button>
+		<button class="rounded shadow" id="importsprites">Import sprites from textarea</button>
+	</div>
+
+
+	<div class="cover" id="preload-cover"><div class="cover-content">LOADING IMAGE RESOURCES... PLEASE STAND BY...</div></div>
+	
+	<div id="info-cover" class="cover" style="display: none" title="click here to close"></div>
+	<div id="info-content" class="cover-content rounded shadow" style="display: none">
+		<h2>Creativerse Sprites Picker</h2>
+		<p>This tool lets you pick up sprite codes to be put into Arc Signs in the game <a href="http://store.steampowered.com/app/280790" target="_blank">Creativerse</a>, free to play on Steam.</p>
+		<p>Check out the <a href="http://entuland.com/creatisign" target="_blank"><strong>CreatiSign Generator</strong></a> to import your images into Arc Signs and the <a href="http://entuland.com/creaticount" target="_blank"><strong>CreatiCount Tool</strong></a> to get some help counting materials and their ingredients for your builds!</p>
+		<h2>How to use this picker</h2>
+		<p><strong>Grid mode</strong> (default): click on any icon to add it to the grid, then you can drag the grid icons around or drag them out of the grid to remove them. The yellow textarea gets updated automatically and you only need to copy it over to an Arc Sign when you're done. <strong>Careful that changing some params will empty the grid!</strong></p>
+		<p><strong>Free mode</strong>: click on any icon to have its code appended to the yellow textarea, then click the "Add intro code" button if you want the icons to get aligned to blocks, then copy all the code and paste it into an Arc Sign.</p>
+		<p>In both modes you may need to adjust the &lt;offset&gt; and &lt;zoffset&gt; tags depending on your design.</p>
+		<h2>Notes / Links</h2>
+		<p style="font-weight: bolder; color: #060">Last updated March the 6th, 2018 - all of the sprites listed in this page should work fine in the game.</p>
+		<p style="font-weight: bolder; color: #330">As far as I can tell, some sprites are currently missing (they don't appear here and they don't work in the game).</p>
+		<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866813759228219/" target="_blank">More info about Arc Sign codes</a></p>
+		<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866180603763881/" target="_blank">CreatiSprites Picker discussion on Steam forums</a></p>
+		<p><a href="https://github.com/entuland/creatisprites" target="_blank">All versions on GitHub</a></p>
+		<p>Only tested in Chrome &amp; Firefox, may work in other browsers.</p>
+		<p style="font-weight: bolder; color: #330">I am currently unable to automatically collect visible names for all sprites and I am not going to manually edit any of these sprites. Internal names are used instead where a visible name is missing.</p>
+	</div>
+	
 </body>
 </html>
