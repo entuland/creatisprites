@@ -241,6 +241,16 @@
     },
     {
         "s": "00",
+        "id": 24,
+        "i": "arc_particle_fx",
+        "w": 128,
+        "h": 128,
+        "x": 3328,
+        "y": 1024,
+        "v": "arc_particle_fx?"
+    },
+    {
+        "s": "00",
         "id": 25,
         "i": "bag_holiday",
         "w": 128,
@@ -258,6 +268,16 @@
         "x": 2304,
         "y": 768,
         "v": "Ice Bed"
+    },
+    {
+        "s": "00",
+        "id": 27,
+        "i": "arc_projector",
+        "w": 128,
+        "h": 128,
+        "x": 3200,
+        "y": 1024,
+        "v": "arc_projector?"
     },
     {
         "s": "00",
@@ -2461,6 +2481,26 @@
     },
     {
         "s": "00",
+        "id": 248,
+        "i": "arc_sound_fx",
+        "w": 128,
+        "h": 128,
+        "x": 1024,
+        "y": 3712,
+        "v": "arc_sound_fx?"
+    },
+    {
+        "s": "00",
+        "id": 249,
+        "i": "badge_armorer",
+        "w": 128,
+        "h": 128,
+        "x": 3072,
+        "y": 1920,
+        "v": "badge_armorer?"
+    },
+    {
+        "s": "00",
         "id": 250,
         "i": "icicle",
         "w": 128,
@@ -2478,6 +2518,26 @@
         "x": 3712,
         "y": 128,
         "v": "Jingle Juice"
+    },
+    {
+        "s": "00",
+        "id": 252,
+        "i": "badge_codex",
+        "w": 128,
+        "h": 128,
+        "x": 3072,
+        "y": 3328,
+        "v": "badge_codex?"
+    },
+    {
+        "s": "00",
+        "id": 253,
+        "i": "badge_explorer",
+        "w": 128,
+        "h": 128,
+        "x": 3584,
+        "y": 1280,
+        "v": "badge_explorer?"
     },
     {
         "s": "00",
@@ -2937,7 +2997,7 @@
         "h": 128,
         "x": 1024,
         "y": 2304,
-        "v": "Calavera Cabeza"
+        "v": "head_candy_skull?"
     },
     {
         "s": "00",
@@ -3452,12 +3512,12 @@
     {
         "s": "00",
         "id": 351,
-        "i": "led_sci_fi",
+        "i": "badge_homestead",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2816,
-        "v": "led_sci_fi?"
+        "x": 1664,
+        "y": 2432,
+        "v": "badge_homestead?"
     },
     {
         "s": "00",
@@ -7471,6 +7531,156 @@
     },
     {
         "s": "00",
+        "id": 753,
+        "i": "badge_quest_combat_01",
+        "w": 128,
+        "h": 128,
+        "x": 3968,
+        "y": 2048,
+        "v": "badge_quest_combat_01?"
+    },
+    {
+        "s": "00",
+        "id": 754,
+        "i": "badge_quest_combat_02",
+        "w": 128,
+        "h": 128,
+        "x": 1792,
+        "y": 1408,
+        "v": "badge_quest_combat_02?"
+    },
+    {
+        "s": "00",
+        "id": 755,
+        "i": "badge_spelunking",
+        "w": 128,
+        "h": 128,
+        "x": 2048,
+        "y": 3072,
+        "v": "badge_spelunking?"
+    },
+    {
+        "s": "00",
+        "id": 756,
+        "i": "column_asphault",
+        "w": 128,
+        "h": 128,
+        "x": 2688,
+        "y": 3712,
+        "v": "Asphalt Column"
+    },
+    {
+        "s": "00",
+        "id": 757,
+        "i": "gauntlet_infinity",
+        "w": 128,
+        "h": 128,
+        "x": 3200,
+        "y": 384,
+        "v": "The Finite Gauntlet"
+    },
+    {
+        "s": "00",
+        "id": 758,
+        "i": "potion_speed",
+        "w": 128,
+        "h": 128,
+        "x": 640,
+        "y": 3200,
+        "v": "Quick\u2122"
+    },
+    {
+        "s": "00",
+        "id": 759,
+        "i": "roof_asphault_inner_corner",
+        "w": 128,
+        "h": 128,
+        "x": 3968,
+        "y": 0,
+        "v": "Asphalt Slope Inner Corner"
+    },
+    {
+        "s": "00",
+        "id": 760,
+        "i": "roof_asphault_outer_corner",
+        "w": 128,
+        "h": 128,
+        "x": 3840,
+        "y": 128,
+        "v": "Asphalt Slope Outer Corner"
+    },
+    {
+        "s": "00",
+        "id": 761,
+        "i": "slab_asphault",
+        "w": 128,
+        "h": 128,
+        "x": 2432,
+        "y": 384,
+        "v": "Asphalt Slab"
+    },
+    {
+        "s": "00",
+        "id": 762,
+        "i": "slope_asphault",
+        "w": 128,
+        "h": 128,
+        "x": 1408,
+        "y": 1536,
+        "v": "Asphalt Slope"
+    },
+    {
+        "s": "00",
+        "id": 763,
+        "i": "stairs_asphault",
+        "w": 128,
+        "h": 128,
+        "x": 896,
+        "y": 2816,
+        "v": "Asphalt Stairs"
+    },
+    {
+        "s": "00",
+        "id": 764,
+        "i": "stairs_asphault_inner_corner",
+        "w": 128,
+        "h": 128,
+        "x": 896,
+        "y": 2944,
+        "v": "Asphalt Stairs Inner Corner"
+    },
+    {
+        "s": "00",
+        "id": 765,
+        "i": "stairs_asphault_outer_corner",
+        "w": 128,
+        "h": 128,
+        "x": 896,
+        "y": 3072,
+        "v": "Asphalt Stairs Outer Corner"
+    },
+    {
+        "s": "00",
+        "id": 766,
+        "i": "window_stone_lattice",
+        "w": 128,
+        "h": 128,
+        "x": 384,
+        "y": 896,
+        "v": "Stone Window Lattice"
+    },
+    {
+        "s": "00",
+        "id": 767,
+        "i": "bamboo",
+        "w": 128,
+        "h": 128,
+        "x": 0,
+        "y": 3840,
+        "v": "Bamboo"
+    },
+    {
+        "s": "00",
         "id": 768,
         "i": "table_arctek_01",
         "w": 128,
@@ -7668,6 +7878,46 @@
         "x": 1408,
         "y": 2688,
         "v": "Strong TNT"
+    },
+    {
+        "s": "00",
+        "id": 788,
+        "i": "chest_valentines",
+        "w": 128,
+        "h": 128,
+        "x": 3072,
+        "y": 896,
+        "v": "Heart-Shaped Box"
+    },
+    {
+        "s": "00",
+        "id": 789,
+        "i": "column_wood_red_chinese",
+        "w": 128,
+        "h": 128,
+        "x": 2688,
+        "y": 2944,
+        "v": "Forbidden Red Wood Column"
+    },
+    {
+        "s": "00",
+        "id": 790,
+        "i": "lantern_chinese_dog",
+        "w": 128,
+        "h": 128,
+        "x": 1152,
+        "y": 384,
+        "v": "Year of the Dog Lantern"
+    },
+    {
+        "s": "00",
+        "id": 791,
+        "i": "lattice_chinese",
+        "w": 128,
+        "h": 128,
+        "x": 1280,
+        "y": 384,
+        "v": "Forbidden Window Lattice"
     },
     {
         "s": "00",
@@ -9382,152 +9632,142 @@
     {
         "s": "00",
         "id": 964,
-        "i": "badge_explorer",
+        "i": "LED_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1280,
-        "v": "badge_explorer?"
+        "x": 3968,
+        "y": 640,
+        "v": "Galactic LED"
     },
     {
         "s": "00",
         "id": 965,
-        "i": "badge_homestead",
+        "i": "potion_love",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2432,
-        "v": "badge_homestead?"
+        "x": 2688,
+        "y": 1920,
+        "v": "Love Potion"
     },
     {
         "s": "00",
         "id": 966,
-        "i": "badge_quest_combat_01",
+        "i": "roof_chinese_jade",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 2048,
-        "v": "badge_quest_combat_01?"
+        "x": 1664,
+        "y": 3712,
+        "v": "Forbidden Jade Shingles"
     },
     {
         "s": "00",
         "id": 967,
-        "i": "badge_quest_combat_02",
+        "i": "roof_chinese_jade_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1408,
-        "v": "badge_quest_combat_02?"
+        "x": 1664,
+        "y": 3840,
+        "v": "Forbidden Jade Roof Inner Corner"
     },
     {
         "s": "00",
         "id": 968,
-        "i": "badge_spelunking",
+        "i": "roof_chinese_jade_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 3072,
-        "v": "badge_spelunking?"
+        "x": 1664,
+        "y": 3968,
+        "v": "Forbidden Jade Roof Outer Corner"
     },
     {
         "s": "00",
         "id": 969,
-        "i": "column_asphault",
+        "i": "roof_chinese_red",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 3712,
-        "v": "Asphalt Column"
+        "x": 1792,
+        "y": 1792,
+        "v": "Forbidden Red Shingles"
     },
     {
         "s": "00",
         "id": 970,
-        "i": "potion_speed",
+        "i": "roof_chinese_red_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3200,
-        "v": "Quick\u2122"
+        "x": 2304,
+        "y": 640,
+        "v": "Forbidden Red Roof Inner Corner"
     },
     {
         "s": "00",
         "id": 971,
-        "i": "roof_asphault_inner_corner",
+        "i": "roof_chinese_red_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 0,
-        "v": "Asphalt Slope Inner Corner"
+        "x": 1536,
+        "y": 512,
+        "v": "Forbidden Red Roof Outer Corner"
     },
     {
         "s": "00",
         "id": 972,
-        "i": "roof_asphault_outer_corner",
+        "i": "roof_slope_chinese_jade",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 128,
-        "v": "Asphalt Slope Outer Corner"
+        "x": 2560,
+        "y": 2176,
+        "v": "Forbidden Jade Roof"
     },
     {
         "s": "00",
         "id": 973,
-        "i": "slab_asphault",
+        "i": "roof_slope_chinese_red",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 384,
-        "v": "Asphalt Slab"
+        "x": 2688,
+        "y": 2176,
+        "v": "Forbidden Red Shingled Roof"
     },
     {
         "s": "00",
         "id": 974,
-        "i": "slope_asphault",
+        "i": "slope_wood_red_chinese",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1536,
-        "v": "Asphalt Slope"
+        "x": 3072,
+        "y": 1152,
+        "v": "Forbidden Red Wood Slope"
     },
     {
         "s": "00",
         "id": 975,
-        "i": "window_stone_lattice",
+        "i": "slope_wood_red_chinese_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 896,
-        "v": "Stone Window Lattice"
+        "x": 3200,
+        "y": 1152,
+        "v": "Forbidden Red Wood Inner Corner"
     },
     {
         "s": "00",
         "id": 976,
-        "i": "stairs_asphault",
+        "i": "slope_wood_red_chinese_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2816,
-        "v": "Asphalt Stairs"
+        "x": 3072,
+        "y": 2048,
+        "v": "Forbidden Red Wood Outer Corner"
     },
     {
         "s": "00",
         "id": 977,
-        "i": "stairs_asphault_inner_corner",
-        "w": 128,
-        "h": 128,
-        "x": 896,
-        "y": 2944,
-        "v": "Asphalt Stairs Inner Corner"
-    },
-    {
-        "s": "00",
-        "id": 978,
-        "i": "stairs_asphault_outer_corner",
-        "w": 128,
-        "h": 128,
-        "x": 896,
-        "y": 3072,
-        "v": "Asphalt Stairs Outer Corner"
+        "i": "snowball_pile_icon",
+        "w": 256,
+        "h": 256,
+        "x": 0,
+        "y": 0,
+        "v": "snowball_pile_icon?"
     },
     {
         "s": "01",
@@ -9535,8 +9775,8 @@
         "i": "mob_bosshog",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 256,
+        "x": 1452,
+        "y": 396,
         "v": "mob_bosshog?"
     },
     {
@@ -9545,8 +9785,8 @@
         "i": "mob_chizzard",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 512,
+        "x": 132,
+        "y": 1452,
         "v": "mob_chizzard?"
     },
     {
@@ -9555,8 +9795,8 @@
         "i": "mob_chizzard_arctic",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 256,
+        "x": 132,
+        "y": 1584,
         "v": "mob_chizzard_arctic?"
     },
     {
@@ -9565,8 +9805,8 @@
         "i": "mob_chizzard_corrupted",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 0,
+        "x": 132,
+        "y": 1716,
         "v": "mob_chizzard_corrupted?"
     },
     {
@@ -9575,8 +9815,8 @@
         "i": "mob_chizzard_ghost",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 640,
+        "x": 132,
+        "y": 1848,
         "v": "mob_chizzard_ghost?"
     },
     {
@@ -9586,7 +9826,7 @@
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 256,
+        "y": 396,
         "v": "mob_chizzard_night?"
     },
     {
@@ -9595,8 +9835,8 @@
         "i": "mob_dustevil",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 640,
+        "x": 0,
+        "y": 528,
         "v": "mob_dustevil?"
     },
     {
@@ -9605,8 +9845,8 @@
         "i": "mob_hoglet",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 0,
+        "x": 0,
+        "y": 660,
         "v": "mob_hoglet?"
     },
     {
@@ -9615,8 +9855,8 @@
         "i": "mob_hotfoot",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 896,
+        "x": 0,
+        "y": 792,
         "v": "mob_hotfoot?"
     },
     {
@@ -9625,8 +9865,8 @@
         "i": "mob_keepa",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 896,
+        "x": 396,
+        "y": 1848,
         "v": "mob_keepa?"
     },
     {
@@ -9635,8 +9875,8 @@
         "i": "mob_keepa_gold",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 128,
+        "x": 528,
+        "y": 528,
         "v": "mob_keepa_gold?"
     },
     {
@@ -9645,8 +9885,8 @@
         "i": "mob_keepa_silver",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 768,
+        "x": 660,
+        "y": 528,
         "v": "mob_keepa_silver?"
     },
     {
@@ -9655,8 +9895,8 @@
         "i": "mob_leafi",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 256,
+        "x": 792,
+        "y": 528,
         "v": "mob_leafi?"
     },
     {
@@ -9665,8 +9905,8 @@
         "i": "mob_leafi_autumn",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 512,
+        "x": 924,
+        "y": 528,
         "v": "mob_leafi_autumn?"
     },
     {
@@ -9675,8 +9915,8 @@
         "i": "mob_leafi_corrupted",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 384,
+        "x": 1056,
+        "y": 528,
         "v": "mob_leafi_corrupted?"
     },
     {
@@ -9685,8 +9925,8 @@
         "i": "mob_leafi_dried",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 128,
+        "x": 1188,
+        "y": 528,
         "v": "mob_leafi_dried?"
     },
     {
@@ -9695,8 +9935,8 @@
         "i": "mob_leafi_ghost",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 896,
+        "x": 1320,
+        "y": 528,
         "v": "mob_leafi_ghost?"
     },
     {
@@ -9705,8 +9945,8 @@
         "i": "mob_leafi_mossy",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 640,
+        "x": 1584,
+        "y": 396,
         "v": "mob_leafi_mossy?"
     },
     {
@@ -9715,8 +9955,8 @@
         "i": "mob_leafi_night",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 0,
+        "x": 1716,
+        "y": 396,
         "v": "mob_leafi_night?"
     },
     {
@@ -9725,8 +9965,8 @@
         "i": "mob_miru",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 128,
+        "x": 1848,
+        "y": 396,
         "v": "mob_miru?"
     },
     {
@@ -9735,8 +9975,8 @@
         "i": "mob_miru_arctic",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 768,
+        "x": 396,
+        "y": 528,
         "v": "mob_miru_arctic?"
     },
     {
@@ -9745,8 +9985,8 @@
         "i": "mob_miru_corrupted",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 512,
+        "x": 528,
+        "y": 1188,
         "v": "mob_miru_corrupted?"
     },
     {
@@ -9755,8 +9995,8 @@
         "i": "mob_miru_ghost",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 384,
+        "x": 528,
+        "y": 1320,
         "v": "mob_miru_ghost?"
     },
     {
@@ -9765,8 +10005,8 @@
         "i": "mob_pebble",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 896,
+        "x": 528,
+        "y": 1452,
         "v": "mob_pebble?"
     },
     {
@@ -9775,8 +10015,8 @@
         "i": "mob_pigsy",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 128,
+        "x": 528,
+        "y": 1584,
         "v": "mob_pigsy?"
     },
     {
@@ -9785,8 +10025,8 @@
         "i": "mob_pigsy_corrupted",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 128,
+        "x": 528,
+        "y": 396,
         "v": "mob_pigsy_corrupted?"
     },
     {
@@ -9795,8 +10035,8 @@
         "i": "mob_pigsy_feral",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 512,
+        "x": 660,
+        "y": 396,
         "v": "mob_pigsy_feral?"
     },
     {
@@ -9805,8 +10045,8 @@
         "i": "mob_pigsy_ghost",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 512,
+        "x": 792,
+        "y": 396,
         "v": "mob_pigsy_ghost?"
     },
     {
@@ -9815,8 +10055,8 @@
         "i": "mob_pigsy_night",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 0,
+        "x": 924,
+        "y": 396,
         "v": "mob_pigsy_night?"
     },
     {
@@ -9825,8 +10065,8 @@
         "i": "mob_rambeau",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 0,
+        "x": 528,
+        "y": 660,
         "v": "mob_rambeau?"
     },
     {
@@ -9835,8 +10075,8 @@
         "i": "mob_rockster",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 384,
+        "x": 528,
+        "y": 792,
         "v": "mob_rockster?"
     },
     {
@@ -9845,8 +10085,8 @@
         "i": "mob_rockster_corrupted",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 384,
+        "x": 528,
+        "y": 924,
         "v": "mob_rockster_corrupted?"
     },
     {
@@ -9855,8 +10095,8 @@
         "i": "mob_rockster_ghost",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 896,
+        "x": 528,
+        "y": 1056,
         "v": "mob_rockster_ghost?"
     },
     {
@@ -9865,8 +10105,8 @@
         "i": "mob_rockster_night",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 384,
+        "x": 0,
+        "y": 924,
         "v": "mob_rockster_night?"
     },
     {
@@ -9875,8 +10115,8 @@
         "i": "mob_shrewdshrew",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 256,
+        "x": 0,
+        "y": 1056,
         "v": "mob_shrewdshrew?"
     },
     {
@@ -9885,8 +10125,8 @@
         "i": "mob_thing",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 128,
+        "x": 0,
+        "y": 1188,
         "v": "mob_thing?"
     },
     {
@@ -9895,8 +10135,8 @@
         "i": "mob_trog",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 0,
+        "x": 0,
+        "y": 1320,
         "v": "mob_trog?"
     },
     {
@@ -9905,8 +10145,8 @@
         "i": "mob_twiggy",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 256,
+        "x": 396,
+        "y": 132,
         "v": "mob_twiggy?"
     },
     {
@@ -9915,9 +10155,19 @@
         "i": "mob_warmworm",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 0,
+        "x": 528,
+        "y": 132,
         "v": "mob_warmworm?"
+    },
+    {
+        "s": "01",
+        "id": 39,
+        "i": "top_hat_yellow",
+        "w": 128,
+        "h": 128,
+        "x": 1584,
+        "y": 132,
+        "v": "Yellow Top Hat"
     },
     {
         "s": "01",
@@ -9925,8 +10175,8 @@
         "i": "armguards_diamond",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 512,
+        "x": 0,
+        "y": 264,
         "v": "Diamond Armguards"
     },
     {
@@ -9935,8 +10185,8 @@
         "i": "armguards_iron",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 768,
+        "x": 1716,
+        "y": 0,
         "v": "Iron Armguards"
     },
     {
@@ -9945,8 +10195,8 @@
         "i": "armguards_leather",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 128,
+        "x": 264,
+        "y": 1056,
         "v": "Leather Armguards"
     },
     {
@@ -9955,8 +10205,8 @@
         "i": "armguards_lumite",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 384,
+        "x": 264,
+        "y": 0,
         "v": "Lumite Armguards"
     },
     {
@@ -9965,8 +10215,8 @@
         "i": "armguards_obsidian",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 384,
+        "x": 528,
+        "y": 1716,
         "v": "Obsidian Armguards"
     },
     {
@@ -9975,8 +10225,8 @@
         "i": "arms_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 768,
+        "x": 132,
+        "y": 0,
         "v": "Frost Trog Arms"
     },
     {
@@ -9985,9 +10235,9 @@
         "i": "body_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 0,
-        "v": "Frost Trog Body"
+        "x": 132,
+        "y": 264,
+        "v": "body_trog_frost?"
     },
     {
         "s": "01",
@@ -9995,8 +10245,8 @@
         "i": "bow_tie_black",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 768,
+        "x": 1320,
+        "y": 0,
         "v": "Bow Tie"
     },
     {
@@ -10005,8 +10255,8 @@
         "i": "bow_tie_blue",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 512,
+        "x": 1452,
+        "y": 0,
         "v": "Blue Bow Tie"
     },
     {
@@ -10015,7 +10265,7 @@
         "i": "bow_tie_red",
         "w": 128,
         "h": 128,
-        "x": 256,
+        "x": 1848,
         "y": 0,
         "v": "Red Bow Tie"
     },
@@ -10025,8 +10275,8 @@
         "i": "bow_tie_yellow",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 128,
+        "x": 0,
+        "y": 132,
         "v": "Yellow Bow Tie"
     },
     {
@@ -10035,8 +10285,8 @@
         "i": "breastplate_diamond",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 384,
+        "x": 1056,
+        "y": 0,
         "v": "Diamond Breastplate"
     },
     {
@@ -10045,8 +10295,8 @@
         "i": "breastplate_iron",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 256,
+        "x": 1188,
+        "y": 0,
         "v": "Iron Breastplate"
     },
     {
@@ -10055,8 +10305,8 @@
         "i": "breastplate_leather",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 384,
+        "x": 264,
+        "y": 792,
         "v": "Leather Breastplate"
     },
     {
@@ -10065,8 +10315,8 @@
         "i": "breastplate_lumite",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 512,
+        "x": 264,
+        "y": 924,
         "v": "Lumite Breastplate"
     },
     {
@@ -10075,8 +10325,8 @@
         "i": "breastplate_obsidian",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 256,
+        "x": 0,
+        "y": 1848,
         "v": "Obsidian Breastplate"
     },
     {
@@ -10085,8 +10335,8 @@
         "i": "gauntlet_bronze",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 768,
+        "x": 132,
+        "y": 132,
         "v": "Bronze Trophy Gauntlet"
     },
     {
@@ -10095,8 +10345,8 @@
         "i": "gauntlet_diamond",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 256,
+        "x": 264,
+        "y": 132,
         "v": "Diamond Mining Cell"
     },
     {
@@ -10105,8 +10355,8 @@
         "i": "gauntlet_ghost",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 768,
+        "x": 264,
+        "y": 396,
         "v": "Death's Touch"
     },
     {
@@ -10115,8 +10365,8 @@
         "i": "gauntlet_gold",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 0,
+        "x": 264,
+        "y": 528,
         "v": "Gold Trophy Gauntlet"
     },
     {
@@ -10125,8 +10375,8 @@
         "i": "gauntlet_iron",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 256,
+        "x": 264,
+        "y": 660,
         "v": "Iron Mining Cell"
     },
     {
@@ -10135,8 +10385,8 @@
         "i": "gauntlet_lumite",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 128,
+        "x": 0,
+        "y": 1452,
         "v": "Lumite Mining Cell"
     },
     {
@@ -10146,7 +10396,7 @@
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 512,
+        "y": 1584,
         "v": "The Hulking Hand"
     },
     {
@@ -10155,8 +10405,8 @@
         "i": "gauntlet_obsidian",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 896,
+        "x": 0,
+        "y": 1716,
         "v": "Obsidian Mining Cell"
     },
     {
@@ -10165,8 +10415,8 @@
         "i": "gauntlet_silver",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 128,
+        "x": 396,
+        "y": 1320,
         "v": "Silver Trophy Gauntlet"
     },
     {
@@ -10175,8 +10425,8 @@
         "i": "gauntlet_stone",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 256,
+        "x": 396,
+        "y": 1452,
         "v": "Stone Mining Cell"
     },
     {
@@ -10185,8 +10435,8 @@
         "i": "gauntlet_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 256,
+        "x": 396,
+        "y": 1584,
         "v": "Frost Gauntlet"
     },
     {
@@ -10195,8 +10445,8 @@
         "i": "gauntlet_wood",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 640,
+        "x": 396,
+        "y": 1716,
         "v": "Charged Wood Mining Cell"
     },
     {
@@ -10205,8 +10455,8 @@
         "i": "head_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 384,
+        "x": 1584,
+        "y": 264,
         "v": "Frost Trog Head"
     },
     {
@@ -10215,8 +10465,8 @@
         "i": "leggings_diamond",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 128,
+        "x": 1716,
+        "y": 264,
         "v": "Diamond Leggings"
     },
     {
@@ -10225,8 +10475,8 @@
         "i": "leggings_iron",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 896,
+        "x": 528,
+        "y": 0,
         "v": "Iron Leggings"
     },
     {
@@ -10235,8 +10485,8 @@
         "i": "leggings_leather",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 128,
+        "x": 660,
+        "y": 0,
         "v": "Leather Leggings"
     },
     {
@@ -10245,8 +10495,8 @@
         "i": "leggings_lumite",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 640,
+        "x": 792,
+        "y": 0,
         "v": "Lumite Leggings"
     },
     {
@@ -10255,8 +10505,8 @@
         "i": "leggings_obsidian",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 128,
+        "x": 924,
+        "y": 0,
         "v": "Obsidian Leggings"
     },
     {
@@ -10265,8 +10515,8 @@
         "i": "legs_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 256,
+        "x": 1320,
+        "y": 396,
         "v": "Frost Trog Legs"
     },
     {
@@ -10275,8 +10525,8 @@
         "i": "party_hat_blue",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 896,
+        "x": 660,
+        "y": 132,
         "v": "Blue Party Hat"
     },
     {
@@ -10285,8 +10535,8 @@
         "i": "party_hat_red",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 384,
+        "x": 792,
+        "y": 132,
         "v": "Party Hat"
     },
     {
@@ -10295,8 +10545,8 @@
         "i": "party_hat_yellow",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 0,
+        "x": 792,
+        "y": 264,
         "v": "Yellow Party Hat"
     },
     {
@@ -10305,8 +10555,8 @@
         "i": "shoulder_diamond",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 768,
+        "x": 1056,
+        "y": 264,
         "v": "Diamond Pauldron"
     },
     {
@@ -10315,8 +10565,8 @@
         "i": "shoulder_iron",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 640,
+        "x": 1188,
+        "y": 264,
         "v": "Iron Pauldron"
     },
     {
@@ -10325,8 +10575,8 @@
         "i": "shoulder_leather",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 640,
+        "x": 264,
+        "y": 1584,
         "v": "Leather Pauldron"
     },
     {
@@ -10335,8 +10585,8 @@
         "i": "shoulder_lumite",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 640,
+        "x": 264,
+        "y": 1716,
         "v": "Lumite Pauldron"
     },
     {
@@ -10345,8 +10595,8 @@
         "i": "shoulder_obsidian",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 256,
+        "x": 264,
+        "y": 1848,
         "v": "Obsidian Pauldron"
     },
     {
@@ -10355,8 +10605,8 @@
         "i": "stick_icon",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 0,
+        "x": 396,
+        "y": 396,
         "v": "Twig"
     },
     {
@@ -10365,8 +10615,8 @@
         "i": "sword_arc",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 512,
+        "x": 132,
+        "y": 924,
         "v": "sword_arc?"
     },
     {
@@ -10375,8 +10625,8 @@
         "i": "sword_axe_bone",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 128,
+        "x": 132,
+        "y": 1056,
         "v": "Crypt Cutter"
     },
     {
@@ -10385,8 +10635,8 @@
         "i": "sword_candycane",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 896,
+        "x": 132,
+        "y": 1188,
         "v": "Candycane Blade"
     },
     {
@@ -10395,8 +10645,8 @@
         "i": "sword_crowbar",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 768,
+        "x": 132,
+        "y": 1320,
         "v": "Industrial Crowbar"
     },
     {
@@ -10405,8 +10655,8 @@
         "i": "sword_diamond",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 512,
+        "x": 396,
+        "y": 660,
         "v": "Diamond Sword"
     },
     {
@@ -10415,8 +10665,8 @@
         "i": "sword_gold",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 640,
+        "x": 396,
+        "y": 792,
         "v": "Golden Sword"
     },
     {
@@ -10425,8 +10675,8 @@
         "i": "sword_ice",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 0,
+        "x": 396,
+        "y": 924,
         "v": "Frostbourne"
     },
     {
@@ -10435,8 +10685,8 @@
         "i": "sword_iron",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 256,
+        "x": 396,
+        "y": 1056,
         "v": "Iron Sword"
     },
     {
@@ -10445,8 +10695,8 @@
         "i": "sword_lumite",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 0,
+        "x": 1584,
+        "y": 528,
         "v": "Lumite Sword"
     },
     {
@@ -10455,8 +10705,8 @@
         "i": "sword_mayan",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 128,
+        "x": 1716,
+        "y": 528,
         "v": "Hidden Temple Sword"
     },
     {
@@ -10465,8 +10715,8 @@
         "i": "sword_medieval",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 640,
+        "x": 1848,
+        "y": 528,
         "v": "Medieval Sword"
     },
     {
@@ -10475,8 +10725,8 @@
         "i": "sword_obsidian",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 768,
+        "x": 132,
+        "y": 396,
         "v": "Obsidian Sword"
     },
     {
@@ -10485,8 +10735,8 @@
         "i": "sword_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 896,
+        "x": 132,
+        "y": 528,
         "v": "Galactic Flux Incapacitator"
     },
     {
@@ -10495,8 +10745,8 @@
         "i": "sword_scythe",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 768,
+        "x": 132,
+        "y": 660,
         "v": "The Grim Reaper"
     },
     {
@@ -10505,8 +10755,8 @@
         "i": "sword_stone",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 128,
+        "x": 132,
+        "y": 792,
         "v": "Stone Sword"
     },
     {
@@ -10515,8 +10765,8 @@
         "i": "sword_unicorn",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 384,
+        "x": 264,
+        "y": 264,
         "v": "Rainbownator 5000"
     },
     {
@@ -10525,8 +10775,8 @@
         "i": "sword_wood",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 640,
+        "x": 396,
+        "y": 264,
         "v": "sword_wood?"
     },
     {
@@ -10535,8 +10785,8 @@
         "i": "top_hat_black",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 896,
+        "x": 528,
+        "y": 264,
         "v": "Top Hat"
     },
     {
@@ -10545,8 +10795,8 @@
         "i": "top_hat_blue",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 0,
+        "x": 660,
+        "y": 264,
         "v": "Blue Top Hat"
     },
     {
@@ -10555,8 +10805,8 @@
         "i": "top_hat_pumpkiru",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 256,
+        "x": 1320,
+        "y": 132,
         "v": "Top Hat"
     },
     {
@@ -10565,8 +10815,198 @@
         "i": "top_hat_red",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 384,
+        "x": 1452,
+        "y": 132,
         "v": "Red Top Hat"
+    },
+    {
+        "s": "01",
+        "id": 105,
+        "i": "arms_diamond",
+        "w": 128,
+        "h": 128,
+        "x": 396,
+        "y": 0,
+        "v": "First Fantasy Arms"
+    },
+    {
+        "s": "01",
+        "id": 106,
+        "i": "arms_iron",
+        "w": 128,
+        "h": 128,
+        "x": 1584,
+        "y": 0,
+        "v": "Metal Mk I Arms"
+    },
+    {
+        "s": "01",
+        "id": 107,
+        "i": "arms_leather",
+        "w": 128,
+        "h": 128,
+        "x": 1848,
+        "y": 264,
+        "v": "Fury Warrior Arms"
+    },
+    {
+        "s": "01",
+        "id": 108,
+        "i": "arms_lumite",
+        "w": 128,
+        "h": 128,
+        "x": 396,
+        "y": 1188,
+        "v": "Master Creator Arms"
+    },
+    {
+        "s": "01",
+        "id": 109,
+        "i": "arms_obsidian",
+        "w": 128,
+        "h": 128,
+        "x": 0,
+        "y": 0,
+        "v": "Electro Cycle Arms"
+    },
+    {
+        "s": "01",
+        "id": 110,
+        "i": "body_diamond",
+        "w": 128,
+        "h": 128,
+        "x": 1716,
+        "y": 132,
+        "v": "First Fantasy Torso"
+    },
+    {
+        "s": "01",
+        "id": 111,
+        "i": "body_iron",
+        "w": 128,
+        "h": 128,
+        "x": 264,
+        "y": 1188,
+        "v": "Metal Mk I Torso"
+    },
+    {
+        "s": "01",
+        "id": 112,
+        "i": "body_leather",
+        "w": 128,
+        "h": 128,
+        "x": 264,
+        "y": 1320,
+        "v": "Fury Warrior Torso"
+    },
+    {
+        "s": "01",
+        "id": 113,
+        "i": "body_lumite",
+        "w": 128,
+        "h": 128,
+        "x": 264,
+        "y": 1452,
+        "v": "Master Creator Torso"
+    },
+    {
+        "s": "01",
+        "id": 114,
+        "i": "body_obsidian",
+        "w": 128,
+        "h": 128,
+        "x": 1848,
+        "y": 132,
+        "v": "Electro Cycle Torso"
+    },
+    {
+        "s": "01",
+        "id": 115,
+        "i": "legs_diamond",
+        "w": 128,
+        "h": 128,
+        "x": 924,
+        "y": 132,
+        "v": "First Fantasy Legs"
+    },
+    {
+        "s": "01",
+        "id": 116,
+        "i": "legs_iron",
+        "w": 128,
+        "h": 128,
+        "x": 1056,
+        "y": 132,
+        "v": "Metal Mk I Legs"
+    },
+    {
+        "s": "01",
+        "id": 117,
+        "i": "legs_leather",
+        "w": 128,
+        "h": 128,
+        "x": 1188,
+        "y": 132,
+        "v": "Fury Warrior Legs"
+    },
+    {
+        "s": "01",
+        "id": 118,
+        "i": "legs_lumite",
+        "w": 128,
+        "h": 128,
+        "x": 1056,
+        "y": 396,
+        "v": "Master Creator Legs"
+    },
+    {
+        "s": "01",
+        "id": 119,
+        "i": "legs_obsidian",
+        "w": 128,
+        "h": 128,
+        "x": 1188,
+        "y": 396,
+        "v": "Electro Cycle Legs"
+    },
+    {
+        "s": "01",
+        "id": 120,
+        "i": "globgooorange",
+        "w": 128,
+        "h": 128,
+        "x": 1320,
+        "y": 264,
+        "v": "Glob of Goo"
+    },
+    {
+        "s": "01",
+        "id": 121,
+        "i": "globgoopurple",
+        "w": 128,
+        "h": 128,
+        "x": 1452,
+        "y": 264,
+        "v": "Glob of Goo"
+    },
+    {
+        "s": "01",
+        "id": 122,
+        "i": "plum_blossom",
+        "w": 128,
+        "h": 128,
+        "x": 924,
+        "y": 264,
+        "v": "plum_blossom?"
+    },
+    {
+        "s": "01",
+        "id": 123,
+        "i": "sword_jade",
+        "w": 128,
+        "h": 128,
+        "x": 1452,
+        "y": 528,
+        "v": "sword_jade?"
     }
 ];

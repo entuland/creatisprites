@@ -138,7 +138,7 @@ var design = {
 			content.style.backgroundSize = 4096 * ratio + "px auto";
 			if(sprite.s === "01") {
 				content.style.backgroundSize = 2048 * ratio + "px auto";
-				y = (1024 - sprite.y - sprite.h) * ratio;
+				y = (2048 - sprite.y - sprite.h) * ratio;
 			}
 			var internal = sprite.i;
 			var visible = sprite.v
@@ -423,7 +423,7 @@ var pack = {
 		var x = sprite.x;
 		var	y = 4096 - sprite.y - sprite.h;
 		if(sprite.s === "01") {
-			y = 1024 - sprite.y - sprite.h;
+			y = 2048 - sprite.y - sprite.h;
 		}
 		var off = 14;
 		
