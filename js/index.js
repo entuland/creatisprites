@@ -137,7 +137,7 @@ var design = {
 			var	y = (4096 - sprite.y - sprite.h) * ratio;
 			content.style.backgroundSize = 4096 * ratio + "px auto";
 			if(sprite.s === "01") {
-				content.style.backgroundSize = 2048 * ratio + "px auto";
+				content.style.backgroundSize = 4096 * ratio + "px auto";
 				y = (2048 - sprite.y - sprite.h) * ratio;
 			}
 			var internal = sprite.i;
