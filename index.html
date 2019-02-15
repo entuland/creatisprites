@@ -2,9 +2,9 @@
 <html>
 <head>
 <title>Creativerse Sprites Picker</title>
-<script src="js/icondata.js?543245245"></script>
-<script src="js/index.js?543245245"></script>
-<link href="css/index.css?543245245" rel="stylesheet">
+<script src="js/icondata.js?387456823476586"></script>
+<script src="js/index.js?387456823476586"></script>
+<link href="css/index.css?387456823476586" rel="stylesheet">
 </head>
 <body>
 	<div id="heading">
@@ -13,13 +13,15 @@
 		<label class="rounded shadow">Filter: <input type="text" id="filter" placeholder="type here to filter icons" title='(type just "?" to see items with a missing visible name)'></label>
 		<button class="rounded shadow" id="switch">Switch to List View</button>
 		<label class="rounded shadow"><input type="checkbox" id="recentfirst" checked>List recent sprites first</label>
+		<button class="rounded shadow" id="exportcsv">Export CSV</button>
+		<button class="rounded shadow" id="exporttxt">Export TXT</button>
 	</div>
-	
+
 	<div id="picker-list">
 		<div id="picker"></div>
 		<table id="list"></table>
 	</div>
-	
+
 	<div id="design">
 		<label class="rounded shadow"><input type="checkbox" id="freemode">Free mode</label>
 		<label class="rounded shadow"><input type="checkbox" id="fourmode">Four sprites per block</label><br>
@@ -29,7 +31,7 @@
 		<label class="rounded shadow"><input type="checkbox" id="appendspace">Append a space after each sprite</label>
 		<label class="rounded shadow"><input type="checkbox" id="outputname">Output sprite names as well</label>
 		<div id="disposition"></div>
-		<textarea id="output" placeholder="(codes will appear here)"></textarea>	
+		<textarea id="output" placeholder="(codes will appear here)"></textarea>
 		<button class="rounded shadow" id="addintro">Add intro code</button>
 		<button class="rounded shadow" id="cleartext">Clear text</button>
 		<button class="rounded shadow" id="importsprites">Import sprites from textarea</button>
@@ -37,7 +39,7 @@
 
 
 	<div class="cover" id="preload-cover"><div class="cover-content">LOADING IMAGE RESOURCES... PLEASE STAND BY...</div></div>
-	
+
 	<div id="info-cover" class="cover" style="display: none" title="click here to close"></div>
 	<div id="info-content" class="cover-content rounded shadow" style="display: none">
 		<h2>Creativerse Sprites Picker</h2>
@@ -48,7 +50,7 @@
 		<p><strong>Free mode</strong>: click on any icon to have its code appended to the yellow textarea, then click the "Add intro code" button if you want the icons to get aligned to blocks, then copy all the code and paste it into an Arc Sign.</p>
 		<p>In both modes you may need to adjust the &lt;offset&gt; and &lt;zoffset&gt; tags depending on your design.</p>
 		<h2>Notes / Links</h2>
-		<p style="font-weight: bolder; color: #060">V1.7, 22/12/2018, CV R58 (Elfi's Wonderland) - all of the sprites listed in this page should work fine in the game.</p>
+		<p style="font-weight: bolder; color: #060">V1.8, 05/02/2018, CV R61 (My Ritzy Pigsy Valentine!) - all of the sprites listed in this page should work fine in the game.</p>
 		<p style="font-weight: bolder; color: #330">As far as I can tell, some sprites are currently missing (they don't appear here and they don't work in the game).</p>
 		<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866813759228219/" target="_blank">More info about Arc Sign codes</a></p>
 		<p><a href="http://steamcommunity.com/app/280790/discussions/3/1488866180603763881/" target="_blank">CreatiSprites Picker discussion on Steam forums</a></p>
@@ -56,6 +58,6 @@
 		<p>Only tested in Chrome &amp; Firefox, may work in other browsers.</p>
 		<p style="font-weight: bolder; color: #330">I am currently unable to automatically collect visible names for all sprites and I am not going to manually edit any of these sprites. Internal names are used instead where a visible name is missing.</p>
 	</div>
-	
+
 </body>
 </html>

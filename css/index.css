@@ -143,6 +143,17 @@
 		box-shadow: 2px 2px 2px #999;
 	}
 	
+	.index-danger {
+		border: 3px dotted #900;
+		color: #900;
+		background: yellow;
+	}
+	
+	.index-danger:after {
+		content: "DANGEROUS CHOICE, REINDEXING MAY BREAK SPRITES";
+		display: block;
+	}
+	
 	a.rounded.shadow {
 		background: yellow;
 		padding: 3px;

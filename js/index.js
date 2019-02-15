@@ -356,6 +356,9 @@ var pack = {
 		design.init();
 		pack.recentFirst = document.querySelector('#recentfirst');
 		pack.useIndices = document.querySelector('#useindices');
+		
+		pack.useIndices.addEventListener('change', pack.indicesWarning);
+		
 		pack.picker = document.querySelector('#picker');
 		pack.list = document.querySelector('#list');
 		pack.heading = document.querySelector('#heading');
@@ -399,6 +402,9 @@ var pack = {
 			}
 			pack.tablemode = !pack.tablemode;
 		});
+		
+		document.querySelector('#exportcsv').addEventListener('click', pack.exportCSV);
+		document.querySelector('#exporttxt').addEventListener('click', pack.exportTXT);
 
 		pack.adaptPickerList();
 		pack.createGrid();
@@ -406,6 +412,19 @@ var pack = {
 
 		pack.filter.addEventListener('input', pack.deferredFilter);
 		window.addEventListener('resize', pack.adaptPickerList);
+	},
+	
+	indicesWarning: function() {
+		if(pack.useIndices.checked) {
+			if(!confirm("CAREFUL!\n\nUsing indices instead of internal names may break your sprites in case of reindexing performed by the game.\n\nOnly confirm if you understand the risks and accept them, otherwise cancel and continue using internal names.")) {
+				pack.useIndices.checked = false;
+			}
+		}
+		if(pack.useIndices.checked) {
+			pack.useIndices.parentNode.classList.add("index-danger");
+		} else {
+			pack.useIndices.parentNode.classList.remove("index-danger");
+		}
 	},
 	
 	adaptPickerList: function() {
@@ -505,6 +524,60 @@ var pack = {
 			pack.append(sprite, iconCell);
 			tr.dataset.search_name = internal.toLowerCase() + " " + visible.toLowerCase();
 		}
+	},
+	
+	exportCSV: function() {
+		var icons = document.querySelectorAll('#picker .container .icon');
+		var items = ['set,index,id,name'];
+		for(var i = 0; i < icons.length; ++i) {
+			var icon = icons[i];
+			if(icon.parentNode.style.display == '') {
+				var item = [];
+				item.push(icon.dataset.set);
+				item.push(icon.dataset.index);
+				item.push(icon.dataset.internal);
+				item.push(icon.dataset.visible);
+				items.push(item.join(','))
+			}
+		}
+		var output = items.join('\n');
+		var hide = document.createElement('a');
+		hide.href = 'data:text/csv;charset=utf-8,' + encodeURI(output);
+		hide.target = '_blank';
+		
+		var filename = pack.filter.value.replace(/\W+/g, '');
+		if(filename == '') {
+			filename = "creatisprites-export";
+		} else {
+			filename = "creatisprites-export-" + filename;			
+		}
+		
+		hide.download = filename + '.csv';
+		hide.click();
+	},
+	
+	exportTXT: function() {
+		var icons = document.querySelectorAll('#picker .container .icon');
+		var output = [];
+		for(var i = 0; i < icons.length; ++i) {
+			var icon = icons[i];
+			if(icon.parentNode.style.display == '') {
+				output.push(icon.dataset.visible);
+			}
+		}
+		var hide = document.createElement('a');
+		hide.href = 'data:text/txt;charset=utf-8,' + encodeURI(output.join('\n'));
+		hide.target = '_blank';
+		
+		var filename = pack.filter.value.replace(/\W+/g, '');
+		if(filename == '') {
+			filename = "creatisprites-export";
+		} else {
+			filename = "creatisprites-export-" + filename;			
+		}
+		
+		hide.download = filename + '.txt';
+		hide.click();
 	},
 	
 	deferredFilter: function() {
