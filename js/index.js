@@ -22,6 +22,8 @@ var utils = {
 
 var design = {
 	side: 64,
+	original_side: 128,
+	atlas_width: 4096,
 	
 	init: function() {
 		design.slots = [];
@@ -132,14 +134,10 @@ var design = {
 		} else {
 			content.style.display = 'block';
 			var sprite = JSON.parse(slot.dataset.sprite);
-			var ratio = design.side / 128;
+			var ratio = design.side / design.original_side;
 			var x = sprite.x * ratio;
-			var	y = (4096 - sprite.y - sprite.h) * ratio;
-			content.style.backgroundSize = 4096 * ratio + "px auto";
-			if(sprite.s === "01") {
-				content.style.backgroundSize = 4096 * ratio + "px auto";
-				y = (2048 - sprite.y - sprite.h) * ratio;
-			}
+			var y = sprite.y * ratio;
+			content.style.backgroundSize = design.atlas_width * ratio + "px auto";
 			var internal = sprite.i;
 			var visible = sprite.v
 			content.title = visible + ', ' + internal + ', icons_' + sprite.s + ', index ' + sprite.id + ' (click and drag to move, drag out to remove)';
@@ -407,8 +405,7 @@ var pack = {
 		document.querySelector('#exporttxt').addEventListener('click', pack.exportTXT);
 
 		pack.adaptPickerList();
-		pack.createGrid();
-		pack.createTable();
+		pack.createGridAndTable();
 
 		pack.filter.addEventListener('input', pack.deferredFilter);
 		window.addEventListener('resize', pack.adaptPickerList);
@@ -440,10 +437,7 @@ var pack = {
 		container.style.backgroundImage = 'url(img/icons_' + sprite.s + '.jpg)';
 		
 		var x = sprite.x;
-		var	y = 4096 - sprite.y - sprite.h;
-		if(sprite.s === "01") {
-			y = 2048 - sprite.y - sprite.h;
-		}
+		var y = sprite.y;
 		var off = 14;
 		
 		icon.style.backgroundPosition = '-' + x + 'px -' + y + 'px';
@@ -491,39 +485,52 @@ var pack = {
 		}
 	},
 	
-	createGrid: function() {
+	createGridAndTable: function() {
+		icondata.sort(function(a, b) {
+			var ca = a.s + "-" + ("0000" + a.id).slice(-4);
+			var cb = b.s + "-" + ("0000" + b.id).slice(-4);
+			if(ca < cb) {
+				return -1;
+			}
+			if(ca > cb) {
+				return 1;
+			}
+			return 0;
+		});
 		for(var i in icondata) {
-			pack.append(icondata[i], picker);				
+			var sprite = icondata[i];
+			pack.createGridEntry(sprite);
+			pack.createTableEntry(sprite);
 		}
 	},
 	
-	createTable: function() {
-		for(var i in icondata) {
-			var sprite = icondata[i];
-			
-			var tr = document.createElement('tr');
-			var descriptionCell = document.createElement('td');
-			var iconCell = document.createElement('td');
-			var inameCell = document.createElement('td');
-			var vnameCell = document.createElement('td');
-			var iconCell = document.createElement('td');
-			
-			var internal = sprite.i;
-			var visible = sprite.v;
-			
-			descriptionCell.innerHTML = "Set: <strong>icons_" + sprite.s + "</strong> "
-										+ "Index: <strong>" + sprite.id + "</strong><br>"
-										+ "Internal Name: <strong>" + sprite.i + "</strong><br>"
-										+ "Visible Name: <strong>" + sprite.v + "</strong>";
-			
-			tr.appendChild(descriptionCell);
-			tr.appendChild(iconCell);
-			
-			pack.list.appendChild(tr);
-			
-			pack.append(sprite, iconCell);
-			tr.dataset.search_name = internal.toLowerCase() + " " + visible.toLowerCase();
-		}
+	createGridEntry: function(sprite) {
+		pack.append(sprite, picker);		
+	},
+	
+	createTableEntry: function(sprite) {			
+		var tr = document.createElement('tr');
+		var descriptionCell = document.createElement('td');
+		var iconCell = document.createElement('td');
+		var inameCell = document.createElement('td');
+		var vnameCell = document.createElement('td');
+		var iconCell = document.createElement('td');
+		
+		var internal = sprite.i;
+		var visible = sprite.v;
+		
+		descriptionCell.innerHTML = "Set: <strong>icons_" + sprite.s + "</strong> "
+									+ "Index: <strong>" + sprite.id + "</strong><br>"
+									+ "Internal Name: <strong>" + sprite.i + "</strong><br>"
+									+ "Visible Name: <strong>" + sprite.v + "</strong>";
+		
+		tr.appendChild(descriptionCell);
+		tr.appendChild(iconCell);
+		
+		pack.list.appendChild(tr);
+		
+		pack.append(sprite, iconCell);
+		tr.dataset.search_name = internal.toLowerCase() + " " + visible.toLowerCase();
 	},
 	
 	exportCSV: function() {

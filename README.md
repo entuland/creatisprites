@@ -1,4 +1,4 @@
-# CreatiSprites
+# CreatiSprites v2.71.1 (Petey’s Eggsquisite Kitchen Kraze)
 Sprites picker for [Creativerse](https://store.steampowered.com/app/280790/Creativerse/), free to play on Steam.
 
 Live latest version on [my website](http://entuland.com/creatisprites)
