@@ -7,7 +7,8 @@ var icondata = [
         "h": 123,
         "x": 3968,
         "y": 133,
-        "v": "Arcstone"
+        "v": "Arcstone",
+        "l": "arcstone"
     },
     {
         "s": "00",
@@ -16,8 +17,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1664,
-        "y": 256,
-        "v": "Block Phaser"
+        "y": 1280,
+        "v": "Block Phaser",
+        "l": "actuator_item"
     },
     {
         "s": "00",
@@ -26,8 +28,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1664,
-        "y": 128,
-        "v": "Large Capture Block"
+        "y": 1152,
+        "v": "Large Capture Block",
+        "l": "captureblueprint_63_item"
     },
     {
         "s": "00",
@@ -36,8 +39,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1664,
-        "y": 0,
-        "v": "Medium Capture Block"
+        "y": 1024,
+        "v": "Medium Capture Block",
+        "l": "captureblueprint_31_item"
     },
     {
         "s": "00",
@@ -45,9 +49,10 @@ var icondata = [
         "i": "arc_blueprint_capture_device_small",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2304,
-        "v": "Small Capture Block"
+        "x": 1664,
+        "y": 896,
+        "v": "Small Capture Block",
+        "l": "captureblueprint_15_item"
     },
     {
         "s": "00",
@@ -55,9 +60,10 @@ var icondata = [
         "i": "arc_checkpoint",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2304,
-        "v": "Checkpoint"
+        "x": 1664,
+        "y": 768,
+        "v": "Checkpoint",
+        "l": "poi_item"
     },
     {
         "s": "00",
@@ -65,9 +71,10 @@ var icondata = [
         "i": "arc_codex",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2304,
-        "v": "? arc_codex"
+        "x": 1664,
+        "y": 640,
+        "v": "? arc_codex",
+        "l": "arc_codex"
     },
     {
         "s": "00",
@@ -75,9 +82,10 @@ var icondata = [
         "i": "arc_delay_block",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 2304,
-        "v": "Delay Gate"
+        "x": 1664,
+        "y": 512,
+        "v": "Delay Gate",
+        "l": "delay_block_item"
     },
     {
         "s": "00",
@@ -85,9 +93,10 @@ var icondata = [
         "i": "arc_flare",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2304,
-        "v": "Flare"
+        "x": 1664,
+        "y": 384,
+        "v": "Flare",
+        "l": "bomb_flare"
     },
     {
         "s": "00",
@@ -95,9 +104,10 @@ var icondata = [
         "i": "arc_flipflop_block_block",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 2304,
-        "v": "Flip-flop Gate"
+        "x": 1664,
+        "y": 256,
+        "v": "Flip-flop Gate",
+        "l": "flipflop_block_item"
     },
     {
         "s": "00",
@@ -105,9 +115,10 @@ var icondata = [
         "i": "arc_invert_block",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2304,
-        "v": "Inverter Gate"
+        "x": 1664,
+        "y": 128,
+        "v": "Inverter Gate",
+        "l": "invert_block_item"
     },
     {
         "s": "00",
@@ -115,9 +126,10 @@ var icondata = [
         "i": "arc_logic_block_bool",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 2304,
-        "v": "Logic Gate"
+        "x": 1664,
+        "y": 0,
+        "v": "Logic Gate",
+        "l": "logic_gate_item"
     },
     {
         "s": "00",
@@ -125,9 +137,10 @@ var icondata = [
         "i": "arc_logic_block_int",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 1792,
         "y": 2304,
-        "v": "Number Comparison Gate"
+        "v": "Number Comparison Gate",
+        "l": "number_comparison_item"
     },
     {
         "s": "00",
@@ -135,9 +148,10 @@ var icondata = [
         "i": "arc_number_pad",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 1920,
         "y": 2304,
-        "v": "Number Pad"
+        "v": "Number Pad",
+        "l": "number_pad_item"
     },
     {
         "s": "00",
@@ -145,9 +159,10 @@ var icondata = [
         "i": "arc_ore",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2176,
         "y": 2304,
-        "v": "? arc_ore"
+        "v": "? arc_ore",
+        "l": "arc_ore"
     },
     {
         "s": "00",
@@ -155,9 +170,10 @@ var icondata = [
         "i": "arc_particle_fx",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 3968,
         "y": 2304,
-        "v": "? arc_particle_fx"
+        "v": "? arc_particle_fx",
+        "l": "arc_particle_fx"
     },
     {
         "s": "00",
@@ -165,9 +181,10 @@ var icondata = [
         "i": "arc_pressure_plate",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2304,
         "y": 2304,
-        "v": "Pressure Plate"
+        "v": "Pressure Plate",
+        "l": "pressure_plate_item"
     },
     {
         "s": "00",
@@ -175,9 +192,10 @@ var icondata = [
         "i": "arc_projector",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2432,
         "y": 2304,
-        "v": "? arc_projector"
+        "v": "? arc_projector",
+        "l": "arc_projector"
     },
     {
         "s": "00",
@@ -185,9 +203,10 @@ var icondata = [
         "i": "arc_sensor",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 2560,
         "y": 2304,
-        "v": "Sensor"
+        "v": "Sensor",
+        "l": "sensor_item"
     },
     {
         "s": "00",
@@ -195,9 +214,10 @@ var icondata = [
         "i": "arc_sign",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2688,
         "y": 2304,
-        "v": "Arc Sign"
+        "v": "Arc Sign",
+        "l": "arc_text_projector_item"
     },
     {
         "s": "00",
@@ -205,9 +225,10 @@ var icondata = [
         "i": "arc_sound_fx",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2816,
         "y": 2304,
-        "v": "? arc_sound_fx"
+        "v": "? arc_sound_fx",
+        "l": "arc_sound_fx"
     },
     {
         "s": "00",
@@ -215,9 +236,10 @@ var icondata = [
         "i": "arc_spawner_item",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1408,
-        "v": "Loot Spawner"
+        "x": 2944,
+        "y": 2304,
+        "v": "Loot Spawner",
+        "l": "spawner_loot_item"
     },
     {
         "s": "00",
@@ -225,9 +247,10 @@ var icondata = [
         "i": "arc_spawner_mob",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 3072,
         "y": 2304,
-        "v": "Mob Spawner"
+        "v": "Mob Spawner",
+        "l": "spawner_mob_item"
     },
     {
         "s": "00",
@@ -235,9 +258,10 @@ var icondata = [
         "i": "arc_stone_ore",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1536,
-        "v": "? arc_stone_ore"
+        "x": 3200,
+        "y": 2304,
+        "v": "? arc_stone_ore",
+        "l": "arc_stone_ore"
     },
     {
         "s": "00",
@@ -245,9 +269,10 @@ var icondata = [
         "i": "arc_switch",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 2432,
-        "v": "Switch"
+        "x": 3328,
+        "y": 2304,
+        "v": "Switch",
+        "l": "switch_item"
     },
     {
         "s": "00",
@@ -255,9 +280,10 @@ var icondata = [
         "i": "arc_wiring_tool",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 512,
-        "v": "Wiring Tool"
+        "x": 3456,
+        "y": 2304,
+        "v": "Wiring Tool",
+        "l": "arc_cipher"
     },
     {
         "s": "00",
@@ -265,9 +291,10 @@ var icondata = [
         "i": "arc_worldgate",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 384,
-        "v": "Adventure Gate"
+        "x": 3584,
+        "y": 2304,
+        "v": "Adventure Gate",
+        "l": "tear_item"
     },
     {
         "s": "00",
@@ -275,9 +302,10 @@ var icondata = [
         "i": "armor_rack_stone",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 256,
-        "v": "Stone Weapon Rack"
+        "x": 3712,
+        "y": 2304,
+        "v": "Stone Weapon Rack",
+        "l": "weapon_rack_stone"
     },
     {
         "s": "00",
@@ -285,9 +313,10 @@ var icondata = [
         "i": "asphalt",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 128,
-        "v": "Asphalt"
+        "x": 3840,
+        "y": 2304,
+        "v": "Asphalt",
+        "l": "asphault_item"
     },
     {
         "s": "00",
@@ -295,9 +324,10 @@ var icondata = [
         "i": "badge_armorer",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 0,
-        "v": "? badge_armorer"
+        "x": 1664,
+        "y": 1408,
+        "v": "? badge_armorer",
+        "l": "badge_armorer"
     },
     {
         "s": "00",
@@ -305,9 +335,10 @@ var icondata = [
         "i": "badge_codex",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2432,
-        "v": "? badge_codex"
+        "x": 2048,
+        "y": 2304,
+        "v": "? badge_codex",
+        "l": "badge_codex"
     },
     {
         "s": "00",
@@ -315,9 +346,10 @@ var icondata = [
         "i": "badge_explorer",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2432,
-        "v": "? badge_explorer"
+        "x": 1664,
+        "y": 1536,
+        "v": "? badge_explorer",
+        "l": "badge_explorer"
     },
     {
         "s": "00",
@@ -325,9 +357,10 @@ var icondata = [
         "i": "badge_homestead",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 2688,
         "y": 2432,
-        "v": "? badge_homestead"
+        "v": "? badge_homestead",
+        "l": "badge_homestead"
     },
     {
         "s": "00",
@@ -335,9 +368,10 @@ var icondata = [
         "i": "badge_quest_combat_01",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2432,
-        "v": "? badge_quest_combat_01"
+        "x": 1536,
+        "y": 512,
+        "v": "? badge_quest_combat_01",
+        "l": "badge_quest_combat_01"
     },
     {
         "s": "00",
@@ -345,9 +379,10 @@ var icondata = [
         "i": "badge_quest_combat_02",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2432,
-        "v": "? badge_quest_combat_02"
+        "x": 1536,
+        "y": 384,
+        "v": "? badge_quest_combat_02",
+        "l": "badge_quest_combat_02"
     },
     {
         "s": "00",
@@ -355,9 +390,10 @@ var icondata = [
         "i": "badge_rancher",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2432,
-        "v": "? badge_rancher"
+        "x": 1536,
+        "y": 256,
+        "v": "? badge_rancher",
+        "l": "badge_rancher"
     },
     {
         "s": "00",
@@ -365,9 +401,10 @@ var icondata = [
         "i": "badge_spelunking",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 2432,
-        "v": "? badge_spelunking"
+        "x": 1536,
+        "y": 128,
+        "v": "? badge_spelunking",
+        "l": "badge_spelunking"
     },
     {
         "s": "00",
@@ -375,9 +412,10 @@ var icondata = [
         "i": "bag_holiday",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2432,
-        "v": "Rescued Toys"
+        "x": 1536,
+        "y": 0,
+        "v": "Rescued Toys",
+        "l": "toys"
     },
     {
         "s": "00",
@@ -385,9 +423,10 @@ var icondata = [
         "i": "bamboo",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 1664,
         "y": 2432,
-        "v": "Bamboo"
+        "v": "Bamboo",
+        "l": "bamboo"
     },
     {
         "s": "00",
@@ -395,9 +434,10 @@ var icondata = [
         "i": "banner_candy_skull",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1792,
-        "v": "Candy Skull Banner"
+        "x": 1792,
+        "y": 2432,
+        "v": "Candy Skull Banner",
+        "l": "banner_candy_skull"
     },
     {
         "s": "00",
@@ -405,9 +445,10 @@ var icondata = [
         "i": "bars_iron",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 1920,
         "y": 2432,
-        "v": "Iron Bars"
+        "v": "Iron Bars",
+        "l": "wall_iron_bars"
     },
     {
         "s": "00",
@@ -415,9 +456,10 @@ var icondata = [
         "i": "beacon_adjustable",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2048,
         "y": 2432,
-        "v": "Arc Beacon"
+        "v": "Arc Beacon",
+        "l": "beacon_adjustable"
     },
     {
         "s": "00",
@@ -425,9 +467,10 @@ var icondata = [
         "i": "beacon_arctek",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2176,
         "y": 2432,
-        "v": "? beacon_arctek"
+        "v": "? beacon_arctek",
+        "l": "beacon_arctek"
     },
     {
         "s": "00",
@@ -435,9 +478,10 @@ var icondata = [
         "i": "beacon_arctek_healing",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2304,
         "y": 2432,
-        "v": "Healing Beacon"
+        "v": "Healing Beacon",
+        "l": "healing_beacon"
     },
     {
         "s": "00",
@@ -445,9 +489,10 @@ var icondata = [
         "i": "beacon_blue",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2432,
         "y": 2432,
-        "v": "Blue Beacon"
+        "v": "Blue Beacon",
+        "l": "beacon_blue"
     },
     {
         "s": "00",
@@ -455,9 +500,10 @@ var icondata = [
         "i": "beacon_healing",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 2560,
         "y": 2432,
-        "v": "? beacon_healing"
+        "v": "? beacon_healing",
+        "l": "beacon_healing"
     },
     {
         "s": "00",
@@ -465,9 +511,10 @@ var icondata = [
         "i": "beacon_red",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2816,
         "y": 2432,
-        "v": "Red Beacon"
+        "v": "Red Beacon",
+        "l": "beacon_red"
     },
     {
         "s": "00",
@@ -475,9 +522,10 @@ var icondata = [
         "i": "beacon_white",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 2432,
-        "v": "White Beacon"
+        "x": 1664,
+        "y": 1792,
+        "v": "White Beacon",
+        "l": "beacon_white"
     },
     {
         "s": "00",
@@ -485,9 +533,10 @@ var icondata = [
         "i": "beacon_yellow",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 2944,
         "y": 2432,
-        "v": "Yellow Beacon"
+        "v": "Yellow Beacon",
+        "l": "beacon_yellow"
     },
     {
         "s": "00",
@@ -495,9 +544,10 @@ var icondata = [
         "i": "bedrock",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2304,
-        "v": "Bedrock"
+        "x": 3072,
+        "y": 2432,
+        "v": "Bedrock",
+        "l": "bedrock_item"
     },
     {
         "s": "00",
@@ -505,9 +555,10 @@ var icondata = [
         "i": "bed_frame",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2176,
-        "v": "Wreath"
+        "x": 3200,
+        "y": 2432,
+        "v": "Wreath",
+        "l": "eot_wreath"
     },
     {
         "s": "00",
@@ -515,9 +566,10 @@ var icondata = [
         "i": "bed_ice",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2048,
-        "v": "Ice Bed"
+        "x": 3328,
+        "y": 2432,
+        "v": "Ice Bed",
+        "l": "bed_ice"
     },
     {
         "s": "00",
@@ -525,9 +577,10 @@ var icondata = [
         "i": "bed_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1920,
-        "v": "Galactic Sleep Pod"
+        "x": 3456,
+        "y": 2432,
+        "v": "Galactic Sleep Pod",
+        "l": "bed_sci_fi"
     },
     {
         "s": "00",
@@ -535,9 +588,10 @@ var icondata = [
         "i": "bed_wood_basic",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1664,
-        "v": "Bed"
+        "x": 3584,
+        "y": 2432,
+        "v": "Bed",
+        "l": "bed"
     },
     {
         "s": "00",
@@ -545,9 +599,10 @@ var icondata = [
         "i": "bed_wood_blue",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2048,
-        "v": "Blue Bed"
+        "x": 3712,
+        "y": 2432,
+        "v": "Blue Bed",
+        "l": "bed_blue"
     },
     {
         "s": "00",
@@ -555,9 +610,10 @@ var icondata = [
         "i": "bed_wood_red",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 2176,
-        "v": "Red Bed"
+        "x": 3840,
+        "y": 2432,
+        "v": "Red Bed",
+        "l": "bed_red"
     },
     {
         "s": "00",
@@ -565,9 +621,10 @@ var icondata = [
         "i": "bed_wood_yellow",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1920,
-        "v": "Yellow Bed"
+        "x": 3968,
+        "y": 2432,
+        "v": "Yellow Bed",
+        "l": "bed_yellow"
     },
     {
         "s": "00",
@@ -575,9 +632,10 @@ var icondata = [
         "i": "beeswax",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2048,
-        "v": "Beeswax"
+        "x": 1664,
+        "y": 2304,
+        "v": "Beeswax",
+        "l": "bees_wax"
     },
     {
         "s": "00",
@@ -585,9 +643,10 @@ var icondata = [
         "i": "beeswax_queen",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1920,
-        "v": "Queen Bee"
+        "x": 1664,
+        "y": 2176,
+        "v": "Queen Bee",
+        "l": "queen_bee_item"
     },
     {
         "s": "00",
@@ -595,9 +654,10 @@ var icondata = [
         "i": "bellows_industrial",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1792,
-        "v": "Industrial Bellows"
+        "x": 1664,
+        "y": 2048,
+        "v": "Industrial Bellows",
+        "l": "bellows_industrial"
     },
     {
         "s": "00",
@@ -605,9 +665,10 @@ var icondata = [
         "i": "blocks_generic",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1664,
-        "v": "? blocks_generic"
+        "x": 1664,
+        "y": 1920,
+        "v": "? blocks_generic",
+        "l": "blocks_generic"
     },
     {
         "s": "00",
@@ -615,9 +676,10 @@ var icondata = [
         "i": "block_goo_green",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1536,
-        "v": "Block of Goo"
+        "x": 1664,
+        "y": 1664,
+        "v": "Block of Goo",
+        "l": "block_goo_green"
     },
     {
         "s": "00",
@@ -625,9 +687,10 @@ var icondata = [
         "i": "block_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1408,
-        "v": "Orange Block of Goo"
+        "x": 1792,
+        "y": 2048,
+        "v": "Orange Block of Goo",
+        "l": "block_goo_orange"
     },
     {
         "s": "00",
@@ -635,9 +698,10 @@ var icondata = [
         "i": "block_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1280,
-        "v": "Purple Block of Goo"
+        "x": 3712,
+        "y": 2176,
+        "v": "Purple Block of Goo",
+        "l": "block_goo_purple"
     },
     {
         "s": "00",
@@ -645,9 +709,10 @@ var icondata = [
         "i": "block_thatched",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1152,
-        "v": "Shredded Leaves"
+        "x": 1792,
+        "y": 1920,
+        "v": "Shredded Leaves",
+        "l": "thatched_block"
     },
     {
         "s": "00",
@@ -656,8 +721,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 1024,
-        "v": "Blizzard Bomb"
+        "y": 2048,
+        "v": "Blizzard Bomb",
+        "l": "bomb_blizzard"
     },
     {
         "s": "00",
@@ -666,8 +732,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 896,
-        "v": "Shur-Ice-N"
+        "y": 1920,
+        "v": "Shur-Ice-N",
+        "l": "bomb_snowflake"
     },
     {
         "s": "00",
@@ -676,8 +743,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 768,
-        "v": "Bone"
+        "y": 1792,
+        "v": "Bone",
+        "l": "bone"
     },
     {
         "s": "00",
@@ -686,8 +754,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 640,
-        "v": "Wood Shelf"
+        "y": 1664,
+        "v": "Wood Shelf",
+        "l": "shelf_wood"
     },
     {
         "s": "00",
@@ -696,8 +765,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 512,
-        "v": "Bosshog Tusk"
+        "y": 1536,
+        "v": "Bosshog Tusk",
+        "l": "boss_hog_tusk"
     },
     {
         "s": "00",
@@ -706,8 +776,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 256,
-        "v": "Bread"
+        "y": 1408,
+        "v": "Bread",
+        "l": "bread"
     },
     {
         "s": "00",
@@ -715,9 +786,10 @@ var icondata = [
         "i": "bread_blazing",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 2048,
-        "v": "Blazing Bread"
+        "x": 1920,
+        "y": 1280,
+        "v": "Blazing Bread",
+        "l": "bread_blazing"
     },
     {
         "s": "00",
@@ -726,8 +798,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 128,
-        "v": "Spiky Bread"
+        "y": 1152,
+        "v": "Spiky Bread",
+        "l": "bread_cactus"
     },
     {
         "s": "00",
@@ -736,8 +809,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1920,
-        "y": 0,
-        "v": "Corrupted Bread"
+        "y": 1024,
+        "v": "Corrupted Bread",
+        "l": "bread_corrupted"
     },
     {
         "s": "00",
@@ -745,9 +819,10 @@ var icondata = [
         "i": "bread_gingerbread",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2048,
-        "v": "Gingerbread Loaf"
+        "x": 1920,
+        "y": 896,
+        "v": "Gingerbread Loaf",
+        "l": "bread_gingerbread"
     },
     {
         "s": "00",
@@ -755,9 +830,10 @@ var icondata = [
         "i": "bread_tar",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2048,
-        "v": "Tar Bread"
+        "x": 1920,
+        "y": 768,
+        "v": "Tar Bread",
+        "l": "bread_tar"
     },
     {
         "s": "00",
@@ -765,9 +841,10 @@ var icondata = [
         "i": "bread_wholesome",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2048,
-        "v": "Wholesome Bread"
+        "x": 1920,
+        "y": 640,
+        "v": "Wholesome Bread",
+        "l": "bread_wholesome"
     },
     {
         "s": "00",
@@ -775,9 +852,10 @@ var icondata = [
         "i": "cactus",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 2048,
-        "v": "Cactus"
+        "x": 1920,
+        "y": 512,
+        "v": "Cactus",
+        "l": "cactus"
     },
     {
         "s": "00",
@@ -785,9 +863,10 @@ var icondata = [
         "i": "campfire",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2048,
-        "v": "Campfire"
+        "x": 1920,
+        "y": 256,
+        "v": "Campfire",
+        "l": "camp_fire"
     },
     {
         "s": "00",
@@ -795,9 +874,10 @@ var icondata = [
         "i": "candy_halloween",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 3456,
         "y": 2048,
-        "v": "Pumpkiru Candy"
+        "v": "Pumpkiru Candy",
+        "l": "candy_halloween"
     },
     {
         "s": "00",
@@ -805,9 +885,10 @@ var icondata = [
         "i": "candy_skull",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 2048,
-        "v": "Candy Skull Statue"
+        "x": 1920,
+        "y": 128,
+        "v": "Candy Skull Statue",
+        "l": "statue_candy_skull"
     },
     {
         "s": "00",
@@ -815,9 +896,10 @@ var icondata = [
         "i": "canyon_stone_1",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 2048,
-        "v": "Ruddy Canyonstone"
+        "x": 1920,
+        "y": 0,
+        "v": "Ruddy Canyonstone",
+        "l": "canyon_stone_1"
     },
     {
         "s": "00",
@@ -825,9 +907,10 @@ var icondata = [
         "i": "canyon_stone_2",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2048,
         "y": 2048,
-        "v": "Canyonstone"
+        "v": "Canyonstone",
+        "l": "canyon_stone_2"
     },
     {
         "s": "00",
@@ -835,9 +918,10 @@ var icondata = [
         "i": "canyon_stone_3",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2176,
         "y": 2048,
-        "v": "Dark Canyonstone"
+        "v": "Dark Canyonstone",
+        "l": "canyon_stone_3"
     },
     {
         "s": "00",
@@ -845,9 +929,10 @@ var icondata = [
         "i": "capital_roman_bedrock_laurel",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2304,
         "y": 2048,
-        "v": "Laurel Bedrock Wall"
+        "v": "Laurel Bedrock Wall",
+        "l": "capital_roman_bedrock_laurel"
     },
     {
         "s": "00",
@@ -855,9 +940,10 @@ var icondata = [
         "i": "capital_roman_bedrock_leaf",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 2176,
-        "v": "Imprinted Bedrock Wall"
+        "x": 2432,
+        "y": 2048,
+        "v": "Imprinted Bedrock Wall",
+        "l": "capital_roman_bedrock_leaf"
     },
     {
         "s": "00",
@@ -865,9 +951,10 @@ var icondata = [
         "i": "cap_chimney_industrial",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 384,
-        "v": "Industrial Chimney"
+        "x": 2560,
+        "y": 2048,
+        "v": "Industrial Chimney",
+        "l": "chimney_industrial_top"
     },
     {
         "s": "00",
@@ -875,9 +962,10 @@ var icondata = [
         "i": "carpet_blue",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 2176,
-        "v": "Blue Carpet"
+        "x": 2688,
+        "y": 2048,
+        "v": "Blue Carpet",
+        "l": "carpet_blue"
     },
     {
         "s": "00",
@@ -885,9 +973,10 @@ var icondata = [
         "i": "carpet_red",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 128,
-        "v": "Red Carpet"
+        "x": 2816,
+        "y": 2048,
+        "v": "Red Carpet",
+        "l": "carpet_red"
     },
     {
         "s": "00",
@@ -895,9 +984,10 @@ var icondata = [
         "i": "carpet_yellow",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1792,
-        "v": "Yellow Carpet"
+        "x": 2944,
+        "y": 2048,
+        "v": "Yellow Carpet",
+        "l": "carpet_yellow"
     },
     {
         "s": "00",
@@ -905,9 +995,10 @@ var icondata = [
         "i": "cattails",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1664,
-        "v": "Cattails"
+        "x": 3072,
+        "y": 2048,
+        "v": "Cattails",
+        "l": "water_plant"
     },
     {
         "s": "00",
@@ -915,9 +1006,10 @@ var icondata = [
         "i": "chain_medieval",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1536,
-        "v": "Medieval Chain"
+        "x": 3200,
+        "y": 2048,
+        "v": "Medieval Chain",
+        "l": "chain_medieval"
     },
     {
         "s": "00",
@@ -925,9 +1017,10 @@ var icondata = [
         "i": "chair_atlantis",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1408,
-        "v": "Atlantis Chair"
+        "x": 3328,
+        "y": 2048,
+        "v": "Atlantis Chair",
+        "l": "chair_atlantis"
     },
     {
         "s": "00",
@@ -935,9 +1028,10 @@ var icondata = [
         "i": "chair_diamond",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1280,
-        "v": "Diamond Chair"
+        "x": 3968,
+        "y": 2176,
+        "v": "Diamond Chair",
+        "l": "chair_diamond"
     },
     {
         "s": "00",
@@ -945,9 +1039,10 @@ var icondata = [
         "i": "chair_iron",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1152,
-        "v": "Iron Chair"
+        "x": 1920,
+        "y": 384,
+        "v": "Iron Chair",
+        "l": "chair_iron"
     },
     {
         "s": "00",
@@ -955,9 +1050,10 @@ var icondata = [
         "i": "chair_lumite",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1024,
-        "v": "Lumite Chair"
+        "x": 3840,
+        "y": 2176,
+        "v": "Lumite Chair",
+        "l": "chair_lumite"
     },
     {
         "s": "00",
@@ -966,8 +1062,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1792,
-        "y": 896,
-        "v": "Hidden Temple Chair"
+        "y": 128,
+        "v": "Hidden Temple Chair",
+        "l": "chair_mayan"
     },
     {
         "s": "00",
@@ -976,8 +1073,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1792,
-        "y": 768,
-        "v": "Medieval Chair"
+        "y": 1792,
+        "v": "Medieval Chair",
+        "l": "chair_medieval"
     },
     {
         "s": "00",
@@ -986,8 +1084,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1792,
-        "y": 640,
-        "v": "Obsidian Chair"
+        "y": 1664,
+        "v": "Obsidian Chair",
+        "l": "chair_obsidian"
     },
     {
         "s": "00",
@@ -996,8 +1095,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1792,
-        "y": 512,
-        "v": "Galactic Captain's Chair"
+        "y": 1536,
+        "v": "Galactic Captain's Chair",
+        "l": "chair_sci_fi"
     },
     {
         "s": "00",
@@ -1006,8 +1106,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1792,
-        "y": 384,
-        "v": "Stone Chair"
+        "y": 1408,
+        "v": "Stone Chair",
+        "l": "chair_stone"
     },
     {
         "s": "00",
@@ -1016,8 +1117,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1792,
-        "y": 256,
-        "v": "Wood Chair"
+        "y": 1280,
+        "v": "Wood Chair",
+        "l": "chair_wood"
     },
     {
         "s": "00",
@@ -1026,8 +1128,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1792,
-        "y": 0,
-        "v": "Medieval Chandelier"
+        "y": 1152,
+        "v": "Medieval Chandelier",
+        "l": "chandelier_medieval"
     },
     {
         "s": "00",
@@ -1035,9 +1138,10 @@ var icondata = [
         "i": "chest_arctek_01",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 2176,
-        "v": "Arctek Chest"
+        "x": 1792,
+        "y": 1024,
+        "v": "Arctek Chest",
+        "l": "chest_arctek_01"
     },
     {
         "s": "00",
@@ -1045,9 +1149,10 @@ var icondata = [
         "i": "chest_arctek_02",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2176,
-        "v": "Grand Arctek Chest"
+        "x": 1792,
+        "y": 896,
+        "v": "Grand Arctek Chest",
+        "l": "chest_arctek_02"
     },
     {
         "s": "00",
@@ -1055,9 +1160,10 @@ var icondata = [
         "i": "chest_holiday_group",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2176,
-        "v": "? chest_holiday_group"
+        "x": 1792,
+        "y": 768,
+        "v": "? chest_holiday_group",
+        "l": "chest_holiday_group"
     },
     {
         "s": "00",
@@ -1065,9 +1171,10 @@ var icondata = [
         "i": "chest_industrial",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2176,
-        "v": "Industrial Locker"
+        "x": 1792,
+        "y": 640,
+        "v": "Industrial Locker",
+        "l": "chest_industrial"
     },
     {
         "s": "00",
@@ -1075,9 +1182,10 @@ var icondata = [
         "i": "chest_lockable",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2176,
-        "v": "Automated Chest"
+        "x": 1792,
+        "y": 512,
+        "v": "Automated Chest",
+        "l": "chest_lockable"
     },
     {
         "s": "00",
@@ -1085,9 +1193,10 @@ var icondata = [
         "i": "chest_medieval",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 2176,
-        "v": "Medieval Treasure Chest"
+        "x": 1792,
+        "y": 384,
+        "v": "Medieval Treasure Chest",
+        "l": "chest_medieval"
     },
     {
         "s": "00",
@@ -1095,9 +1204,10 @@ var icondata = [
         "i": "chest_pumpkin",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2176,
-        "v": "Pumpkin Treasure"
+        "x": 1792,
+        "y": 256,
+        "v": "Pumpkin Treasure",
+        "l": "pumpkiru_chest_basic"
     },
     {
         "s": "00",
@@ -1105,9 +1215,10 @@ var icondata = [
         "i": "chest_pumpkin_storage",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 2176,
-        "v": "Pumpkin Chest"
+        "x": 1792,
+        "y": 0,
+        "v": "Pumpkin Chest",
+        "l": "pumpkiru_chest_basic_storage"
     },
     {
         "s": "00",
@@ -1115,9 +1226,10 @@ var icondata = [
         "i": "chest_pumpkiru_king",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 3584,
         "y": 2176,
-        "v": "Pumpkiru's King Treasure"
+        "v": "Pumpkiru's King Treasure",
+        "l": "pumpkiru_chest_super"
     },
     {
         "s": "00",
@@ -1125,9 +1237,10 @@ var icondata = [
         "i": "chest_pumpkiru_king_storage",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 1920,
         "y": 2176,
-        "v": "Pumpkiru's King Chest"
+        "v": "Pumpkiru's King Chest",
+        "l": "pumpkiru_chest_super_storage"
     },
     {
         "s": "00",
@@ -1135,9 +1248,10 @@ var icondata = [
         "i": "chest_reward",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2048,
         "y": 2176,
-        "v": "? chest_reward"
+        "v": "? chest_reward",
+        "l": "chest_reward"
     },
     {
         "s": "00",
@@ -1145,9 +1259,10 @@ var icondata = [
         "i": "chest_reward_holiday_blue",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2176,
         "y": 2176,
-        "v": "Holiday Giftbox"
+        "v": "Holiday Giftbox",
+        "l": "chest_reward_holiday"
     },
     {
         "s": "00",
@@ -1155,9 +1270,10 @@ var icondata = [
         "i": "chest_reward_holiday_green",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2304,
         "y": 2176,
-        "v": "? chest_reward_holiday_green"
+        "v": "? chest_reward_holiday_green",
+        "l": "chest_reward_holiday_green"
     },
     {
         "s": "00",
@@ -1165,9 +1281,10 @@ var icondata = [
         "i": "chest_reward_holiday_red",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2432,
         "y": 2176,
-        "v": "? chest_reward_holiday_red"
+        "v": "? chest_reward_holiday_red",
+        "l": "chest_reward_holiday_red"
     },
     {
         "s": "00",
@@ -1175,9 +1292,10 @@ var icondata = [
         "i": "chest_royal_pumpkin",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 640,
-        "v": "Royal Pumpkin Treasure"
+        "x": 2560,
+        "y": 2176,
+        "v": "Royal Pumpkin Treasure",
+        "l": "pumpkiru_chest_advanced"
     },
     {
         "s": "00",
@@ -1185,9 +1303,10 @@ var icondata = [
         "i": "chest_royal_pumpkin_storage",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 768,
-        "v": "Royal Pumpkin Chest"
+        "x": 2688,
+        "y": 2176,
+        "v": "Royal Pumpkin Chest",
+        "l": "pumpkiru_chest_advanced_storage"
     },
     {
         "s": "00",
@@ -1195,9 +1314,10 @@ var icondata = [
         "i": "chest_stone",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 896,
-        "v": "Stone Chest"
+        "x": 2816,
+        "y": 2176,
+        "v": "Stone Chest",
+        "l": "chest_stone"
     },
     {
         "s": "00",
@@ -1205,9 +1325,10 @@ var icondata = [
         "i": "chest_treasure",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2560,
-        "v": "Wood Treasure Chest"
+        "x": 2944,
+        "y": 2176,
+        "v": "? chest_treasure",
+        "l": "chest_treasure"
     },
     {
         "s": "00",
@@ -1215,9 +1336,10 @@ var icondata = [
         "i": "chest_treasure_01",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 2304,
-        "v": "? chest_treasure_01"
+        "x": 3072,
+        "y": 2176,
+        "v": "? chest_treasure_01",
+        "l": "chest_treasure_01"
     },
     {
         "s": "00",
@@ -1225,9 +1347,10 @@ var icondata = [
         "i": "chest_treasure_02",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 3200,
         "y": 2176,
-        "v": "? chest_treasure_02"
+        "v": "Diamond Treasure Chest",
+        "l": "treasure_chest_diamond"
     },
     {
         "s": "00",
@@ -1235,9 +1358,10 @@ var icondata = [
         "i": "chest_treasure_03",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 2048,
-        "v": "? chest_treasure_03"
+        "x": 3328,
+        "y": 2176,
+        "v": "Lumite Treasure Chest",
+        "l": "treasure_chest_lumite"
     },
     {
         "s": "00",
@@ -1245,9 +1369,10 @@ var icondata = [
         "i": "chest_treasure_04",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1920,
-        "v": "? chest_treasure_04"
+        "x": 3456,
+        "y": 2176,
+        "v": "Wood Treasure Chest",
+        "l": "treasure_chest_wood"
     },
     {
         "s": "00",
@@ -1255,9 +1380,10 @@ var icondata = [
         "i": "chest_treasure_05",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1792,
-        "v": "? chest_treasure_05"
+        "x": 1536,
+        "y": 640,
+        "v": "Iron Treasure Chest",
+        "l": "treasure_chest_iron"
     },
     {
         "s": "00",
@@ -1265,9 +1391,10 @@ var icondata = [
         "i": "chest_valentines",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1664,
-        "v": "Heart-Shaped Box"
+        "x": 1536,
+        "y": 768,
+        "v": "Heart-Shaped Box",
+        "l": "chest_valentines"
     },
     {
         "s": "00",
@@ -1275,9 +1402,10 @@ var icondata = [
         "i": "chest_wood",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1536,
-        "v": "Wood Chest"
+        "x": 1536,
+        "y": 896,
+        "v": "Wood Chest",
+        "l": "chest_wood"
     },
     {
         "s": "00",
@@ -1285,9 +1413,10 @@ var icondata = [
         "i": "chimney_gingerbread",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1408,
-        "v": "Gingerbread Chimney"
+        "x": 1536,
+        "y": 2560,
+        "v": "Gingerbread Chimney",
+        "l": "chimney_gingerbread"
     },
     {
         "s": "00",
@@ -1296,8 +1425,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 1280,
-        "v": "Industrial Smoke Stack"
+        "y": 2304,
+        "v": "Industrial Smoke Stack",
+        "l": "chimney_industrial"
     },
     {
         "s": "00",
@@ -1306,8 +1436,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 1152,
-        "v": "Blizzard Chizzard Gizzard"
+        "y": 2176,
+        "v": "Blizzard Chizzard Gizzard",
+        "l": "blizzard_chizzard_gizzard"
     },
     {
         "s": "00",
@@ -1316,8 +1447,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 1024,
-        "v": "Feather"
+        "y": 2048,
+        "v": "Feather",
+        "l": "chizzard_feather"
     },
     {
         "s": "00",
@@ -1326,8 +1458,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 896,
-        "v": "Chizzard Gizzard"
+        "y": 1920,
+        "v": "Chizzard Gizzard",
+        "l": "chizzard_gizzard"
     },
     {
         "s": "00",
@@ -1336,8 +1469,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 768,
-        "v": "Cloth"
+        "y": 1792,
+        "v": "Cloth",
+        "l": "cloth"
     },
     {
         "s": "00",
@@ -1346,8 +1480,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 512,
-        "v": "Coal"
+        "y": 1664,
+        "v": "Coal",
+        "l": "coal"
     },
     {
         "s": "00",
@@ -1355,9 +1490,10 @@ var icondata = [
         "i": "coal_block",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2688,
-        "v": "Coal Node"
+        "x": 1280,
+        "y": 1536,
+        "v": "Coal Node",
+        "l": "consumable_prospector_low"
     },
     {
         "s": "00",
@@ -1366,8 +1502,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 384,
-        "v": "Math Gate"
+        "y": 1408,
+        "v": "Math Gate",
+        "l": "code_block_item"
     },
     {
         "s": "00",
@@ -1376,8 +1513,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 256,
-        "v": "Asphalt Column"
+        "y": 1280,
+        "v": "Asphalt Column",
+        "l": "column_asphault"
     },
     {
         "s": "00",
@@ -1386,8 +1524,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 128,
-        "v": "Shredded Leaves Column"
+        "y": 1152,
+        "v": "Shredded Leaves Column",
+        "l": "column_leaves_shredded"
     },
     {
         "s": "00",
@@ -1396,8 +1535,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 0,
-        "v": "Corrupted Stone Column"
+        "y": 1024,
+        "v": "Corrupted Stone Column",
+        "l": "column_corrupted_stone"
     },
     {
         "s": "00",
@@ -1405,9 +1545,10 @@ var icondata = [
         "i": "column_glass_diamond",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 2688,
-        "v": "Diamond Column"
+        "x": 1280,
+        "y": 896,
+        "v": "Diamond Column",
+        "l": "column_glass_diamond"
     },
     {
         "s": "00",
@@ -1415,9 +1556,10 @@ var icondata = [
         "i": "column_hardened_lava_brick",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2688,
-        "v": "Hardened Lava Column"
+        "x": 1280,
+        "y": 768,
+        "v": "Hardened Lava Column",
+        "l": "column_hardened_lava_brick"
     },
     {
         "s": "00",
@@ -1425,9 +1567,10 @@ var icondata = [
         "i": "column_ice",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2688,
-        "v": "Rocky Ice Column"
+        "x": 1280,
+        "y": 512,
+        "v": "Rocky Ice Column",
+        "l": "column_ice_rocky"
     },
     {
         "s": "00",
@@ -1435,9 +1578,10 @@ var icondata = [
         "i": "column_igneous",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 2560,
         "y": 2688,
-        "v": "Igenous Column"
+        "v": "Igneous Column",
+        "l": "column_igneous"
     },
     {
         "s": "00",
@@ -1445,9 +1589,10 @@ var icondata = [
         "i": "column_lumite_beveled",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2688,
-        "v": "Beveled Lumite Column"
+        "x": 1280,
+        "y": 384,
+        "v": "Beveled Lumite Column",
+        "l": "column_lumite_beveled"
     },
     {
         "s": "00",
@@ -1455,9 +1600,10 @@ var icondata = [
         "i": "column_moroccan_iron",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2688,
-        "v": "Iron Column"
+        "x": 1280,
+        "y": 256,
+        "v": "Iron Column",
+        "l": "column_moroccan_iron"
     },
     {
         "s": "00",
@@ -1465,9 +1611,10 @@ var icondata = [
         "i": "column_obsidian_brick",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2688,
-        "v": "Obsidian Column"
+        "x": 1280,
+        "y": 128,
+        "v": "Obsidian Column",
+        "l": "column_obsidian_brick"
     },
     {
         "s": "00",
@@ -1475,9 +1622,10 @@ var icondata = [
         "i": "column_roman_bedrock",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2688,
-        "v": "Bedrock Column"
+        "x": 1280,
+        "y": 0,
+        "v": "Bedrock Column",
+        "l": "column_roman_bedrock_square"
     },
     {
         "s": "00",
@@ -1485,9 +1633,10 @@ var icondata = [
         "i": "column_roman_limestone_basic",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 1408,
         "y": 2688,
-        "v": "Limestone Column"
+        "v": "Limestone Column",
+        "l": "column_roman_limestone_basic"
     },
     {
         "s": "00",
@@ -1495,9 +1644,10 @@ var icondata = [
         "i": "column_roman_limestone_spiral",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 2432,
-        "v": "Spiral Limestone"
+        "x": 1536,
+        "y": 2688,
+        "v": "Spiral Limestone",
+        "l": "column_roman_limestone_spiral"
     },
     {
         "s": "00",
@@ -1505,9 +1655,10 @@ var icondata = [
         "i": "column_roman_limestone_spiral_cylinder",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 2560,
-        "v": "Spiral Limestone Column"
+        "x": 1664,
+        "y": 2688,
+        "v": "Spiral Limestone Column",
+        "l": "column_roman_limestone_spiral_cylinder"
     },
     {
         "s": "00",
@@ -1515,9 +1666,10 @@ var icondata = [
         "i": "column_roman_limestone_staight",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1792,
         "y": 2688,
-        "v": "Straight Limestone"
+        "v": "Straight Limestone",
+        "l": "column_roman_limestone_staight"
     },
     {
         "s": "00",
@@ -1525,9 +1677,10 @@ var icondata = [
         "i": "column_roman_limestone_straight",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 2816,
-        "v": "Straight Limestone Column"
+        "x": 1920,
+        "y": 2688,
+        "v": "Straight Limestone Column",
+        "l": "column_roman_limestone_straight_cylinder"
     },
     {
         "s": "00",
@@ -1535,9 +1688,10 @@ var icondata = [
         "i": "column_roman_limstone",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 640,
-        "v": "? column_roman_limstone"
+        "x": 2048,
+        "y": 2688,
+        "v": "? column_roman_limstone",
+        "l": "column_roman_limstone"
     },
     {
         "s": "00",
@@ -1545,9 +1699,10 @@ var icondata = [
         "i": "column_stone_stacked",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 512,
-        "v": "Stacked Stone Column"
+        "x": 2176,
+        "y": 2688,
+        "v": "Stacked Stone Column",
+        "l": "column_stone_stacked"
     },
     {
         "s": "00",
@@ -1555,9 +1710,10 @@ var icondata = [
         "i": "column_thatched",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 384,
-        "v": "Thatched Column"
+        "x": 2304,
+        "y": 2688,
+        "v": "Thatched Column",
+        "l": "column_thatched"
     },
     {
         "s": "00",
@@ -1565,9 +1721,10 @@ var icondata = [
         "i": "column_wood",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 256,
-        "v": "Wood Column"
+        "x": 2432,
+        "y": 2688,
+        "v": "Wood Column",
+        "l": "column_wood"
     },
     {
         "s": "00",
@@ -1575,9 +1732,10 @@ var icondata = [
         "i": "column_wood_blue",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 128,
-        "v": "Blue Wood Column"
+        "x": 1280,
+        "y": 2432,
+        "v": "Blue Wood Column",
+        "l": "column_wood_blue"
     },
     {
         "s": "00",
@@ -1585,9 +1743,10 @@ var icondata = [
         "i": "column_wood_red",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 0,
-        "v": "Red Wood Column"
+        "x": 1280,
+        "y": 2560,
+        "v": "Red Wood Column",
+        "l": "column_wood_red"
     },
     {
         "s": "00",
@@ -1596,8 +1755,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1280,
-        "y": 2816,
-        "v": "Forbidden Red Wood Column"
+        "y": 2688,
+        "v": "Forbidden Red Wood Column",
+        "l": "column_wood_red_chinese"
     },
     {
         "s": "00",
@@ -1605,9 +1765,10 @@ var icondata = [
         "i": "column_wood_yellow",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 3968,
         "y": 2816,
-        "v": "Yellow Wood Column"
+        "v": "Yellow Wood Column",
+        "l": "column_wood_yellow"
     },
     {
         "s": "00",
@@ -1615,9 +1776,10 @@ var icondata = [
         "i": "computer_chip",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2816,
-        "v": "Old data chip"
+        "x": 1152,
+        "y": 640,
+        "v": "Villager Upgrade: Treasure Hunter",
+        "l": "recipe_archetype_unlock_treasurehunter"
     },
     {
         "s": "00",
@@ -1625,9 +1787,10 @@ var icondata = [
         "i": "concrete_blue",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2816,
-        "v": "Blue Concrete"
+        "x": 1152,
+        "y": 512,
+        "v": "Blue Concrete",
+        "l": "concrete_blue"
     },
     {
         "s": "00",
@@ -1635,9 +1798,10 @@ var icondata = [
         "i": "concrete_grey",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2816,
-        "v": "? concrete_grey"
+        "x": 1152,
+        "y": 384,
+        "v": "? concrete_grey",
+        "l": "concrete_grey"
     },
     {
         "s": "00",
@@ -1645,9 +1809,10 @@ var icondata = [
         "i": "concrete_red",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2816,
-        "v": "Red Concrete"
+        "x": 1152,
+        "y": 256,
+        "v": "Red Concrete",
+        "l": "concrete_red"
     },
     {
         "s": "00",
@@ -1655,9 +1820,10 @@ var icondata = [
         "i": "concrete_yellow",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2816,
-        "v": "Yellow Concrete"
+        "x": 1152,
+        "y": 128,
+        "v": "Yellow Concrete",
+        "l": "concrete_yellow"
     },
     {
         "s": "00",
@@ -1665,9 +1831,10 @@ var icondata = [
         "i": "container_ice",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2816,
-        "v": "Frozen Container"
+        "x": 1152,
+        "y": 0,
+        "v": "Frozen Container",
+        "l": "container_ice"
     },
     {
         "s": "00",
@@ -1675,9 +1842,10 @@ var icondata = [
         "i": "container_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 1280,
         "y": 2816,
-        "v": "Galactic Grav-Chamber"
+        "v": "Galactic Grav-Chamber",
+        "l": "container_sci_fi"
     },
     {
         "s": "00",
@@ -1685,9 +1853,10 @@ var icondata = [
         "i": "container_snow",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 1408,
         "y": 2816,
-        "v": "Snow Burried Container"
+        "v": "Snow Burried Container",
+        "l": "container_snow"
     },
     {
         "s": "00",
@@ -1695,9 +1864,10 @@ var icondata = [
         "i": "coral",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 1536,
         "y": 2816,
-        "v": "Coral"
+        "v": "Coral",
+        "l": "coral_item"
     },
     {
         "s": "00",
@@ -1705,9 +1875,10 @@ var icondata = [
         "i": "corruption_dust",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 1664,
         "y": 2816,
-        "v": "Corruption Dust"
+        "v": "Corruption Dust",
+        "l": "corruption_dust"
     },
     {
         "s": "00",
@@ -1715,9 +1886,10 @@ var icondata = [
         "i": "cowbell",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 1792,
         "y": 2816,
-        "v": "Taming Collar"
+        "v": "Taming Collar",
+        "l": "taming_collar"
     },
     {
         "s": "00",
@@ -1725,9 +1897,10 @@ var icondata = [
         "i": "crates_stacked",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 1920,
         "y": 2816,
-        "v": "Error Block Container"
+        "v": "Error Block Container",
+        "l": "entity_recovery_item"
     },
     {
         "s": "00",
@@ -1735,9 +1908,10 @@ var icondata = [
         "i": "crystals_ice",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2048,
         "y": 2816,
-        "v": "Ice Crystals"
+        "v": "Ice Crystals",
+        "l": "crystals_ice"
     },
     {
         "s": "00",
@@ -1745,9 +1919,10 @@ var icondata = [
         "i": "crystal_infused",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2176,
         "y": 2816,
-        "v": "Infused Crystal"
+        "v": "Infused Crystal",
+        "l": "crystal_infused"
     },
     {
         "s": "00",
@@ -1755,9 +1930,10 @@ var icondata = [
         "i": "crystal_plants",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2304,
         "y": 2816,
-        "v": "? crystal_plants"
+        "v": "? crystal_plants",
+        "l": "crystal_plants"
     },
     {
         "s": "00",
@@ -1765,9 +1941,10 @@ var icondata = [
         "i": "crystal_shard",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2432,
         "y": 2816,
-        "v": "Crystal Shard"
+        "v": "Crystal Shard",
+        "l": "crystal_shard"
     },
     {
         "s": "00",
@@ -1775,9 +1952,10 @@ var icondata = [
         "i": "cup_atlantis",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 2560,
         "y": 2816,
-        "v": "Atlantis Cup"
+        "v": "Atlantis Cup",
+        "l": "cup_atlantis"
     },
     {
         "s": "00",
@@ -1785,9 +1963,10 @@ var icondata = [
         "i": "death_statue",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2688,
         "y": 2816,
-        "v": "Powerless Basic Idol"
+        "v": "Powerless Basic Idol",
+        "l": "halloween_idol_used"
     },
     {
         "s": "00",
@@ -1795,9 +1974,10 @@ var icondata = [
         "i": "default",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2816,
         "y": 2816,
-        "v": "Transport Rail"
+        "v": "Transport Rail",
+        "l": "transport_rail_item"
     },
     {
         "s": "00",
@@ -1805,9 +1985,10 @@ var icondata = [
         "i": "diamond_bar",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 640,
-        "v": "Diamond"
+        "x": 2944,
+        "y": 2816,
+        "v": "Diamond",
+        "l": "diamond"
     },
     {
         "s": "00",
@@ -1815,9 +1996,10 @@ var icondata = [
         "i": "dirt",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 2688,
-        "v": "Dirt"
+        "x": 3072,
+        "y": 2816,
+        "v": "Dirt",
+        "l": "dirt_item"
     },
     {
         "s": "00",
@@ -1825,9 +2007,10 @@ var icondata = [
         "i": "dirt_corrupted",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 2688,
-        "v": "Corrupted Dirt"
+        "x": 3200,
+        "y": 2816,
+        "v": "Corrupted Dirt",
+        "l": "dirt_corrupted_item"
     },
     {
         "s": "00",
@@ -1835,9 +2018,10 @@ var icondata = [
         "i": "dirt_tilled",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 2688,
-        "v": "Tilled Dirt"
+        "x": 3328,
+        "y": 2816,
+        "v": "Tilled Dirt",
+        "l": "dirt_tilled"
     },
     {
         "s": "00",
@@ -1845,9 +2029,10 @@ var icondata = [
         "i": "door_bars_iron",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2560,
-        "v": "Iron Bar Door"
+        "x": 3456,
+        "y": 2816,
+        "v": "Iron Bar Door",
+        "l": "door_iron_bars"
     },
     {
         "s": "00",
@@ -1855,9 +2040,10 @@ var icondata = [
         "i": "door_bungalow",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2560,
-        "v": "Bungalow Door"
+        "x": 3584,
+        "y": 2816,
+        "v": "Bungalow Door",
+        "l": "door_bungalow"
     },
     {
         "s": "00",
@@ -1865,9 +2051,10 @@ var icondata = [
         "i": "door_canyon_wood",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2560,
-        "v": "Rustic Wood Door"
+        "x": 3712,
+        "y": 2816,
+        "v": "Rustic Wood Door",
+        "l": "door_wood_rustic"
     },
     {
         "s": "00",
@@ -1875,9 +2062,10 @@ var icondata = [
         "i": "door_diamond",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2560,
-        "v": "Diamond Door"
+        "x": 3840,
+        "y": 2816,
+        "v": "Diamond Door",
+        "l": "door_diamond"
     },
     {
         "s": "00",
@@ -1885,9 +2073,10 @@ var icondata = [
         "i": "door_gingerbread",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 2560,
-        "v": "Gingerbread Door"
+        "x": 1280,
+        "y": 640,
+        "v": "Gingerbread Door",
+        "l": "door_gingerbread"
     },
     {
         "s": "00",
@@ -1895,9 +2084,10 @@ var icondata = [
         "i": "door_industrial",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2560,
-        "v": "Industrial Door"
+        "x": 2688,
+        "y": 2688,
+        "v": "Industrial Door",
+        "l": "door_industrial"
     },
     {
         "s": "00",
@@ -1905,9 +2095,10 @@ var icondata = [
         "i": "door_limestone_bedrock",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 2560,
-        "v": "Bedrock Door"
+        "x": 2816,
+        "y": 2688,
+        "v": "Bedrock Door",
+        "l": "door_limestone_bedrock"
     },
     {
         "s": "00",
@@ -1915,9 +2106,10 @@ var icondata = [
         "i": "door_lumite",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 2560,
-        "v": "Lumite Door"
+        "x": 2944,
+        "y": 2688,
+        "v": "Lumite Door",
+        "l": "door_lumite"
     },
     {
         "s": "00",
@@ -1925,9 +2117,10 @@ var icondata = [
         "i": "door_mayan",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 1920,
         "y": 2560,
-        "v": "Hidden Temple Door"
+        "v": "Hidden Temple Door",
+        "l": "door_mayan"
     },
     {
         "s": "00",
@@ -1935,9 +2128,10 @@ var icondata = [
         "i": "door_medieval",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2048,
         "y": 2560,
-        "v": "Medieval Door"
+        "v": "Medieval Door",
+        "l": "door_medieval"
     },
     {
         "s": "00",
@@ -1945,9 +2139,10 @@ var icondata = [
         "i": "door_obsidian_iron",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2176,
         "y": 2560,
-        "v": "Obsidian Door"
+        "v": "Obsidian Door",
+        "l": "door_obsidian"
     },
     {
         "s": "00",
@@ -1955,9 +2150,10 @@ var icondata = [
         "i": "door_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2304,
         "y": 2560,
-        "v": "Galactic Bay Door"
+        "v": "Galactic Bay Door",
+        "l": "door_sci_fi"
     },
     {
         "s": "00",
@@ -1965,9 +2161,10 @@ var icondata = [
         "i": "door_stone",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2432,
         "y": 2560,
-        "v": "Stone Door"
+        "v": "Stone Door",
+        "l": "door_stone"
     },
     {
         "s": "00",
@@ -1975,9 +2172,10 @@ var icondata = [
         "i": "door_wood",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2560,
         "y": 2560,
-        "v": "Wood Door"
+        "v": "Wood Door",
+        "l": "door_wood"
     },
     {
         "s": "00",
@@ -1985,9 +2183,10 @@ var icondata = [
         "i": "door_wood_haunted",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1024,
-        "v": "Haunted Door"
+        "x": 2688,
+        "y": 2560,
+        "v": "Haunted Door",
+        "l": "door_wood_haunted"
     },
     {
         "s": "00",
@@ -1995,9 +2194,10 @@ var icondata = [
         "i": "dust_evil",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2816,
         "y": 2560,
-        "v": "Dustevil Dust"
+        "v": "Dustevil Dust",
+        "l": "dust_evil_dust"
     },
     {
         "s": "00",
@@ -2005,9 +2205,10 @@ var icondata = [
         "i": "dye_blue",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 2944,
         "y": 2560,
-        "v": "Blue Pigment"
+        "v": "Blue Pigment",
+        "l": "dye_blue"
     },
     {
         "s": "00",
@@ -2015,9 +2216,10 @@ var icondata = [
         "i": "dye_red",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2432,
-        "v": "Red Pigment"
+        "x": 3072,
+        "y": 2560,
+        "v": "Red Pigment",
+        "l": "dye_red"
     },
     {
         "s": "00",
@@ -2025,9 +2227,10 @@ var icondata = [
         "i": "dye_yellow",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2304,
-        "v": "Yellow Pigment"
+        "x": 3200,
+        "y": 2560,
+        "v": "Yellow Pigment",
+        "l": "dye_yellow"
     },
     {
         "s": "00",
@@ -2035,9 +2238,10 @@ var icondata = [
         "i": "egg_blizzard_chizzard",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2176,
-        "v": "Blizzard Chizzard Egg"
+        "x": 3328,
+        "y": 2560,
+        "v": "Blizzard Chizzard Egg",
+        "l": "blizzard_chizzard_egg"
     },
     {
         "s": "00",
@@ -2045,9 +2249,10 @@ var icondata = [
         "i": "egg_chizzard",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2048,
-        "v": "Chizzard Egg"
+        "x": 3456,
+        "y": 2560,
+        "v": "Chizzard Egg",
+        "l": "chizzard_egg"
     },
     {
         "s": "00",
@@ -2055,9 +2260,10 @@ var icondata = [
         "i": "excavator",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1920,
-        "v": "Excavator"
+        "x": 3712,
+        "y": 2560,
+        "v": "Excavator",
+        "l": "excavator"
     },
     {
         "s": "00",
@@ -2066,8 +2272,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1536,
-        "y": 1792,
-        "v": "Advanced Excavator"
+        "y": 1024,
+        "v": "Advanced Excavator",
+        "l": "excavator_advanced"
     },
     {
         "s": "00",
@@ -2075,9 +2282,10 @@ var icondata = [
         "i": "excavator_super",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1664,
-        "v": "Super Excavator"
+        "x": 3840,
+        "y": 2560,
+        "v": "Super Excavator",
+        "l": "excavator_super"
     },
     {
         "s": "00",
@@ -2085,9 +2293,10 @@ var icondata = [
         "i": "extractor_advanced",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1536,
-        "v": "Advanced Extractor"
+        "x": 3968,
+        "y": 2560,
+        "v": "Advanced Extractor",
+        "l": "extractor_advanced"
     },
     {
         "s": "00",
@@ -2096,8 +2305,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1536,
-        "y": 1408,
-        "v": "Extractor"
+        "y": 2432,
+        "v": "Extractor",
+        "l": "extractor"
     },
     {
         "s": "00",
@@ -2106,8 +2316,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1536,
-        "y": 1280,
-        "v": "? extractor_arctek_blue"
+        "y": 2304,
+        "v": "? extractor_arctek_blue",
+        "l": "extractor_arctek_blue"
     },
     {
         "s": "00",
@@ -2116,8 +2327,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1536,
-        "y": 1152,
-        "v": "Super Extractor"
+        "y": 2176,
+        "v": "Super Extractor",
+        "l": "extractor_super"
     },
     {
         "s": "00",
@@ -2125,9 +2337,10 @@ var icondata = [
         "i": "fan_block",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2560,
-        "v": "Fan"
+        "x": 1536,
+        "y": 2048,
+        "v": "Fan",
+        "l": "fan_item"
     },
     {
         "s": "00",
@@ -2135,9 +2348,10 @@ var icondata = [
         "i": "fan_industrial",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 2560,
-        "v": "Industrial Fan"
+        "x": 1536,
+        "y": 1920,
+        "v": "Industrial Fan",
+        "l": "fan_industrial"
     },
     {
         "s": "00",
@@ -2145,9 +2359,10 @@ var icondata = [
         "i": "fence_holiday",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2560,
-        "v": "Candy Cane Fence"
+        "x": 1536,
+        "y": 1792,
+        "v": "Candy Cane Fence",
+        "l": "fence_candycane"
     },
     {
         "s": "00",
@@ -2155,9 +2370,10 @@ var icondata = [
         "i": "fence_industrial",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1920,
-        "v": "Industrial Fence"
+        "x": 1536,
+        "y": 1664,
+        "v": "Industrial Fence",
+        "l": "fence_industrial"
     },
     {
         "s": "00",
@@ -2165,9 +2381,10 @@ var icondata = [
         "i": "fence_metal",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 2688,
-        "v": "Iron Fence"
+        "x": 1536,
+        "y": 1536,
+        "v": "Iron Fence",
+        "l": "fence_iron"
     },
     {
         "s": "00",
@@ -2175,9 +2392,10 @@ var icondata = [
         "i": "fence_obsidian",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 2688,
-        "v": "Obsidian Fence"
+        "x": 1536,
+        "y": 1408,
+        "v": "Obsidian Fence",
+        "l": "fence_obsidian"
     },
     {
         "s": "00",
@@ -2185,9 +2403,10 @@ var icondata = [
         "i": "fence_stone",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 2688,
-        "v": "Stone Fence"
+        "x": 1536,
+        "y": 1280,
+        "v": "Stone Fence",
+        "l": "fence_stone"
     },
     {
         "s": "00",
@@ -2195,9 +2414,10 @@ var icondata = [
         "i": "fence_wood",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 2688,
-        "v": "Wood Fence"
+        "x": 1536,
+        "y": 1152,
+        "v": "Wood Fence",
+        "l": "fence_wood"
     },
     {
         "s": "00",
@@ -2205,9 +2425,10 @@ var icondata = [
         "i": "fireplace_medieval",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 2688,
-        "v": "Medieval Fireplace"
+        "x": 1792,
+        "y": 2560,
+        "v": "Medieval Fireplace",
+        "l": "fire_pit_medieval"
     },
     {
         "s": "00",
@@ -2215,9 +2436,10 @@ var icondata = [
         "i": "fireworks_halloween",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 2688,
-        "v": "Haunted Fireworks"
+        "x": 3584,
+        "y": 2560,
+        "v": "Haunted Fireworks",
+        "l": "fireworks_halloween"
     },
     {
         "s": "00",
@@ -2225,9 +2447,10 @@ var icondata = [
         "i": "fireworks_holiday",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 2688,
-        "v": "New Years Fireworks"
+        "x": 1664,
+        "y": 2560,
+        "v": "New Years Fireworks",
+        "l": "fireworks_holiday"
     },
     {
         "s": "00",
@@ -2235,9 +2458,10 @@ var icondata = [
         "i": "firework_blue",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 2688,
-        "v": "Blue Fireworks"
+        "x": 1408,
+        "y": 1920,
+        "v": "Blue Fireworks",
+        "l": "fireworks_blue_item"
     },
     {
         "s": "00",
@@ -2245,9 +2469,10 @@ var icondata = [
         "i": "firework_red",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 2560,
-        "v": "Red Fireworks"
+        "x": 3072,
+        "y": 2688,
+        "v": "Red Fireworks",
+        "l": "fireworks_red_item"
     },
     {
         "s": "00",
@@ -2255,9 +2480,10 @@ var icondata = [
         "i": "firework_yellow",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 2432,
-        "v": "Yellow Fireworks"
+        "x": 3200,
+        "y": 2688,
+        "v": "Yellow Fireworks",
+        "l": "fireworks_yellow_item"
     },
     {
         "s": "00",
@@ -2265,9 +2491,10 @@ var icondata = [
         "i": "fire_pit",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 2304,
-        "v": "Fire Pit"
+        "x": 3328,
+        "y": 2688,
+        "v": "Fire Pit",
+        "l": "fire_pit"
     },
     {
         "s": "00",
@@ -2275,9 +2502,10 @@ var icondata = [
         "i": "fire_pit_metal",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 2176,
-        "v": "Iron Fire Pit"
+        "x": 3456,
+        "y": 2688,
+        "v": "Iron Fire Pit",
+        "l": "fire_pit_iron"
     },
     {
         "s": "00",
@@ -2285,9 +2513,10 @@ var icondata = [
         "i": "flashlight_ghost",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 2048,
-        "v": "Ghostly Flashlight"
+        "x": 3584,
+        "y": 2688,
+        "v": "Ghostly Flashlight",
+        "l": "cosmetic_sparc_illumination_ghost"
     },
     {
         "s": "00",
@@ -2295,9 +2524,10 @@ var icondata = [
         "i": "floor_adobe_blue",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1792,
-        "v": "Blue Adobe Floor"
+        "x": 3712,
+        "y": 2688,
+        "v": "Blue Adobe Floor",
+        "l": "floor_adobe_blue"
     },
     {
         "s": "00",
@@ -2305,9 +2535,10 @@ var icondata = [
         "i": "floor_adobe_red",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 0,
-        "v": "Red Adobe Floor"
+        "x": 3840,
+        "y": 2688,
+        "v": "Red Adobe Floor",
+        "l": "floor_adobe_red"
     },
     {
         "s": "00",
@@ -2315,9 +2546,10 @@ var icondata = [
         "i": "floor_adobe_yellow",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1664,
-        "v": "Yellow Adobe Floor"
+        "x": 3968,
+        "y": 2688,
+        "v": "Yellow Adobe Floor",
+        "l": "floor_adobe_yellow"
     },
     {
         "s": "00",
@@ -2326,8 +2558,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 1536,
-        "v": "Canyon Floor"
+        "y": 2560,
+        "v": "Canyon Floor",
+        "l": "ground_canyon"
     },
     {
         "s": "00",
@@ -2336,8 +2569,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 1408,
-        "v": "Industrial Floor"
+        "y": 2432,
+        "v": "Industrial Floor",
+        "l": "floor_industrial"
     },
     {
         "s": "00",
@@ -2346,8 +2580,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 1280,
-        "v": "Industrial Non-Skid Floor"
+        "y": 2304,
+        "v": "Industrial Non-Skid Floor",
+        "l": "floor_industrial_non_skid"
     },
     {
         "s": "00",
@@ -2356,8 +2591,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 1152,
-        "v": "Industrial Wall"
+        "y": 2176,
+        "v": "Industrial Wall",
+        "l": "wall_industrial_plate"
     },
     {
         "s": "00",
@@ -2366,8 +2602,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 1024,
-        "v": "Obsidian Floor"
+        "y": 2048,
+        "v": "Obsidian Floor",
+        "l": "floor_roman_obsidian"
     },
     {
         "s": "00",
@@ -2376,8 +2613,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 896,
-        "v": "Galactic Floor"
+        "y": 1792,
+        "v": "Galactic Floor",
+        "l": "floor_sci_fi_grate"
     },
     {
         "s": "00",
@@ -2386,8 +2624,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 768,
-        "v": "Stone Floor"
+        "y": 0,
+        "v": "Stone Floor",
+        "l": "floor_stone"
     },
     {
         "s": "00",
@@ -2396,8 +2635,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 640,
-        "v": "Decorative Stone Floor"
+        "y": 1664,
+        "v": "Decorative Stone Floor",
+        "l": "floor_stone_decorative"
     },
     {
         "s": "00",
@@ -2406,8 +2646,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 512,
-        "v": "Carved Stone Floor"
+        "y": 1536,
+        "v": "Carved Stone Floor",
+        "l": "floor_stone_decorativecarved"
     },
     {
         "s": "00",
@@ -2416,8 +2657,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 384,
-        "v": "Wood Floor"
+        "y": 1408,
+        "v": "Wood Floor",
+        "l": "floor_wood"
     },
     {
         "s": "00",
@@ -2426,8 +2668,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 256,
-        "v": "Decorative Wood Floor"
+        "y": 1280,
+        "v": "Decorative Wood Floor",
+        "l": "floor_wood_decorative"
     },
     {
         "s": "00",
@@ -2436,8 +2679,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 128,
-        "v": "Haunted Floor"
+        "y": 1152,
+        "v": "Haunted Floor",
+        "l": "floor_haunted"
     },
     {
         "s": "00",
@@ -2445,9 +2689,10 @@ var icondata = [
         "i": "floor_wood_janky",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2176,
-        "v": "Janky Wood Floor"
+        "x": 1408,
+        "y": 1024,
+        "v": "Janky Wood Floor",
+        "l": "floor_wood_janky"
     },
     {
         "s": "00",
@@ -2455,9 +2700,10 @@ var icondata = [
         "i": "floor_wood_tile",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 2048,
-        "v": "Wood Tile Floor"
+        "x": 1408,
+        "y": 896,
+        "v": "Wood Tile Floor",
+        "l": "floor_wood_tile"
     },
     {
         "s": "00",
@@ -2465,9 +2711,10 @@ var icondata = [
         "i": "flower_autumnwood",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1408,
-        "v": "Autumnwood Flower"
+        "x": 1408,
+        "y": 768,
+        "v": "Autumnwood Flower",
+        "l": "flower_autumnwood"
     },
     {
         "s": "00",
@@ -2475,9 +2722,10 @@ var icondata = [
         "i": "flower_blue",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 2048,
-        "v": "Blue Flower"
+        "x": 1408,
+        "y": 640,
+        "v": "Blue Flower",
+        "l": "flower_blue"
     },
     {
         "s": "00",
@@ -2485,9 +2733,10 @@ var icondata = [
         "i": "flower_cactus",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 768,
-        "v": "Cactus flower"
+        "x": 1408,
+        "y": 512,
+        "v": "Cactus flower",
+        "l": "cactus_flower"
     },
     {
         "s": "00",
@@ -2495,9 +2744,10 @@ var icondata = [
         "i": "flower_canvas",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 640,
-        "v": "Canvas Flower"
+        "x": 1408,
+        "y": 384,
+        "v": "Canvas Flower",
+        "l": "flower_daisy"
     },
     {
         "s": "00",
@@ -2505,9 +2755,10 @@ var icondata = [
         "i": "flower_jungle",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 512,
-        "v": "Wildwood Flower (Dark)"
+        "x": 1408,
+        "y": 256,
+        "v": "Wildwood Flower (Dark)",
+        "l": "leaves_jungle_flower_2"
     },
     {
         "s": "00",
@@ -2515,9 +2766,10 @@ var icondata = [
         "i": "flower_red",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 384,
-        "v": "Red Flower"
+        "x": 1408,
+        "y": 128,
+        "v": "Red Flower",
+        "l": "flower_red"
     },
     {
         "s": "00",
@@ -2525,9 +2777,10 @@ var icondata = [
         "i": "flower_tundra",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 256,
-        "v": "Tundra Flower"
+        "x": 1792,
+        "y": 2176,
+        "v": "Tundra Flower",
+        "l": "tundra_flower"
     },
     {
         "s": "00",
@@ -2535,9 +2788,10 @@ var icondata = [
         "i": "flower_weepwood",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 128,
-        "v": "Weepwood Flower"
+        "x": 3712,
+        "y": 2048,
+        "v": "Weepwood Flower",
+        "l": "leaves_willow_flower"
     },
     {
         "s": "00",
@@ -2545,9 +2799,10 @@ var icondata = [
         "i": "flower_wild",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 0,
-        "v": "Wildflower"
+        "x": 2688,
+        "y": 1408,
+        "v": "Wildflower",
+        "l": "wildflower"
     },
     {
         "s": "00",
@@ -2555,9 +2810,10 @@ var icondata = [
         "i": "flower_yellow",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1152,
-        "v": "Yellow Flower"
+        "x": 3840,
+        "y": 2048,
+        "v": "Yellow Flower",
+        "l": "flower_yellow"
     },
     {
         "s": "00",
@@ -2565,9 +2821,10 @@ var icondata = [
         "i": "fossil",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1152,
-        "v": "Fossils"
+        "x": 2816,
+        "y": 768,
+        "v": "Fossils",
+        "l": "fossils"
     },
     {
         "s": "00",
@@ -2575,9 +2832,10 @@ var icondata = [
         "i": "frieze_roman_limestone_leaf",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1152,
-        "v": "Figured Limestone Wall"
+        "x": 2816,
+        "y": 640,
+        "v": "Figured Limestone Wall",
+        "l": "frieze_roman_limestone_leaf"
     },
     {
         "s": "00",
@@ -2585,9 +2843,10 @@ var icondata = [
         "i": "fur",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1152,
-        "v": "? fur"
+        "x": 2816,
+        "y": 512,
+        "v": "? fur",
+        "l": "fur"
     },
     {
         "s": "00",
@@ -2595,9 +2854,10 @@ var icondata = [
         "i": "gate_candycane",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1152,
-        "v": "Candy Cane Gate"
+        "x": 2816,
+        "y": 384,
+        "v": "Candy Cane Gate",
+        "l": "gate_candycane"
     },
     {
         "s": "00",
@@ -2605,9 +2865,10 @@ var icondata = [
         "i": "gate_haunted",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1152,
-        "v": "Spooky Gate"
+        "x": 2816,
+        "y": 256,
+        "v": "Spooky Gate",
+        "l": "gate_haunted"
     },
     {
         "s": "00",
@@ -2615,9 +2876,10 @@ var icondata = [
         "i": "gate_ice",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1152,
-        "v": "Ice Door"
+        "x": 2816,
+        "y": 128,
+        "v": "Ice Door",
+        "l": "door_ice"
     },
     {
         "s": "00",
@@ -2625,9 +2887,10 @@ var icondata = [
         "i": "gate_industrial",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1024,
-        "v": "Industrial Gate"
+        "x": 2816,
+        "y": 0,
+        "v": "Industrial Gate",
+        "l": "gate_industrial"
     },
     {
         "s": "00",
@@ -2635,9 +2898,10 @@ var icondata = [
         "i": "gate_iron",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 2944,
         "y": 1152,
-        "v": "Iron Gate"
+        "v": "Iron Gate",
+        "l": "gate_iron"
     },
     {
         "s": "00",
@@ -2645,9 +2909,10 @@ var icondata = [
         "i": "gate_obsidian",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1024,
-        "v": "Obsidian Gate"
+        "x": 3072,
+        "y": 1152,
+        "v": "Obsidian Gate",
+        "l": "gate_obsidian"
     },
     {
         "s": "00",
@@ -2655,9 +2920,10 @@ var icondata = [
         "i": "gate_stone",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 896,
-        "v": "Stone Gate"
+        "x": 3200,
+        "y": 1152,
+        "v": "Stone Gate",
+        "l": "gate_stone"
     },
     {
         "s": "00",
@@ -2665,9 +2931,10 @@ var icondata = [
         "i": "gate_wood",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 768,
-        "v": "Wood Gate"
+        "x": 3328,
+        "y": 1152,
+        "v": "Wood Gate",
+        "l": "gate_wood"
     },
     {
         "s": "00",
@@ -2675,9 +2942,10 @@ var icondata = [
         "i": "gauntlet_infinity",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 640,
-        "v": "The Finite Gauntlet"
+        "x": 3456,
+        "y": 1152,
+        "v": "The Finite Gauntlet",
+        "l": "cosmetic_focus_infinity"
     },
     {
         "s": "00",
@@ -2685,9 +2953,10 @@ var icondata = [
         "i": "gear_industrial",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 512,
-        "v": "Industrial Gear"
+        "x": 3584,
+        "y": 1152,
+        "v": "Industrial Gear",
+        "l": "gear_industrial"
     },
     {
         "s": "00",
@@ -2695,9 +2964,10 @@ var icondata = [
         "i": "gift_box_blue",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 384,
-        "v": "Blue Gift Box"
+        "x": 3840,
+        "y": 1152,
+        "v": "Blue Gift Box",
+        "l": "gift_box_blue"
     },
     {
         "s": "00",
@@ -2705,9 +2975,10 @@ var icondata = [
         "i": "gift_box_green",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 256,
-        "v": "Green Gift Box"
+        "x": 3456,
+        "y": 1024,
+        "v": "Green Gift Box",
+        "l": "gift_box_green"
     },
     {
         "s": "00",
@@ -2715,9 +2986,10 @@ var icondata = [
         "i": "gift_box_red",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 128,
-        "v": "Red Gift Box"
+        "x": 3968,
+        "y": 1152,
+        "v": "Red Gift Box",
+        "l": "gift_box_red"
     },
     {
         "s": "00",
@@ -2726,8 +2998,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2944,
-        "y": 0,
-        "v": "Glass"
+        "y": 1024,
+        "v": "Glass",
+        "l": "glass"
     },
     {
         "s": "00",
@@ -2735,9 +3008,10 @@ var icondata = [
         "i": "glass_moroccan",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1024,
-        "v": "Reinforced Glass"
+        "x": 2944,
+        "y": 896,
+        "v": "Reinforced Glass",
+        "l": "glass_moroccan"
     },
     {
         "s": "00",
@@ -2745,9 +3019,10 @@ var icondata = [
         "i": "glass_mosaic_diamond",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1024,
-        "v": "Diamond Glass"
+        "x": 2944,
+        "y": 768,
+        "v": "Diamond Glass",
+        "l": "glass_diamond"
     },
     {
         "s": "00",
@@ -2755,9 +3030,10 @@ var icondata = [
         "i": "glass_mosaic_tourmaline",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1024,
-        "v": "Tourmaline Glass"
+        "x": 2944,
+        "y": 640,
+        "v": "Tourmaline Glass",
+        "l": "glass_tourmaline_watermelon"
     },
     {
         "s": "00",
@@ -2765,9 +3041,10 @@ var icondata = [
         "i": "glass_mosaic_tourmaline_green",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 896,
-        "v": "Green Tourmaline Glass"
+        "x": 2944,
+        "y": 512,
+        "v": "Green Tourmaline Glass",
+        "l": "glass_tourmaline_green"
     },
     {
         "s": "00",
@@ -2775,9 +3052,10 @@ var icondata = [
         "i": "glass_stained_blue",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1152,
-        "v": "Blue Stained Glass"
+        "x": 2944,
+        "y": 384,
+        "v": "Blue Stained Glass",
+        "l": "glass_stained_blue"
     },
     {
         "s": "00",
@@ -2785,9 +3063,10 @@ var icondata = [
         "i": "glass_stained_red",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1024,
-        "v": "Red Stained Glass"
+        "x": 2944,
+        "y": 256,
+        "v": "Red Stained Glass",
+        "l": "glass_stained_red"
     },
     {
         "s": "00",
@@ -2795,9 +3074,10 @@ var icondata = [
         "i": "glass_stained_yellow",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 640,
-        "v": "Yellow Stained Glass"
+        "x": 2944,
+        "y": 128,
+        "v": "Yellow Stained Glass",
+        "l": "glass_stained_yellow"
     },
     {
         "s": "00",
@@ -2805,9 +3085,10 @@ var icondata = [
         "i": "globgoo",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1408,
-        "v": "Glob of Goo"
+        "x": 2944,
+        "y": 0,
+        "v": "Glob of Goo",
+        "l": "glob_goo"
     },
     {
         "s": "00",
@@ -2815,9 +3096,10 @@ var icondata = [
         "i": "glue",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1408,
-        "v": "Melted Wax"
+        "x": 3072,
+        "y": 1024,
+        "v": "Melted Wax",
+        "l": "glue"
     },
     {
         "s": "00",
@@ -2825,9 +3107,10 @@ var icondata = [
         "i": "goblet_mayan",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1408,
-        "v": "Hidden Temple Goblet"
+        "x": 3200,
+        "y": 1024,
+        "v": "Hidden Temple Goblet",
+        "l": "goblet_mayan"
     },
     {
         "s": "00",
@@ -2835,9 +3118,10 @@ var icondata = [
         "i": "grass",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1408,
-        "v": "Grass"
+        "x": 3328,
+        "y": 1024,
+        "v": "Grass",
+        "l": "grass_item"
     },
     {
         "s": "00",
@@ -2845,9 +3129,10 @@ var icondata = [
         "i": "grass_corrupted",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1408,
-        "v": "Corrupted Grass"
+        "x": 2816,
+        "y": 896,
+        "v": "Corrupted Grass",
+        "l": "grass_corrupted_item"
     },
     {
         "s": "00",
@@ -2856,8 +3141,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 3712,
-        "y": 1408,
-        "v": "Dead Grass"
+        "y": 1152,
+        "v": "Dead Grass",
+        "l": "grass_dead"
     },
     {
         "s": "00",
@@ -2865,9 +3151,10 @@ var icondata = [
         "i": "grass_savannah",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1408,
-        "v": "Savannah Grass"
+        "x": 2816,
+        "y": 1024,
+        "v": "Savannah Grass",
+        "l": "grass_savannah"
     },
     {
         "s": "00",
@@ -2875,9 +3162,10 @@ var icondata = [
         "i": "grass_tall",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1408,
-        "v": "Tallgrass"
+        "x": 2688,
+        "y": 640,
+        "v": "Tallgrass",
+        "l": "tall_grass"
     },
     {
         "s": "00",
@@ -2885,9 +3173,10 @@ var icondata = [
         "i": "grass_tall_savannah",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1280,
-        "v": "Savannah Tallgrass"
+        "x": 3072,
+        "y": 1408,
+        "v": "Savannah Tallgrass",
+        "l": "tallgrass_savannah"
     },
     {
         "s": "00",
@@ -2895,9 +3184,10 @@ var icondata = [
         "i": "grave_haunted",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1152,
-        "v": "Haunted Gravestone"
+        "x": 3200,
+        "y": 1408,
+        "v": "Haunted Gravestone",
+        "l": "gravestone_haunted_01"
     },
     {
         "s": "00",
@@ -2905,9 +3195,10 @@ var icondata = [
         "i": "grenade_bat",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1024,
-        "v": "Vlad-a-rang"
+        "x": 3328,
+        "y": 1408,
+        "v": "Vlad-a-rang",
+        "l": "bomb_halloween_bats"
     },
     {
         "s": "00",
@@ -2915,9 +3206,10 @@ var icondata = [
         "i": "grenade_blast",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 896,
-        "v": "Armor-Piercing Bomb"
+        "x": 0,
+        "y": 3968,
+        "v": "Armor-Piercing Bomb",
+        "l": "bomb_peircing"
     },
     {
         "s": "00",
@@ -2925,9 +3217,10 @@ var icondata = [
         "i": "grenade_corrupt",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 768,
-        "v": "? grenade_corrupt"
+        "x": 3456,
+        "y": 1408,
+        "v": "? grenade_corrupt",
+        "l": "grenade_corrupt"
     },
     {
         "s": "00",
@@ -2935,9 +3228,10 @@ var icondata = [
         "i": "grenade_fire",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 512,
-        "v": "Fire Bomb"
+        "x": 3584,
+        "y": 1408,
+        "v": "Fire Bomb",
+        "l": "bomb_fire"
     },
     {
         "s": "00",
@@ -2945,9 +3239,10 @@ var icondata = [
         "i": "grenade_force",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1280,
-        "v": "Force Bomb"
+        "x": 3712,
+        "y": 1408,
+        "v": "Force Bomb",
+        "l": "bomb_force"
     },
     {
         "s": "00",
@@ -2955,9 +3250,10 @@ var icondata = [
         "i": "grenade_freeze",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 384,
-        "v": "Freeze Bomb"
+        "x": 3840,
+        "y": 1408,
+        "v": "Freeze Bomb",
+        "l": "bomb_freeze"
     },
     {
         "s": "00",
@@ -2965,9 +3261,10 @@ var icondata = [
         "i": "grenade_growth",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 256,
-        "v": "Poison Bomb"
+        "x": 3968,
+        "y": 1408,
+        "v": "Poison Bomb",
+        "l": "bomb_poison"
     },
     {
         "s": "00",
@@ -2976,8 +3273,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2688,
-        "y": 128,
-        "v": "Corrupt Bomb"
+        "y": 1280,
+        "v": "Corrupt Bomb",
+        "l": "bomb_corrupt"
     },
     {
         "s": "00",
@@ -2986,8 +3284,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2688,
-        "y": 0,
-        "v": "Scare Flare"
+        "y": 1152,
+        "v": "Scare Flare",
+        "l": "bomb_halloween_flare"
     },
     {
         "s": "00",
@@ -2995,9 +3294,10 @@ var icondata = [
         "i": "grenade_shard",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1280,
-        "v": "Explosive Bomb"
+        "x": 2688,
+        "y": 1024,
+        "v": "Explosive Bomb",
+        "l": "bomb_shard"
     },
     {
         "s": "00",
@@ -3005,9 +3305,10 @@ var icondata = [
         "i": "grenade_skull",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1280,
-        "v": "Flaming Skull"
+        "x": 2688,
+        "y": 896,
+        "v": "Flaming Skull",
+        "l": "bomb_halloween_skull"
     },
     {
         "s": "00",
@@ -3015,9 +3316,10 @@ var icondata = [
         "i": "grenade_stun",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1280,
-        "v": "Stun Bomb"
+        "x": 2688,
+        "y": 768,
+        "v": "Stun Bomb",
+        "l": "bomb_stun"
     },
     {
         "s": "00",
@@ -3025,9 +3327,10 @@ var icondata = [
         "i": "grenade_uncorrupt",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1280,
-        "v": "Purification Bomb"
+        "x": 2688,
+        "y": 512,
+        "v": "Purification Bomb",
+        "l": "bomb_uncorrupt"
     },
     {
         "s": "00",
@@ -3035,9 +3338,10 @@ var icondata = [
         "i": "ground_jungle",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3968,
         "y": 1280,
-        "v": "Detritus"
+        "v": "Detritus",
+        "l": "ground_jungle"
     },
     {
         "s": "00",
@@ -3045,9 +3349,10 @@ var icondata = [
         "i": "ground_jungle_02",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1280,
-        "v": "Detritus"
+        "x": 2688,
+        "y": 384,
+        "v": "Detritus",
+        "l": "ground_jungle"
     },
     {
         "s": "00",
@@ -3055,9 +3360,10 @@ var icondata = [
         "i": "ground_savannah",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1280,
-        "v": "Rocky Dirt"
+        "x": 2688,
+        "y": 256,
+        "v": "Rocky Dirt",
+        "l": "ground_savannah"
     },
     {
         "s": "00",
@@ -3065,9 +3371,10 @@ var icondata = [
         "i": "gunpowder",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1280,
-        "v": "Gunpowder"
+        "x": 2688,
+        "y": 128,
+        "v": "Gunpowder",
+        "l": "gunpowder"
     },
     {
         "s": "00",
@@ -3075,9 +3382,10 @@ var icondata = [
         "i": "hardened_lava",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1280,
-        "v": "Hardened Lava"
+        "x": 2688,
+        "y": 0,
+        "v": "Hardened Lava",
+        "l": "hardened_lava_item"
     },
     {
         "s": "00",
@@ -3086,8 +3394,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2816,
-        "y": 1152,
-        "v": "Holiday Pet Hat"
+        "y": 1280,
+        "v": "Holiday Pet Hat",
+        "l": "holiday_hat_red"
     },
     {
         "s": "00",
@@ -3095,9 +3404,10 @@ var icondata = [
         "i": "head_candy_skull",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1024,
-        "v": "Calavera Cabeza"
+        "x": 2944,
+        "y": 1280,
+        "v": "Calavera Cabeza",
+        "l": "cosmetic_head_skull"
     },
     {
         "s": "00",
@@ -3105,9 +3415,10 @@ var icondata = [
         "i": "hoof",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 640,
-        "v": "Hoof"
+        "x": 3072,
+        "y": 1280,
+        "v": "Hoof",
+        "l": "hoof"
     },
     {
         "s": "00",
@@ -3115,9 +3426,10 @@ var icondata = [
         "i": "horned_melon_fruit",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1024,
-        "v": "? horned_melon_fruit"
+        "x": 3200,
+        "y": 1280,
+        "v": "? horned_melon_fruit",
+        "l": "horned_melon_fruit"
     },
     {
         "s": "00",
@@ -3125,9 +3437,10 @@ var icondata = [
         "i": "horned_melon_seed",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 640,
-        "v": "Horned Melon Seed"
+        "x": 3328,
+        "y": 1280,
+        "v": "Horned Melon Seed",
+        "l": "seed_horned_melon"
     },
     {
         "s": "00",
@@ -3135,9 +3448,10 @@ var icondata = [
         "i": "ice",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 256,
-        "v": "Ice"
+        "x": 3456,
+        "y": 1280,
+        "v": "Ice",
+        "l": "ice_item"
     },
     {
         "s": "00",
@@ -3145,9 +3459,10 @@ var icondata = [
         "i": "ice_slope",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 128,
-        "v": "Ice Slope"
+        "x": 3584,
+        "y": 1280,
+        "v": "Ice Slope",
+        "l": "ice_slope"
     },
     {
         "s": "00",
@@ -3155,9 +3470,10 @@ var icondata = [
         "i": "icicle",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 0,
-        "v": "Icicle"
+        "x": 3712,
+        "y": 1280,
+        "v": "Icicle",
+        "l": "icicle"
     },
     {
         "s": "00",
@@ -3165,9 +3481,10 @@ var icondata = [
         "i": "icon_roof_glass_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 640,
-        "v": "Glass Slope Inner Corner"
+        "x": 3840,
+        "y": 1280,
+        "v": "Glass Slope Inner Corner",
+        "l": "slope_glass_inner_corner"
     },
     {
         "s": "00",
@@ -3175,9 +3492,10 @@ var icondata = [
         "i": "idol_haunted_01",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 640,
-        "v": "Haunted Idol"
+        "x": 2816,
+        "y": 1152,
+        "v": "Haunted Idol",
+        "l": "halloween_idol"
     },
     {
         "s": "00",
@@ -3186,8 +3504,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 3712,
-        "y": 640,
-        "v": "Infused Haunted Idol"
+        "y": 1024,
+        "v": "Infused Haunted Idol",
+        "l": "halloween_idol_infused"
     },
     {
         "s": "00",
@@ -3195,9 +3514,10 @@ var icondata = [
         "i": "idol_haunted_03",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 3328,
         "y": 640,
-        "v": "Unleashed Haunted Idol"
+        "v": "Unleashed Haunted Idol",
+        "l": "halloween_idol_unleashed"
     },
     {
         "s": "00",
@@ -3205,9 +3525,10 @@ var icondata = [
         "i": "igneous",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 640,
-        "v": "Igneous Rock"
+        "x": 3840,
+        "y": 1024,
+        "v": "Igneous Rock",
+        "l": "igneous_rock_item"
     },
     {
         "s": "00",
@@ -3215,9 +3536,10 @@ var icondata = [
         "i": "inventory_sensor",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 512,
-        "v": "Inventory Sensor"
+        "x": 3328,
+        "y": 256,
+        "v": "Inventory Sensor",
+        "l": "inventory_sensor"
     },
     {
         "s": "00",
@@ -3225,9 +3547,10 @@ var icondata = [
         "i": "iron_bar",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 384,
-        "v": "Iron Bar"
+        "x": 3328,
+        "y": 128,
+        "v": "Iron Bar",
+        "l": "iron_bar"
     },
     {
         "s": "00",
@@ -3235,9 +3558,10 @@ var icondata = [
         "i": "iron_bar_tempered",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 256,
-        "v": "Tempered Iron Bar"
+        "x": 3328,
+        "y": 0,
+        "v": "Tempered Iron Bar",
+        "l": "iron_bar_tempered"
     },
     {
         "s": "00",
@@ -3246,8 +3570,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 3456,
-        "y": 128,
-        "v": "Questionable Jerky"
+        "y": 640,
+        "v": "Questionable Jerky",
+        "l": "squitchy_jerky"
     },
     {
         "s": "00",
@@ -3255,9 +3580,10 @@ var icondata = [
         "i": "jingle_juice",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 0,
-        "v": "Jingle Juice"
+        "x": 3584,
+        "y": 640,
+        "v": "Jingle Juice",
+        "l": "potion_jinglebells"
     },
     {
         "s": "00",
@@ -3266,8 +3592,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 3712,
-        "y": 512,
-        "v": "Industrial Ladder"
+        "y": 640,
+        "v": "Industrial Ladder",
+        "l": "ladder_industrial"
     },
     {
         "s": "00",
@@ -3275,9 +3602,10 @@ var icondata = [
         "i": "ladder_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 256,
-        "v": "Galactic Ladder"
+        "x": 3840,
+        "y": 640,
+        "v": "Galactic Ladder",
+        "l": "ladder_sci_fi"
     },
     {
         "s": "00",
@@ -3285,9 +3613,10 @@ var icondata = [
         "i": "ladder_stone",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 512,
-        "v": "Stone Ladder"
+        "x": 3968,
+        "y": 640,
+        "v": "Stone Ladder",
+        "l": "ladder_stone"
     },
     {
         "s": "00",
@@ -3295,9 +3624,10 @@ var icondata = [
         "i": "ladder_wood",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3456,
         "y": 512,
-        "v": "Wood Ladder"
+        "v": "Wood Ladder",
+        "l": "ladder_wood"
     },
     {
         "s": "00",
@@ -3305,9 +3635,10 @@ var icondata = [
         "i": "lamp_atlantis",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3456,
         "y": 384,
-        "v": "Atlantis Lamp"
+        "v": "Atlantis Lamp",
+        "l": "lamp_atlantis"
     },
     {
         "s": "00",
@@ -3315,9 +3646,10 @@ var icondata = [
         "i": "lamp_blue_01",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3456,
         "y": 256,
-        "v": "Blue Lamp"
+        "v": "Blue Lamp",
+        "l": "lamp_blue"
     },
     {
         "s": "00",
@@ -3325,9 +3657,10 @@ var icondata = [
         "i": "lamp_haunted",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3456,
         "y": 128,
-        "v": "Haunted Lamp"
+        "v": "Haunted Lamp",
+        "l": "lamp_haunted"
     },
     {
         "s": "00",
@@ -3335,9 +3668,10 @@ var icondata = [
         "i": "lamp_industrial",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3456,
         "y": 0,
-        "v": "Industrial Lamp"
+        "v": "Industrial Lamp",
+        "l": "lamp_industrial"
     },
     {
         "s": "00",
@@ -3346,8 +3680,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 3712,
-        "y": 384,
-        "v": "Medieval Lamp"
+        "y": 512,
+        "v": "Medieval Lamp",
+        "l": "lamp_medieval"
     },
     {
         "s": "00",
@@ -3355,9 +3690,10 @@ var icondata = [
         "i": "lamp_oil_burning",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 384,
-        "v": "Gas Lamp"
+        "x": 3968,
+        "y": 256,
+        "v": "Gas Lamp",
+        "l": "lamp_gas"
     },
     {
         "s": "00",
@@ -3365,9 +3701,10 @@ var icondata = [
         "i": "lamp_red_01",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 384,
-        "v": "Red Lamp"
+        "x": 3840,
+        "y": 512,
+        "v": "Red Lamp",
+        "l": "lamp_red"
     },
     {
         "s": "00",
@@ -3375,9 +3712,10 @@ var icondata = [
         "i": "lamp_wood_burning",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 256,
-        "v": "Wood Burning Lamp"
+        "x": 3968,
+        "y": 512,
+        "v": "Wood Burning Lamp",
+        "l": "lamp_wood"
     },
     {
         "s": "00",
@@ -3385,9 +3723,10 @@ var icondata = [
         "i": "lamp_yellow_01",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 128,
-        "v": "Yellow Lamp"
+        "x": 3584,
+        "y": 384,
+        "v": "Yellow Lamp",
+        "l": "lamp_yellow"
     },
     {
         "s": "00",
@@ -3395,9 +3734,10 @@ var icondata = [
         "i": "lantern_arctek_01",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 0,
-        "v": "Arctek Lantern"
+        "x": 3584,
+        "y": 256,
+        "v": "Arctek Lantern",
+        "l": "lantern_arctek_01"
     },
     {
         "s": "00",
@@ -3405,9 +3745,10 @@ var icondata = [
         "i": "lantern_arctek_02",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 256,
-        "v": "Grand Arctek Lantern"
+        "x": 3584,
+        "y": 128,
+        "v": "Grand Arctek Lantern",
+        "l": "lantern_arctek_02"
     },
     {
         "s": "00",
@@ -3415,9 +3756,10 @@ var icondata = [
         "i": "lattice_chinese",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 384,
-        "v": "Forbidden Window Lattice"
+        "x": 3584,
+        "y": 0,
+        "v": "Forbidden Window Lattice",
+        "l": "lattice_chinese"
     },
     {
         "s": "00",
@@ -3425,9 +3767,10 @@ var icondata = [
         "i": "lava",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 512,
-        "v": "Lava"
+        "x": 3712,
+        "y": 384,
+        "v": "Lava",
+        "l": "lava_item"
     },
     {
         "s": "00",
@@ -3435,9 +3778,10 @@ var icondata = [
         "i": "leafi_leaf",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 512,
-        "v": "Leafi Leaf"
+        "x": 3840,
+        "y": 384,
+        "v": "Leafi Leaf",
+        "l": "leafy_leaf"
     },
     {
         "s": "00",
@@ -3445,9 +3789,10 @@ var icondata = [
         "i": "leafi_leaf_autumn",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 896,
-        "v": "Autumn Leafi Leaf"
+        "x": 3968,
+        "y": 384,
+        "v": "Autumn Leafi Leaf",
+        "l": "autumn_leafi_leaf"
     },
     {
         "s": "00",
@@ -3455,9 +3800,10 @@ var icondata = [
         "i": "leafi_leaf_dried",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1024,
-        "v": "Dried Leafi Leaf"
+        "x": 3712,
+        "y": 256,
+        "v": "Dried Leafi Leaf",
+        "l": "dried_leafi_leaf"
     },
     {
         "s": "00",
@@ -3465,9 +3811,10 @@ var icondata = [
         "i": "leafi_leaf_mossy",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 896,
-        "v": "Mossy Leafi Leaf"
+        "x": 3712,
+        "y": 128,
+        "v": "Mossy Leafi Leaf",
+        "l": "mossy_leafi_leaf"
     },
     {
         "s": "00",
@@ -3475,9 +3822,10 @@ var icondata = [
         "i": "leaf_aspen",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 768,
-        "v": "Ashenwood Leaves"
+        "x": 3712,
+        "y": 0,
+        "v": "Ashenwood Leaves",
+        "l": "leaves_aspen_item"
     },
     {
         "s": "00",
@@ -3485,9 +3833,10 @@ var icondata = [
         "i": "leaf_autumn_orange",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 640,
-        "v": "Mocha Autumnwood Leaves"
+        "x": 3840,
+        "y": 256,
+        "v": "Mocha Autumnwood Leaves",
+        "l": "leaves_autumnwood_brown"
     },
     {
         "s": "00",
@@ -3495,9 +3844,10 @@ var icondata = [
         "i": "leaf_autumn_red",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 512,
-        "v": "Cinnamon Autumnwood Leaves"
+        "x": 3328,
+        "y": 384,
+        "v": "Cinnamon Autumnwood Leaves",
+        "l": "leaves_autumnwood_red"
     },
     {
         "s": "00",
@@ -3505,9 +3855,10 @@ var icondata = [
         "i": "leaf_autumn_yellow",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 384,
-        "v": "Citrus Autumnwood Leaves"
+        "x": 3584,
+        "y": 512,
+        "v": "Citrus Autumnwood Leaves",
+        "l": "leaves_autumnwood_yellow"
     },
     {
         "s": "00",
@@ -3515,9 +3866,10 @@ var icondata = [
         "i": "leaf_corrupted",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 256,
-        "v": "Corrupted Elderwood Leaves"
+        "x": 3328,
+        "y": 512,
+        "v": "Corrupted Elderwood Leaves",
+        "l": "leaves_sequoia_corrupted_item"
     },
     {
         "s": "00",
@@ -3525,9 +3877,10 @@ var icondata = [
         "i": "leaf_jungle",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 128,
-        "v": "Wildwood Leaves"
+        "x": 3712,
+        "y": 896,
+        "v": "Wildwood Leaves",
+        "l": "leaves_jungle"
     },
     {
         "s": "00",
@@ -3535,9 +3888,10 @@ var icondata = [
         "i": "leaf_jungle_02",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 0,
-        "v": "Dark Wildwood Leaves"
+        "x": 3968,
+        "y": 1024,
+        "v": "Dark Wildwood Leaves",
+        "l": "leaves_jungle_2"
     },
     {
         "s": "00",
@@ -3545,9 +3899,10 @@ var icondata = [
         "i": "leaf_oak",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 3072,
         "y": 896,
-        "v": "Cragwood Leaves"
+        "v": "Cragwood Leaves",
+        "l": "leaves_oak_item"
     },
     {
         "s": "00",
@@ -3555,9 +3910,10 @@ var icondata = [
         "i": "leaf_palm",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 896,
-        "v": "Shorewood Leaves"
+        "x": 3072,
+        "y": 768,
+        "v": "Shorewood Leaves",
+        "l": "leaves_palm"
     },
     {
         "s": "00",
@@ -3565,9 +3921,10 @@ var icondata = [
         "i": "leaf_parchwood",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 896,
-        "v": "Parchwood Leaves"
+        "x": 3072,
+        "y": 640,
+        "v": "Parchwood Leaves",
+        "l": "leaves_savannah"
     },
     {
         "s": "00",
@@ -3575,9 +3932,10 @@ var icondata = [
         "i": "leaf_savannah",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 896,
-        "v": "? leaf_savannah"
+        "x": 3072,
+        "y": 512,
+        "v": "? leaf_savannah",
+        "l": "leaf_savannah"
     },
     {
         "s": "00",
@@ -3585,9 +3943,10 @@ var icondata = [
         "i": "leaf_sequoia",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 896,
-        "v": "Elderwood Leaves"
+        "x": 3072,
+        "y": 384,
+        "v": "Elderwood Leaves",
+        "l": "leaves_sequoia_item"
     },
     {
         "s": "00",
@@ -3595,9 +3954,10 @@ var icondata = [
         "i": "leaf_sequoia_snow",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 768,
-        "v": "Snowy Elderwood Leaves"
+        "x": 3072,
+        "y": 256,
+        "v": "Snowy Elderwood Leaves",
+        "l": "leaves_sequoia_snow_capped"
     },
     {
         "s": "00",
@@ -3605,9 +3965,10 @@ var icondata = [
         "i": "leaf_shorewood",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 896,
-        "v": "? leaf_shorewood"
+        "x": 3072,
+        "y": 128,
+        "v": "? leaf_shorewood",
+        "l": "leaf_shorewood"
     },
     {
         "s": "00",
@@ -3615,9 +3976,10 @@ var icondata = [
         "i": "leaf_weepwood",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 768,
-        "v": "Weepwood Leaves"
+        "x": 3072,
+        "y": 0,
+        "v": "Weepwood Leaves",
+        "l": "leaves_willow"
     },
     {
         "s": "00",
@@ -3626,8 +3988,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 3200,
-        "y": 640,
-        "v": "Leather"
+        "y": 896,
+        "v": "Leather",
+        "l": "leather"
     },
     {
         "s": "00",
@@ -3635,9 +3998,10 @@ var icondata = [
         "i": "leather_tanned",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 512,
-        "v": "Tanned Leather"
+        "x": 3328,
+        "y": 896,
+        "v": "Tanned Leather",
+        "l": "leather_tanned"
     },
     {
         "s": "00",
@@ -3645,9 +4009,10 @@ var icondata = [
         "i": "leaves_shredded",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 384,
-        "v": "Shredded Leaves"
+        "x": 3456,
+        "y": 896,
+        "v": "Shredded Leaves",
+        "l": "leaves_shredded"
     },
     {
         "s": "00",
@@ -3655,9 +4020,10 @@ var icondata = [
         "i": "led_block",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 256,
-        "v": "LED"
+        "x": 3584,
+        "y": 896,
+        "v": "LED",
+        "l": "led_block_item"
     },
     {
         "s": "00",
@@ -3665,9 +4031,10 @@ var icondata = [
         "i": "led_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 128,
-        "v": "Galactic LED"
+        "x": 3840,
+        "y": 896,
+        "v": "Galactic LED",
+        "l": "led_sci_fi"
     },
     {
         "s": "00",
@@ -3675,9 +4042,10 @@ var icondata = [
         "i": "lettuce",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 0,
-        "v": "Crisphead Lettuce"
+        "x": 3968,
+        "y": 768,
+        "v": "Crisphead Lettuce",
+        "l": "lettuce"
     },
     {
         "s": "00",
@@ -3685,9 +4053,10 @@ var icondata = [
         "i": "lettuce_seed",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1024,
-        "v": "Lettuce Seed"
+        "x": 3968,
+        "y": 896,
+        "v": "Lettuce Seed",
+        "l": "seed_lettuce"
     },
     {
         "s": "00",
@@ -3695,9 +4064,10 @@ var icondata = [
         "i": "light_candy_skull",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3200,
         "y": 768,
-        "v": "Candy Skull Candles"
+        "v": "Candy Skull Candles",
+        "l": "light_candy_skull"
     },
     {
         "s": "00",
@@ -3705,9 +4075,10 @@ var icondata = [
         "i": "light_candy_skull_blue",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 768,
-        "v": "Blue Candy Skull Candle"
+        "x": 3200,
+        "y": 640,
+        "v": "Blue Candy Skull Candle",
+        "l": "light_candy_skull_blue"
     },
     {
         "s": "00",
@@ -3715,9 +4086,10 @@ var icondata = [
         "i": "light_candy_skull_red",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 768,
-        "v": "Red Candy Skull Candle"
+        "x": 3200,
+        "y": 512,
+        "v": "Red Candy Skull Candle",
+        "l": "light_candy_skull_red"
     },
     {
         "s": "00",
@@ -3725,9 +4097,10 @@ var icondata = [
         "i": "light_candy_skull_yellow",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 768,
-        "v": "Yellow Candy Skull Candle"
+        "x": 3200,
+        "y": 384,
+        "v": "Yellow Candy Skull Candle",
+        "l": "light_candy_skull_yellow"
     },
     {
         "s": "00",
@@ -3735,9 +4108,10 @@ var icondata = [
         "i": "lily_pad",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 768,
-        "v": "Lilypad"
+        "x": 3200,
+        "y": 256,
+        "v": "Lilypad",
+        "l": "lilly_pad"
     },
     {
         "s": "00",
@@ -3745,9 +4119,10 @@ var icondata = [
         "i": "limestone",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1408,
-        "v": "Limestone"
+        "x": 3200,
+        "y": 128,
+        "v": "Limestone",
+        "l": "limestone_item"
     },
     {
         "s": "00",
@@ -3755,9 +4130,10 @@ var icondata = [
         "i": "log_aspen",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1024,
-        "v": "Ashenwood Log"
+        "x": 3200,
+        "y": 0,
+        "v": "Ashenwood Log",
+        "l": "log_aspen_item"
     },
     {
         "s": "00",
@@ -3765,9 +4141,10 @@ var icondata = [
         "i": "log_driftwood",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1408,
-        "v": "Driftwood"
+        "x": 3328,
+        "y": 768,
+        "v": "Driftwood",
+        "l": "drift_wood"
     },
     {
         "s": "00",
@@ -3775,9 +4152,10 @@ var icondata = [
         "i": "log_jungle",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1664,
-        "v": "? log_jungle"
+        "x": 3456,
+        "y": 768,
+        "v": "? log_jungle",
+        "l": "log_jungle"
     },
     {
         "s": "00",
@@ -3785,9 +4163,10 @@ var icondata = [
         "i": "log_oak",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1792,
-        "v": "Cragwood Log"
+        "x": 3584,
+        "y": 768,
+        "v": "Cragwood Log",
+        "l": "log"
     },
     {
         "s": "00",
@@ -3795,9 +4174,10 @@ var icondata = [
         "i": "log_sequoia",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1664,
-        "v": "? log_sequoia"
+        "x": 3712,
+        "y": 768,
+        "v": "? log_sequoia",
+        "l": "log_sequoia"
     },
     {
         "s": "00",
@@ -3805,9 +4185,10 @@ var icondata = [
         "i": "log_willow",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1536,
-        "v": "Weepwood Log"
+        "x": 3840,
+        "y": 768,
+        "v": "Weepwood Log",
+        "l": "log_willow"
     },
     {
         "s": "00",
@@ -3815,9 +4196,10 @@ var icondata = [
         "i": "log_willow_moss",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 2944,
         "y": 1408,
-        "v": "Mossy Weepwood Log"
+        "v": "Mossy Weepwood Log",
+        "l": "log_willow_moss"
     },
     {
         "s": "00",
@@ -3825,9 +4207,10 @@ var icondata = [
         "i": "log_wood_ornamental",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1280,
-        "v": "Weathered Wood Wall"
+        "x": 3584,
+        "y": 1024,
+        "v": "Weathered Wood Wall",
+        "l": "log_wood_ornamental"
     },
     {
         "s": "00",
@@ -3835,9 +4218,10 @@ var icondata = [
         "i": "log_wood_ornamental_metal",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1152,
-        "v": "Banded Weathered Wood Wall"
+        "x": 2816,
+        "y": 1408,
+        "v": "Banded Weathered Wood Wall",
+        "l": "log_wood_ornamental_metal"
     },
     {
         "s": "00",
@@ -3845,9 +4229,10 @@ var icondata = [
         "i": "loot_bag",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1024,
-        "v": "? loot_bag"
+        "x": 2304,
+        "y": 1664,
+        "v": "? loot_bag",
+        "l": "loot_bag"
     },
     {
         "s": "00",
@@ -3856,8 +4241,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 896,
-        "v": "Lumite"
+        "y": 1792,
+        "v": "Lumite",
+        "l": "lumite"
     },
     {
         "s": "00",
@@ -3866,8 +4252,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 768,
-        "v": "Magnetite"
+        "y": 1664,
+        "v": "Magnetite",
+        "l": "magnet"
     },
     {
         "s": "00",
@@ -3876,8 +4263,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 640,
-        "v": "Magnetic Housing"
+        "y": 1536,
+        "v": "Magnetic Housing",
+        "l": "magnetic_housing"
     },
     {
         "s": "00",
@@ -3886,8 +4274,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 512,
-        "v": "Magnetite"
+        "y": 1408,
+        "v": "Magnetite",
+        "l": "magnet"
     },
     {
         "s": "00",
@@ -3896,8 +4285,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 384,
-        "v": "? map"
+        "y": 1280,
+        "v": "? map",
+        "l": "map"
     },
     {
         "s": "00",
@@ -3906,8 +4296,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 256,
-        "v": "Mayan Altar"
+        "y": 1152,
+        "v": "Mayan Altar",
+        "l": "altar_mayan"
     },
     {
         "s": "00",
@@ -3916,8 +4307,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 0,
-        "v": "Mayan Chest"
+        "y": 1024,
+        "v": "Mayan Chest",
+        "l": "chest_mayan"
     },
     {
         "s": "00",
@@ -3925,9 +4317,10 @@ var icondata = [
         "i": "medieval_anvil",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1792,
-        "v": "Medieval Anvil"
+        "x": 2176,
+        "y": 896,
+        "v": "Medieval Anvil",
+        "l": "medieval_anvil"
     },
     {
         "s": "00",
@@ -3935,9 +4328,10 @@ var icondata = [
         "i": "medieval_banner_hanging",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1792,
-        "v": "Medieval Bosshog Banner"
+        "x": 2176,
+        "y": 768,
+        "v": "Medieval Bosshog Banner",
+        "l": "medieval_banner_hanging"
     },
     {
         "s": "00",
@@ -3945,9 +4339,10 @@ var icondata = [
         "i": "medieval_banner_hanging2",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1792,
-        "v": "Medieval Hammer Banner"
+        "x": 2176,
+        "y": 640,
+        "v": "Medieval Hammer Banner",
+        "l": "medieval_banner_hanging2"
     },
     {
         "s": "00",
@@ -3955,9 +4350,10 @@ var icondata = [
         "i": "medieval_banner_post",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1792,
-        "v": "Medieval Signpost"
+        "x": 2176,
+        "y": 512,
+        "v": "Medieval Signpost",
+        "l": "medieval_banner_post"
     },
     {
         "s": "00",
@@ -3965,9 +4361,10 @@ var icondata = [
         "i": "medieval_basket",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1792,
-        "v": "Medieval Washtub"
+        "x": 2176,
+        "y": 384,
+        "v": "Medieval Washtub",
+        "l": "medieval_basket"
     },
     {
         "s": "00",
@@ -3975,9 +4372,10 @@ var icondata = [
         "i": "medieval_bucket",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1792,
-        "v": "Medieval Bucket"
+        "x": 2176,
+        "y": 256,
+        "v": "Medieval Bucket",
+        "l": "medieval_bucket"
     },
     {
         "s": "00",
@@ -3985,9 +4383,10 @@ var icondata = [
         "i": "medieval_cart",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1792,
-        "v": "Medieval Cart"
+        "x": 2176,
+        "y": 0,
+        "v": "Medieval Cart",
+        "l": "medieval_cart"
     },
     {
         "s": "00",
@@ -3995,9 +4394,10 @@ var icondata = [
         "i": "medieval_haybale",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 3968,
         "y": 1792,
-        "v": "Medieval Hay Bale"
+        "v": "Medieval Hay Bale",
+        "l": "medieval_haybale"
     },
     {
         "s": "00",
@@ -4005,9 +4405,10 @@ var icondata = [
         "i": "medieval_haybale_long",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2304,
         "y": 1792,
-        "v": "Medieval Double Hay Bale"
+        "v": "Medieval Double Hay Bale",
+        "l": "medieval_haybale_long"
     },
     {
         "s": "00",
@@ -4015,9 +4416,10 @@ var icondata = [
         "i": "medieval_haystack",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2432,
         "y": 1792,
-        "v": "Medieval Haystack"
+        "v": "Medieval Haystack",
+        "l": "medieval_haystack"
     },
     {
         "s": "00",
@@ -4025,9 +4427,10 @@ var icondata = [
         "i": "medieval_ministein",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2560,
         "y": 1792,
-        "v": "Medieval Teacup"
+        "v": "Medieval Teacup",
+        "l": "medieval_pint"
     },
     {
         "s": "00",
@@ -4035,9 +4438,10 @@ var icondata = [
         "i": "medieval_stein",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 2688,
         "y": 1792,
-        "v": "Medieval Stein"
+        "v": "Medieval Stein",
+        "l": "medieval_stein"
     },
     {
         "s": "00",
@@ -4045,9 +4449,10 @@ var icondata = [
         "i": "melon",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2816,
         "y": 1792,
-        "v": "Horned Melon"
+        "v": "Horned Melon",
+        "l": "horned_melon"
     },
     {
         "s": "00",
@@ -4055,9 +4460,10 @@ var icondata = [
         "i": "miru_arctic_eye",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2944,
         "y": 1792,
-        "v": "Arctic Miru Eye"
+        "v": "Arctic Miru Eye",
+        "l": "arctic_miru_eye"
     },
     {
         "s": "00",
@@ -4065,9 +4471,10 @@ var icondata = [
         "i": "miru_eye",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1920,
-        "v": "Miru Eye"
+        "x": 3072,
+        "y": 1792,
+        "v": "Miru Eye",
+        "l": "miru_eye"
     },
     {
         "s": "00",
@@ -4075,9 +4482,10 @@ var icondata = [
         "i": "molasses",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 128,
-        "v": "Molasses"
+        "x": 3200,
+        "y": 1792,
+        "v": "Molasses",
+        "l": "molasses"
     },
     {
         "s": "00",
@@ -4085,9 +4493,10 @@ var icondata = [
         "i": "mold",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1920,
-        "v": "Mold"
+        "x": 3328,
+        "y": 1792,
+        "v": "Mold",
+        "l": "mold"
     },
     {
         "s": "00",
@@ -4095,9 +4504,10 @@ var icondata = [
         "i": "moroccan_block_basic",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 384,
-        "v": "? moroccan_block_basic"
+        "x": 3456,
+        "y": 1792,
+        "v": "? moroccan_block_basic",
+        "l": "moroccan_block_basic"
     },
     {
         "s": "00",
@@ -4105,9 +4515,10 @@ var icondata = [
         "i": "moroccan_block_ivory",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 2048,
-        "v": "? moroccan_block_ivory"
+        "x": 3584,
+        "y": 1792,
+        "v": "? moroccan_block_ivory",
+        "l": "moroccan_block_ivory"
     },
     {
         "s": "00",
@@ -4115,9 +4526,10 @@ var icondata = [
         "i": "moroccan_decorative_tile_blue",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1920,
-        "v": "Blue Patterned Ceramic Wall"
+        "x": 3712,
+        "y": 1792,
+        "v": "Blue Patterned Ceramic Wall",
+        "l": "moroccan_decorative_tile_blue"
     },
     {
         "s": "00",
@@ -4125,9 +4537,10 @@ var icondata = [
         "i": "moroccan_decorative_tile_gem",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 3840,
         "y": 1792,
-        "v": "Blue-Green Patterned Ceramic Wall"
+        "v": "Blue-Green Patterned Ceramic Wall",
+        "l": "moroccan_decorative_tile_gem"
     },
     {
         "s": "00",
@@ -4135,9 +4548,10 @@ var icondata = [
         "i": "moroccan_decorative_tile_mosaic",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1664,
-        "v": "Desert Villa Mosaic Wall"
+        "x": 3968,
+        "y": 1920,
+        "v": "Desert Villa Mosaic Wall",
+        "l": "moroccan_decorative_tile_mosaic"
     },
     {
         "s": "00",
@@ -4145,9 +4559,10 @@ var icondata = [
         "i": "moroccan_decorative_tile_star",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1536,
-        "v": "Desert Villa Accent Wall"
+        "x": 2176,
+        "y": 128,
+        "v": "Desert Villa Accent Wall",
+        "l": "moroccan_decorative_tile_star"
     },
     {
         "s": "00",
@@ -4155,9 +4570,10 @@ var icondata = [
         "i": "moroccan_decorative_tile_turqoise",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1408,
-        "v": "Tiled Desert Villa Wall"
+        "x": 3840,
+        "y": 1920,
+        "v": "Tiled Desert Villa Wall",
+        "l": "moroccan_decorative_tile_turqoise"
     },
     {
         "s": "00",
@@ -4166,8 +4582,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 1280,
-        "v": "Opalescent Ceramic Wall"
+        "y": 384,
+        "v": "Opalescent Ceramic Wall",
+        "l": "moroccan_decorative_tile_white"
     },
     {
         "s": "00",
@@ -4175,9 +4592,10 @@ var icondata = [
         "i": "moss",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1152,
-        "v": "Moss"
+        "x": 3968,
+        "y": 2048,
+        "v": "Moss",
+        "l": "moss"
     },
     {
         "s": "00",
@@ -4186,8 +4604,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 1024,
-        "v": "Peakstone"
+        "y": 1920,
+        "v": "Peakstone",
+        "l": "mountain_stone"
     },
     {
         "s": "00",
@@ -4196,8 +4615,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 896,
-        "v": "Mud"
+        "y": 1792,
+        "v": "Mud",
+        "l": "mud_item"
     },
     {
         "s": "00",
@@ -4206,8 +4626,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 768,
-        "v": "Brown Mushroom"
+        "y": 1664,
+        "v": "Brown Mushroom",
+        "l": "mushroom_brown"
     },
     {
         "s": "00",
@@ -4216,8 +4637,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 640,
-        "v": "Glowing Mushroom"
+        "y": 1536,
+        "v": "Glowing Mushroom",
+        "l": "mushroom_glowing"
     },
     {
         "s": "00",
@@ -4226,8 +4648,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 512,
-        "v": "Red Mushroom"
+        "y": 1408,
+        "v": "Red Mushroom",
+        "l": "mushroom_red"
     },
     {
         "s": "00",
@@ -4236,8 +4659,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 256,
-        "v": "Holiday Music Box"
+        "y": 1280,
+        "v": "Holiday Music Box",
+        "l": "music_box"
     },
     {
         "s": "00",
@@ -4245,9 +4669,10 @@ var icondata = [
         "i": "numberpad_industrial",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1920,
-        "v": "Industrial Number Pad"
+        "x": 2048,
+        "y": 1152,
+        "v": "Industrial Number Pad",
+        "l": "number_pad_industrial"
     },
     {
         "s": "00",
@@ -4256,8 +4681,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 128,
-        "v": "Obsidian"
+        "y": 1024,
+        "v": "Obsidian",
+        "l": "obsidian"
     },
     {
         "s": "00",
@@ -4266,8 +4692,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2048,
-        "y": 0,
-        "v": "? obsidian_decorative_01"
+        "y": 896,
+        "v": "? obsidian_decorative_01",
+        "l": "obsidian_decorative_01"
     },
     {
         "s": "00",
@@ -4275,9 +4702,10 @@ var icondata = [
         "i": "obsidian_decorative_02",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1920,
-        "v": "? obsidian_decorative_02"
+        "x": 2048,
+        "y": 768,
+        "v": "? obsidian_decorative_02",
+        "l": "obsidian_decorative_02"
     },
     {
         "s": "00",
@@ -4285,9 +4713,10 @@ var icondata = [
         "i": "obsidian_decorative_03",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1920,
-        "v": "? obsidian_decorative_03"
+        "x": 2048,
+        "y": 640,
+        "v": "? obsidian_decorative_03",
+        "l": "obsidian_decorative_03"
     },
     {
         "s": "00",
@@ -4295,9 +4724,10 @@ var icondata = [
         "i": "obsidian_decorative_04",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1920,
-        "v": "? obsidian_decorative_04"
+        "x": 2048,
+        "y": 512,
+        "v": "? obsidian_decorative_04",
+        "l": "obsidian_decorative_04"
     },
     {
         "s": "00",
@@ -4305,9 +4735,10 @@ var icondata = [
         "i": "ore_diamond",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1920,
-        "v": "Diamond Ore"
+        "x": 2048,
+        "y": 256,
+        "v": "Diamond Ore",
+        "l": "ore_diamond"
     },
     {
         "s": "00",
@@ -4315,9 +4746,10 @@ var icondata = [
         "i": "ore_iron",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 3584,
         "y": 1920,
-        "v": "Iron Ore"
+        "v": "Iron Ore",
+        "l": "ore_iron"
     },
     {
         "s": "00",
@@ -4325,9 +4757,10 @@ var icondata = [
         "i": "ore_lumite",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1920,
-        "v": "Lumite Ore"
+        "x": 2048,
+        "y": 128,
+        "v": "Lumite Ore",
+        "l": "ore_lumite"
     },
     {
         "s": "00",
@@ -4335,9 +4768,10 @@ var icondata = [
         "i": "ore_obsidian",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1920,
-        "v": "Obsidian Ore"
+        "x": 2048,
+        "y": 0,
+        "v": "Obsidian Ore",
+        "l": "ore_obsidian"
     },
     {
         "s": "00",
@@ -4345,9 +4779,10 @@ var icondata = [
         "i": "ornamental_stone_spiral",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2176,
         "y": 1920,
-        "v": "? ornamental_stone_spiral"
+        "v": "? ornamental_stone_spiral",
+        "l": "ornamental_stone_spiral"
     },
     {
         "s": "00",
@@ -4355,9 +4790,10 @@ var icondata = [
         "i": "ornamental_stone_square",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2304,
         "y": 1920,
-        "v": "Ornamental Stone Wall"
+        "v": "Ornamental Stone Wall",
+        "l": "wall_stone_ornamental"
     },
     {
         "s": "00",
@@ -4365,9 +4801,10 @@ var icondata = [
         "i": "ornamental_stone_swirl",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2432,
         "y": 1920,
-        "v": "Ornamental Swirl Stone Wall"
+        "v": "Ornamental Swirl Stone Wall",
+        "l": "wall_stone_ornamental_swirl"
     },
     {
         "s": "00",
@@ -4375,9 +4812,10 @@ var icondata = [
         "i": "path_stone",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2560,
         "y": 1920,
-        "v": "Stone Path"
+        "v": "Stone Path",
+        "l": "path_stone"
     },
     {
         "s": "00",
@@ -4385,9 +4823,10 @@ var icondata = [
         "i": "path_stone_decorative",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2688,
         "y": 1920,
-        "v": "Decorative Stone Path"
+        "v": "Decorative Stone Path",
+        "l": "path_stone_decorative"
     },
     {
         "s": "00",
@@ -4395,9 +4834,10 @@ var icondata = [
         "i": "path_stone_natural",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1536,
-        "v": "Natural Stone Path"
+        "x": 2816,
+        "y": 1920,
+        "v": "Natural Stone Path",
+        "l": "path_stone_natural"
     },
     {
         "s": "00",
@@ -4405,9 +4845,10 @@ var icondata = [
         "i": "peakstone",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 896,
-        "v": "Peakstone"
+        "x": 2944,
+        "y": 1920,
+        "v": "Peakstone",
+        "l": "mountain_stone"
     },
     {
         "s": "00",
@@ -4415,9 +4856,10 @@ var icondata = [
         "i": "pebbles_pebble",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1408,
-        "v": "Pebble's Pebble"
+        "x": 3072,
+        "y": 1920,
+        "v": "Pebble's Pebble",
+        "l": "pebble_pebble"
     },
     {
         "s": "00",
@@ -4425,9 +4867,10 @@ var icondata = [
         "i": "pedistal_roman_limestone_grass",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 512,
-        "v": "Limestone Pedestal"
+        "x": 3200,
+        "y": 1920,
+        "v": "Limestone Pedestal",
+        "l": "pedistal_roman_limestone_grass"
     },
     {
         "s": "00",
@@ -4435,9 +4878,10 @@ var icondata = [
         "i": "pedistal_roman_obsidian_caskette",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 384,
-        "v": "Figured Obsidian Wall"
+        "x": 3328,
+        "y": 1920,
+        "v": "Figured Obsidian Wall",
+        "l": "pedistal_roman_obsidian_caskette"
     },
     {
         "s": "00",
@@ -4445,9 +4889,10 @@ var icondata = [
         "i": "perfume_eau_chizzard",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 256,
-        "v": "Arome Chizzard"
+        "x": 3456,
+        "y": 1920,
+        "v": "Arome Chizzard",
+        "l": "potion_attract_chizzard"
     },
     {
         "s": "00",
@@ -4455,9 +4900,10 @@ var icondata = [
         "i": "perfume_eau_leafi",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 128,
-        "v": "Fantasia De Leafi"
+        "x": 3712,
+        "y": 1920,
+        "v": "Fantasia De Leafi",
+        "l": "potion_attract_leafi"
     },
     {
         "s": "00",
@@ -4465,9 +4911,10 @@ var icondata = [
         "i": "perfume_eau_pigsy",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 0,
-        "v": "Eau de Pigsy"
+        "x": 2304,
+        "y": 1536,
+        "v": "Eau de Pigsy",
+        "l": "potion_attract_pigsy"
     },
     {
         "s": "00",
@@ -4475,9 +4922,10 @@ var icondata = [
         "i": "perfume_eau_rockster",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1536,
-        "v": "L'Rockster"
+        "x": 2432,
+        "y": 896,
+        "v": "L'Rockster",
+        "l": "potion_attract_rockster"
     },
     {
         "s": "00",
@@ -4485,9 +4933,10 @@ var icondata = [
         "i": "picture_frame_arc",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1536,
-        "v": "Arc Picture Frame"
+        "x": 2304,
+        "y": 1408,
+        "v": "Arc Picture Frame",
+        "l": "picture_frame_arc_item"
     },
     {
         "s": "00",
@@ -4495,9 +4944,10 @@ var icondata = [
         "i": "picture_frame_canvas",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1536,
-        "v": "Video Projector"
+        "x": 2432,
+        "y": 512,
+        "v": "Video Projector",
+        "l": "video_projector_item"
     },
     {
         "s": "00",
@@ -4505,9 +4955,10 @@ var icondata = [
         "i": "pie",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1536,
-        "v": "Pie"
+        "x": 2432,
+        "y": 384,
+        "v": "Pie",
+        "l": "pie"
     },
     {
         "s": "00",
@@ -4515,9 +4966,10 @@ var icondata = [
         "i": "pie_blazing",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1536,
-        "v": "Blazing Pie"
+        "x": 2432,
+        "y": 256,
+        "v": "Blazing Pie",
+        "l": "pie_blazing"
     },
     {
         "s": "00",
@@ -4525,9 +4977,10 @@ var icondata = [
         "i": "pie_corrupted",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1536,
-        "v": "Corrupted Pie"
+        "x": 2432,
+        "y": 128,
+        "v": "Corrupted Pie",
+        "l": "pie_corrupted"
     },
     {
         "s": "00",
@@ -4535,9 +4988,10 @@ var icondata = [
         "i": "pie_frigid",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1536,
-        "v": "Frigid Pie"
+        "x": 2432,
+        "y": 0,
+        "v": "Frigid Pie",
+        "l": "pie_frigid"
     },
     {
         "s": "00",
@@ -4545,9 +4999,10 @@ var icondata = [
         "i": "pie_jerky",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2560,
         "y": 1536,
-        "v": "Chizzard Pot Pie"
+        "v": "Chizzard Pot Pie",
+        "l": "pie_jerky"
     },
     {
         "s": "00",
@@ -4555,9 +5010,10 @@ var icondata = [
         "i": "pie_melon",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2688,
         "y": 1536,
-        "v": "Melon Pie"
+        "v": "Melon Pie",
+        "l": "pie_melon"
     },
     {
         "s": "00",
@@ -4565,9 +5021,10 @@ var icondata = [
         "i": "pie_mushroom",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 0,
-        "v": "Mushroom Pot Pie"
+        "x": 2816,
+        "y": 1536,
+        "v": "Mushroom Pot Pie",
+        "l": "pie_mushroom"
     },
     {
         "s": "00",
@@ -4575,9 +5032,10 @@ var icondata = [
         "i": "pie_spiny",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2944,
         "y": 1536,
-        "v": "Spiky Pie"
+        "v": "Spiky Pie",
+        "l": "pie_cactus"
     },
     {
         "s": "00",
@@ -4585,9 +5043,10 @@ var icondata = [
         "i": "pie_wholesome",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3072,
         "y": 1536,
-        "v": "Wholesome Pie"
+        "v": "Wholesome Pie",
+        "l": "pie_wholesome"
     },
     {
         "s": "00",
@@ -4595,9 +5054,10 @@ var icondata = [
         "i": "pigsy_droppings",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1408,
-        "v": "Pigsy Droppings"
+        "x": 3200,
+        "y": 1536,
+        "v": "Pigsy Droppings",
+        "l": "pigsy_droppings"
     },
     {
         "s": "00",
@@ -4605,9 +5065,10 @@ var icondata = [
         "i": "pigsy_feral_fur",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1280,
-        "v": "Feral Pigsy Fur"
+        "x": 3328,
+        "y": 1536,
+        "v": "Feral Pigsy Fur",
+        "l": "feral_pigsy_fur"
     },
     {
         "s": "00",
@@ -4615,9 +5076,10 @@ var icondata = [
         "i": "pinecones",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1152,
-        "v": "Rimecone"
+        "x": 3456,
+        "y": 1536,
+        "v": "Rimecone",
+        "l": "pine_needles"
     },
     {
         "s": "00",
@@ -4625,9 +5087,10 @@ var icondata = [
         "i": "pine_needles",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1024,
-        "v": "Matted Needles"
+        "x": 3712,
+        "y": 1536,
+        "v": "Matted Needles",
+        "l": "ground_pine"
     },
     {
         "s": "00",
@@ -4636,8 +5099,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2560,
-        "y": 896,
-        "v": "? pine_needles_"
+        "y": 0,
+        "v": "? pine_needles_",
+        "l": "pine_needles_"
     },
     {
         "s": "00",
@@ -4645,9 +5109,10 @@ var icondata = [
         "i": "placemat_fabric",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 768,
-        "v": "Placemat"
+        "x": 3840,
+        "y": 1536,
+        "v": "Placemat",
+        "l": "placemat"
     },
     {
         "s": "00",
@@ -4655,9 +5120,10 @@ var icondata = [
         "i": "planter_clay",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 640,
-        "v": "Flower Pot"
+        "x": 3968,
+        "y": 1536,
+        "v": "Flower Pot",
+        "l": "flower_pot"
     },
     {
         "s": "00",
@@ -4666,8 +5132,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2560,
-        "y": 512,
-        "v": "Grumm's Temple Garden"
+        "y": 1408,
+        "v": "Grumm's Temple Garden",
+        "l": "planter_mayan"
     },
     {
         "s": "00",
@@ -4676,8 +5143,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2560,
-        "y": 384,
-        "v": "Wood Double Planter"
+        "y": 1280,
+        "v": "Wood Double Planter",
+        "l": "planter_wood_double"
     },
     {
         "s": "00",
@@ -4686,8 +5154,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2560,
-        "y": 256,
-        "v": "Feeding Trough"
+        "y": 1152,
+        "v": "Feeding Trough",
+        "l": "trough_wood"
     },
     {
         "s": "00",
@@ -4696,8 +5165,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2560,
-        "y": 128,
-        "v": "Wood Triple Planter"
+        "y": 1024,
+        "v": "Wood Triple Planter",
+        "l": "planter_wood_triple"
     },
     {
         "s": "00",
@@ -4705,9 +5175,10 @@ var icondata = [
         "i": "plow",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 640,
-        "v": "Plow"
+        "x": 2560,
+        "y": 896,
+        "v": "Plow",
+        "l": "arc_plow"
     },
     {
         "s": "00",
@@ -4715,9 +5186,10 @@ var icondata = [
         "i": "potion_basic",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1536,
-        "v": "Stamina Potion"
+        "x": 2560,
+        "y": 768,
+        "v": "Stamina Potion",
+        "l": "potion_stamina"
     },
     {
         "s": "00",
@@ -4725,9 +5197,10 @@ var icondata = [
         "i": "potion_blizzard",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 768,
-        "v": "Blizzard Potion"
+        "x": 2560,
+        "y": 640,
+        "v": "Blizzard Potion",
+        "l": "potion_blizzard"
     },
     {
         "s": "00",
@@ -4735,9 +5208,10 @@ var icondata = [
         "i": "potion_breathe",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1664,
-        "v": "Ocean Potion"
+        "x": 2560,
+        "y": 512,
+        "v": "Ocean Potion",
+        "l": "potion_no_breath_loss"
     },
     {
         "s": "00",
@@ -4745,9 +5219,10 @@ var icondata = [
         "i": "potion_gold",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1280,
-        "v": "Golden Potion"
+        "x": 2560,
+        "y": 384,
+        "v": "Golden Potion",
+        "l": "potion_gold"
     },
     {
         "s": "00",
@@ -4755,9 +5230,10 @@ var icondata = [
         "i": "potion_halloween_bats",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1152,
-        "v": "Bat Juice"
+        "x": 2560,
+        "y": 256,
+        "v": "Bat Juice",
+        "l": "potion_halloween_bats"
     },
     {
         "s": "00",
@@ -4765,9 +5241,10 @@ var icondata = [
         "i": "potion_health",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1024,
-        "v": "Health Regeneration Potion"
+        "x": 2560,
+        "y": 128,
+        "v": "Health Regeneration Potion",
+        "l": "regenerate_health_basic"
     },
     {
         "s": "00",
@@ -4775,9 +5252,10 @@ var icondata = [
         "i": "potion_large",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 896,
-        "v": "Large Potion"
+        "x": 2432,
+        "y": 640,
+        "v": "Large Potion",
+        "l": "potion_large"
     },
     {
         "s": "00",
@@ -4785,9 +5263,10 @@ var icondata = [
         "i": "potion_love",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 768,
-        "v": "Love Potion"
+        "x": 3584,
+        "y": 1536,
+        "v": "Love Potion",
+        "l": "potion_valentines"
     },
     {
         "s": "00",
@@ -4795,9 +5274,10 @@ var icondata = [
         "i": "potion_marigold",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 640,
-        "v": "Marigold Potion"
+        "x": 2432,
+        "y": 768,
+        "v": "Marigold Potion",
+        "l": "potion_halloween_muertos"
     },
     {
         "s": "00",
@@ -4805,9 +5285,10 @@ var icondata = [
         "i": "potion_medium",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 512,
-        "v": "Medium Potion"
+        "x": 2688,
+        "y": 1664,
+        "v": "Medium Potion",
+        "l": "potion_medium"
     },
     {
         "s": "00",
@@ -4816,8 +5297,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2304,
-        "y": 384,
-        "v": "Corruption Resistance Potion"
+        "y": 1280,
+        "v": "Corruption Resistance Potion",
+        "l": "resist_corruption_basic"
     },
     {
         "s": "00",
@@ -4826,8 +5308,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2304,
-        "y": 256,
-        "v": "Fire Resistance Potion"
+        "y": 1152,
+        "v": "Fire Resistance Potion",
+        "l": "resist_fire_basic"
     },
     {
         "s": "00",
@@ -4836,8 +5319,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2304,
-        "y": 128,
-        "v": "Freeze Resistance Potion"
+        "y": 1024,
+        "v": "Freeze Resistance Potion",
+        "l": "resist_freeze_basic"
     },
     {
         "s": "00",
@@ -4846,8 +5330,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2304,
-        "y": 0,
-        "v": "Poison Resistance Potion"
+        "y": 896,
+        "v": "Poison Resistance Potion",
+        "l": "resist_poison_basic"
     },
     {
         "s": "00",
@@ -4855,9 +5340,10 @@ var icondata = [
         "i": "potion_small",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1664,
-        "v": "Advanced Health Potion"
+        "x": 2304,
+        "y": 768,
+        "v": "Advanced Health Potion",
+        "l": "potion_small"
     },
     {
         "s": "00",
@@ -4865,9 +5351,10 @@ var icondata = [
         "i": "potion_speed",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1664,
-        "v": "Quick?"
+        "x": 2304,
+        "y": 640,
+        "v": "Quick?",
+        "l": "potion_jimmy"
     },
     {
         "s": "00",
@@ -4875,9 +5362,10 @@ var icondata = [
         "i": "potion_stamina",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1664,
-        "v": "Speed Potion"
+        "x": 2304,
+        "y": 512,
+        "v": "Stamina Regeneration Potion",
+        "l": "regenerate_stamina_basic"
     },
     {
         "s": "00",
@@ -4885,9 +5373,10 @@ var icondata = [
         "i": "pressure_plate_industrial",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1024,
-        "v": "Industrial LED"
+        "x": 2304,
+        "y": 384,
+        "v": "Industrial LED",
+        "l": "pressure_plate_industrial"
     },
     {
         "s": "00",
@@ -4895,9 +5384,10 @@ var icondata = [
         "i": "pumpkin_haunted",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1664,
-        "v": "Haunted Pumpkin"
+        "x": 2304,
+        "y": 256,
+        "v": "Haunted Pumpkin",
+        "l": "pumpkin_haunted"
     },
     {
         "s": "00",
@@ -4905,9 +5395,10 @@ var icondata = [
         "i": "rambeau_tuft",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1664,
-        "v": "Rambeau Tuft"
+        "x": 2304,
+        "y": 128,
+        "v": "Rambeau Tuft",
+        "l": "rambeau_tuft"
     },
     {
         "s": "00",
@@ -4915,9 +5406,10 @@ var icondata = [
         "i": "reagents",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1664,
-        "v": "Beginner's Reagents"
+        "x": 2304,
+        "y": 0,
+        "v": "Beginner's Reagents",
+        "l": "reagents_beginners"
     },
     {
         "s": "00",
@@ -4925,9 +5417,10 @@ var icondata = [
         "i": "reagents_pro",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2432,
         "y": 1664,
-        "v": "Pro's Reagents"
+        "v": "Pro's Reagents",
+        "l": "reagents_pro"
     },
     {
         "s": "00",
@@ -4935,9 +5428,10 @@ var icondata = [
         "i": "recipe_common_paper",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2560,
         "y": 1664,
-        "v": "Decorative Wood Wall Recipe"
+        "v": "Decorative Wood Wall Recipe",
+        "l": "recipe_wall_wood_decorative"
     },
     {
         "s": "00",
@@ -4945,9 +5439,10 @@ var icondata = [
         "i": "recipe_rare_scroll",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 2816,
         "y": 1664,
-        "v": "White Wood Wall Recipe"
+        "v": "White Wood Wall Recipe",
+        "l": "recipe_wall_wood_white"
     },
     {
         "s": "00",
@@ -4955,9 +5450,10 @@ var icondata = [
         "i": "recipe_uncommon_book",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1664,
-        "v": "Recipe: Barred Wood Window"
+        "x": 2432,
+        "y": 1024,
+        "v": "Recipe: Barred Wood Window",
+        "l": "recipe_window_wood_barred"
     },
     {
         "s": "00",
@@ -4965,9 +5461,10 @@ var icondata = [
         "i": "reeds",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2944,
         "y": 1664,
-        "v": "Reeds"
+        "v": "Reeds",
+        "l": "reeds"
     },
     {
         "s": "00",
@@ -4975,9 +5472,10 @@ var icondata = [
         "i": "rockster_rock",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3072,
         "y": 1664,
-        "v": "Rockster Rock"
+        "v": "Rockster Rock",
+        "l": "rockster_rock"
     },
     {
         "s": "00",
@@ -4985,9 +5483,10 @@ var icondata = [
         "i": "rock_horn",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1536,
-        "v": "? rock_horn"
+        "x": 3200,
+        "y": 1664,
+        "v": "? rock_horn",
+        "l": "rock_horn"
     },
     {
         "s": "00",
@@ -4995,9 +5494,10 @@ var icondata = [
         "i": "rod_diamond",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1408,
-        "v": "Diamond Rod"
+        "x": 3328,
+        "y": 1664,
+        "v": "Diamond Rod",
+        "l": "rod_diamond"
     },
     {
         "s": "00",
@@ -5005,9 +5505,10 @@ var icondata = [
         "i": "rod_iron",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1280,
-        "v": "Iron Rod"
+        "x": 3456,
+        "y": 1664,
+        "v": "Iron Rod",
+        "l": "rod_iron"
     },
     {
         "s": "00",
@@ -5015,9 +5516,10 @@ var icondata = [
         "i": "rod_lumite",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1152,
-        "v": "Lumite Rod"
+        "x": 3584,
+        "y": 1664,
+        "v": "Lumite Rod",
+        "l": "rod_lumite"
     },
     {
         "s": "00",
@@ -5025,9 +5527,10 @@ var icondata = [
         "i": "rod_obsidian",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 768,
-        "v": "Obsidian Rod"
+        "x": 3712,
+        "y": 1664,
+        "v": "Obsidian Rod",
+        "l": "rod_obsidian"
     },
     {
         "s": "00",
@@ -5035,9 +5538,10 @@ var icondata = [
         "i": "rod_stone",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 896,
-        "v": "Stone Rod"
+        "x": 3840,
+        "y": 1664,
+        "v": "Stone Rod",
+        "l": "rod_stone"
     },
     {
         "s": "00",
@@ -5045,9 +5549,10 @@ var icondata = [
         "i": "roof_adobeclay_blue",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1024,
-        "v": "Blue Adobe Slope"
+        "x": 3968,
+        "y": 1664,
+        "v": "Blue Adobe Slope",
+        "l": "slope_adobeclay_blue"
     },
     {
         "s": "00",
@@ -5055,9 +5560,10 @@ var icondata = [
         "i": "roof_adobeclay_blue_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 3200,
-        "v": "Blue Clay Slope Inner Corner"
+        "x": 2432,
+        "y": 1536,
+        "v": "Blue Clay Slope Inner Corner",
+        "l": "slope_adobeclay_blue_inner_corner"
     },
     {
         "s": "00",
@@ -5065,9 +5571,10 @@ var icondata = [
         "i": "roof_adobeclay_blue_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 3712,
-        "v": "Blue Clay Slope Outer Corner"
+        "x": 2432,
+        "y": 1408,
+        "v": "Blue Clay Slope Outer Corner",
+        "l": "slope_adobeclay_blue_outer_corner"
     },
     {
         "s": "00",
@@ -5075,9 +5582,10 @@ var icondata = [
         "i": "roof_adobeclay_brown",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 3712,
-        "v": "? roof_adobeclay_brown"
+        "x": 2432,
+        "y": 1280,
+        "v": "? roof_adobeclay_brown",
+        "l": "roof_adobeclay_brown"
     },
     {
         "s": "00",
@@ -5085,9 +5593,10 @@ var icondata = [
         "i": "roof_adobeclay_red",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 3712,
-        "v": "Red Adobe Slope"
+        "x": 2432,
+        "y": 1152,
+        "v": "Red Adobe Slope",
+        "l": "slope_adobeclay_red"
     },
     {
         "s": "00",
@@ -5095,9 +5604,10 @@ var icondata = [
         "i": "roof_adobeclay_red_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 3712,
-        "v": "Red Clay Slope Inner Corner"
+        "x": 1152,
+        "y": 768,
+        "v": "Red Clay Slope Inner Corner",
+        "l": "slope_adobeclay_red_inner_corner"
     },
     {
         "s": "00",
@@ -5105,9 +5615,10 @@ var icondata = [
         "i": "roof_adobeclay_red_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 3712,
-        "v": "Red Clay Slope Outer Corner"
+        "x": 1152,
+        "y": 896,
+        "v": "Red Clay Slope Outer Corner",
+        "l": "slope_adobeclay_red_outer_corner"
     },
     {
         "s": "00",
@@ -5115,9 +5626,10 @@ var icondata = [
         "i": "roof_adobeclay_white",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 3712,
-        "v": "Adobe Slope"
+        "x": 1152,
+        "y": 1024,
+        "v": "Adobe Slope",
+        "l": "slope_adobeclay_white"
     },
     {
         "s": "00",
@@ -5125,9 +5637,10 @@ var icondata = [
         "i": "roof_adobeclay_white_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 3712,
-        "v": "White Clay Slope Inner Corner"
+        "x": 1792,
+        "y": 3200,
+        "v": "White Clay Slope Inner Corner",
+        "l": "slope_adobeclay_white_inner_corner"
     },
     {
         "s": "00",
@@ -5135,9 +5648,10 @@ var icondata = [
         "i": "roof_adobeclay_white_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 1152,
         "y": 3712,
-        "v": "White Clay Slope Outer Corner"
+        "v": "White Clay Slope Outer Corner",
+        "l": "slope_adobeclay_white_outer_corner"
     },
     {
         "s": "00",
@@ -5145,9 +5659,10 @@ var icondata = [
         "i": "roof_adobeclay_yellow",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 1280,
         "y": 3712,
-        "v": "Yellow Adobe Slope"
+        "v": "Yellow Adobe Slope",
+        "l": "slope_adobeclay_yellow"
     },
     {
         "s": "00",
@@ -5155,9 +5670,10 @@ var icondata = [
         "i": "roof_adobeclay_yellow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 1408,
         "y": 3712,
-        "v": "Yellow Clay Slope Inner Corner"
+        "v": "Yellow Clay Slope Inner Corner",
+        "l": "slope_adobeclay_yellow_inner_corner"
     },
     {
         "s": "00",
@@ -5165,9 +5681,10 @@ var icondata = [
         "i": "roof_adobeclay_yellow_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 1536,
         "y": 3712,
-        "v": "Yellow Clay Slope Outer Corner"
+        "v": "Yellow Clay Slope Outer Corner",
+        "l": "slope_adobeclay_yellow_outer_corner"
     },
     {
         "s": "00",
@@ -5175,9 +5692,10 @@ var icondata = [
         "i": "roof_asphault_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 1664,
         "y": 3712,
-        "v": "Asphalt Slope Inner Corner"
+        "v": "Asphalt Slope Inner Corner",
+        "l": "roof_asphault_inner_corner"
     },
     {
         "s": "00",
@@ -5185,9 +5703,10 @@ var icondata = [
         "i": "roof_asphault_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 1792,
         "y": 3712,
-        "v": "Asphalt Slope Outer Corner"
+        "v": "Asphalt Slope Outer Corner",
+        "l": "roof_asphault_outer_corner"
     },
     {
         "s": "00",
@@ -5195,9 +5714,10 @@ var icondata = [
         "i": "roof_bedrock",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 1920,
         "y": 3712,
-        "v": "Bedrock Slope"
+        "v": "Bedrock Slope",
+        "l": "slope_bedrock"
     },
     {
         "s": "00",
@@ -5205,9 +5725,10 @@ var icondata = [
         "i": "roof_bedrock_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2944,
-        "v": "Bedrock Slope Inner Corner"
+        "x": 2048,
+        "y": 3712,
+        "v": "Bedrock Slope Inner Corner",
+        "l": "slope_bedrock_inner_corner"
     },
     {
         "s": "00",
@@ -5215,9 +5736,10 @@ var icondata = [
         "i": "roof_bedrock_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2176,
         "y": 3712,
-        "v": "Bedrock Slope Outer Corner"
+        "v": "Bedrock Slope Outer Corner",
+        "l": "slope_bedrock_outer_corner"
     },
     {
         "s": "00",
@@ -5225,9 +5747,10 @@ var icondata = [
         "i": "roof_bungalow",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2304,
         "y": 3712,
-        "v": "Bungalow Roof"
+        "v": "Bungalow Roof",
+        "l": "roof_bungalow"
     },
     {
         "s": "00",
@@ -5235,9 +5758,10 @@ var icondata = [
         "i": "roof_bungalow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2432,
         "y": 3712,
-        "v": "Bungalow Roof Inner Corner"
+        "v": "Bungalow Roof Inner Corner",
+        "l": "roof_bungalow_inner_corner"
     },
     {
         "s": "00",
@@ -5245,9 +5769,10 @@ var icondata = [
         "i": "roof_bungalow_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2560,
         "y": 3712,
-        "v": "Bungalow Roof Outer Corner"
+        "v": "Bungalow Roof Outer Corner",
+        "l": "roof_bungalow_outer_corner"
     },
     {
         "s": "00",
@@ -5255,9 +5780,10 @@ var icondata = [
         "i": "roof_chinese_jade",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 2688,
         "y": 3712,
-        "v": "Forbidden Jade Shingles"
+        "v": "Forbidden Jade Shingles",
+        "l": "roof_chinese_jade"
     },
     {
         "s": "00",
@@ -5265,9 +5791,10 @@ var icondata = [
         "i": "roof_chinese_jade_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2944,
         "y": 3712,
-        "v": "Forbidden Jade Roof Inner Corner"
+        "v": "Forbidden Jade Roof Inner Corner",
+        "l": "roof_chinese_jade_inner_corner"
     },
     {
         "s": "00",
@@ -5275,9 +5802,10 @@ var icondata = [
         "i": "roof_chinese_jade_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3712,
-        "v": "Forbidden Jade Roof Outer Corner"
+        "x": 384,
+        "y": 2944,
+        "v": "Forbidden Jade Roof Outer Corner",
+        "l": "roof_chinese_jade_outer_corner"
     },
     {
         "s": "00",
@@ -5285,9 +5813,10 @@ var icondata = [
         "i": "roof_chinese_red",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3072,
         "y": 3712,
-        "v": "Forbidden Red Shingles"
+        "v": "Forbidden Red Shingles",
+        "l": "roof_chinese_red"
     },
     {
         "s": "00",
@@ -5295,9 +5824,10 @@ var icondata = [
         "i": "roof_chinese_red_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 3584,
-        "v": "Forbidden Red Roof Inner Corner"
+        "x": 3200,
+        "y": 3712,
+        "v": "Forbidden Red Roof Inner Corner",
+        "l": "roof_chinese_red_inner_corner"
     },
     {
         "s": "00",
@@ -5305,9 +5835,10 @@ var icondata = [
         "i": "roof_chinese_red_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 3456,
-        "v": "Forbidden Red Roof Outer Corner"
+        "x": 3328,
+        "y": 3712,
+        "v": "Forbidden Red Roof Outer Corner",
+        "l": "roof_chinese_red_outer_corner"
     },
     {
         "s": "00",
@@ -5315,9 +5846,10 @@ var icondata = [
         "i": "roof_clay_blue",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 3328,
-        "v": "Blue Adobe Roof"
+        "x": 3456,
+        "y": 3712,
+        "v": "Blue Adobe Roof",
+        "l": "roof_adobe_slanted_blue"
     },
     {
         "s": "00",
@@ -5325,9 +5857,10 @@ var icondata = [
         "i": "roof_clay_blue_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 3200,
-        "v": "Blue Adobe Roof Inner Corner"
+        "x": 3584,
+        "y": 3712,
+        "v": "Blue Adobe Roof Inner Corner",
+        "l": "roof_adobe_slanted_blue_inner_corner"
     },
     {
         "s": "00",
@@ -5335,9 +5868,10 @@ var icondata = [
         "i": "roof_clay_blue_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 3072,
-        "v": "Blue Adobe Roof Outer Corner"
+        "x": 3712,
+        "y": 3712,
+        "v": "Blue Adobe Roof Outer Corner",
+        "l": "roof_adobe_slanted_blue_outer_corner"
     },
     {
         "s": "00",
@@ -5345,9 +5879,10 @@ var icondata = [
         "i": "roof_clay_red",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 3840,
         "y": 3712,
-        "v": "Red Adobe Roof"
+        "v": "Red Adobe Roof",
+        "l": "roof_adobe_slanted_red"
     },
     {
         "s": "00",
@@ -5355,9 +5890,10 @@ var icondata = [
         "i": "roof_clay_red_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 3968,
         "y": 3712,
-        "v": "Red Adobe Roof Inner Corner"
+        "v": "Red Adobe Roof Inner Corner",
+        "l": "roof_adobe_slanted_red_inner_corner"
     },
     {
         "s": "00",
@@ -5365,9 +5901,10 @@ var icondata = [
         "i": "roof_clay_red_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 3712,
-        "v": "Red Adobe Roof Outer Corner"
+        "x": 384,
+        "y": 3584,
+        "v": "Red Adobe Roof Outer Corner",
+        "l": "roof_adobe_slanted_red_outer_corner"
     },
     {
         "s": "00",
@@ -5375,9 +5912,10 @@ var icondata = [
         "i": "roof_clay_yellow",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 1536,
-        "v": "Yellow Adobe Roof"
+        "x": 384,
+        "y": 3456,
+        "v": "Yellow Adobe Roof",
+        "l": "roof_adobe_slanted_yellow"
     },
     {
         "s": "00",
@@ -5385,9 +5923,10 @@ var icondata = [
         "i": "roof_clay_yellow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 3200,
-        "v": "Yellow Adobe Roof Inner Corner"
+        "x": 384,
+        "y": 3328,
+        "v": "Yellow Adobe Roof Inner Corner",
+        "l": "roof_adobe_slanted_yellow_inner_corner"
     },
     {
         "s": "00",
@@ -5395,9 +5934,10 @@ var icondata = [
         "i": "roof_clay_yellow_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 3072,
-        "v": "Yellow Adobe Roof Outer Corner"
+        "x": 384,
+        "y": 3200,
+        "v": "Yellow Adobe Roof Outer Corner",
+        "l": "roof_adobe_slanted_yellow_outer_corner"
     },
     {
         "s": "00",
@@ -5405,9 +5945,10 @@ var icondata = [
         "i": "roof_copper",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 2944,
-        "v": "Copper Roof"
+        "x": 384,
+        "y": 3072,
+        "v": "Copper Roof",
+        "l": "roof_copper"
     },
     {
         "s": "00",
@@ -5415,9 +5956,10 @@ var icondata = [
         "i": "roof_copper_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 2816,
-        "v": "Copper Roof Inner Corner"
+        "x": 1024,
+        "y": 3712,
+        "v": "Copper Roof Inner Corner",
+        "l": "roof_copper_inner_corner"
     },
     {
         "s": "00",
@@ -5425,9 +5967,10 @@ var icondata = [
         "i": "roof_copper_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 2688,
-        "v": "Copper Roof Outer Corner"
+        "x": 2816,
+        "y": 3712,
+        "v": "Copper Roof Outer Corner",
+        "l": "roof_copper_outer_corner"
     },
     {
         "s": "00",
@@ -5435,9 +5978,10 @@ var icondata = [
         "i": "roof_diamond",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 2560,
-        "v": "Diamond Roof"
+        "x": 896,
+        "y": 3712,
+        "v": "Diamond Roof",
+        "l": "roof_diamond"
     },
     {
         "s": "00",
@@ -5446,8 +5990,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2432,
-        "v": "Diamond Roof Inner Corner"
+        "y": 1536,
+        "v": "Diamond Roof Inner Corner",
+        "l": "roof_diamond_inner_corner"
     },
     {
         "s": "00",
@@ -5456,8 +6001,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2304,
-        "v": "Diamond Roof Outer Corner"
+        "y": 3200,
+        "v": "Diamond Roof Outer Corner",
+        "l": "roof_diamond_outer_corner"
     },
     {
         "s": "00",
@@ -5466,8 +6012,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2176,
-        "v": "Dirt Slope"
+        "y": 3072,
+        "v": "Dirt Slope",
+        "l": "slope_dirt"
     },
     {
         "s": "00",
@@ -5476,8 +6023,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2048,
-        "v": "Dirt Slope Inner Corner"
+        "y": 2944,
+        "v": "Dirt Slope Inner Corner",
+        "l": "slope_dirt_inner_corner"
     },
     {
         "s": "00",
@@ -5486,8 +6034,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1920,
-        "v": "Dirt Slope Outer Corner"
+        "y": 2816,
+        "v": "Dirt Slope Outer Corner",
+        "l": "slope_dirt_outer_corner"
     },
     {
         "s": "00",
@@ -5496,8 +6045,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1792,
-        "v": "Igneous Roof"
+        "y": 2688,
+        "v": "Igneous Roof",
+        "l": "roof_igneous"
     },
     {
         "s": "00",
@@ -5506,8 +6056,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1664,
-        "v": "Igneous Roof Inner Corner"
+        "y": 2560,
+        "v": "Igneous Roof Inner Corner",
+        "l": "roof_igneous_inner_corner"
     },
     {
         "s": "00",
@@ -5516,8 +6067,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1408,
-        "v": "Igneous Roof Outer Corner"
+        "y": 2432,
+        "v": "Igneous Roof Outer Corner",
+        "l": "roof_igneous_outer_corner"
     },
     {
         "s": "00",
@@ -5525,9 +6077,10 @@ var icondata = [
         "i": "roof_gingerbread",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3712,
-        "v": "Gingerbread Roof"
+        "x": 256,
+        "y": 2304,
+        "v": "Gingerbread Roof",
+        "l": "roof_gingerbread"
     },
     {
         "s": "00",
@@ -5536,8 +6089,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1280,
-        "v": "Gingerbread Roof Inner Corner"
+        "y": 2176,
+        "v": "Gingerbread Roof Inner Corner",
+        "l": "roof_gingerbread_inner_corner"
     },
     {
         "s": "00",
@@ -5546,8 +6100,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1152,
-        "v": "Gingerbread Roof Outer Corner"
+        "y": 2048,
+        "v": "Gingerbread Roof Outer Corner",
+        "l": "roof_gingerbread_outer_corner"
     },
     {
         "s": "00",
@@ -5556,8 +6111,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1024,
-        "v": "Glass Slope"
+        "y": 1920,
+        "v": "Glass Slope",
+        "l": "slope_glass"
     },
     {
         "s": "00",
@@ -5566,8 +6122,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 896,
-        "v": "? roof_glass_inner_corner"
+        "y": 1792,
+        "v": "? roof_glass_inner_corner",
+        "l": "roof_glass_inner_corner"
     },
     {
         "s": "00",
@@ -5576,8 +6133,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 768,
-        "v": "Glass Slope Outer Corner"
+        "y": 1664,
+        "v": "Glass Slope Outer Corner",
+        "l": "slope_glass_outer_corner"
     },
     {
         "s": "00",
@@ -5586,8 +6144,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 640,
-        "v": "Grass Slope"
+        "y": 1408,
+        "v": "Grass Slope",
+        "l": "slope_grass"
     },
     {
         "s": "00",
@@ -5595,9 +6154,10 @@ var icondata = [
         "i": "roof_grass_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 512,
-        "v": "Grass Slope Inner Corner"
+        "x": 640,
+        "y": 3712,
+        "v": "Grass Slope Inner Corner",
+        "l": "slope_grass_inner_corner"
     },
     {
         "s": "00",
@@ -5606,8 +6166,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 384,
-        "v": "Grass Slope Outer Corner"
+        "y": 1280,
+        "v": "Grass Slope Outer Corner",
+        "l": "slope_grass_outer_corner"
     },
     {
         "s": "00",
@@ -5616,8 +6177,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 256,
-        "v": "Haunted Roof"
+        "y": 1152,
+        "v": "Haunted Roof",
+        "l": "roof_haunted"
     },
     {
         "s": "00",
@@ -5626,8 +6188,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 128,
-        "v": "Haunted Roof Inner Corner"
+        "y": 1024,
+        "v": "Haunted Roof Inner Corner",
+        "l": "roof_haunted_inner_corner"
     },
     {
         "s": "00",
@@ -5636,8 +6199,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 0,
-        "v": "Haunted Roof Outer Corner"
+        "y": 896,
+        "v": "Haunted Roof Outer Corner",
+        "l": "roof_haunted_outer_corner"
     },
     {
         "s": "00",
@@ -5645,9 +6209,10 @@ var icondata = [
         "i": "roof_holiday",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 3712,
-        "v": "Wafer Gingerbread Roof"
+        "x": 256,
+        "y": 768,
+        "v": "Wafer Gingerbread Roof",
+        "l": "roof_gingerbread_wafer"
     },
     {
         "s": "00",
@@ -5655,9 +6220,10 @@ var icondata = [
         "i": "roof_holiday_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 3712,
-        "v": "Gingerbread Wafer Roof Inner Corner"
+        "x": 256,
+        "y": 640,
+        "v": "Gingerbread Wafer Roof Inner Corner",
+        "l": "roof_gingerbread_wafer_inner_corner"
     },
     {
         "s": "00",
@@ -5665,9 +6231,10 @@ var icondata = [
         "i": "roof_holiday_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 3712,
-        "v": "Gingerbread Wafer Roof Outer Corner"
+        "x": 256,
+        "y": 512,
+        "v": "Gingerbread Wafer Roof Outer Corner",
+        "l": "roof_gingerbread_wafer_outer_corner"
     },
     {
         "s": "00",
@@ -5675,9 +6242,10 @@ var icondata = [
         "i": "roof_iron",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2688,
-        "v": "Iron Roof"
+        "x": 256,
+        "y": 384,
+        "v": "Iron Roof",
+        "l": "roof_iron"
     },
     {
         "s": "00",
@@ -5685,9 +6253,10 @@ var icondata = [
         "i": "roof_iron_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 3584,
-        "v": "Iron Roof Inner Corner"
+        "x": 256,
+        "y": 256,
+        "v": "Iron Roof Inner Corner",
+        "l": "roof_iron_inner_corner"
     },
     {
         "s": "00",
@@ -5695,9 +6264,10 @@ var icondata = [
         "i": "roof_iron_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2560,
-        "v": "Iron Roof Outer Corner"
+        "x": 256,
+        "y": 128,
+        "v": "Iron Roof Outer Corner",
+        "l": "roof_iron_outer_corner"
     },
     {
         "s": "00",
@@ -5705,9 +6275,10 @@ var icondata = [
         "i": "roof_limestone",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 3584,
-        "v": "Limestone Slope"
+        "x": 256,
+        "y": 0,
+        "v": "Limestone Slope",
+        "l": "slope_limestone"
     },
     {
         "s": "00",
@@ -5715,9 +6286,10 @@ var icondata = [
         "i": "roof_limestone_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 3584,
-        "v": "Limestone Slope Inner Corner"
+        "x": 384,
+        "y": 3712,
+        "v": "Limestone Slope Inner Corner",
+        "l": "slope_limestone_inner_corner"
     },
     {
         "s": "00",
@@ -5725,9 +6297,10 @@ var icondata = [
         "i": "roof_limestone_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 3584,
-        "v": "Limestone Slope Outer Corner"
+        "x": 512,
+        "y": 3712,
+        "v": "Limestone Slope Outer Corner",
+        "l": "slope_limestone_outer_corner"
     },
     {
         "s": "00",
@@ -5735,9 +6308,10 @@ var icondata = [
         "i": "roof_lumite",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 3584,
-        "v": "Lumite Roof"
+        "x": 768,
+        "y": 3712,
+        "v": "Lumite Roof",
+        "l": "roof_lumite"
     },
     {
         "s": "00",
@@ -5745,9 +6319,10 @@ var icondata = [
         "i": "roof_lumite_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 3584,
-        "v": "Lumite Roof Inner Corner"
+        "x": 384,
+        "y": 2688,
+        "v": "Lumite Roof Inner Corner",
+        "l": "roof_lumite_inner_corner"
     },
     {
         "s": "00",
@@ -5755,9 +6330,10 @@ var icondata = [
         "i": "roof_lumite_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 1664,
         "y": 3584,
-        "v": "Lumite Roof Outer Corner"
+        "v": "Lumite Roof Outer Corner",
+        "l": "roof_lumite_outer_corner"
     },
     {
         "s": "00",
@@ -5765,9 +6341,10 @@ var icondata = [
         "i": "roof_mayan",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 3584,
-        "v": "Hidden Temple Roof"
+        "x": 384,
+        "y": 2560,
+        "v": "Hidden Temple Roof",
+        "l": "roof_mayan"
     },
     {
         "s": "00",
@@ -5775,9 +6352,10 @@ var icondata = [
         "i": "roof_mayan_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 2048,
         "y": 3584,
-        "v": "Mayan Roof Inner Corner"
+        "v": "Mayan Roof Inner Corner",
+        "l": "roof_mayan_inner_corner"
     },
     {
         "s": "00",
@@ -5785,9 +6363,10 @@ var icondata = [
         "i": "roof_mayan_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2176,
         "y": 3584,
-        "v": "Mayan Roof Outer Corner"
+        "v": "Mayan Roof Outer Corner",
+        "l": "roof_mayan_outer_corner"
     },
     {
         "s": "00",
@@ -5795,9 +6374,10 @@ var icondata = [
         "i": "roof_medieval",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2304,
         "y": 3584,
-        "v": "Medieval Roof"
+        "v": "Medieval Roof",
+        "l": "roof_medieval"
     },
     {
         "s": "00",
@@ -5805,9 +6385,10 @@ var icondata = [
         "i": "roof_medieval_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 2432,
         "y": 3584,
-        "v": "Medieval Roof Inner Corner"
+        "v": "Medieval Roof Inner Corner",
+        "l": "roof_medieval_inner_corner"
     },
     {
         "s": "00",
@@ -5815,9 +6396,10 @@ var icondata = [
         "i": "roof_medieval_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 2560,
         "y": 3584,
-        "v": "Medieval Roof Outer Corner"
+        "v": "Medieval Roof Outer Corner",
+        "l": "roof_medieval_outer_corner"
     },
     {
         "s": "00",
@@ -5825,9 +6407,10 @@ var icondata = [
         "i": "roof_obsidian",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 2688,
         "y": 3584,
-        "v": "Obsidian Roof"
+        "v": "Obsidian Roof",
+        "l": "roof_obsidian"
     },
     {
         "s": "00",
@@ -5835,9 +6418,10 @@ var icondata = [
         "i": "roof_obsidian_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2816,
         "y": 3584,
-        "v": "Obsidian Roof Inner Corner"
+        "v": "Obsidian Roof Inner Corner",
+        "l": "roof_obsidian_inner_corner"
     },
     {
         "s": "00",
@@ -5845,9 +6429,10 @@ var icondata = [
         "i": "roof_obsidian_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1920,
-        "v": "Obsidian Roof Outer Corner"
+        "x": 2944,
+        "y": 3584,
+        "v": "Obsidian Roof Outer Corner",
+        "l": "roof_obsidian_outer_corner"
     },
     {
         "s": "00",
@@ -5855,9 +6440,10 @@ var icondata = [
         "i": "roof_patina",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3072,
         "y": 3584,
-        "v": "Patina Roof"
+        "v": "Patina Roof",
+        "l": "roof_patina"
     },
     {
         "s": "00",
@@ -5865,9 +6451,10 @@ var icondata = [
         "i": "roof_patina_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 3456,
-        "v": "Patina Roof Inner Corner"
+        "x": 3200,
+        "y": 3584,
+        "v": "Patina Roof Inner Corner",
+        "l": "roof_patina_inner_corner"
     },
     {
         "s": "00",
@@ -5875,9 +6462,10 @@ var icondata = [
         "i": "roof_patina_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 3328,
-        "v": "Patina Roof Outer Corner"
+        "x": 3328,
+        "y": 3584,
+        "v": "Patina Roof Outer Corner",
+        "l": "roof_patina_outer_corner"
     },
     {
         "s": "00",
@@ -5885,9 +6473,10 @@ var icondata = [
         "i": "roof_peakstone",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 3200,
-        "v": "Peakstone Slope"
+        "x": 3456,
+        "y": 3584,
+        "v": "Peakstone Slope",
+        "l": "slope_peakstone"
     },
     {
         "s": "00",
@@ -5895,9 +6484,10 @@ var icondata = [
         "i": "roof_peakstone_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 3072,
-        "v": "Peakstone Slope Inner Corner"
+        "x": 3584,
+        "y": 3584,
+        "v": "Peakstone Slope Inner Corner",
+        "l": "slope_peakstone_inner_corner"
     },
     {
         "s": "00",
@@ -5905,9 +6495,10 @@ var icondata = [
         "i": "roof_peakstone_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 2944,
-        "v": "Peakstone Slope Outer Corner"
+        "x": 3840,
+        "y": 3584,
+        "v": "Peakstone Slope Outer Corner",
+        "l": "slope_peakstone_outer_corner"
     },
     {
         "s": "00",
@@ -5916,8 +6507,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2816,
-        "v": "Limestone Roof"
+        "y": 1920,
+        "v": "Limestone Roof",
+        "l": "roof_roman_limestone_halfgable"
     },
     {
         "s": "00",
@@ -5925,9 +6517,10 @@ var icondata = [
         "i": "roof_roman_limestone_halfgable_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 2688,
-        "v": "Limestone Roof Inner Corner"
+        "x": 3968,
+        "y": 3584,
+        "v": "Limestone Roof Inner Corner",
+        "l": "roof_roman_limestone_halfgable_inner_corner"
     },
     {
         "s": "00",
@@ -5936,8 +6529,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2560,
-        "v": "Limestone Roof Outer Corner"
+        "y": 3456,
+        "v": "Limestone Roof Outer Corner",
+        "l": "roof_roman_limestone_halfgable_outer_corner"
     },
     {
         "s": "00",
@@ -5946,8 +6540,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2432,
-        "v": "Forbidden Jade Roof"
+        "y": 3328,
+        "v": "Forbidden Jade Roof",
+        "l": "roof_slope_chinese_jade"
     },
     {
         "s": "00",
@@ -5956,8 +6551,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2304,
-        "v": "Forbidden Red Shingled Roof"
+        "y": 3200,
+        "v": "Forbidden Red Shingled Roof",
+        "l": "roof_slope_chinese_red"
     },
     {
         "s": "00",
@@ -5966,8 +6562,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2176,
-        "v": "Stone Roof"
+        "y": 3072,
+        "v": "Stone Roof",
+        "l": "roof_stone"
     },
     {
         "s": "00",
@@ -5976,8 +6573,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2048,
-        "v": "Stone Roof Inner Corner"
+        "y": 2944,
+        "v": "Stone Roof Inner Corner",
+        "l": "roof_stone_inner_corner"
     },
     {
         "s": "00",
@@ -5985,9 +6583,10 @@ var icondata = [
         "i": "roof_stone_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 3584,
-        "v": "Stone Roof Outer Corner"
+        "x": 512,
+        "y": 2816,
+        "v": "Stone Roof Outer Corner",
+        "l": "roof_stone_outer_corner"
     },
     {
         "s": "00",
@@ -5995,9 +6594,10 @@ var icondata = [
         "i": "roof_straw",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3584,
-        "v": "Thatched Roof"
+        "x": 512,
+        "y": 2688,
+        "v": "Thatched Roof",
+        "l": "roof_straw_slanted"
     },
     {
         "s": "00",
@@ -6005,9 +6605,10 @@ var icondata = [
         "i": "roof_straw_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 3584,
-        "v": "Thatched Roof Inner Corner"
+        "x": 512,
+        "y": 2560,
+        "v": "Thatched Roof Inner Corner",
+        "l": "roof_straw_slanted_inner_corner"
     },
     {
         "s": "00",
@@ -6015,9 +6616,10 @@ var icondata = [
         "i": "roof_straw_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 768,
-        "v": "Thatched Roof Outer Corner"
+        "x": 512,
+        "y": 2432,
+        "v": "Thatched Roof Outer Corner",
+        "l": "roof_straw_slanted_outer_corner"
     },
     {
         "s": "00",
@@ -6025,9 +6627,10 @@ var icondata = [
         "i": "roof_tin",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2432,
-        "v": "Tin Roof"
+        "x": 512,
+        "y": 2304,
+        "v": "Tin Roof",
+        "l": "roof_tin"
     },
     {
         "s": "00",
@@ -6035,9 +6638,10 @@ var icondata = [
         "i": "roof_tin_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2304,
-        "v": "Tin Roof Inner Corner"
+        "x": 512,
+        "y": 2176,
+        "v": "Tin Roof Inner Corner",
+        "l": "roof_tin_inner_corner"
     },
     {
         "s": "00",
@@ -6045,9 +6649,10 @@ var icondata = [
         "i": "roof_tin_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2176,
-        "v": "Tin Roof Outer Corner"
+        "x": 512,
+        "y": 2048,
+        "v": "Tin Roof Outer Corner",
+        "l": "roof_tin_outer_corner"
     },
     {
         "s": "00",
@@ -6055,9 +6660,10 @@ var icondata = [
         "i": "roof_wood",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2048,
-        "v": "Wood Roof"
+        "x": 1920,
+        "y": 3584,
+        "v": "Wood Roof",
+        "l": "roof_wood_slanted"
     },
     {
         "s": "00",
@@ -6065,9 +6671,10 @@ var icondata = [
         "i": "roof_wood_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1920,
-        "v": "Wood Roof Inner Corner"
+        "x": 3712,
+        "y": 3584,
+        "v": "Wood Roof Inner Corner",
+        "l": "roof_wood_slanted_inner_corner"
     },
     {
         "s": "00",
@@ -6075,9 +6682,10 @@ var icondata = [
         "i": "roof_wood_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1792,
-        "v": "Wood Roof Outer Corner"
+        "x": 1792,
+        "y": 3584,
+        "v": "Wood Roof Outer Corner",
+        "l": "roof_wood_slanted_outer_corner"
     },
     {
         "s": "00",
@@ -6086,8 +6694,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1664,
-        "v": "Rough Wood Block"
+        "y": 768,
+        "v": "Rough Wood Block",
+        "l": "rough_block_wood"
     },
     {
         "s": "00",
@@ -6096,8 +6705,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1536,
-        "v": "? rough_block_wood_old"
+        "y": 2432,
+        "v": "? rough_block_wood_old",
+        "l": "rough_block_wood_old"
     },
     {
         "s": "00",
@@ -6106,8 +6716,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1408,
-        "v": "Salt"
+        "y": 2304,
+        "v": "Salt",
+        "l": "salt_item"
     },
     {
         "s": "00",
@@ -6116,8 +6727,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1280,
-        "v": "Saltrock"
+        "y": 2176,
+        "v": "Saltrock",
+        "l": "salt_rock_item"
     },
     {
         "s": "00",
@@ -6126,8 +6738,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1152,
-        "v": "? salt_refined"
+        "y": 2048,
+        "v": "? salt_refined",
+        "l": "salt_refined"
     },
     {
         "s": "00",
@@ -6136,8 +6749,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1024,
-        "v": "Sand"
+        "y": 1920,
+        "v": "Sand",
+        "l": "sand_item"
     },
     {
         "s": "00",
@@ -6146,8 +6760,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 896,
-        "v": "Sandstone"
+        "y": 1792,
+        "v": "Sandstone",
+        "l": "sandstone_item"
     },
     {
         "s": "00",
@@ -6156,8 +6771,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 640,
-        "v": "Blazing Sandwich"
+        "y": 1664,
+        "v": "Blazing Sandwich",
+        "l": "sandwich_blazing"
     },
     {
         "s": "00",
@@ -6165,9 +6781,10 @@ var icondata = [
         "i": "sandwich_bog",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 3584,
-        "v": "Bog Sandwich"
+        "x": 384,
+        "y": 1536,
+        "v": "Bog Sandwich",
+        "l": "sandwich_bog"
     },
     {
         "s": "00",
@@ -6176,8 +6793,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 512,
-        "v": "Corrupted Sandwich"
+        "y": 1408,
+        "v": "Corrupted Sandwich",
+        "l": "sandwich_corrupted"
     },
     {
         "s": "00",
@@ -6186,8 +6804,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 384,
-        "v": "Egg Sandwich"
+        "y": 1280,
+        "v": "Egg Sandwich",
+        "l": "sandwich_egg"
     },
     {
         "s": "00",
@@ -6196,8 +6815,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 256,
-        "v": "Frigid Sandwich"
+        "y": 1152,
+        "v": "Frigid Sandwich",
+        "l": "sandwich_frigid"
     },
     {
         "s": "00",
@@ -6206,8 +6826,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 128,
-        "v": "Jerky Sandwich"
+        "y": 1024,
+        "v": "Jerky Sandwich",
+        "l": "sandwich_jerky"
     },
     {
         "s": "00",
@@ -6216,8 +6837,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 0,
-        "v": "Melon Sandwich"
+        "y": 896,
+        "v": "Melon Sandwich",
+        "l": "sandwich_melon"
     },
     {
         "s": "00",
@@ -6225,9 +6847,10 @@ var icondata = [
         "i": "sandwich_mushroom",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 3584,
-        "v": "Mushroom Sandwich"
+        "x": 384,
+        "y": 640,
+        "v": "Mushroom Sandwich",
+        "l": "sandwich_mushroom"
     },
     {
         "s": "00",
@@ -6235,9 +6858,10 @@ var icondata = [
         "i": "sandwich_spiny",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 1536,
         "y": 3584,
-        "v": "Spiky Sandwich"
+        "v": "Spiky Sandwich",
+        "l": "sandwich_cactus"
     },
     {
         "s": "00",
@@ -6245,9 +6869,10 @@ var icondata = [
         "i": "sandwich_tar",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 3584,
-        "v": "Tar Sandwich"
+        "x": 384,
+        "y": 512,
+        "v": "Tar Sandwich",
+        "l": "sandwich_tar"
     },
     {
         "s": "00",
@@ -6255,9 +6880,10 @@ var icondata = [
         "i": "sandwich_turnip",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 3584,
-        "v": "Turnip Sandwich"
+        "x": 384,
+        "y": 384,
+        "v": "Turnip Sandwich",
+        "l": "sandwich_turnip"
     },
     {
         "s": "00",
@@ -6265,9 +6891,10 @@ var icondata = [
         "i": "sandwich_veggie",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 3584,
-        "v": "Sandwich"
+        "x": 384,
+        "y": 256,
+        "v": "Sandwich",
+        "l": "sandwich"
     },
     {
         "s": "00",
@@ -6275,9 +6902,10 @@ var icondata = [
         "i": "sandwich_wholesome",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 3584,
-        "v": "Wholesome Sandwich"
+        "x": 384,
+        "y": 128,
+        "v": "Wholesome Sandwich",
+        "l": "sandwich_wholesome"
     },
     {
         "s": "00",
@@ -6285,9 +6913,10 @@ var icondata = [
         "i": "sand_refined",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 3584,
-        "v": "Smooth Sandstone"
+        "x": 384,
+        "y": 0,
+        "v": "Smooth Sandstone",
+        "l": "sandstone_smooth_item"
     },
     {
         "s": "00",
@@ -6295,9 +6924,10 @@ var icondata = [
         "i": "sapling_aspen",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 512,
         "y": 3584,
-        "v": "Ashenwood Sapling"
+        "v": "Ashenwood Sapling",
+        "l": "aspen_sapling_item"
     },
     {
         "s": "00",
@@ -6305,9 +6935,10 @@ var icondata = [
         "i": "sapling_oak",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 3328,
-        "v": "Cragwood Sapling"
+        "x": 640,
+        "y": 3584,
+        "v": "Cragwood Sapling",
+        "l": "oak_sapling_item"
     },
     {
         "s": "00",
@@ -6315,9 +6946,10 @@ var icondata = [
         "i": "sapling_sequoia",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 3456,
-        "v": "Elderwood Sapling"
+        "x": 768,
+        "y": 3584,
+        "v": "Elderwood Sapling",
+        "l": "evergreen_sapling_item"
     },
     {
         "s": "00",
@@ -6325,9 +6957,10 @@ var icondata = [
         "i": "seashells",
         "w": 128,
         "h": 128,
-        "x": 256,
+        "x": 896,
         "y": 3584,
-        "v": "Seashells"
+        "v": "Seashells",
+        "l": "seashells"
     },
     {
         "s": "00",
@@ -6335,9 +6968,10 @@ var icondata = [
         "i": "seed_bamboo",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 384,
-        "v": "Wild Bamboo Seed"
+        "x": 1024,
+        "y": 3584,
+        "v": "Wild Bamboo Seed",
+        "l": "seed_plant_bamboo"
     },
     {
         "s": "00",
@@ -6345,9 +6979,10 @@ var icondata = [
         "i": "seed_cactus01",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1152,
-        "v": "Big Pokey Cactus Seed"
+        "x": 1152,
+        "y": 3584,
+        "v": "Big Pokey Cactus Seed",
+        "l": "seed_plant_cactus01"
     },
     {
         "s": "00",
@@ -6355,9 +6990,10 @@ var icondata = [
         "i": "seed_cactus02",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1280,
-        "v": "Prickly Pal Cactus Seed"
+        "x": 1280,
+        "y": 3584,
+        "v": "Prickly Pal Cactus Seed",
+        "l": "seed_plant_cactus02"
     },
     {
         "s": "00",
@@ -6365,9 +7001,10 @@ var icondata = [
         "i": "seed_pilea",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 512,
-        "v": "Mirror Grass Seed"
+        "x": 1408,
+        "y": 3584,
+        "v": "Mirror Grass Seed",
+        "l": "seed_plant_pilea"
     },
     {
         "s": "00",
@@ -6375,9 +7012,10 @@ var icondata = [
         "i": "seed_succulent",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 3968,
-        "v": "Desert Succulent Seed"
+        "x": 256,
+        "y": 3328,
+        "v": "Desert Succulent Seed",
+        "l": "seed_plant_succulent"
     },
     {
         "s": "00",
@@ -6385,9 +7023,10 @@ var icondata = [
         "i": "shelf_industrial",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 0,
-        "v": "Industrial Table"
+        "x": 256,
+        "y": 3456,
+        "v": "Industrial Table",
+        "l": "table_industrial"
     },
     {
         "s": "00",
@@ -6395,9 +7034,10 @@ var icondata = [
         "i": "shrewd_tail",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3968,
-        "v": "Shrewdshrew Tail"
+        "x": 256,
+        "y": 3584,
+        "v": "Shrewdshrew Tail",
+        "l": "shrewd_shrew_tail"
     },
     {
         "s": "00",
@@ -6405,9 +7045,10 @@ var icondata = [
         "i": "shrub",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 3968,
-        "v": "Shrub"
+        "x": 128,
+        "y": 0,
+        "v": "Shrub",
+        "l": "shrub"
     },
     {
         "s": "00",
@@ -6415,9 +7056,10 @@ var icondata = [
         "i": "shrub_block",
         "w": 128,
         "h": 128,
-        "x": 384,
+        "x": 128,
         "y": 3968,
-        "v": "? shrub_block"
+        "v": "? shrub_block",
+        "l": "shrub_block"
     },
     {
         "s": "00",
@@ -6425,9 +7067,10 @@ var icondata = [
         "i": "shrub_savannah",
         "w": 128,
         "h": 128,
-        "x": 512,
+        "x": 256,
         "y": 3968,
-        "v": "Shrub"
+        "v": "Shrub",
+        "l": "shrub"
     },
     {
         "s": "00",
@@ -6435,9 +7078,10 @@ var icondata = [
         "i": "sign_crystal",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 384,
         "y": 3968,
-        "v": "Creepy Haunted Gravestone"
+        "v": "Creepy Haunted Gravestone",
+        "l": "gravestone_haunted_03"
     },
     {
         "s": "00",
@@ -6445,9 +7089,10 @@ var icondata = [
         "i": "sign_stone",
         "w": 128,
         "h": 128,
-        "x": 768,
+        "x": 512,
         "y": 3968,
-        "v": "Stone Sign"
+        "v": "Stone Sign",
+        "l": "sign_stone"
     },
     {
         "s": "00",
@@ -6455,9 +7100,10 @@ var icondata = [
         "i": "sign_stone_hanging",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 640,
         "y": 3968,
-        "v": "Hanging Stone Sign"
+        "v": "Hanging Stone Sign",
+        "l": "sign_stone_hanging"
     },
     {
         "s": "00",
@@ -6465,9 +7111,10 @@ var icondata = [
         "i": "sign_wood",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 768,
         "y": 3968,
-        "v": "Wood Sign"
+        "v": "Wood Sign",
+        "l": "sign_wood"
     },
     {
         "s": "00",
@@ -6475,9 +7122,10 @@ var icondata = [
         "i": "siltrock",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 896,
         "y": 3968,
-        "v": "Siltstone"
+        "v": "Siltstone",
+        "l": "aquamarine_item"
     },
     {
         "s": "00",
@@ -6485,9 +7133,10 @@ var icondata = [
         "i": "sinew",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1024,
         "y": 3968,
-        "v": "Sinew"
+        "v": "Sinew",
+        "l": "sinew"
     },
     {
         "s": "00",
@@ -6495,9 +7144,10 @@ var icondata = [
         "i": "slab_adobeclay_blue",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1152,
         "y": 3968,
-        "v": "Blue Adobe Slab"
+        "v": "Blue Adobe Slab",
+        "l": "slab_adobeclay_blue"
     },
     {
         "s": "00",
@@ -6505,9 +7155,10 @@ var icondata = [
         "i": "slab_adobeclay_brown",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1280,
         "y": 3968,
-        "v": "? slab_adobeclay_brown"
+        "v": "? slab_adobeclay_brown",
+        "l": "slab_adobeclay_brown"
     },
     {
         "s": "00",
@@ -6515,9 +7166,10 @@ var icondata = [
         "i": "slab_adobeclay_red",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 1408,
         "y": 3968,
-        "v": "Red Adobe Slab"
+        "v": "Red Adobe Slab",
+        "l": "slab_adobeclay_red"
     },
     {
         "s": "00",
@@ -6525,9 +7177,10 @@ var icondata = [
         "i": "slab_adobeclay_white",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 1536,
         "y": 3968,
-        "v": "Adobe Slab"
+        "v": "Adobe Slab",
+        "l": "slab_adobeclay_white"
     },
     {
         "s": "00",
@@ -6535,9 +7188,10 @@ var icondata = [
         "i": "slab_adobeclay_yellow",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 1664,
         "y": 3968,
-        "v": "Yellow Adobe Slab"
+        "v": "Yellow Adobe Slab",
+        "l": "slab_adobeclay_yellow"
     },
     {
         "s": "00",
@@ -6545,9 +7199,10 @@ var icondata = [
         "i": "slab_asphault",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 1920,
         "y": 3968,
-        "v": "Asphalt Slab"
+        "v": "Asphalt Slab",
+        "l": "slab_asphault"
     },
     {
         "s": "00",
@@ -6555,9 +7210,10 @@ var icondata = [
         "i": "slab_bedrock",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 3712,
         "y": 3968,
-        "v": "Bedrock Slab"
+        "v": "Bedrock Slab",
+        "l": "slab_bedrock"
     },
     {
         "s": "00",
@@ -6565,9 +7221,10 @@ var icondata = [
         "i": "slab_diamond",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 2048,
         "y": 3968,
-        "v": "Diamond Slab"
+        "v": "Diamond Slab",
+        "l": "slab_diamond"
     },
     {
         "s": "00",
@@ -6575,9 +7232,10 @@ var icondata = [
         "i": "slab_dirt",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2176,
         "y": 3968,
-        "v": "Dirt Slab"
+        "v": "Dirt Slab",
+        "l": "slab_dirt"
     },
     {
         "s": "00",
@@ -6585,9 +7243,10 @@ var icondata = [
         "i": "slab_glass",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 2304,
         "y": 3968,
-        "v": "Glass Slab"
+        "v": "Glass Slab",
+        "l": "slab_glass"
     },
     {
         "s": "00",
@@ -6595,9 +7254,10 @@ var icondata = [
         "i": "slab_grass",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 2432,
         "y": 3968,
-        "v": "Grass Slab"
+        "v": "Grass Slab",
+        "l": "slab_grass"
     },
     {
         "s": "00",
@@ -6605,9 +7265,10 @@ var icondata = [
         "i": "slab_iron",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 2560,
         "y": 3968,
-        "v": "Iron Slab"
+        "v": "Iron Slab",
+        "l": "slab_iron"
     },
     {
         "s": "00",
@@ -6615,9 +7276,10 @@ var icondata = [
         "i": "slab_limestone",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 2688,
         "y": 3968,
-        "v": "Limestone Slab"
+        "v": "Limestone Slab",
+        "l": "slab_limestone"
     },
     {
         "s": "00",
@@ -6625,9 +7287,10 @@ var icondata = [
         "i": "slab_lumite",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2816,
         "y": 3968,
-        "v": "Lumite Slab"
+        "v": "Lumite Slab",
+        "l": "slab_lumite"
     },
     {
         "s": "00",
@@ -6635,9 +7298,10 @@ var icondata = [
         "i": "slab_obsidian",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2944,
         "y": 3968,
-        "v": "Obsidian Slab"
+        "v": "Obsidian Slab",
+        "l": "slab_obsidian"
     },
     {
         "s": "00",
@@ -6645,9 +7309,10 @@ var icondata = [
         "i": "slab_peakstone",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3072,
         "y": 3968,
-        "v": "Peakstone Slab"
+        "v": "Peakstone Slab",
+        "l": "slab_peakstone"
     },
     {
         "s": "00",
@@ -6655,9 +7320,10 @@ var icondata = [
         "i": "slab_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3200,
         "y": 3968,
-        "v": "Galactic Slab"
+        "v": "Galactic Slab",
+        "l": "slab_sci_fi"
     },
     {
         "s": "00",
@@ -6665,9 +7331,10 @@ var icondata = [
         "i": "slab_sci_fi_exterior",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3328,
         "y": 3968,
-        "v": "Galactic Hull Slab"
+        "v": "Galactic Hull Slab",
+        "l": "slab_sci_fi_exterior"
     },
     {
         "s": "00",
@@ -6675,9 +7342,10 @@ var icondata = [
         "i": "slab_stone",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 0,
-        "v": "Stone Slab"
+        "x": 3456,
+        "y": 3968,
+        "v": "Stone Slab",
+        "l": "slab_stone"
     },
     {
         "s": "00",
@@ -6685,9 +7353,10 @@ var icondata = [
         "i": "slab_wood",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 128,
-        "v": "Wood Slab"
+        "x": 3584,
+        "y": 3968,
+        "v": "Wood Slab",
+        "l": "slab_wood"
     },
     {
         "s": "00",
@@ -6696,8 +7365,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 256,
-        "v": "Asphalt Slope"
+        "y": 0,
+        "v": "Asphalt Slope",
+        "l": "slope_asphault"
     },
     {
         "s": "00",
@@ -6706,8 +7376,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 384,
-        "v": "Reinforced Glass Slope"
+        "y": 128,
+        "v": "Reinforced Glass Slope",
+        "l": "slope_glass_moroccan"
     },
     {
         "s": "00",
@@ -6716,8 +7387,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3840,
-        "v": "Reinforced Glass Slope Inner Corner"
+        "y": 256,
+        "v": "Reinforced Glass Slope Inner Corner",
+        "l": "slope_glass_moroccan_inner_corner"
     },
     {
         "s": "00",
@@ -6726,8 +7398,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3712,
-        "v": "Reinforced Glass Slope Outer Corner"
+        "y": 384,
+        "v": "Reinforced Glass Slope Outer Corner",
+        "l": "slope_glass_moroccan_outer_corner"
     },
     {
         "s": "00",
@@ -6736,8 +7409,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3584,
-        "v": "Ice Slope Inner Corner"
+        "y": 3840,
+        "v": "Ice Slope Inner Corner",
+        "l": "ice_slope_inner_corner"
     },
     {
         "s": "00",
@@ -6746,8 +7420,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3456,
-        "v": "Ice Slope Outer Corner"
+        "y": 3712,
+        "v": "Ice Slope Outer Corner",
+        "l": "ice_slope_outer_corner"
     },
     {
         "s": "00",
@@ -6756,8 +7431,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3328,
-        "v": "Galactic Rounded Slope"
+        "y": 3584,
+        "v": "Galactic Rounded Slope",
+        "l": "slope_round_sci_fi_exterior"
     },
     {
         "s": "00",
@@ -6766,8 +7442,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3200,
-        "v": "Galactic Striped Wall Slope"
+        "y": 3456,
+        "v": "Galactic Striped Wall Slope",
+        "l": "slope_sci_fi"
     },
     {
         "s": "00",
@@ -6776,8 +7453,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3072,
-        "v": "Galactic Hull Slope"
+        "y": 3328,
+        "v": "Galactic Hull Slope",
+        "l": "slope_sci_fi_exterior"
     },
     {
         "s": "00",
@@ -6786,8 +7464,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2944,
-        "v": "Galactic Hull Slope Inner Corner"
+        "y": 3200,
+        "v": "Galactic Hull Slope Inner Corner",
+        "l": "slope_sci_fi_exterior_inner_corner"
     },
     {
         "s": "00",
@@ -6796,8 +7475,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2816,
-        "v": "Galactic Hull Slope Outer Corner"
+        "y": 3072,
+        "v": "Galactic Hull Slope Outer Corner",
+        "l": "slope_sci_fi_exterior_outer_corner"
     },
     {
         "s": "00",
@@ -6806,8 +7486,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2688,
-        "v": "Galactic Pipes"
+        "y": 2944,
+        "v": "Galactic Pipes",
+        "l": "slope_sci_fi_pipe"
     },
     {
         "s": "00",
@@ -6816,8 +7497,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2560,
-        "v": "Forbidden Red Wood Slope"
+        "y": 2816,
+        "v": "Forbidden Red Wood Slope",
+        "l": "slope_wood_red_chinese"
     },
     {
         "s": "00",
@@ -6826,8 +7508,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2432,
-        "v": "Forbidden Red Wood Inner Corner"
+        "y": 2688,
+        "v": "Forbidden Red Wood Inner Corner",
+        "l": "slope_wood_red_chinese_inner_corner"
     },
     {
         "s": "00",
@@ -6836,8 +7519,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2304,
-        "v": "Forbidden Red Wood Outer Corner"
+        "y": 2560,
+        "v": "Forbidden Red Wood Outer Corner",
+        "l": "slope_wood_red_chinese_outer_corner"
     },
     {
         "s": "00",
@@ -6846,8 +7530,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2176,
-        "v": "Snow"
+        "y": 2432,
+        "v": "Snow",
+        "l": "snow_item"
     },
     {
         "s": "00",
@@ -6856,8 +7541,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2048,
-        "v": "Snowcube"
+        "y": 2304,
+        "v": "Snowcube",
+        "l": "snowball"
     },
     {
         "s": "00",
@@ -6866,8 +7552,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1920,
-        "v": "? snowball_pile_icon"
+        "y": 2176,
+        "v": "? snowball_pile_icon",
+        "l": "snowball_pile_icon"
     },
     {
         "s": "00",
@@ -6876,8 +7563,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1792,
-        "v": "Snow Cap"
+        "y": 2048,
+        "v": "Snow Cap",
+        "l": "snow_cap_item"
     },
     {
         "s": "00",
@@ -6886,8 +7574,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1664,
-        "v": "Blocky the Snowman"
+        "y": 1920,
+        "v": "Blocky the Snowman",
+        "l": "snowman"
     },
     {
         "s": "00",
@@ -6896,8 +7585,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1536,
-        "v": "Snow Blower"
+        "y": 1792,
+        "v": "Snow Blower",
+        "l": "snow_blower"
     },
     {
         "s": "00",
@@ -6906,8 +7596,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1408,
-        "v": "? snow_eight"
+        "y": 1664,
+        "v": "? snow_eight",
+        "l": "snow_eight"
     },
     {
         "s": "00",
@@ -6916,8 +7607,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1280,
-        "v": "Blazing Soup"
+        "y": 1536,
+        "v": "Blazing Soup",
+        "l": "soup_blazing"
     },
     {
         "s": "00",
@@ -6926,8 +7618,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1152,
-        "v": "Bog Broth"
+        "y": 1408,
+        "v": "Bog Broth",
+        "l": "soup_bog"
     },
     {
         "s": "00",
@@ -6936,8 +7629,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1024,
-        "v": "Corrupted Soup"
+        "y": 1280,
+        "v": "Corrupted Soup",
+        "l": "soup_corrupted"
     },
     {
         "s": "00",
@@ -6946,8 +7640,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 896,
-        "v": "Egg Drop Soup"
+        "y": 1152,
+        "v": "Egg Drop Soup",
+        "l": "soup_egg"
     },
     {
         "s": "00",
@@ -6956,8 +7651,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 768,
-        "v": "Frigid Soup"
+        "y": 1024,
+        "v": "Frigid Soup",
+        "l": "soup_frigid"
     },
     {
         "s": "00",
@@ -6966,8 +7662,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 640,
-        "v": "Chizzard Noodle Soup"
+        "y": 896,
+        "v": "Chizzard Noodle Soup",
+        "l": "soup_jerky"
     },
     {
         "s": "00",
@@ -6976,8 +7673,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 512,
-        "v": "Spiky Soup"
+        "y": 768,
+        "v": "Spiky Soup",
+        "l": "soup_cactus"
     },
     {
         "s": "00",
@@ -6985,9 +7683,10 @@ var icondata = [
         "i": "soup_tar",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 3968,
-        "v": "Tar Soup"
+        "x": 0,
+        "y": 640,
+        "v": "Tar Soup",
+        "l": "soup_tar"
     },
     {
         "s": "00",
@@ -6995,9 +7694,10 @@ var icondata = [
         "i": "soup_vegetable",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3968,
-        "v": "Soup"
+        "x": 0,
+        "y": 512,
+        "v": "Soup",
+        "l": "soup"
     },
     {
         "s": "00",
@@ -7005,9 +7705,10 @@ var icondata = [
         "i": "soup_wholesome",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 1792,
         "y": 3968,
-        "v": "Wholesome Soup"
+        "v": "Wholesome Soup",
+        "l": "soup_wholesome"
     },
     {
         "s": "00",
@@ -7015,9 +7716,10 @@ var icondata = [
         "i": "sparc_camoflage",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3840,
-        "v": "String Comparison Gate"
+        "x": 3840,
+        "y": 3968,
+        "v": "String Comparison Gate",
+        "l": "string_comparison_item"
     },
     {
         "s": "00",
@@ -7025,9 +7727,10 @@ var icondata = [
         "i": "sparc_corruption",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 3840,
-        "v": "? sparc_corruption"
+        "x": 3968,
+        "y": 3968,
+        "v": "? sparc_corruption",
+        "l": "sparc_corruption"
     },
     {
         "s": "00",
@@ -7035,9 +7738,10 @@ var icondata = [
         "i": "sparc_drowning",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 3840,
-        "v": "Breathing Sparc"
+        "v": "Breathing Sparc",
+        "l": "sparc_breath"
     },
     {
         "s": "00",
@@ -7045,9 +7749,10 @@ var icondata = [
         "i": "sparc_fire",
         "w": 128,
         "h": 128,
-        "x": 768,
+        "x": 512,
         "y": 3840,
-        "v": "? sparc_fire"
+        "v": "? sparc_fire",
+        "l": "sparc_fire"
     },
     {
         "s": "00",
@@ -7055,9 +7760,10 @@ var icondata = [
         "i": "sparc_freeze",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 640,
         "y": 3840,
-        "v": "? sparc_freeze"
+        "v": "? sparc_freeze",
+        "l": "sparc_freeze"
     },
     {
         "s": "00",
@@ -7065,9 +7771,10 @@ var icondata = [
         "i": "sparc_health",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 768,
         "y": 3840,
-        "v": "? sparc_health"
+        "v": "? sparc_health",
+        "l": "sparc_health"
     },
     {
         "s": "00",
@@ -7075,9 +7782,10 @@ var icondata = [
         "i": "sparc_illumination",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 896,
         "y": 3840,
-        "v": "Illumination Sparc"
+        "v": "Illumination Sparc",
+        "l": "sparc_illumination"
     },
     {
         "s": "00",
@@ -7085,9 +7793,10 @@ var icondata = [
         "i": "sparc_low-gravity",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1024,
         "y": 3840,
-        "v": "? sparc_low-gravity"
+        "v": "? sparc_low-gravity",
+        "l": "taming_collar_super"
     },
     {
         "s": "00",
@@ -7095,9 +7804,10 @@ var icondata = [
         "i": "sparc_speed",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1152,
         "y": 3840,
-        "v": "Speed Sparc"
+        "v": "Speed Sparc",
+        "l": "sparc_stamina"
     },
     {
         "s": "00",
@@ -7105,9 +7815,10 @@ var icondata = [
         "i": "sparc_stamina",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1280,
         "y": 3840,
-        "v": "Speed Sparc"
+        "v": "Speed Sparc",
+        "l": "sparc_stamina"
     },
     {
         "s": "00",
@@ -7115,9 +7826,10 @@ var icondata = [
         "i": "spire_ice",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 1408,
         "y": 3840,
-        "v": "Ice Spire"
+        "v": "Ice Spire",
+        "l": "spire_ice"
     },
     {
         "s": "00",
@@ -7125,9 +7837,10 @@ var icondata = [
         "i": "stairs_adobeclay_blue",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 1536,
         "y": 3840,
-        "v": "Blue Adobe Stairs"
+        "v": "Blue Adobe Stairs",
+        "l": "stairs_adobeclay_blue"
     },
     {
         "s": "00",
@@ -7135,9 +7848,10 @@ var icondata = [
         "i": "stairs_adobeclay_blue_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 1664,
         "y": 3840,
-        "v": "Blue Clay Stairs Inner Corner"
+        "v": "Blue Clay Stairs Inner Corner",
+        "l": "stairs_adobeclay_blue_inner_corner"
     },
     {
         "s": "00",
@@ -7145,9 +7859,10 @@ var icondata = [
         "i": "stairs_adobeclay_blue_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 1792,
         "y": 3840,
-        "v": "Blue Clay Stairs Outer Corner"
+        "v": "Blue Clay Stairs Outer Corner",
+        "l": "stairs_adobeclay_blue_outer_corner"
     },
     {
         "s": "00",
@@ -7155,9 +7870,10 @@ var icondata = [
         "i": "stairs_adobeclay_brown",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 1920,
         "y": 3840,
-        "v": "? stairs_adobeclay_brown"
+        "v": "? stairs_adobeclay_brown",
+        "l": "stairs_adobeclay_brown"
     },
     {
         "s": "00",
@@ -7165,9 +7881,10 @@ var icondata = [
         "i": "stairs_adobeclay_red",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 3712,
-        "v": "Red Adobe Stairs"
+        "x": 2048,
+        "y": 3840,
+        "v": "Red Adobe Stairs",
+        "l": "stairs_adobeclay_red"
     },
     {
         "s": "00",
@@ -7175,9 +7892,10 @@ var icondata = [
         "i": "stairs_adobeclay_red_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2304,
         "y": 3840,
-        "v": "Red Clay Stairs Inner Corner"
+        "v": "Red Clay Stairs Inner Corner",
+        "l": "stairs_adobeclay_red_inner_corner"
     },
     {
         "s": "00",
@@ -7185,9 +7903,10 @@ var icondata = [
         "i": "stairs_adobeclay_red_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 3840,
-        "v": "Red Clay Stairs Outer Corner"
+        "x": 256,
+        "y": 3712,
+        "v": "Red Clay Stairs Outer Corner",
+        "l": "stairs_adobeclay_red_outer_corner"
     },
     {
         "s": "00",
@@ -7195,9 +7914,10 @@ var icondata = [
         "i": "stairs_adobeclay_white",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 2432,
         "y": 3840,
-        "v": "Adobe Stairs"
+        "v": "Adobe Stairs",
+        "l": "stairs_adobeclay_white"
     },
     {
         "s": "00",
@@ -7205,9 +7925,10 @@ var icondata = [
         "i": "stairs_adobeclay_white_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 2560,
         "y": 3840,
-        "v": "White Clay Stairs Inner Corner"
+        "v": "White Clay Stairs Inner Corner",
+        "l": "stairs_adobeclay_white_inner_corner"
     },
     {
         "s": "00",
@@ -7215,9 +7936,10 @@ var icondata = [
         "i": "stairs_adobeclay_white_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 2688,
         "y": 3840,
-        "v": "White Clay Stairs Outer Corner"
+        "v": "White Clay Stairs Outer Corner",
+        "l": "stairs_adobeclay_white_outer_corner"
     },
     {
         "s": "00",
@@ -7225,9 +7947,10 @@ var icondata = [
         "i": "stairs_adobeclay_yellow",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2816,
         "y": 3840,
-        "v": "Yellow Adobe Stairs"
+        "v": "Yellow Adobe Stairs",
+        "l": "stairs_adobeclay_yellow"
     },
     {
         "s": "00",
@@ -7235,9 +7958,10 @@ var icondata = [
         "i": "stairs_adobeclay_yellow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2944,
         "y": 3840,
-        "v": "Yellow Clay Stairs Inner Corner"
+        "v": "Yellow Clay Stairs Inner Corner",
+        "l": "stairs_adobeclay_yellow_inner_corner"
     },
     {
         "s": "00",
@@ -7245,9 +7969,10 @@ var icondata = [
         "i": "stairs_adobeclay_yellow_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3072,
         "y": 3840,
-        "v": "Yellow Clay Stairs Outer Corner"
+        "v": "Yellow Clay Stairs Outer Corner",
+        "l": "stairs_adobeclay_yellow_outer_corner"
     },
     {
         "s": "00",
@@ -7255,9 +7980,10 @@ var icondata = [
         "i": "stairs_asphault",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3200,
         "y": 3840,
-        "v": "Asphalt Stairs"
+        "v": "Asphalt Stairs",
+        "l": "stairs_asphault"
     },
     {
         "s": "00",
@@ -7265,9 +7991,10 @@ var icondata = [
         "i": "stairs_asphault_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3328,
         "y": 3840,
-        "v": "Asphalt Stairs Inner Corner"
+        "v": "Asphalt Stairs Inner Corner",
+        "l": "stairs_asphault_inner_corner"
     },
     {
         "s": "00",
@@ -7275,9 +8002,10 @@ var icondata = [
         "i": "stairs_asphault_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 3456,
         "y": 3840,
-        "v": "Asphalt Stairs Outer Corner"
+        "v": "Asphalt Stairs Outer Corner",
+        "l": "stairs_asphault_outer_corner"
     },
     {
         "s": "00",
@@ -7285,9 +8013,10 @@ var icondata = [
         "i": "stairs_bedrock",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 3584,
         "y": 3840,
-        "v": "Bedrock Stairs"
+        "v": "Bedrock Stairs",
+        "l": "stairs_bedrock"
     },
     {
         "s": "00",
@@ -7295,9 +8024,10 @@ var icondata = [
         "i": "stairs_bedrock_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3712,
         "y": 3840,
-        "v": "Stairs Bedrock Inner Corner"
+        "v": "Stairs Bedrock Inner Corner",
+        "l": "stairs_bedrock_inner_corner"
     },
     {
         "s": "00",
@@ -7305,9 +8035,10 @@ var icondata = [
         "i": "stairs_bedrock_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
+        "x": 3840,
         "y": 3840,
-        "v": "Stairs Bedrock Outer Corner"
+        "v": "Stairs Bedrock Outer Corner",
+        "l": "stairs_bedrock_outer_corner"
     },
     {
         "s": "00",
@@ -7315,9 +8046,10 @@ var icondata = [
         "i": "stairs_bungalow",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 3968,
         "y": 3840,
-        "v": "Bungalow Stairs"
+        "v": "Bungalow Stairs",
+        "l": "stairs_bungalow"
     },
     {
         "s": "00",
@@ -7325,9 +8057,10 @@ var icondata = [
         "i": "stairs_bungalow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
+        "x": 384,
         "y": 3840,
-        "v": "Bungalow Stairs Inner Corner"
+        "v": "Bungalow Stairs Inner Corner",
+        "l": "stairs_bungalow_inner_corner"
     },
     {
         "s": "00",
@@ -7335,9 +8068,10 @@ var icondata = [
         "i": "stairs_bungalow_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 2048,
-        "v": "Bungalow Stairs Outer Corner"
+        "x": 2176,
+        "y": 3840,
+        "v": "Bungalow Stairs Outer Corner",
+        "l": "stairs_bungalow_outer_corner"
     },
     {
         "s": "00",
@@ -7345,9 +8079,10 @@ var icondata = [
         "i": "stairs_diamond",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3712,
-        "v": "Diamond Stairs"
+        "x": 256,
+        "y": 3840,
+        "v": "Diamond Stairs",
+        "l": "stairs_diamond"
     },
     {
         "s": "00",
@@ -7356,8 +8091,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 3584,
-        "v": "Diamond Stairs Inner Corner"
+        "y": 2048,
+        "v": "Diamond Stairs Inner Corner",
+        "l": "stairs_diamond_inner_corner"
     },
     {
         "s": "00",
@@ -7366,8 +8102,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 3456,
-        "v": "Diamond Stairs Outer Corner"
+        "y": 3712,
+        "v": "Diamond Stairs Outer Corner",
+        "l": "stairs_diamond_outer_corner"
     },
     {
         "s": "00",
@@ -7376,8 +8113,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 3328,
-        "v": "Dirt Stairs"
+        "y": 3584,
+        "v": "Dirt Stairs",
+        "l": "stairs_dirt"
     },
     {
         "s": "00",
@@ -7386,8 +8124,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 3200,
-        "v": "Dirt Stairs Inner Corner"
+        "y": 3456,
+        "v": "Dirt Stairs Inner Corner",
+        "l": "stairs_dirt_inner_corner"
     },
     {
         "s": "00",
@@ -7396,8 +8135,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 3072,
-        "v": "Dirt Stairs Outer Corner"
+        "y": 3328,
+        "v": "Dirt Stairs Outer Corner",
+        "l": "stairs_dirt_outer_corner"
     },
     {
         "s": "00",
@@ -7406,8 +8146,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2944,
-        "v": "Gingerbread Stairs"
+        "y": 3200,
+        "v": "Gingerbread Stairs",
+        "l": "stairs_gingerbread"
     },
     {
         "s": "00",
@@ -7416,8 +8157,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2816,
-        "v": "Gingerbread Stairs Inner Corner"
+        "y": 3072,
+        "v": "Gingerbread Stairs Inner Corner",
+        "l": "stairs_gingerbread_inner_corner"
     },
     {
         "s": "00",
@@ -7426,8 +8168,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2688,
-        "v": "Gingerbread Stairs Outer Corner"
+        "y": 2944,
+        "v": "Gingerbread Stairs Outer Corner",
+        "l": "stairs_gingerbread_outer_corner"
     },
     {
         "s": "00",
@@ -7436,8 +8179,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2560,
-        "v": "Glass Stairs"
+        "y": 2816,
+        "v": "Glass Stairs",
+        "l": "stairs_glass"
     },
     {
         "s": "00",
@@ -7446,8 +8190,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2432,
-        "v": "Glass Stairs Inner Corner"
+        "y": 2688,
+        "v": "Glass Stairs Inner Corner",
+        "l": "stairs_glass_inner_corner"
     },
     {
         "s": "00",
@@ -7456,8 +8201,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2304,
-        "v": "Glass Stairs Outer Corner"
+        "y": 2560,
+        "v": "Glass Stairs Outer Corner",
+        "l": "stairs_glass_outer_corner"
     },
     {
         "s": "00",
@@ -7466,8 +8212,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2176,
-        "v": "Grass Stairs"
+        "y": 2432,
+        "v": "Grass Stairs",
+        "l": "stairs_grass"
     },
     {
         "s": "00",
@@ -7476,8 +8223,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1920,
-        "v": "Grass Stairs Inner Corner"
+        "y": 2304,
+        "v": "Grass Stairs Inner Corner",
+        "l": "stairs_grass_inner_corner"
     },
     {
         "s": "00",
@@ -7486,8 +8234,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 128,
-        "v": "Grass Stairs Outer Corner"
+        "y": 2176,
+        "v": "Grass Stairs Outer Corner",
+        "l": "stairs_grass_outer_corner"
     },
     {
         "s": "00",
@@ -7496,8 +8245,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1792,
-        "v": "Haunted Stairs"
+        "y": 1920,
+        "v": "Haunted Stairs",
+        "l": "stairs_haunted"
     },
     {
         "s": "00",
@@ -7506,8 +8256,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1664,
-        "v": "Carpeted Haunted Stairs"
+        "y": 128,
+        "v": "Carpeted Haunted Stairs",
+        "l": "stairs_haunted_carpet"
     },
     {
         "s": "00",
@@ -7516,8 +8267,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1536,
-        "v": "Haunted Stairs Inner Corner"
+        "y": 1792,
+        "v": "Haunted Stairs Inner Corner",
+        "l": "stairs_haunted_inner_corner"
     },
     {
         "s": "00",
@@ -7526,8 +8278,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1408,
-        "v": "Haunted Stairs Outer Corner"
+        "y": 1664,
+        "v": "Haunted Stairs Outer Corner",
+        "l": "stairs_haunted_outer_corner"
     },
     {
         "s": "00",
@@ -7536,8 +8289,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1280,
-        "v": "Ice Stairs"
+        "y": 1536,
+        "v": "Ice Stairs",
+        "l": "stairs_ice"
     },
     {
         "s": "00",
@@ -7546,8 +8300,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1152,
-        "v": "Ice Stairs Inner Corner"
+        "y": 1408,
+        "v": "Ice Stairs Inner Corner",
+        "l": "stairs_ice_inner_corner"
     },
     {
         "s": "00",
@@ -7556,8 +8311,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1024,
-        "v": "Ice Stairs Outer Corner"
+        "y": 1280,
+        "v": "Ice Stairs Outer Corner",
+        "l": "stairs_ice_outer_corner"
     },
     {
         "s": "00",
@@ -7566,8 +8322,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 896,
-        "v": "Industrial Stairs"
+        "y": 1152,
+        "v": "Industrial Stairs",
+        "l": "stairs_industrial"
     },
     {
         "s": "00",
@@ -7576,8 +8333,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 768,
-        "v": "Iron Stairs"
+        "y": 1024,
+        "v": "Iron Stairs",
+        "l": "stairs_iron"
     },
     {
         "s": "00",
@@ -7586,8 +8344,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 640,
-        "v": "Iron Stairs Inner Corner"
+        "y": 896,
+        "v": "Iron Stairs Inner Corner",
+        "l": "stairs_iron_inner_corner"
     },
     {
         "s": "00",
@@ -7596,8 +8355,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 512,
-        "v": "Iron Stairs Outer Corner"
+        "y": 768,
+        "v": "Iron Stairs Outer Corner",
+        "l": "stairs_iron_outer_corner"
     },
     {
         "s": "00",
@@ -7606,8 +8366,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 384,
-        "v": "Limestone Stairs"
+        "y": 640,
+        "v": "Limestone Stairs",
+        "l": "stairs_limestone"
     },
     {
         "s": "00",
@@ -7616,8 +8377,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 256,
-        "v": "Limestone Stairs Inner Corner"
+        "y": 512,
+        "v": "Limestone Stairs Inner Corner",
+        "l": "stairs_limestone_inner_corner"
     },
     {
         "s": "00",
@@ -7625,9 +8387,10 @@ var icondata = [
         "i": "stairs_limestone_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 2816,
-        "v": "Limestone Stairs Outer Corner"
+        "x": 128,
+        "y": 384,
+        "v": "Limestone Stairs Outer Corner",
+        "l": "stairs_limestone_outer_corner"
     },
     {
         "s": "00",
@@ -7635,9 +8398,10 @@ var icondata = [
         "i": "stairs_lumite",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1792,
-        "v": "Lumite Stairs"
+        "x": 128,
+        "y": 256,
+        "v": "Lumite Stairs",
+        "l": "stairs_lumite"
     },
     {
         "s": "00",
@@ -7645,9 +8409,10 @@ var icondata = [
         "i": "stairs_lumite_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1664,
-        "v": "Lumite Stairs Inner Corner"
+        "x": 384,
+        "y": 2816,
+        "v": "Lumite Stairs Inner Corner",
+        "l": "stairs_lumite_inner_corner"
     },
     {
         "s": "00",
@@ -7656,8 +8421,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 1536,
-        "v": "Lumite Stairs Outer Corner"
+        "y": 1792,
+        "v": "Lumite Stairs Outer Corner",
+        "l": "stairs_lumite_outer_corner"
     },
     {
         "s": "00",
@@ -7665,9 +8431,10 @@ var icondata = [
         "i": "stairs_mayan",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 896,
-        "v": "Hidden Temple Stairs"
+        "x": 512,
+        "y": 1664,
+        "v": "Hidden Temple Stairs",
+        "l": "stairs_mayan"
     },
     {
         "s": "00",
@@ -7675,9 +8442,10 @@ var icondata = [
         "i": "stairs_mayan_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 768,
-        "v": "Mayan Stairs Inner Corner"
+        "x": 512,
+        "y": 1536,
+        "v": "Mayan Stairs Inner Corner",
+        "l": "stairs_mayan_inner_corner"
     },
     {
         "s": "00",
@@ -7686,8 +8454,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 640,
-        "v": "Mayan Stairs Outer Corner"
+        "y": 896,
+        "v": "Mayan Stairs Outer Corner",
+        "l": "stairs_mayan_outer_corner"
     },
     {
         "s": "00",
@@ -7696,8 +8465,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 512,
-        "v": "Medieval Carpeted Stairs"
+        "y": 768,
+        "v": "Medieval Carpeted Stairs",
+        "l": "stairs_medieval_rug"
     },
     {
         "s": "00",
@@ -7706,8 +8476,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 384,
-        "v": "Medieval Stairs"
+        "y": 640,
+        "v": "Medieval Stairs",
+        "l": "stairs_medieval"
     },
     {
         "s": "00",
@@ -7716,8 +8487,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 256,
-        "v": "Medieval Stairs Inner Corner"
+        "y": 512,
+        "v": "Medieval Stairs Inner Corner",
+        "l": "stairs_medieval_inner_corner"
     },
     {
         "s": "00",
@@ -7726,8 +8498,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 128,
-        "v": "Medieval Stairs Outer Corner"
+        "y": 384,
+        "v": "Medieval Stairs Outer Corner",
+        "l": "stairs_medieval_outer_corner"
     },
     {
         "s": "00",
@@ -7736,8 +8509,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 0,
-        "v": "Obsidian Stairs"
+        "y": 256,
+        "v": "Obsidian Stairs",
+        "l": "stairs_obsidian"
     },
     {
         "s": "00",
@@ -7745,9 +8519,10 @@ var icondata = [
         "i": "stairs_obsidian_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 3072,
-        "v": "Obsidian Stairs Inner Corner"
+        "x": 896,
+        "y": 128,
+        "v": "Obsidian Stairs Inner Corner",
+        "l": "stairs_obsidian_inner_corner"
     },
     {
         "s": "00",
@@ -7755,9 +8530,10 @@ var icondata = [
         "i": "stairs_obsidian_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 3072,
-        "v": "Obsidian Stairs Outer Corner"
+        "x": 896,
+        "y": 0,
+        "v": "Obsidian Stairs Outer Corner",
+        "l": "stairs_obsidian_outer_corner"
     },
     {
         "s": "00",
@@ -7765,9 +8541,10 @@ var icondata = [
         "i": "stairs_peakstone",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1024,
         "y": 3072,
-        "v": "Peakstone Stairs"
+        "v": "Peakstone Stairs",
+        "l": "stairs_peakstone"
     },
     {
         "s": "00",
@@ -7775,9 +8552,10 @@ var icondata = [
         "i": "stairs_peakstone_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1152,
         "y": 3072,
-        "v": "Peakstone Stairs Inner Corner"
+        "v": "Peakstone Stairs Inner Corner",
+        "l": "stairs_peakstone_inner_corner"
     },
     {
         "s": "00",
@@ -7785,9 +8563,10 @@ var icondata = [
         "i": "stairs_peakstone_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1280,
         "y": 3072,
-        "v": "Peakstone Stairs Outer Corner"
+        "v": "Peakstone Stairs Outer Corner",
+        "l": "stairs_peakstone_outer_corner"
     },
     {
         "s": "00",
@@ -7795,9 +8574,10 @@ var icondata = [
         "i": "stairs_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 1408,
         "y": 3072,
-        "v": "Galactic Stairs"
+        "v": "Galactic Stairs",
+        "l": "stairs_sci_fi"
     },
     {
         "s": "00",
@@ -7805,9 +8585,10 @@ var icondata = [
         "i": "stairs_stone",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 1536,
         "y": 3072,
-        "v": "Stone Stairs"
+        "v": "Stone Stairs",
+        "l": "stairs_stone"
     },
     {
         "s": "00",
@@ -7815,9 +8596,10 @@ var icondata = [
         "i": "stairs_stone_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 1792,
         "y": 3072,
-        "v": "Stone Stairs Inner Corner"
+        "v": "Stone Stairs Inner Corner",
+        "l": "stairs_stone_inner_corner"
     },
     {
         "s": "00",
@@ -7825,9 +8607,10 @@ var icondata = [
         "i": "stairs_stone_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 3584,
         "y": 3072,
-        "v": "Stone Stairs Outer Corner"
+        "v": "Stone Stairs Outer Corner",
+        "l": "stairs_stone_outer_corner"
     },
     {
         "s": "00",
@@ -7835,9 +8618,10 @@ var icondata = [
         "i": "stairs_wood",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 1920,
         "y": 3072,
-        "v": "Wood Stairs"
+        "v": "Wood Stairs",
+        "l": "stairs_wood"
     },
     {
         "s": "00",
@@ -7845,9 +8629,10 @@ var icondata = [
         "i": "stairs_wood_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 2048,
         "y": 3072,
-        "v": "Wood Stairs Inner Corner"
+        "v": "Wood Stairs Inner Corner",
+        "l": "stairs_wood_inner_corner"
     },
     {
         "s": "00",
@@ -7855,9 +8640,10 @@ var icondata = [
         "i": "stairs_wood_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2176,
         "y": 3072,
-        "v": "Wood Stairs Outer Corner"
+        "v": "Wood Stairs Outer Corner",
+        "l": "stairs_wood_outer_corner"
     },
     {
         "s": "00",
@@ -7865,9 +8651,10 @@ var icondata = [
         "i": "stalactite",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 2304,
         "y": 3072,
-        "v": "Stalactite"
+        "v": "Stalactite",
+        "l": "stalactite_item"
     },
     {
         "s": "00",
@@ -7875,9 +8662,10 @@ var icondata = [
         "i": "station_crafting",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 2432,
         "y": 3072,
-        "v": "Crafting Table"
+        "v": "Crafting Table",
+        "l": "station_armory"
     },
     {
         "s": "00",
@@ -7885,9 +8673,10 @@ var icondata = [
         "i": "station_culinary",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 2560,
         "y": 3072,
-        "v": "Cooking Station"
+        "v": "Cooking Station",
+        "l": "station_culinary"
     },
     {
         "s": "00",
@@ -7895,9 +8684,10 @@ var icondata = [
         "i": "station_forge",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 2688,
         "y": 3072,
-        "v": "Forge"
+        "v": "Forge",
+        "l": "station_furniture"
     },
     {
         "s": "00",
@@ -7905,9 +8695,10 @@ var icondata = [
         "i": "station_processing",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2816,
         "y": 3072,
-        "v": "? station_processing"
+        "v": "? station_processing",
+        "l": "station_processing"
     },
     {
         "s": "00",
@@ -7915,9 +8706,10 @@ var icondata = [
         "i": "station_sawmill",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2944,
         "y": 3072,
-        "v": "Processor"
+        "v": "Processor",
+        "l": "station_sawyer"
     },
     {
         "s": "00",
@@ -7925,9 +8717,10 @@ var icondata = [
         "i": "stick_wood",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3072,
         "y": 3072,
-        "v": "Wood Rod"
+        "v": "Wood Rod",
+        "l": "stick_wood"
     },
     {
         "s": "00",
@@ -7935,9 +8728,10 @@ var icondata = [
         "i": "stone",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3200,
         "y": 3072,
-        "v": "Stone"
+        "v": "Stone",
+        "l": "stone_item"
     },
     {
         "s": "00",
@@ -7945,9 +8739,10 @@ var icondata = [
         "i": "stone_canyon",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1024,
-        "v": "? stone_canyon"
+        "x": 3328,
+        "y": 3072,
+        "v": "? stone_canyon",
+        "l": "stone_canyon"
     },
     {
         "s": "00",
@@ -7955,9 +8750,10 @@ var icondata = [
         "i": "stone_canyon_dark",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 3456,
         "y": 3072,
-        "v": "? stone_canyon_dark"
+        "v": "? stone_canyon_dark",
+        "l": "stone_canyon_dark"
     },
     {
         "s": "00",
@@ -7966,8 +8762,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1152,
-        "v": "? stone_canyon_ruddy"
+        "y": 1024,
+        "v": "? stone_canyon_ruddy",
+        "l": "stone_canyon_ruddy"
     },
     {
         "s": "00",
@@ -7975,9 +8772,10 @@ var icondata = [
         "i": "stone_corrupted",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3200,
-        "v": "Corrupted Stone"
+        "x": 1664,
+        "y": 3072,
+        "v": "Corrupted Stone",
+        "l": "stone_corrupted_item"
     },
     {
         "s": "00",
@@ -7985,9 +8783,10 @@ var icondata = [
         "i": "stone_fossil",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 3200,
-        "v": "? stone_fossil"
+        "x": 896,
+        "y": 1152,
+        "v": "? stone_fossil",
+        "l": "stone_fossil"
     },
     {
         "s": "00",
@@ -7995,9 +8794,10 @@ var icondata = [
         "i": "stool_wood",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 3840,
         "y": 3200,
-        "v": "Wood Stool"
+        "v": "Wood Stool",
+        "l": "stool_wood"
     },
     {
         "s": "00",
@@ -8005,9 +8805,10 @@ var icondata = [
         "i": "sulfer",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2176,
         "y": 3200,
-        "v": "? sulfer"
+        "v": "? sulfer",
+        "l": "sulfer"
     },
     {
         "s": "00",
@@ -8015,9 +8816,10 @@ var icondata = [
         "i": "sulfur",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 2304,
         "y": 3200,
-        "v": "Sulfur"
+        "v": "Sulfur",
+        "l": "sulfur"
     },
     {
         "s": "00",
@@ -8025,9 +8827,10 @@ var icondata = [
         "i": "switch_industrial_lever",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 2432,
         "y": 3200,
-        "v": "Industrial Lever"
+        "v": "Industrial Lever",
+        "l": "switch_industrial_lever"
     },
     {
         "s": "00",
@@ -8035,9 +8838,10 @@ var icondata = [
         "i": "switch_industrial_toggle",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 2560,
         "y": 3200,
-        "v": "Industrial Switch"
+        "v": "Industrial Switch",
+        "l": "switch_industrial_toggle"
     },
     {
         "s": "00",
@@ -8045,9 +8849,10 @@ var icondata = [
         "i": "switch_medieval",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 2688,
         "y": 3200,
-        "v": "Medieval Switch"
+        "v": "Medieval Switch",
+        "l": "switch_medieval"
     },
     {
         "s": "00",
@@ -8055,9 +8860,10 @@ var icondata = [
         "i": "switch_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2816,
         "y": 3200,
-        "v": "Galactic Terminal"
+        "v": "Galactic Terminal",
+        "l": "switch_sci_fi"
     },
     {
         "s": "00",
@@ -8065,9 +8871,10 @@ var icondata = [
         "i": "sword_axe_chinese",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2944,
         "y": 3200,
-        "v": "Dragon's Breath"
+        "v": "Dragon's Breath",
+        "l": "cosmetic_weapon_axe_chinese"
     },
     {
         "s": "00",
@@ -8075,9 +8882,10 @@ var icondata = [
         "i": "sword_valentines",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3072,
         "y": 3200,
-        "v": "[i]Kindness[/i]"
+        "v": "[i]Kindness[/i]",
+        "l": "cosmetic_weapon_valentines_sword"
     },
     {
         "s": "00",
@@ -8085,9 +8893,10 @@ var icondata = [
         "i": "table_arctek_01",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3200,
         "y": 3200,
-        "v": "Arctek Table"
+        "v": "Arctek Table",
+        "l": "table_arctek_01"
     },
     {
         "s": "00",
@@ -8095,9 +8904,10 @@ var icondata = [
         "i": "table_arctek_02",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3328,
         "y": 3200,
-        "v": "Advanced Arctek Table"
+        "v": "Advanced Arctek Table",
+        "l": "table_arctek_02"
     },
     {
         "s": "00",
@@ -8105,9 +8915,10 @@ var icondata = [
         "i": "table_arctek_03",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 3456,
         "y": 3200,
-        "v": "Grand Arctek Table"
+        "v": "Grand Arctek Table",
+        "l": "table_arctek_03"
     },
     {
         "s": "00",
@@ -8115,9 +8926,10 @@ var icondata = [
         "i": "table_diamond",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3584,
         "y": 3200,
-        "v": "Diamond table"
+        "v": "Diamond table",
+        "l": "table_diamond"
     },
     {
         "s": "00",
@@ -8125,9 +8937,10 @@ var icondata = [
         "i": "table_iron",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1408,
-        "v": "Iron Table"
+        "x": 3712,
+        "y": 3200,
+        "v": "Iron Table",
+        "l": "table_iron"
     },
     {
         "s": "00",
@@ -8135,9 +8948,10 @@ var icondata = [
         "i": "table_lumite",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 3072,
-        "v": "Lumite Table"
+        "x": 3968,
+        "y": 3200,
+        "v": "Lumite Table",
+        "l": "table_lumite"
     },
     {
         "s": "00",
@@ -8146,8 +8960,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2944,
-        "v": "Hidden Temple Table"
+        "y": 1408,
+        "v": "Hidden Temple Table",
+        "l": "table_mayan"
     },
     {
         "s": "00",
@@ -8156,8 +8971,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2816,
-        "v": "Medieval Table"
+        "y": 3072,
+        "v": "Medieval Table",
+        "l": "table_medieval"
     },
     {
         "s": "00",
@@ -8166,8 +8982,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2688,
-        "v": "Obsidian Table"
+        "y": 2944,
+        "v": "Obsidian Table",
+        "l": "table_obsidian"
     },
     {
         "s": "00",
@@ -8176,8 +8993,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2560,
-        "v": "Stone Table"
+        "y": 2816,
+        "v": "Stone Table",
+        "l": "table_stone"
     },
     {
         "s": "00",
@@ -8186,8 +9004,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2432,
-        "v": "Wood Table"
+        "y": 2688,
+        "v": "Wood Table",
+        "l": "table_wood"
     },
     {
         "s": "00",
@@ -8196,8 +9015,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2304,
-        "v": "? tag"
+        "y": 2560,
+        "v": "? tag",
+        "l": "tag"
     },
     {
         "s": "00",
@@ -8206,8 +9026,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2176,
-        "v": "Tar"
+        "y": 2432,
+        "v": "Tar",
+        "l": "tar_item"
     },
     {
         "s": "00",
@@ -8216,8 +9037,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 2048,
-        "v": "Teleporter"
+        "y": 2304,
+        "v": "Teleporter",
+        "l": "teleporter_item"
     },
     {
         "s": "00",
@@ -8226,8 +9048,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1920,
-        "v": "Hidden Temple Throne"
+        "y": 2176,
+        "v": "Hidden Temple Throne",
+        "l": "throne_mayan"
     },
     {
         "s": "00",
@@ -8236,8 +9059,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1792,
-        "v": "Medieval Throne"
+        "y": 2048,
+        "v": "Medieval Throne",
+        "l": "throne_medieval"
     },
     {
         "s": "00",
@@ -8246,8 +9070,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1664,
-        "v": "Super TNT"
+        "y": 1920,
+        "v": "Super TNT",
+        "l": "tnt_tier3_item"
     },
     {
         "s": "00",
@@ -8256,8 +9081,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1536,
-        "v": "Advanced TNT"
+        "y": 1792,
+        "v": "Advanced TNT",
+        "l": "tnt_tier2_item"
     },
     {
         "s": "00",
@@ -8266,8 +9092,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1280,
-        "v": "TNT"
+        "y": 1664,
+        "v": "TNT",
+        "l": "tnt"
     },
     {
         "s": "00",
@@ -8275,9 +9102,10 @@ var icondata = [
         "i": "tnt_small_upgrade",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3072,
-        "v": "Strong TNT"
+        "x": 896,
+        "y": 1536,
+        "v": "Strong TNT",
+        "l": "tnt_tier1_large_item"
     },
     {
         "s": "00",
@@ -8285,9 +9113,10 @@ var icondata = [
         "i": "torch_arctek_01",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2944,
-        "v": "Arctek Torch"
+        "x": 896,
+        "y": 1280,
+        "v": "Arctek Torch",
+        "l": "torch_arctek_01"
     },
     {
         "s": "00",
@@ -8295,9 +9124,10 @@ var icondata = [
         "i": "torch_arctek_02",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3840,
         "y": 3072,
-        "v": "Grand Arctek Torch"
+        "v": "Grand Arctek Torch",
+        "l": "torch_arctek_02"
     },
     {
         "s": "00",
@@ -8305,9 +9135,10 @@ var icondata = [
         "i": "torch_bungalow",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 1792,
         "y": 2944,
-        "v": "Bungalow Torch"
+        "v": "Bungalow Torch",
+        "l": "torch_bungalow"
     },
     {
         "s": "00",
@@ -8315,9 +9146,10 @@ var icondata = [
         "i": "torch_coal",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2944,
-        "v": "Coal Torch"
+        "x": 3968,
+        "y": 3072,
+        "v": "Coal Torch",
+        "l": "torch_coal"
     },
     {
         "s": "00",
@@ -8325,9 +9157,10 @@ var icondata = [
         "i": "torch_holiday_blue",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2176,
         "y": 2944,
-        "v": "Blue Holiday Light"
+        "v": "Blue Holiday Light",
+        "l": "torch_holiday_blue"
     },
     {
         "s": "00",
@@ -8335,9 +9168,10 @@ var icondata = [
         "i": "torch_holiday_green",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 2304,
         "y": 2944,
-        "v": "Green Holiday Light"
+        "v": "Green Holiday Light",
+        "l": "torch_holiday_green"
     },
     {
         "s": "00",
@@ -8345,9 +9179,10 @@ var icondata = [
         "i": "torch_holiday_red",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 2432,
         "y": 2944,
-        "v": "Red Holiday Light"
+        "v": "Red Holiday Light",
+        "l": "torch_holiday_red"
     },
     {
         "s": "00",
@@ -8355,9 +9190,10 @@ var icondata = [
         "i": "torch_holiday_yellow",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 2560,
         "y": 2944,
-        "v": "Yellow Holiday Light"
+        "v": "Yellow Holiday Light",
+        "l": "torch_holiday_yellow"
     },
     {
         "s": "00",
@@ -8365,9 +9201,10 @@ var icondata = [
         "i": "torch_industrial_01",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 2688,
         "y": 2944,
-        "v": "Wide Industrial Light"
+        "v": "Wide Industrial Light",
+        "l": "torch_industrial_01"
     },
     {
         "s": "00",
@@ -8375,9 +9212,10 @@ var icondata = [
         "i": "torch_industrial_02",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 2816,
         "y": 2944,
-        "v": "Industrial Light"
+        "v": "Industrial Light",
+        "l": "torch_industrial_02"
     },
     {
         "s": "00",
@@ -8385,9 +9223,10 @@ var icondata = [
         "i": "torch_mayan",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 2944,
         "y": 2944,
-        "v": "Hidden Temple Torch"
+        "v": "Hidden Temple Torch",
+        "l": "torch_mayan"
     },
     {
         "s": "00",
@@ -8395,9 +9234,10 @@ var icondata = [
         "i": "torch_medieval",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3072,
         "y": 2944,
-        "v": "Medieval Torch"
+        "v": "Medieval Torch",
+        "l": "torch_medieval"
     },
     {
         "s": "00",
@@ -8405,9 +9245,10 @@ var icondata = [
         "i": "torch_moss",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3200,
         "y": 2944,
-        "v": "Moss Torch"
+        "v": "Moss Torch",
+        "l": "torch"
     },
     {
         "s": "00",
@@ -8415,9 +9256,10 @@ var icondata = [
         "i": "torch_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3328,
         "y": 2944,
-        "v": "Galactic Lamp"
+        "v": "Galactic Lamp",
+        "l": "torch_sci_fi"
     },
     {
         "s": "00",
@@ -8425,9 +9267,10 @@ var icondata = [
         "i": "torn_pages",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 3456,
         "y": 2944,
-        "v": "Crumpled Note"
+        "v": "Crumpled Note",
+        "l": "tutorial_journal"
     },
     {
         "s": "00",
@@ -8435,9 +9278,10 @@ var icondata = [
         "i": "touchstone",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3584,
         "y": 2944,
-        "v": "Touchstone"
+        "v": "Touchstone",
+        "l": "hearthstone_white_item"
     },
     {
         "s": "00",
@@ -8445,9 +9289,10 @@ var icondata = [
         "i": "tourmaline",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1152,
-        "v": "Tourmaline"
+        "x": 3712,
+        "y": 2944,
+        "v": "Tourmaline",
+        "l": "crystal_plant"
     },
     {
         "s": "00",
@@ -8455,9 +9300,10 @@ var icondata = [
         "i": "trap_door_mayan",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 2816,
-        "v": "Hidden Temple Trap Door"
+        "x": 3968,
+        "y": 2944,
+        "v": "Hidden Temple Trap Door",
+        "l": "trap_door_mayan"
     },
     {
         "s": "00",
@@ -8466,8 +9312,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2688,
-        "v": "Stone Trap Door"
+        "y": 1152,
+        "v": "Stone Trap Door",
+        "l": "trap_door_stone"
     },
     {
         "s": "00",
@@ -8476,8 +9323,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2560,
-        "v": "Wood Trap Door"
+        "y": 2816,
+        "v": "Wood Trap Door",
+        "l": "trap_door_wood"
     },
     {
         "s": "00",
@@ -8486,8 +9334,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2432,
-        "v": "Rustic Trap Door"
+        "y": 2688,
+        "v": "Rustic Trap Door",
+        "l": "trap_door_wood_metal"
     },
     {
         "s": "00",
@@ -8496,8 +9345,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2304,
-        "v": "Small Trog Trap"
+        "y": 2560,
+        "v": "Small Trog Trap",
+        "l": "holiday_trap"
     },
     {
         "s": "00",
@@ -8506,8 +9356,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2176,
-        "v": "? trap_holiday_01_deco"
+        "y": 2432,
+        "v": "? trap_holiday_01_deco",
+        "l": "trap_holiday_01_deco"
     },
     {
         "s": "00",
@@ -8516,8 +9367,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2048,
-        "v": "Medium Trog Trap"
+        "y": 2304,
+        "v": "Medium Trog Trap",
+        "l": "holiday_trap_medium"
     },
     {
         "s": "00",
@@ -8526,8 +9378,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 1920,
-        "v": "Large Trog Trap"
+        "y": 2176,
+        "v": "Large Trog Trap",
+        "l": "holiday_trap_large"
     },
     {
         "s": "00",
@@ -8536,8 +9389,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 1792,
-        "v": "Holiday Decorative Tree"
+        "y": 2048,
+        "v": "Holiday Decorative Tree",
+        "l": "container_tree"
     },
     {
         "s": "00",
@@ -8546,8 +9400,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 1664,
-        "v": "Trog Horn"
+        "y": 1920,
+        "v": "Trog Horn",
+        "l": "trogg_horn"
     },
     {
         "s": "00",
@@ -8556,8 +9411,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 1536,
-        "v": "Turnip"
+        "y": 1792,
+        "v": "Turnip",
+        "l": "turnip"
     },
     {
         "s": "00",
@@ -8565,9 +9421,10 @@ var icondata = [
         "i": "turnip_seed",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 896,
-        "v": "Turnip Seed"
+        "x": 1152,
+        "y": 1664,
+        "v": "Turnip Seed",
+        "l": "seed_turnip"
     },
     {
         "s": "00",
@@ -8576,8 +9433,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 1408,
-        "v": "Snowball Turret"
+        "y": 1536,
+        "v": "Snowball Turret",
+        "l": "turret_snow_item"
     },
     {
         "s": "00",
@@ -8586,8 +9444,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 1280,
-        "v": "Twine"
+        "y": 1408,
+        "v": "Twine",
+        "l": "twine"
     },
     {
         "s": "00",
@@ -8595,9 +9454,10 @@ var icondata = [
         "i": "unicorn_sword",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2944,
-        "v": "? unicorn_sword"
+        "x": 1152,
+        "y": 1280,
+        "v": "? unicorn_sword",
+        "l": "unicorn_sword"
     },
     {
         "s": "00",
@@ -8605,9 +9465,10 @@ var icondata = [
         "i": "vase_atlantis",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2048,
         "y": 2944,
-        "v": "Atlantis Vase"
+        "v": "Atlantis Vase",
+        "l": "vase_atlantis"
     },
     {
         "s": "00",
@@ -8615,9 +9476,10 @@ var icondata = [
         "i": "vent_industrial",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 3840,
         "y": 2944,
-        "v": "Industrial Vent"
+        "v": "Industrial Vent",
+        "l": "vent_industrial"
     },
     {
         "s": "00",
@@ -8625,9 +9487,10 @@ var icondata = [
         "i": "vine",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1280,
-        "v": "Vines"
+        "x": 1920,
+        "y": 2944,
+        "v": "Vines",
+        "l": "vines"
     },
     {
         "s": "00",
@@ -8636,8 +9499,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2944,
-        "v": "Cragwood Vines"
+        "y": 1280,
+        "v": "Cragwood Vines",
+        "l": "vines_oak"
     },
     {
         "s": "00",
@@ -8646,8 +9510,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2816,
-        "v": "Ice Vines"
+        "y": 2944,
+        "v": "Ice Vines",
+        "l": "vines_ice"
     },
     {
         "s": "00",
@@ -8656,8 +9521,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2688,
-        "v": "Adobe Bricks"
+        "y": 2816,
+        "v": "Adobe Bricks",
+        "l": "adobe_brick"
     },
     {
         "s": "00",
@@ -8666,8 +9532,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2560,
-        "v": "Blue Adobe Wall"
+        "y": 2688,
+        "v": "Blue Adobe Wall",
+        "l": "wall_adobe_blue"
     },
     {
         "s": "00",
@@ -8676,8 +9543,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2432,
-        "v": "? wall_adobeclay_brown"
+        "y": 2560,
+        "v": "? wall_adobeclay_brown",
+        "l": "wall_adobeclay_brown"
     },
     {
         "s": "00",
@@ -8686,8 +9554,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2304,
-        "v": "Red Adobe Wall"
+        "y": 2432,
+        "v": "Red Adobe Wall",
+        "l": "wall_adobe_red"
     },
     {
         "s": "00",
@@ -8696,8 +9565,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2176,
-        "v": "Adobe Wall"
+        "y": 2304,
+        "v": "Adobe Wall",
+        "l": "wall_adobe"
     },
     {
         "s": "00",
@@ -8706,8 +9576,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2048,
-        "v": "Yellow Adobe Wall"
+        "y": 2176,
+        "v": "Yellow Adobe Wall",
+        "l": "wall_adobe_yellow"
     },
     {
         "s": "00",
@@ -8716,8 +9587,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1920,
-        "v": "? wall_adobe_rough"
+        "y": 2048,
+        "v": "? wall_adobe_rough",
+        "l": "wall_adobe_rough"
     },
     {
         "s": "00",
@@ -8726,8 +9598,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1792,
-        "v": "Atlantis Wall"
+        "y": 1920,
+        "v": "Atlantis Wall",
+        "l": "wall_atlantis"
     },
     {
         "s": "00",
@@ -8736,8 +9609,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1664,
-        "v": "Atlantis Symbol Trim Wall"
+        "y": 1792,
+        "v": "Atlantis Symbol Trim Wall",
+        "l": "wall_atlantis_trim_symbol"
     },
     {
         "s": "00",
@@ -8746,8 +9620,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1536,
-        "v": "Atlantis Stairs"
+        "y": 1664,
+        "v": "Atlantis Stairs",
+        "l": "stairs_atlantis"
     },
     {
         "s": "00",
@@ -8756,8 +9631,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1408,
-        "v": "Atlantis Tile Wall"
+        "y": 1536,
+        "v": "Atlantis Tile Wall",
+        "l": "wall_atlantis_tile"
     },
     {
         "s": "00",
@@ -8766,8 +9642,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1152,
-        "v": "Atlantis Stairs Inner Corner"
+        "y": 1408,
+        "v": "Atlantis Stairs Inner Corner",
+        "l": "stairs_atlantis_inner_corner"
     },
     {
         "s": "00",
@@ -8775,9 +9652,10 @@ var icondata = [
         "i": "wall_atlantis_03_outer",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2944,
-        "v": "Atlantis Stairs Outer Corner"
+        "x": 1024,
+        "y": 1152,
+        "v": "Atlantis Stairs Outer Corner",
+        "l": "stairs_atlantis_outer_corner"
     },
     {
         "s": "00",
@@ -8785,9 +9663,10 @@ var icondata = [
         "i": "wall_atlantis_04",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1024,
-        "v": "Atlantis Trim Wall"
+        "x": 1664,
+        "y": 2944,
+        "v": "Atlantis Trim Wall",
+        "l": "wall_atlantis_trim"
     },
     {
         "s": "00",
@@ -8796,8 +9675,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 896,
-        "v": "Atlantis Sunken Wall"
+        "y": 1024,
+        "v": "Atlantis Sunken Wall",
+        "l": "wall_atlantis_sunken"
     },
     {
         "s": "00",
@@ -8806,8 +9686,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 768,
-        "v": "Atlantis Wave Wall"
+        "y": 896,
+        "v": "Atlantis Wave Wall",
+        "l": "wall_atlantis_wave"
     },
     {
         "s": "00",
@@ -8816,8 +9697,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 640,
-        "v": "Atlantis Roof"
+        "y": 768,
+        "v": "Atlantis Roof",
+        "l": "roof_atlantis"
     },
     {
         "s": "00",
@@ -8826,8 +9708,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 512,
-        "v": "Atlantis Roof Inner Corner"
+        "y": 640,
+        "v": "Atlantis Roof Inner Corner",
+        "l": "roof_atlantis_inner_corner"
     },
     {
         "s": "00",
@@ -8836,8 +9719,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 384,
-        "v": "Atlantis Roof Outer Corner"
+        "y": 512,
+        "v": "Atlantis Roof Outer Corner",
+        "l": "roof_atlantis_outer_corner"
     },
     {
         "s": "00",
@@ -8846,8 +9730,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 256,
-        "v": "Atlantis Trident Accent Wall"
+        "y": 384,
+        "v": "Atlantis Trident Accent Wall",
+        "l": "wall_atlantis_accent_trident"
     },
     {
         "s": "00",
@@ -8856,8 +9741,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 128,
-        "v": "Atlantis Accent Wall"
+        "y": 256,
+        "v": "Atlantis Accent Wall",
+        "l": "wall_atlantis_accent"
     },
     {
         "s": "00",
@@ -8866,8 +9752,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 0,
-        "v": "Haunted Stone Wall"
+        "y": 128,
+        "v": "Haunted Stone Wall",
+        "l": "wall_haunted_stone"
     },
     {
         "s": "00",
@@ -8875,9 +9762,10 @@ var icondata = [
         "i": "wall_bungalow",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 2944,
-        "v": "Bungalow Wall"
+        "x": 1024,
+        "y": 0,
+        "v": "Bungalow Wall",
+        "l": "wall_bungalow"
     },
     {
         "s": "00",
@@ -8885,9 +9773,10 @@ var icondata = [
         "i": "wall_bungalow_accent",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1152,
         "y": 2944,
-        "v": "Bungalow Accent Wall"
+        "v": "Bungalow Accent Wall",
+        "l": "wall_bungalow_accent"
     },
     {
         "s": "00",
@@ -8895,9 +9784,10 @@ var icondata = [
         "i": "wall_bungalow_accent_fur",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1280,
         "y": 2944,
-        "v": "Bungalow Fur Wall"
+        "v": "Bungalow Fur Wall",
+        "l": "wall_bungalow_accent_fur"
     },
     {
         "s": "00",
@@ -8905,9 +9795,10 @@ var icondata = [
         "i": "wall_bungalow_support",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1408,
         "y": 2944,
-        "v": "Bungalow Support"
+        "v": "Bungalow Support",
+        "l": "wall_bungalow_support"
     },
     {
         "s": "00",
@@ -8915,9 +9806,10 @@ var icondata = [
         "i": "wall_candycane",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 3200,
-        "v": "Candy Cane Wall"
+        "x": 1536,
+        "y": 2944,
+        "v": "Candy Cane Wall",
+        "l": "wall_candycane"
     },
     {
         "s": "00",
@@ -8925,9 +9817,10 @@ var icondata = [
         "i": "wall_cobblestone",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3072,
-        "v": "Cobblestone"
+        "x": 2048,
+        "y": 3200,
+        "v": "Cobblestone",
+        "l": "wall_stone_cobble"
     },
     {
         "s": "00",
@@ -8935,9 +9828,10 @@ var icondata = [
         "i": "wall_cobblestone_mossy",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 3200,
-        "v": "Mossy Cobblestone"
+        "x": 3712,
+        "y": 3072,
+        "v": "Mossy Cobblestone",
+        "l": "wall_stone_cobble_mossy"
     },
     {
         "s": "00",
@@ -8945,9 +9839,10 @@ var icondata = [
         "i": "wall_copper",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 512,
-        "v": "Copper Wall"
+        "x": 1920,
+        "y": 3200,
+        "v": "Copper Wall",
+        "l": "wall_copper"
     },
     {
         "s": "00",
@@ -8955,9 +9850,10 @@ var icondata = [
         "i": "wall_corrupted_brick",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 3456,
-        "v": "? wall_corrupted_brick"
+        "x": 640,
+        "y": 512,
+        "v": "? wall_corrupted_brick",
+        "l": "wall_corrupted_brick"
     },
     {
         "s": "00",
@@ -8965,9 +9861,10 @@ var icondata = [
         "i": "wall_corrupted_stone",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3200,
         "y": 3456,
-        "v": "Corrupted Stone Wall"
+        "v": "Corrupted Stone Wall",
+        "l": "wall_corrupted_stone"
     },
     {
         "s": "00",
@@ -8975,9 +9872,10 @@ var icondata = [
         "i": "wall_diamond_decorative_01",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3328,
         "y": 3456,
-        "v": "Octagon Diamond Wall"
+        "v": "Octagon Diamond Wall",
+        "l": "wall_diamond_octagon"
     },
     {
         "s": "00",
@@ -8985,9 +9883,10 @@ var icondata = [
         "i": "wall_diamond_decorative_02",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3456,
         "y": 3456,
-        "v": "Star Diamond Wall"
+        "v": "Star Diamond Wall",
+        "l": "wall_diamond_star"
     },
     {
         "s": "00",
@@ -8995,9 +9894,10 @@ var icondata = [
         "i": "wall_diamond_decorative_03",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 3584,
         "y": 3456,
-        "v": "Square Diamond Wall"
+        "v": "Square Diamond Wall",
+        "l": "wall_diamond_square"
     },
     {
         "s": "00",
@@ -9005,9 +9905,10 @@ var icondata = [
         "i": "wall_drago_hardened_lava",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 3712,
         "y": 3456,
-        "v": "Hardened Lava Floor"
+        "v": "Hardened Lava Floor",
+        "l": "floor_hardened_lava"
     },
     {
         "s": "00",
@@ -9015,9 +9916,10 @@ var icondata = [
         "i": "wall_drago_igneous",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 3840,
         "y": 3456,
-        "v": "Igneous Wall"
+        "v": "Igneous Wall",
+        "l": "wall_igneous"
     },
     {
         "s": "00",
@@ -9025,9 +9927,10 @@ var icondata = [
         "i": "wall_furnace_decorative_01",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3328,
-        "v": "Crossed Furnace Wall"
+        "x": 3968,
+        "y": 3456,
+        "v": "Crossed Furnace Wall",
+        "l": "wall_furnace_cross"
     },
     {
         "s": "00",
@@ -9036,8 +9939,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 3200,
-        "v": "Aztec Furnace Wall"
+        "y": 3328,
+        "v": "Aztec Furnace Wall",
+        "l": "wall_furnace_aztec"
     },
     {
         "s": "00",
@@ -9046,8 +9950,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 3072,
-        "v": "Grated Furnace wall"
+        "y": 3200,
+        "v": "Grated Furnace wall",
+        "l": "wall_furnace_grate"
     },
     {
         "s": "00",
@@ -9056,8 +9961,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 2944,
-        "v": "Gingerbread Wall"
+        "y": 3072,
+        "v": "Gingerbread Wall",
+        "l": "wall_gingerbread"
     },
     {
         "s": "00",
@@ -9066,8 +9972,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 2816,
-        "v": "Brick Gingerbread Wall"
+        "y": 2944,
+        "v": "Brick Gingerbread Wall",
+        "l": "wall_gingerbread_brick"
     },
     {
         "s": "00",
@@ -9076,8 +9983,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 2688,
-        "v": "Tiled Gingerbread Wall"
+        "y": 2816,
+        "v": "Tiled Gingerbread Wall",
+        "l": "wall_gingerbread_tile"
     },
     {
         "s": "00",
@@ -9086,8 +9994,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 2432,
-        "v": "Swirl Gingerbread Wall"
+        "y": 2688,
+        "v": "Swirl Gingerbread Wall",
+        "l": "wall_gingerbread_swirl"
     },
     {
         "s": "00",
@@ -9096,8 +10005,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 640,
-        "v": "Golden Wall"
+        "y": 2432,
+        "v": "Golden Wall",
+        "l": "wall_gold"
     },
     {
         "s": "00",
@@ -9106,8 +10016,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 2304,
-        "v": "Banded Golden Wall"
+        "y": 640,
+        "v": "Banded Golden Wall",
+        "l": "wall_gold_banded"
     },
     {
         "s": "00",
@@ -9116,8 +10027,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 2176,
-        "v": "Studded Golden Wall"
+        "y": 2304,
+        "v": "Studded Golden Wall",
+        "l": "wall_gold_studded"
     },
     {
         "s": "00",
@@ -9126,8 +10038,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 2048,
-        "v": "? wall_gold_decorative_squares"
+        "y": 2176,
+        "v": "? wall_gold_decorative_squares",
+        "l": "wall_gold_decorative_squares"
     },
     {
         "s": "00",
@@ -9136,8 +10049,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1920,
-        "v": "? wall_gold_decorative_triangles"
+        "y": 2048,
+        "v": "? wall_gold_decorative_triangles",
+        "l": "wall_gold_decorative_triangles"
     },
     {
         "s": "00",
@@ -9146,8 +10060,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1792,
-        "v": "Hardened Lava Wall"
+        "y": 1920,
+        "v": "Hardened Lava Wall",
+        "l": "wall_hardened_lava_brick"
     },
     {
         "s": "00",
@@ -9156,8 +10071,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1664,
-        "v": "Hardened Lava Inlay Wall"
+        "y": 1792,
+        "v": "Hardened Lava Inlay Wall",
+        "l": "wall_hardened_lava_inlay"
     },
     {
         "s": "00",
@@ -9166,8 +10082,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1536,
-        "v": "Stacked Hardened Lava Wall"
+        "y": 1664,
+        "v": "Stacked Hardened Lava Wall",
+        "l": "wall_hardened_lava_stacked"
     },
     {
         "s": "00",
@@ -9176,8 +10093,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1408,
-        "v": "Rocky Ice Wall"
+        "y": 1536,
+        "v": "Rocky Ice Wall",
+        "l": "wall_ice_rocky"
     },
     {
         "s": "00",
@@ -9186,8 +10104,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1280,
-        "v": "Snowcapped Ice Wall"
+        "y": 1408,
+        "v": "Snowcapped Ice Wall",
+        "l": "wall_ice_rocky_snow"
     },
     {
         "s": "00",
@@ -9196,8 +10115,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1152,
-        "v": "Igneous Block Wall"
+        "y": 1280,
+        "v": "Igneous Block Wall",
+        "l": "wall_igneous_block"
     },
     {
         "s": "00",
@@ -9206,8 +10126,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1024,
-        "v": "? wall_industrial_brick"
+        "y": 1152,
+        "v": "? wall_industrial_brick",
+        "l": "wall_industrial_brick"
     },
     {
         "s": "00",
@@ -9216,8 +10137,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 896,
-        "v": "Industrial Grated Wall"
+        "y": 1024,
+        "v": "Industrial Grated Wall",
+        "l": "wall_industrial_grate"
     },
     {
         "s": "00",
@@ -9226,8 +10148,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 768,
-        "v": "? wall_loose_slate"
+        "y": 896,
+        "v": "? wall_loose_slate",
+        "l": "wall_loose_slate"
     },
     {
         "s": "00",
@@ -9235,9 +10158,10 @@ var icondata = [
         "i": "wall_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 3456,
-        "v": "Lumite Wall"
+        "x": 640,
+        "y": 768,
+        "v": "Lumite Wall",
+        "l": "wall_lumite_beveled"
     },
     {
         "s": "00",
@@ -9245,9 +10169,10 @@ var icondata = [
         "i": "wall_lumite_dark",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2560,
-        "v": "Dark Lumite Wall"
+        "x": 3072,
+        "y": 3456,
+        "v": "Dark Lumite Wall",
+        "l": "wall_lumite_dark"
     },
     {
         "s": "00",
@@ -9255,9 +10180,10 @@ var icondata = [
         "i": "wall_lumite_decorative_01",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 3456,
-        "v": "Shattered Dark Lumite Wall"
+        "x": 640,
+        "y": 2560,
+        "v": "Shattered Dark Lumite Wall",
+        "l": "wall_lumite_shattered_dark"
     },
     {
         "s": "00",
@@ -9265,9 +10191,10 @@ var icondata = [
         "i": "wall_lumite_decorative_02",
         "w": 128,
         "h": 128,
-        "x": 768,
+        "x": 2944,
         "y": 3456,
-        "v": "Shattered Lumite Wall"
+        "v": "Shattered Lumite Wall",
+        "l": "wall_lumite_shattered"
     },
     {
         "s": "00",
@@ -9275,9 +10202,10 @@ var icondata = [
         "i": "wall_lumite_decorative_03",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1408,
-        "v": "Shattered Light Lumite Wall"
+        "x": 768,
+        "y": 3456,
+        "v": "Shattered Light Lumite Wall",
+        "l": "wall_lumite_shattered_light"
     },
     {
         "s": "00",
@@ -9286,8 +10214,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 1280,
-        "v": "Light Lumite Wall"
+        "y": 1408,
+        "v": "Light Lumite Wall",
+        "l": "wall_lumite_light"
     },
     {
         "s": "00",
@@ -9296,8 +10225,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 1152,
-        "v": "Hidden Temple Serpent Accent"
+        "y": 1280,
+        "v": "Hidden Temple Serpent Accent",
+        "l": "wall_mayan_accent_serpent"
     },
     {
         "s": "00",
@@ -9306,8 +10236,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 1024,
-        "v": "Hidden Temple Accent"
+        "y": 1152,
+        "v": "Hidden Temple Accent",
+        "l": "wall_mayan_accent"
     },
     {
         "s": "00",
@@ -9316,8 +10247,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 896,
-        "v": "Hidden Temple Wall"
+        "y": 1024,
+        "v": "Hidden Temple Wall",
+        "l": "wall_mayan"
     },
     {
         "s": "00",
@@ -9326,8 +10258,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 768,
-        "v": "Hidden Temple Trim"
+        "y": 896,
+        "v": "Hidden Temple Trim",
+        "l": "wall_mayan_trim"
     },
     {
         "s": "00",
@@ -9336,8 +10269,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 640,
-        "v": "Hidden Temple Glyph Wall"
+        "y": 768,
+        "v": "Hidden Temple Glyph Wall",
+        "l": "wall_mayan_glyph"
     },
     {
         "s": "00",
@@ -9346,8 +10280,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 512,
-        "v": "Hidden Temple Turquoise Trim"
+        "y": 640,
+        "v": "Hidden Temple Turquoise Trim",
+        "l": "wall_mayan_trim_turquoise"
     },
     {
         "s": "00",
@@ -9356,8 +10291,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 384,
-        "v": "Medieval Brick Wall"
+        "y": 512,
+        "v": "Medieval Brick Wall",
+        "l": "wall_medieval_bricks"
     },
     {
         "s": "00",
@@ -9366,8 +10302,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 256,
-        "v": "Medieval Banner Wall"
+        "y": 384,
+        "v": "Medieval Banner Wall",
+        "l": "wall_medieval_banner"
     },
     {
         "s": "00",
@@ -9376,8 +10313,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 128,
-        "v": "Medieval Crest Wall"
+        "y": 256,
+        "v": "Medieval Crest Wall",
+        "l": "wall_medieval_icon"
     },
     {
         "s": "00",
@@ -9386,8 +10324,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 0,
-        "v": "Medieval Brick Inset Wall"
+        "y": 128,
+        "v": "Medieval Brick Inset Wall",
+        "l": "wall_medieval_inset"
     },
     {
         "s": "00",
@@ -9395,9 +10334,10 @@ var icondata = [
         "i": "wall_medieval_spike",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3456,
-        "v": "Medieval Spike Wall"
+        "x": 512,
+        "y": 0,
+        "v": "Medieval Spike Wall",
+        "l": "wall_medieval_spike"
     },
     {
         "s": "00",
@@ -9405,9 +10345,10 @@ var icondata = [
         "i": "wall_metal_green",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 640,
         "y": 3456,
-        "v": "? wall_metal_green"
+        "v": "? wall_metal_green",
+        "l": "wall_metal_green"
     },
     {
         "s": "00",
@@ -9415,9 +10356,10 @@ var icondata = [
         "i": "wall_moroccan_iron",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 896,
         "y": 3456,
-        "v": "Iron Wall"
+        "v": "Iron Wall",
+        "l": "wall_moroccan_iron"
     },
     {
         "s": "00",
@@ -9425,9 +10367,10 @@ var icondata = [
         "i": "wall_moroccan_iron_circle",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 2688,
         "y": 3456,
-        "v": "? wall_moroccan_iron_circle"
+        "v": "? wall_moroccan_iron_circle",
+        "l": "wall_moroccan_iron_circle"
     },
     {
         "s": "00",
@@ -9435,9 +10378,10 @@ var icondata = [
         "i": "wall_moroccan_iron_curl",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 1024,
         "y": 3456,
-        "v": "Curl Iron Wall"
+        "v": "Curl Iron Wall",
+        "l": "wall_moroccan_iron_curl"
     },
     {
         "s": "00",
@@ -9445,9 +10389,10 @@ var icondata = [
         "i": "wall_moroccan_siltrock",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1152,
         "y": 3456,
-        "v": "? wall_moroccan_siltrock"
+        "v": "? wall_moroccan_siltrock",
+        "l": "wall_moroccan_siltrock"
     },
     {
         "s": "00",
@@ -9455,9 +10400,10 @@ var icondata = [
         "i": "wall_moroccan_siltstone",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1280,
         "y": 3456,
-        "v": "Siltstone Wall"
+        "v": "Siltstone Wall",
+        "l": "wall_moroccan_siltstone"
     },
     {
         "s": "00",
@@ -9465,9 +10411,10 @@ var icondata = [
         "i": "wall_mosaic_blue",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1408,
         "y": 3456,
-        "v": "Blue Mosaic Tile Wall"
+        "v": "Blue Mosaic Tile Wall",
+        "l": "wall_moroccan_tile_blue"
     },
     {
         "s": "00",
@@ -9475,9 +10422,10 @@ var icondata = [
         "i": "wall_mosaic_red",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 1536,
         "y": 3456,
-        "v": "Red Mosaic Tile Wall"
+        "v": "Red Mosaic Tile Wall",
+        "l": "wall_moroccan_tile_red"
     },
     {
         "s": "00",
@@ -9485,9 +10433,10 @@ var icondata = [
         "i": "wall_mosaic_yellow",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 1664,
         "y": 3456,
-        "v": "Yellow Mosaic Tile Wall"
+        "v": "Yellow Mosaic Tile Wall",
+        "l": "wall_moroccan_tile_yellow"
     },
     {
         "s": "00",
@@ -9495,9 +10444,10 @@ var icondata = [
         "i": "wall_obsidian_decorative_01",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 1792,
         "y": 3456,
-        "v": "Square Obsidian Wall"
+        "v": "Square Obsidian Wall",
+        "l": "wall_obsidian_square"
     },
     {
         "s": "00",
@@ -9505,9 +10455,10 @@ var icondata = [
         "i": "wall_obsidian_decorative_02",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 1920,
         "y": 3456,
-        "v": "Checkered Obsidian Wall"
+        "v": "Checkered Obsidian Wall",
+        "l": "wall_obsidian_checkered"
     },
     {
         "s": "00",
@@ -9515,9 +10466,10 @@ var icondata = [
         "i": "wall_obsidian_decorative_03",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 2048,
         "y": 3456,
-        "v": "Rhombus Obsidian Wall"
+        "v": "Rhombus Obsidian Wall",
+        "l": "wall_obsidian_rhombus"
     },
     {
         "s": "00",
@@ -9525,9 +10477,10 @@ var icondata = [
         "i": "wall_obsidian_refined_block",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 2176,
         "y": 3456,
-        "v": "Obsidian Brick Wall"
+        "v": "Obsidian Brick Wall",
+        "l": "wall_obsidian_brick"
     },
     {
         "s": "00",
@@ -9535,9 +10488,10 @@ var icondata = [
         "i": "wall_patina",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2304,
         "y": 3456,
-        "v": "Patina Wall"
+        "v": "Patina Wall",
+        "l": "wall_patina"
     },
     {
         "s": "00",
@@ -9545,9 +10499,10 @@ var icondata = [
         "i": "wall_plaque_stone",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 2432,
         "y": 3456,
-        "v": "Stone Plaque"
+        "v": "Stone Plaque",
+        "l": "plaque_stone"
     },
     {
         "s": "00",
@@ -9555,9 +10510,10 @@ var icondata = [
         "i": "wall_plaque_wood",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 2560,
         "y": 3456,
-        "v": "Wood Plaque"
+        "v": "Wood Plaque",
+        "l": "plaque_wood"
     },
     {
         "s": "00",
@@ -9565,9 +10521,10 @@ var icondata = [
         "i": "wall_roman_bedrock_square",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 384,
-        "v": "Bedrock Wall"
+        "x": 2816,
+        "y": 3456,
+        "v": "Bedrock Wall",
+        "l": "wall_roman_bedrock_square"
     },
     {
         "s": "00",
@@ -9575,9 +10532,10 @@ var icondata = [
         "i": "wall_roman_limestone_basic",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 3072,
-        "v": "Limestone Wall"
+        "x": 640,
+        "y": 384,
+        "v": "Limestone Wall",
+        "l": "wall_roman_limestone_basic"
     },
     {
         "s": "00",
@@ -9585,9 +10543,10 @@ var icondata = [
         "i": "wall_roman_limestone_decorative_corners",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 256,
-        "v": "Carved Limestone Wall"
+        "x": 768,
+        "y": 3072,
+        "v": "Carved Limestone Wall",
+        "l": "wall_roman_limestone_decorative_corners"
     },
     {
         "s": "00",
@@ -9595,9 +10554,10 @@ var icondata = [
         "i": "wall_roman_limestone_leafcrown",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2688,
-        "v": "Chiseled Limestone Laurel Accent"
+        "x": 640,
+        "y": 256,
+        "v": "Chiseled Limestone Laurel Accent",
+        "l": "wall_roman_limestone_leafcrown"
     },
     {
         "s": "00",
@@ -9606,8 +10566,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 2560,
-        "v": "Chiseled Limestone Spiral Accent"
+        "y": 2688,
+        "v": "Chiseled Limestone Spiral Accent",
+        "l": "wall_roman_limestone_maze"
     },
     {
         "s": "00",
@@ -9616,8 +10577,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 2432,
-        "v": "Chiseled Limestone Column"
+        "y": 2560,
+        "v": "Chiseled Limestone Column",
+        "l": "wall_roman_limestone_pillar"
     },
     {
         "s": "00",
@@ -9626,8 +10588,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 2304,
-        "v": "Chiseled Limestone Accent"
+        "y": 2432,
+        "v": "Chiseled Limestone Accent",
+        "l": "wall_roman_limestone_pillarcrown"
     },
     {
         "s": "00",
@@ -9636,8 +10599,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 2176,
-        "v": "? wall_roman_limestone_sidewalk"
+        "y": 2304,
+        "v": "? wall_roman_limestone_sidewalk",
+        "l": "wall_roman_limestone_sidewalk"
     },
     {
         "s": "00",
@@ -9646,8 +10610,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 2048,
-        "v": "Roman Limestone"
+        "y": 2176,
+        "v": "Roman Limestone",
+        "l": "wall_roman_limestone_square"
     },
     {
         "s": "00",
@@ -9656,8 +10621,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1920,
-        "v": "Sand Castle Wall"
+        "y": 2048,
+        "v": "Sand Castle Wall",
+        "l": "wall_sand_castle"
     },
     {
         "s": "00",
@@ -9666,8 +10632,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1792,
-        "v": "Galactic Wall"
+        "y": 1920,
+        "v": "Galactic Wall",
+        "l": "wall_sci_fi"
     },
     {
         "s": "00",
@@ -9676,8 +10643,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1664,
-        "v": "Galactic Hull"
+        "y": 1792,
+        "v": "Galactic Hull",
+        "l": "wall_sci_fi_exterior01"
     },
     {
         "s": "00",
@@ -9686,8 +10654,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1536,
-        "v": "Stone Wall Shelf"
+        "y": 1664,
+        "v": "Stone Wall Shelf",
+        "l": "wall_shelf_stone"
     },
     {
         "s": "00",
@@ -9696,8 +10665,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1408,
-        "v": "Stone Block Wall"
+        "y": 1536,
+        "v": "Stone Block Wall",
+        "l": "wall_stone_block"
     },
     {
         "s": "00",
@@ -9706,8 +10676,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1280,
-        "v": "Stone Boulder Wall"
+        "y": 1408,
+        "v": "Stone Boulder Wall",
+        "l": "wall_stone_boulder"
     },
     {
         "s": "00",
@@ -9716,8 +10687,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1152,
-        "v": "Stacked Stone Wall"
+        "y": 1280,
+        "v": "Stacked Stone Wall",
+        "l": "wall_stone_stacked"
     },
     {
         "s": "00",
@@ -9726,8 +10698,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 896,
-        "v": "Stucco Wall"
+        "y": 1152,
+        "v": "Stucco Wall",
+        "l": "wall_stucco"
     },
     {
         "s": "00",
@@ -9735,9 +10708,10 @@ var icondata = [
         "i": "wall_stucco_dark",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 3200,
-        "v": "Dark Stucco Wall"
+        "x": 768,
+        "y": 896,
+        "v": "Dark Stucco Wall",
+        "l": "wall_stucco_dark"
     },
     {
         "s": "00",
@@ -9745,9 +10719,10 @@ var icondata = [
         "i": "wall_stucco_ruddy",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 768,
-        "v": "Ruddy Stucco Wall"
+        "x": 1664,
+        "y": 3200,
+        "v": "Ruddy Stucco Wall",
+        "l": "wall_stucco_ruddy"
     },
     {
         "s": "00",
@@ -9756,8 +10731,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 640,
-        "v": "Thatched Wall"
+        "y": 768,
+        "v": "Thatched Wall",
+        "l": "wall_thatched"
     },
     {
         "s": "00",
@@ -9766,8 +10742,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 512,
-        "v": "Tin Wall"
+        "y": 640,
+        "v": "Tin Wall",
+        "l": "wall_tin"
     },
     {
         "s": "00",
@@ -9776,8 +10753,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 384,
-        "v": "Haunted Wall"
+        "y": 512,
+        "v": "Haunted Wall",
+        "l": "wall_haunted"
     },
     {
         "s": "00",
@@ -9786,8 +10764,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 256,
-        "v": "Wood Wall"
+        "y": 384,
+        "v": "Wood Wall",
+        "l": "wall_wood"
     },
     {
         "s": "00",
@@ -9796,8 +10775,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 128,
-        "v": "Blue Wood Wall"
+        "y": 256,
+        "v": "Blue Wood Wall",
+        "l": "wall_wood_blue"
     },
     {
         "s": "00",
@@ -9806,8 +10786,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 0,
-        "v": "Decorative Wood Wall"
+        "y": 128,
+        "v": "Decorative Wood Wall",
+        "l": "wall_wood_decorative"
     },
     {
         "s": "00",
@@ -9815,9 +10796,10 @@ var icondata = [
         "i": "wall_wood_gravel",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 3200,
-        "v": "Wood Gravel Wall"
+        "x": 768,
+        "y": 0,
+        "v": "Wood Gravel Wall",
+        "l": "wall_wood_gravel"
     },
     {
         "s": "00",
@@ -9825,9 +10807,10 @@ var icondata = [
         "i": "wall_wood_red",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 896,
         "y": 3200,
-        "v": "Red Wood Wall"
+        "v": "Red Wood Wall",
+        "l": "wall_wood_red"
     },
     {
         "s": "00",
@@ -9835,9 +10818,10 @@ var icondata = [
         "i": "wall_wood_red_chinese",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 1024,
         "y": 3200,
-        "v": "Forbidden Red Wood Wall"
+        "v": "Forbidden Red Wood Wall",
+        "l": "wall_wood_red_chinese"
     },
     {
         "s": "00",
@@ -9845,9 +10829,10 @@ var icondata = [
         "i": "wall_wood_yellow",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1152,
         "y": 3200,
-        "v": "Yellow Wood Wall"
+        "v": "Yellow Wood Wall",
+        "l": "wall_wood_yellow"
     },
     {
         "s": "00",
@@ -9855,9 +10840,10 @@ var icondata = [
         "i": "warmworm_tooth",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1280,
         "y": 3200,
-        "v": "Warmworm Tooth"
+        "v": "Warmworm Tooth",
+        "l": "warmworm_tooth"
     },
     {
         "s": "00",
@@ -9865,9 +10851,10 @@ var icondata = [
         "i": "washer",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1408,
         "y": 3200,
-        "v": "Washer"
+        "v": "Washer",
+        "l": "arc_washer"
     },
     {
         "s": "00",
@@ -9875,9 +10862,10 @@ var icondata = [
         "i": "water",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2816,
-        "v": "Water"
+        "x": 1536,
+        "y": 3200,
+        "v": "Water",
+        "l": "water_item"
     },
     {
         "s": "00",
@@ -9886,8 +10874,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1024,
-        "v": "Bog Water"
+        "y": 2816,
+        "v": "Bog Water",
+        "l": "water_bog_item"
     },
     {
         "s": "00",
@@ -9896,8 +10885,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 2944,
-        "v": "Corrupted Water"
+        "y": 1024,
+        "v": "Corrupted Water",
+        "l": "water_corrupted_item"
     },
     {
         "s": "00",
@@ -9905,9 +10895,10 @@ var icondata = [
         "i": "water_flowing",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 3328,
-        "v": "? water_flowing"
+        "x": 768,
+        "y": 2944,
+        "v": "? water_flowing",
+        "l": "water_flowing"
     },
     {
         "s": "00",
@@ -9915,9 +10906,10 @@ var icondata = [
         "i": "water_mineral",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 128,
-        "v": "Mineral Water"
+        "x": 2176,
+        "y": 3328,
+        "v": "Mineral Water",
+        "l": "water_mineral_item"
     },
     {
         "s": "00",
@@ -9926,8 +10918,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 0,
-        "v": "? water_swamp"
+        "y": 128,
+        "v": "? water_swamp",
+        "l": "water_swamp"
     },
     {
         "s": "00",
@@ -9935,9 +10928,10 @@ var icondata = [
         "i": "weeds",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 3328,
-        "v": "Weeds"
+        "x": 640,
+        "y": 0,
+        "v": "Weeds",
+        "l": "weeds"
     },
     {
         "s": "00",
@@ -9945,9 +10939,10 @@ var icondata = [
         "i": "wheat",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 768,
         "y": 3328,
-        "v": "Wheat"
+        "v": "Wheat",
+        "l": "wheat"
     },
     {
         "s": "00",
@@ -9955,9 +10950,10 @@ var icondata = [
         "i": "wheat_seed",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 768,
-        "v": "Wheat Seed"
+        "x": 896,
+        "y": 3328,
+        "v": "Wheat Seed",
+        "l": "seed_wheat"
     },
     {
         "s": "00",
@@ -9967,7 +10963,8 @@ var icondata = [
         "h": 128,
         "x": 1024,
         "y": 3328,
-        "v": "Stone Window"
+        "v": "Stone Window",
+        "l": "window_stone"
     },
     {
         "s": "00",
@@ -9977,7 +10974,8 @@ var icondata = [
         "h": 128,
         "x": 1152,
         "y": 3328,
-        "v": "Barred Window"
+        "v": "Barred Window",
+        "l": "window_bars"
     },
     {
         "s": "00",
@@ -9987,7 +10985,8 @@ var icondata = [
         "h": 128,
         "x": 1280,
         "y": 3328,
-        "v": "Bungalow Window"
+        "v": "Bungalow Window",
+        "l": "window_bungalow"
     },
     {
         "s": "00",
@@ -9997,7 +10996,8 @@ var icondata = [
         "h": 128,
         "x": 1408,
         "y": 3328,
-        "v": "Gingerbread Window"
+        "v": "Gingerbread Window",
+        "l": "window_gingerbread"
     },
     {
         "s": "00",
@@ -10007,7 +11007,8 @@ var icondata = [
         "h": 128,
         "x": 1536,
         "y": 3328,
-        "v": "Forbidden Window"
+        "v": "Forbidden Window",
+        "l": "window_chinese"
     },
     {
         "s": "00",
@@ -10017,7 +11018,8 @@ var icondata = [
         "h": 128,
         "x": 1664,
         "y": 3328,
-        "v": "Industrial Window"
+        "v": "Industrial Window",
+        "l": "window_industrial"
     },
     {
         "s": "00",
@@ -10027,7 +11029,8 @@ var icondata = [
         "h": 128,
         "x": 1792,
         "y": 3328,
-        "v": "? window_iron"
+        "v": "? window_iron",
+        "l": "window_iron"
     },
     {
         "s": "00",
@@ -10037,7 +11040,8 @@ var icondata = [
         "h": 128,
         "x": 1920,
         "y": 3328,
-        "v": "Galactic Porthole"
+        "v": "Galactic Porthole",
+        "l": "window_sci_fi"
     },
     {
         "s": "00",
@@ -10047,7 +11051,8 @@ var icondata = [
         "h": 128,
         "x": 2048,
         "y": 3328,
-        "v": "Stone Window Lattice"
+        "v": "Stone Window Lattice",
+        "l": "lattice_stone"
     },
     {
         "s": "00",
@@ -10057,7 +11062,8 @@ var icondata = [
         "h": 128,
         "x": 2304,
         "y": 3328,
-        "v": "Stucco Window"
+        "v": "Stucco Window",
+        "l": "window_stucco"
     },
     {
         "s": "00",
@@ -10067,7 +11073,8 @@ var icondata = [
         "h": 128,
         "x": 768,
         "y": 3200,
-        "v": "Dark Stucco Window"
+        "v": "Dark Stucco Window",
+        "l": "window_stucco_dark"
     },
     {
         "s": "00",
@@ -10077,7 +11084,8 @@ var icondata = [
         "h": 128,
         "x": 2432,
         "y": 3328,
-        "v": "Ruddy Stucco Window"
+        "v": "Ruddy Stucco Window",
+        "l": "window_stucco_ruddy"
     },
     {
         "s": "00",
@@ -10087,7 +11095,8 @@ var icondata = [
         "h": 128,
         "x": 2560,
         "y": 3328,
-        "v": "Wood Window"
+        "v": "Wood Window",
+        "l": "window_wood"
     },
     {
         "s": "00",
@@ -10097,7 +11106,8 @@ var icondata = [
         "h": 128,
         "x": 2688,
         "y": 3328,
-        "v": "Barred Wood Window"
+        "v": "Barred Wood Window",
+        "l": "window_wood_barred"
     },
     {
         "s": "00",
@@ -10107,7 +11117,8 @@ var icondata = [
         "h": 128,
         "x": 2816,
         "y": 3328,
-        "v": "Ashenwood"
+        "v": "Ashenwood",
+        "l": "wood_aspen_item"
     },
     {
         "s": "00",
@@ -10117,7 +11128,8 @@ var icondata = [
         "h": 128,
         "x": 2944,
         "y": 3328,
-        "v": "Autumnwood"
+        "v": "Autumnwood",
+        "l": "wood_autumn"
     },
     {
         "s": "00",
@@ -10127,7 +11139,8 @@ var icondata = [
         "h": 128,
         "x": 3072,
         "y": 3328,
-        "v": "Corrupted Elderwood"
+        "v": "Corrupted Elderwood",
+        "l": "wood_sequoia_corrupted_item"
     },
     {
         "s": "00",
@@ -10137,7 +11150,8 @@ var icondata = [
         "h": 128,
         "x": 3200,
         "y": 3328,
-        "v": "Cragwood"
+        "v": "Cragwood",
+        "l": "wood_oak_item"
     },
     {
         "s": "00",
@@ -10147,7 +11161,8 @@ var icondata = [
         "h": 128,
         "x": 3328,
         "y": 3328,
-        "v": "Shorewood"
+        "v": "Shorewood",
+        "l": "wood_palm"
     },
     {
         "s": "00",
@@ -10157,7 +11172,8 @@ var icondata = [
         "h": 128,
         "x": 3456,
         "y": 3328,
-        "v": "Shorewood Husk"
+        "v": "Shorewood Husk",
+        "l": "wood_palm_husk"
     },
     {
         "s": "00",
@@ -10167,7 +11183,8 @@ var icondata = [
         "h": 128,
         "x": 3584,
         "y": 3328,
-        "v": "Parchwood"
+        "v": "Parchwood",
+        "l": "wood_savannah"
     },
     {
         "s": "00",
@@ -10177,7 +11194,8 @@ var icondata = [
         "h": 128,
         "x": 3712,
         "y": 3328,
-        "v": "Elderwood"
+        "v": "Elderwood",
+        "l": "wood_sequoia_item"
     },
     {
         "s": "00",
@@ -10187,7 +11205,8 @@ var icondata = [
         "h": 128,
         "x": 3840,
         "y": 3328,
-        "v": "Wildwood"
+        "v": "Wildwood",
+        "l": "wood_jungle"
     },
     {
         "s": "00",
@@ -10197,7 +11216,8 @@ var icondata = [
         "h": 128,
         "x": 3968,
         "y": 3328,
-        "v": "? wood_wildwood_vines"
+        "v": "? wood_wildwood_vines",
+        "l": "wood_wildwood_vines"
     },
     {
         "s": "00",
@@ -10207,7 +11227,8 @@ var icondata = [
         "h": 128,
         "x": 3584,
         "y": 2048,
-        "v": "Weepwood"
+        "v": "Weepwood",
+        "l": "wood_willow"
     },
     {
         "s": "00",
@@ -10217,7 +11238,8 @@ var icondata = [
         "h": 128,
         "x": 3840,
         "y": 128,
-        "v": "Moss"
+        "v": "Moss",
+        "l": "wood_willow_moss"
     },
     {
         "s": "01",
@@ -10225,9 +11247,10 @@ var icondata = [
         "i": "antlers",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 768,
         "y": 1280,
-        "v": "Reinbeau Antlers"
+        "v": "Reinbeau Antlers",
+        "l": "cosmetic_antlers"
     },
     {
         "s": "01",
@@ -10235,9 +11258,10 @@ var icondata = [
         "i": "armguards_diamond",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 768,
         "y": 1408,
-        "v": "Diamond Armguards"
+        "v": "Diamond Armguards",
+        "l": "armguards_diamond"
     },
     {
         "s": "01",
@@ -10245,9 +11269,10 @@ var icondata = [
         "i": "armguards_iron",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 768,
         "y": 1536,
-        "v": "Iron Armguards"
+        "v": "Iron Armguards",
+        "l": "armguards_iron"
     },
     {
         "s": "01",
@@ -10255,9 +11280,10 @@ var icondata = [
         "i": "armguards_leather",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 768,
         "y": 1664,
-        "v": "Leather Armguards"
+        "v": "Leather Armguards",
+        "l": "armguards_leather"
     },
     {
         "s": "01",
@@ -10265,9 +11291,10 @@ var icondata = [
         "i": "armguards_lumite",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1664,
-        "v": "Lumite Armguards"
+        "x": 768,
+        "y": 1792,
+        "v": "Lumite Armguards",
+        "l": "armguards_lumite"
     },
     {
         "s": "01",
@@ -10275,9 +11302,10 @@ var icondata = [
         "i": "armguards_obsidian",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1664,
-        "v": "Obsidian Armguards"
+        "x": 768,
+        "y": 1920,
+        "v": "Obsidian Armguards",
+        "l": "armguards_obsidian"
     },
     {
         "s": "01",
@@ -10285,9 +11313,10 @@ var icondata = [
         "i": "arms_destroyer",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1664,
-        "v": "Destroyer Suit Arms"
+        "x": 768,
+        "y": 2048,
+        "v": "Destroyer Suit Arms",
+        "l": "cosmetic_arms_destroyer"
     },
     {
         "s": "01",
@@ -10295,9 +11324,10 @@ var icondata = [
         "i": "arms_diamond",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1664,
-        "v": "First Fantasy Arms"
+        "x": 768,
+        "y": 2176,
+        "v": "First Fantasy Arms",
+        "l": "cosmetic_arms_diamond"
     },
     {
         "s": "01",
@@ -10305,9 +11335,10 @@ var icondata = [
         "i": "arms_iron",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1664,
-        "v": "Metal Mk I Arms"
+        "x": 768,
+        "y": 2304,
+        "v": "Metal Mk I Arms",
+        "l": "cosmetic_arms_iron"
     },
     {
         "s": "01",
@@ -10315,9 +11346,10 @@ var icondata = [
         "i": "arms_leather",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1664,
-        "v": "Fury Warrior Arms"
+        "x": 768,
+        "y": 2432,
+        "v": "Fury Warrior Arms",
+        "l": "cosmetic_arms_leather"
     },
     {
         "s": "01",
@@ -10325,9 +11357,10 @@ var icondata = [
         "i": "arms_lumite",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1664,
-        "v": "Master Creator Arms"
+        "x": 768,
+        "y": 2560,
+        "v": "Master Creator Arms",
+        "l": "cosmetic_arms_lumite"
     },
     {
         "s": "01",
@@ -10335,9 +11368,10 @@ var icondata = [
         "i": "arms_obsidian",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1664,
-        "v": "Electro Cycle Arms"
+        "x": 768,
+        "y": 2688,
+        "v": "Electro Cycle Arms",
+        "l": "cosmetic_arms_obsidian"
     },
     {
         "s": "01",
@@ -10345,9 +11379,10 @@ var icondata = [
         "i": "arms_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1664,
-        "v": "Arms NPC"
+        "x": 768,
+        "y": 2816,
+        "v": "Arms NPC",
+        "l": "cosmetic_arms_npc_01"
     },
     {
         "s": "01",
@@ -10355,9 +11390,10 @@ var icondata = [
         "i": "arms_unicorn",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1152,
-        "v": "Unicorn Arms"
+        "x": 768,
+        "y": 2944,
+        "v": "Unicorn Arms",
+        "l": "cosmetic_arms_unicorn"
     },
     {
         "s": "01",
@@ -10365,9 +11401,10 @@ var icondata = [
         "i": "arms_wukong",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1664,
-        "v": "Monkey King Arms"
+        "x": 768,
+        "y": 3072,
+        "v": "Monkey King Arms",
+        "l": "cosmetic_arms_wukong"
     },
     {
         "s": "01",
@@ -10375,9 +11412,10 @@ var icondata = [
         "i": "atlantis_altar",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1664,
-        "v": "Atlantis Altar"
+        "x": 768,
+        "y": 3200,
+        "v": "Atlantis Altar",
+        "l": "altar_atlantis"
     },
     {
         "s": "01",
@@ -10385,9 +11423,10 @@ var icondata = [
         "i": "atlantis_chest",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 0,
-        "v": "Atlantis Chest"
+        "x": 3968,
+        "y": 3328,
+        "v": "Atlantis Chest",
+        "l": "chest_atlantis"
     },
     {
         "s": "01",
@@ -10395,9 +11434,10 @@ var icondata = [
         "i": "atlantis_door",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 128,
-        "v": "Atlantis Door"
+        "x": 3840,
+        "y": 3328,
+        "v": "Atlantis Door",
+        "l": "door_atlantis"
     },
     {
         "s": "01",
@@ -10405,9 +11445,10 @@ var icondata = [
         "i": "atlantis_door_trap",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 256,
-        "v": "Atlantis Trap Door"
+        "x": 3712,
+        "y": 3328,
+        "v": "Atlantis Trap Door",
+        "l": "trap_door_atlantis"
     },
     {
         "s": "01",
@@ -10415,9 +11456,10 @@ var icondata = [
         "i": "atlantis_table",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 384,
-        "v": "Atlantis Table"
+        "x": 3584,
+        "y": 3328,
+        "v": "Atlantis Table",
+        "l": "table_atlantis"
     },
     {
         "s": "01",
@@ -10425,9 +11467,10 @@ var icondata = [
         "i": "automation_portal",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 512,
-        "v": "Arc Portal"
+        "x": 3456,
+        "y": 3328,
+        "v": "Arc Portal",
+        "l": "automation_portal"
     },
     {
         "s": "01",
@@ -10435,9 +11478,10 @@ var icondata = [
         "i": "babyleafi_leaf",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 640,
-        "v": "Baby Leafi Leaf"
+        "x": 3328,
+        "y": 3328,
+        "v": "Baby Leafi Leaf",
+        "l": "baby_leafi_leaf"
     },
     {
         "s": "01",
@@ -10445,9 +11489,10 @@ var icondata = [
         "i": "bathroom_bathtub",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 768,
-        "v": "Better Home Bathtub"
+        "x": 3200,
+        "y": 3328,
+        "v": "Better Home Bathtub",
+        "l": "bathroom_bathtub"
     },
     {
         "s": "01",
@@ -10455,9 +11500,10 @@ var icondata = [
         "i": "bathroom_sink",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 896,
-        "v": "Better Home Bathroom Sink"
+        "x": 3072,
+        "y": 3328,
+        "v": "Better Home Bathroom Sink",
+        "l": "bathroom_sink"
     },
     {
         "s": "01",
@@ -10465,9 +11511,10 @@ var icondata = [
         "i": "bathroom_soap",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1024,
-        "v": "Better Home Soap Dispenser"
+        "x": 2944,
+        "y": 3328,
+        "v": "Better Home Soap Dispenser",
+        "l": "book_grimoire"
     },
     {
         "s": "01",
@@ -10475,9 +11522,10 @@ var icondata = [
         "i": "bathroom_toilet",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1152,
-        "v": "Better Home Toilet"
+        "x": 2816,
+        "y": 3328,
+        "v": "Better Home Toilet",
+        "l": "bathroom_toilet"
     },
     {
         "s": "01",
@@ -10485,9 +11533,10 @@ var icondata = [
         "i": "bathroom_toilet_paper",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1280,
-        "v": "Ultra Soft 12-Ply Toilet Paper"
+        "x": 2688,
+        "y": 3328,
+        "v": "Ultra Soft 12-Ply Toilet Paper",
+        "l": "bomb_toilet_paper"
     },
     {
         "s": "01",
@@ -10495,9 +11544,10 @@ var icondata = [
         "i": "bathroom_toilet_paper_holder",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1408,
-        "v": "Better Home Toilet Paper Holder"
+        "x": 2560,
+        "y": 3328,
+        "v": "Better Home Toilet Paper Holder",
+        "l": "bathroom_toilet_paper_holder"
     },
     {
         "s": "01",
@@ -10505,9 +11555,10 @@ var icondata = [
         "i": "blockhero_arms",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1664,
-        "v": "Super Block Hero Arms"
+        "x": 2432,
+        "y": 3328,
+        "v": "Super Block Hero Arms",
+        "l": "cosmetic_blockhero_arms"
     },
     {
         "s": "01",
@@ -10515,9 +11566,10 @@ var icondata = [
         "i": "blockhero_body",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 896,
-        "v": "Super Block Hero Body"
+        "x": 768,
+        "y": 1152,
+        "v": "Super Block Hero Body",
+        "l": "cosmetic_blockhero_body"
     },
     {
         "s": "01",
@@ -10525,9 +11577,10 @@ var icondata = [
         "i": "blockhero_gauntlet",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1536,
-        "v": "Super Block Hero Gauntlet"
+        "x": 768,
+        "y": 1024,
+        "v": "Super Block Hero Gauntlet",
+        "l": "cosmetic_blockhero_gauntlet"
     },
     {
         "s": "01",
@@ -10535,9 +11588,10 @@ var icondata = [
         "i": "blockhero_head",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 768,
-        "v": "Super Block Hero Head"
+        "x": 768,
+        "y": 896,
+        "v": "Super Block Hero Head",
+        "l": "cosmetic_blockhero_head"
     },
     {
         "s": "01",
@@ -10545,9 +11599,10 @@ var icondata = [
         "i": "blockhero_legs",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 256,
-        "v": "Super Block Hero Legs"
+        "x": 768,
+        "y": 768,
+        "v": "Super Block Hero Legs",
+        "l": "cosmetic_blockhero_legs"
     },
     {
         "s": "01",
@@ -10555,9 +11610,10 @@ var icondata = [
         "i": "body_destroyer",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 384,
-        "v": "Destroyer Suit Torso"
+        "x": 3840,
+        "y": 3200,
+        "v": "Destroyer Suit Torso",
+        "l": "cosmetic_body_destroyer"
     },
     {
         "s": "01",
@@ -10565,9 +11621,10 @@ var icondata = [
         "i": "body_diamond",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 512,
-        "v": "First Fantasy Torso"
+        "x": 3712,
+        "y": 3200,
+        "v": "First Fantasy Torso",
+        "l": "cosmetic_body_diamond"
     },
     {
         "s": "01",
@@ -10575,9 +11632,10 @@ var icondata = [
         "i": "body_iron",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 640,
-        "v": "Metal Mk I Torso"
+        "x": 3584,
+        "y": 3200,
+        "v": "Metal Mk I Torso",
+        "l": "cosmetic_body_iron"
     },
     {
         "s": "01",
@@ -10585,9 +11643,10 @@ var icondata = [
         "i": "body_leather",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 768,
-        "v": "Fury Warrior Torso"
+        "x": 3456,
+        "y": 3200,
+        "v": "Fury Warrior Torso",
+        "l": "cosmetic_body_leather"
     },
     {
         "s": "01",
@@ -10595,9 +11654,10 @@ var icondata = [
         "i": "body_lumite",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 896,
-        "v": "Master Creator Torso"
+        "x": 3328,
+        "y": 3200,
+        "v": "Master Creator Torso",
+        "l": "cosmetic_body_lumite"
     },
     {
         "s": "01",
@@ -10605,9 +11665,10 @@ var icondata = [
         "i": "body_obsidian",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1024,
-        "v": "Electro Cycle Torso"
+        "x": 3200,
+        "y": 3200,
+        "v": "Electro Cycle Torso",
+        "l": "cosmetic_body_obsidian"
     },
     {
         "s": "01",
@@ -10615,9 +11676,10 @@ var icondata = [
         "i": "body_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1152,
-        "v": "Legs Base"
+        "x": 3072,
+        "y": 3200,
+        "v": "Legs Base",
+        "l": "cosmetic_legs_base"
     },
     {
         "s": "01",
@@ -10625,9 +11687,10 @@ var icondata = [
         "i": "body_unicorn",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1280,
-        "v": "Unicorn Torso"
+        "x": 2944,
+        "y": 3200,
+        "v": "Unicorn Torso",
+        "l": "cosmetic_body_unicorn"
     },
     {
         "s": "01",
@@ -10635,9 +11698,10 @@ var icondata = [
         "i": "body_wukong",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1408,
-        "v": "Monkey King Torso"
+        "x": 2816,
+        "y": 3200,
+        "v": "Monkey King Torso",
+        "l": "cosmetic_body_wukong"
     },
     {
         "s": "01",
@@ -10645,9 +11709,10 @@ var icondata = [
         "i": "bomb_defoliage",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1536,
-        "v": "Un-Plant Bomb"
+        "x": 2688,
+        "y": 3200,
+        "v": "Un-Plant Bomb",
+        "l": "bomb_defoliage"
     },
     {
         "s": "01",
@@ -10655,9 +11720,10 @@ var icondata = [
         "i": "bomb_foliage",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1536,
-        "v": "Plant Bomb"
+        "x": 2560,
+        "y": 3200,
+        "v": "Plant Bomb",
+        "l": "bomb_foliage"
     },
     {
         "s": "01",
@@ -10665,9 +11731,10 @@ var icondata = [
         "i": "bomb_retro",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1536,
-        "v": "Big Ka-boom"
+        "x": 2432,
+        "y": 3200,
+        "v": "Big Ka-boom",
+        "l": "bomb_retro"
     },
     {
         "s": "01",
@@ -10675,9 +11742,10 @@ var icondata = [
         "i": "bow_tie_black",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 128,
-        "v": "Bow Tie"
+        "x": 2304,
+        "y": 3200,
+        "v": "Bow Tie",
+        "l": "bow_tie"
     },
     {
         "s": "01",
@@ -10685,9 +11753,10 @@ var icondata = [
         "i": "bow_tie_blue",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1536,
-        "v": "Blue Bow Tie"
+        "x": 2176,
+        "y": 3200,
+        "v": "Blue Bow Tie",
+        "l": "bow_tie_blue"
     },
     {
         "s": "01",
@@ -10695,9 +11764,10 @@ var icondata = [
         "i": "bow_tie_red",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1536,
-        "v": "Red Bow Tie"
+        "x": 3968,
+        "y": 3200,
+        "v": "Red Bow Tie",
+        "l": "bow_tie_red"
     },
     {
         "s": "01",
@@ -10705,9 +11775,10 @@ var icondata = [
         "i": "bow_tie_yellow",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1536,
-        "v": "Yellow Bow Tie"
+        "x": 2048,
+        "y": 3200,
+        "v": "Yellow Bow Tie",
+        "l": "bow_tie_yellow"
     },
     {
         "s": "01",
@@ -10715,9 +11786,10 @@ var icondata = [
         "i": "breastplate_diamond",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1536,
-        "v": "Diamond Breastplate"
+        "x": 1792,
+        "y": 3200,
+        "v": "Diamond Breastplate",
+        "l": "breastplate_diamond"
     },
     {
         "s": "01",
@@ -10725,9 +11797,10 @@ var icondata = [
         "i": "breastplate_iron",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1536,
-        "v": "Iron Breastplate"
+        "x": 1664,
+        "y": 3200,
+        "v": "Iron Breastplate",
+        "l": "breastplate_iron"
     },
     {
         "s": "01",
@@ -10735,9 +11808,10 @@ var icondata = [
         "i": "breastplate_leather",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1536,
-        "v": "Leather Breastplate"
+        "x": 1536,
+        "y": 3200,
+        "v": "Leather Breastplate",
+        "l": "breastplate_leather"
     },
     {
         "s": "01",
@@ -10745,9 +11819,10 @@ var icondata = [
         "i": "breastplate_lumite",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1536,
-        "v": "Lumite Breastplate"
+        "x": 1408,
+        "y": 3200,
+        "v": "Lumite Breastplate",
+        "l": "breastplate_lumite"
     },
     {
         "s": "01",
@@ -10755,9 +11830,10 @@ var icondata = [
         "i": "breastplate_obsidian",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1536,
-        "v": "Obsidian Breastplate"
+        "x": 1280,
+        "y": 3200,
+        "v": "Obsidian Breastplate",
+        "l": "breastplate_obsidian"
     },
     {
         "s": "01",
@@ -10765,9 +11841,10 @@ var icondata = [
         "i": "candles_haunted",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 0,
-        "v": "Spooky Candles"
+        "x": 1152,
+        "y": 3200,
+        "v": "Spooky Candles",
+        "l": "candles_haunted"
     },
     {
         "s": "01",
@@ -10775,9 +11852,10 @@ var icondata = [
         "i": "cauldron_goo_green",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 128,
-        "v": "Green Goo Cauldron"
+        "x": 1024,
+        "y": 3200,
+        "v": "Green Goo Cauldron",
+        "l": "cauldron_goo_green"
     },
     {
         "s": "01",
@@ -10785,9 +11863,10 @@ var icondata = [
         "i": "cauldron_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 256,
-        "v": "Orange Goo Cauldron"
+        "x": 896,
+        "y": 3200,
+        "v": "Orange Goo Cauldron",
+        "l": "cauldron_goo_orange"
     },
     {
         "s": "01",
@@ -10795,9 +11874,10 @@ var icondata = [
         "i": "cauldron_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 384,
-        "v": "Purple Goo Cauldron"
+        "x": 768,
+        "y": 0,
+        "v": "Purple Goo Cauldron",
+        "l": "cauldron_goo_purple"
     },
     {
         "s": "01",
@@ -10805,9 +11885,10 @@ var icondata = [
         "i": "cauldron_haunted",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 512,
-        "v": "Spooky Cauldron"
+        "x": 768,
+        "y": 128,
+        "v": "Spooky Cauldron",
+        "l": "cauldron_haunted"
     },
     {
         "s": "01",
@@ -10815,9 +11896,10 @@ var icondata = [
         "i": "chair_haunted",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 640,
-        "v": "Spooky Bench"
+        "x": 768,
+        "y": 256,
+        "v": "Spooky Bench",
+        "l": "bench_haunted"
     },
     {
         "s": "01",
@@ -10825,9 +11907,10 @@ var icondata = [
         "i": "chair_wood_white",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1536,
-        "v": "White Wood Chair"
+        "x": 768,
+        "y": 384,
+        "v": "White Wood Chair",
+        "l": "chair_wood_white"
     },
     {
         "s": "01",
@@ -10835,9 +11918,32 @@ var icondata = [
         "i": "chest_arctek_vault",
         "w": 128,
         "h": 128,
+        "x": 768,
+        "y": 512,
+        "v": "Arc Vault",
+        "l": "arc_vault"
+    },
+    {
+        "s": "01",
+        "id": 508,
+        "i": "chest_treasure_06",
+        "w": 128,
+        "h": 128,
+        "x": 768,
+        "y": 640,
+        "v": "Obsidian Treasure Chest",
+        "l": "treasure_chest_obsidian"
+    },
+    {
+        "s": "01",
+        "id": 509,
+        "i": "chest_treasure_07",
+        "w": 128,
+        "h": 128,
         "x": 2304,
-        "y": 1664,
-        "v": "Arc Vault"
+        "y": 3328,
+        "v": "Stone Treasure Chest",
+        "l": "treasure_chest_stone"
     },
     {
         "s": "01",
@@ -10845,9 +11951,10 @@ var icondata = [
         "i": "coffin_haunted",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1792,
-        "v": "Spooky Coffin"
+        "x": 1920,
+        "y": 3200,
+        "v": "Spooky Coffin",
+        "l": "coffin_haunted"
     },
     {
         "s": "01",
@@ -10856,8 +11963,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 256,
-        "v": "Canvas Column"
+        "y": 3328,
+        "v": "Canvas Column",
+        "l": "column_canvas"
     },
     {
         "s": "01",
@@ -10865,9 +11973,10 @@ var icondata = [
         "i": "column_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1920,
-        "v": "Plain Gingerbread Column"
+        "x": 640,
+        "y": 768,
+        "v": "Plain Gingerbread Column",
+        "l": "column_gingerbread_basic"
     },
     {
         "s": "01",
@@ -10875,9 +11984,10 @@ var icondata = [
         "i": "column_goo_green",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1920,
-        "v": "Green Goo Column"
+        "x": 640,
+        "y": 3200,
+        "v": "Green Goo Column",
+        "l": "column_goo_green"
     },
     {
         "s": "01",
@@ -10885,9 +11995,10 @@ var icondata = [
         "i": "column_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1920,
-        "v": "Orange Goo Column"
+        "x": 640,
+        "y": 3328,
+        "v": "Orange Goo Column",
+        "l": "column_goo_orange"
     },
     {
         "s": "01",
@@ -10895,9 +12006,10 @@ var icondata = [
         "i": "column_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1920,
-        "v": "Purple Goo Column"
+        "x": 3968,
+        "y": 3456,
+        "v": "Purple Goo Column",
+        "l": "column_goo_purple"
     },
     {
         "s": "01",
@@ -10905,9 +12017,10 @@ var icondata = [
         "i": "column_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1920,
-        "v": "Dark Lumite Column"
+        "x": 3840,
+        "y": 3456,
+        "v": "Dark Lumite Column",
+        "l": "column_lumite_dark"
     },
     {
         "s": "01",
@@ -10915,9 +12028,10 @@ var icondata = [
         "i": "column_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1920,
-        "v": "Light Lumite Column"
+        "x": 3712,
+        "y": 3456,
+        "v": "Light Lumite Column",
+        "l": "column_lumite_light"
     },
     {
         "s": "01",
@@ -10925,9 +12039,10 @@ var icondata = [
         "i": "column_snow",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1920,
-        "v": "Snow Column"
+        "x": 3584,
+        "y": 3456,
+        "v": "Snow Column",
+        "l": "column_snow"
     },
     {
         "s": "01",
@@ -10935,9 +12050,10 @@ var icondata = [
         "i": "cosmetic_arms_turtleneck_leafi",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1920,
-        "v": "Ugly Leafi Turtleneck"
+        "x": 3456,
+        "y": 3456,
+        "v": "Ugly Leafi Turtleneck",
+        "l": "cosmetic_arms_turtleneck_leafi"
     },
     {
         "s": "01",
@@ -10945,9 +12061,10 @@ var icondata = [
         "i": "cosmetic_beanie_hat",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1920,
-        "v": "Knit Cap"
+        "x": 3328,
+        "y": 3456,
+        "v": "Knit Cap",
+        "l": "cosmetic_beanie_hat"
     },
     {
         "s": "01",
@@ -10955,9 +12072,10 @@ var icondata = [
         "i": "cosmetic_bunny_arms",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1920,
-        "v": "Bunny Suit Arms"
+        "x": 3200,
+        "y": 3456,
+        "v": "Bunny Suit Arms",
+        "l": "cosmetic_bunny_arms"
     },
     {
         "s": "01",
@@ -10965,9 +12083,10 @@ var icondata = [
         "i": "cosmetic_bunny_body",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 0,
-        "v": "Bunny Suit Body"
+        "x": 3072,
+        "y": 3456,
+        "v": "Bunny Suit Body",
+        "l": "cosmetic_bunny_body"
     },
     {
         "s": "01",
@@ -10975,9 +12094,21 @@ var icondata = [
         "i": "cosmetic_bunny_legs",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 128,
-        "v": "Bunny Suit Legs"
+        "x": 2944,
+        "y": 3456,
+        "v": "Bunny Suit Legs",
+        "l": "cosmetic_bunny_legs"
+    },
+    {
+        "s": "01",
+        "id": 516,
+        "i": "cosmetic_chef_hat",
+        "w": 128,
+        "h": 128,
+        "x": 2816,
+        "y": 3456,
+        "v": "Chef Hat",
+        "l": "cosmetic_chef_hat"
     },
     {
         "s": "01",
@@ -10985,9 +12116,10 @@ var icondata = [
         "i": "cosmetic_egghead_arms",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 256,
-        "v": "Egghead Arms"
+        "x": 2688,
+        "y": 3456,
+        "v": "Egghead Arms",
+        "l": "cosmetic_egghead_arms"
     },
     {
         "s": "01",
@@ -10995,9 +12127,10 @@ var icondata = [
         "i": "cosmetic_egghead_body",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 384,
-        "v": "Egghead Body"
+        "x": 2560,
+        "y": 3456,
+        "v": "Egghead Body",
+        "l": "cosmetic_egghead_body"
     },
     {
         "s": "01",
@@ -11005,9 +12138,10 @@ var icondata = [
         "i": "cosmetic_egghead_head",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 512,
-        "v": "Egghead Egg Head"
+        "x": 2432,
+        "y": 3456,
+        "v": "Egghead Egg Head",
+        "l": "cosmetic_egghead_head"
     },
     {
         "s": "01",
@@ -11015,9 +12149,10 @@ var icondata = [
         "i": "cosmetic_egghead_legs",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 640,
-        "v": "Egghead Legs"
+        "x": 2304,
+        "y": 3456,
+        "v": "Egghead Legs",
+        "l": "cosmetic_egghead_legs"
     },
     {
         "s": "01",
@@ -11025,9 +12160,21 @@ var icondata = [
         "i": "cosmetic_glider_flame",
         "w": 128,
         "h": 128,
+        "x": 2176,
+        "y": 3456,
+        "v": "Wings of the Phoenix",
+        "l": "cosmetic_glider_flame"
+    },
+    {
+        "s": "01",
+        "id": 520,
+        "i": "cosmetic_glider_raven",
+        "w": 128,
+        "h": 128,
         "x": 2048,
-        "y": 768,
-        "v": "Wings of the Phoenix"
+        "y": 3456,
+        "v": "Lenore's Raven Wings",
+        "l": "cosmetic_glider_raven"
     },
     {
         "s": "01",
@@ -11035,9 +12182,10 @@ var icondata = [
         "i": "cosmetic_glider_unicorn",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 896,
-        "v": "Unicorn Wings"
+        "x": 1920,
+        "y": 3456,
+        "v": "Unicorn Wings",
+        "l": "cosmetic_glider_unicorn"
     },
     {
         "s": "01",
@@ -11045,9 +12193,10 @@ var icondata = [
         "i": "cosmetic_graduation_hat",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1024,
-        "v": "Graduation Cap"
+        "x": 1792,
+        "y": 3456,
+        "v": "Graduation Cap",
+        "l": "cosmetic_graduation_hat"
     },
     {
         "s": "01",
@@ -11055,9 +12204,10 @@ var icondata = [
         "i": "cosmetic_hard_hat",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1152,
-        "v": "Hard Hat"
+        "x": 1664,
+        "y": 3456,
+        "v": "Hard Hat",
+        "l": "cosmetic_hard_hat"
     },
     {
         "s": "01",
@@ -11065,9 +12215,43 @@ var icondata = [
         "i": "cosmetic_hat_bunny",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1280,
-        "v": "Bunny Suit Helmet"
+        "x": 1536,
+        "y": 3456,
+        "v": "Bunny Suit Helmet",
+        "l": "cosmetic_hat_bunny"
+    },
+    {
+        "s": "01",
+        "id": 517,
+        "i": "cosmetic_logger_hat",
+        "w": 128,
+        "h": 128,
+        "x": 1408,
+        "y": 3456,
+        "v": "Logger Hat",
+        "l": "cosmetic_logger_hat"
+    },
+    {
+        "s": "01",
+        "id": 518,
+        "i": "cosmetic_researcher_hat",
+        "w": 128,
+        "h": 128,
+        "x": 1280,
+        "y": 3456,
+        "v": "Researcher Hat",
+        "l": "cosmetic_researcher_hat"
+    },
+    {
+        "s": "01",
+        "id": 531,
+        "i": "cosmetic_safari_hat",
+        "w": 128,
+        "h": 128,
+        "x": 0,
+        "y": 3968,
+        "v": "Explorer Hat",
+        "l": "cosmetic_safari_hat"
     },
     {
         "s": "01",
@@ -11075,9 +12259,21 @@ var icondata = [
         "i": "cosmetic_sparc_illumination_bee",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1408,
-        "v": "Buzzkill Companion"
+        "x": 1152,
+        "y": 3456,
+        "v": "Buzzkill Companion",
+        "l": "cosmetic_sparc_illumination_buzzkill"
+    },
+    {
+        "s": "01",
+        "id": 519,
+        "i": "cosmetic_sparc_illumination_bot",
+        "w": 128,
+        "h": 128,
+        "x": 1024,
+        "y": 3456,
+        "v": "Alphi",
+        "l": "cosmetic_sparc_illumination_bot"
     },
     {
         "s": "01",
@@ -11085,9 +12281,10 @@ var icondata = [
         "i": "cosmetic_sparc_illumination_king",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1536,
-        "v": "King Companion"
+        "x": 896,
+        "y": 3456,
+        "v": "King Companion",
+        "l": "cosmetic_sparc_illumination_king"
     },
     {
         "s": "01",
@@ -11095,9 +12292,10 @@ var icondata = [
         "i": "cosmetic_sparc_illumination_petey",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1664,
-        "v": "Petey the Parroki Companion"
+        "x": 768,
+        "y": 3456,
+        "v": "Petey the Parroki Companion",
+        "l": "cosmetic_sparc_illumination_petey"
     },
     {
         "s": "01",
@@ -11105,9 +12303,65 @@ var icondata = [
         "i": "cosmetic_straw_hat",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1792,
-        "v": "Gardener's Hat"
+        "x": 640,
+        "y": 3456,
+        "v": "Gardener's Hat",
+        "l": "cosmetic_straw_hat"
+    },
+    {
+        "s": "01",
+        "id": 511,
+        "i": "cosmetic_trainer_arms",
+        "w": 128,
+        "h": 128,
+        "x": 640,
+        "y": 3072,
+        "v": "Trainer Suit Arms",
+        "l": "cosmetic_trainer_arms"
+    },
+    {
+        "s": "01",
+        "id": 512,
+        "i": "cosmetic_trainer_body",
+        "w": 128,
+        "h": 128,
+        "x": 640,
+        "y": 2944,
+        "v": "Trainer Suit Body",
+        "l": "cosmetic_trainer_body"
+    },
+    {
+        "s": "01",
+        "id": 513,
+        "i": "cosmetic_trainer_hat",
+        "w": 128,
+        "h": 128,
+        "x": 640,
+        "y": 2816,
+        "v": "Trainer Suit Cap",
+        "l": "cosmetic_trainer_hat"
+    },
+    {
+        "s": "01",
+        "id": 514,
+        "i": "cosmetic_trainer_legs",
+        "w": 128,
+        "h": 128,
+        "x": 640,
+        "y": 2688,
+        "v": "Trainer Suit Pants",
+        "l": "cosmetic_trainer_legs"
+    },
+    {
+        "s": "01",
+        "id": 521,
+        "i": "cosmetic_weapon_broom",
+        "w": 128,
+        "h": 128,
+        "x": 1792,
+        "y": 3328,
+        "v": "The Sweeper Agent",
+        "l": "cosmetic_weapon_broom"
     },
     {
         "s": "01",
@@ -11115,9 +12369,10 @@ var icondata = [
         "i": "cosmetic_weapon_ironhammer",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 1920,
-        "v": "Ye Olde Hammer"
+        "x": 1664,
+        "y": 3328,
+        "v": "Ye Olde Hammer",
+        "l": "cosmetic_weapon_ironhammer"
     },
     {
         "s": "01",
@@ -11125,9 +12380,10 @@ var icondata = [
         "i": "cosmetic_weapon_shovel",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 0,
-        "v": "Dirtslayer"
+        "x": 1536,
+        "y": 3328,
+        "v": "Dirtslayer",
+        "l": "cosmetic_weapon_shovel"
     },
     {
         "s": "01",
@@ -11135,9 +12391,10 @@ var icondata = [
         "i": "cosmetic_weapon_skillet",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1920,
-        "v": "Slammin' Skillet"
+        "x": 1408,
+        "y": 3328,
+        "v": "Slammin' Skillet",
+        "l": "cosmetic_weapon_skillet"
     },
     {
         "s": "01",
@@ -11145,9 +12402,21 @@ var icondata = [
         "i": "cosmetic_weapon_wrench",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1920,
-        "v": "The Fixer"
+        "x": 1280,
+        "y": 3328,
+        "v": "The Fixer",
+        "l": "cosmetic_weapon_wrench"
+    },
+    {
+        "s": "01",
+        "id": 522,
+        "i": "cosmetic_witch_hat",
+        "w": 128,
+        "h": 128,
+        "x": 1152,
+        "y": 3328,
+        "v": "Witch Hat",
+        "l": "cosmetic_witch_hat"
     },
     {
         "s": "01",
@@ -11155,9 +12424,10 @@ var icondata = [
         "i": "dirt_retro",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1920,
-        "v": "Retro Dirt"
+        "x": 1024,
+        "y": 3328,
+        "v": "Retro Dirt",
+        "l": "dirt_retro"
     },
     {
         "s": "01",
@@ -11165,9 +12435,10 @@ var icondata = [
         "i": "door_wood_white",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1920,
-        "v": "White Wood Door"
+        "x": 896,
+        "y": 3328,
+        "v": "White Wood Door",
+        "l": "door_wood_white"
     },
     {
         "s": "01",
@@ -11175,9 +12446,10 @@ var icondata = [
         "i": "easel_icon",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1792,
-        "v": "Easel"
+        "x": 768,
+        "y": 3328,
+        "v": "Easel",
+        "l": "easel"
     },
     {
         "s": "01",
@@ -11185,9 +12457,10 @@ var icondata = [
         "i": "eighth_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1792,
-        "v": "Plain Gingerbread Eighth"
+        "x": 640,
+        "y": 0,
+        "v": "Plain Gingerbread Eighth",
+        "l": "eighth_gingerbread_basic"
     },
     {
         "s": "01",
@@ -11195,9 +12468,10 @@ var icondata = [
         "i": "eighth_wood_red_chinese",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1792,
-        "v": "Forbidden Red Wood Eighth"
+        "x": 640,
+        "y": 128,
+        "v": "Forbidden Red Wood Eighth",
+        "l": "eighth_wood_red_chinese"
     },
     {
         "s": "01",
@@ -11205,9 +12479,10 @@ var icondata = [
         "i": "exclamation_retro",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1792,
-        "v": "Retro Exclamation Block!"
+        "x": 640,
+        "y": 256,
+        "v": "Retro Exclamation Block!",
+        "l": "exclamation_retro"
     },
     {
         "s": "01",
@@ -11215,9 +12490,10 @@ var icondata = [
         "i": "female_body",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1792,
-        "v": "? female_body"
+        "x": 640,
+        "y": 384,
+        "v": "? female_body",
+        "l": "female_body"
     },
     {
         "s": "01",
@@ -11225,9 +12501,10 @@ var icondata = [
         "i": "female_hair_00",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1792,
-        "v": "? female_hair_00"
+        "x": 640,
+        "y": 512,
+        "v": "? female_hair_00",
+        "l": "female_hair_00"
     },
     {
         "s": "01",
@@ -11235,9 +12512,10 @@ var icondata = [
         "i": "female_hair_01",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1792,
-        "v": "? female_hair_01"
+        "x": 1920,
+        "y": 3328,
+        "v": "? female_hair_01",
+        "l": "female_hair_01"
     },
     {
         "s": "01",
@@ -11245,9 +12523,10 @@ var icondata = [
         "i": "female_hair_02",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1792,
-        "v": "? female_hair_02"
+        "x": 640,
+        "y": 640,
+        "v": "? female_hair_02",
+        "l": "female_hair_02"
     },
     {
         "s": "01",
@@ -11255,9 +12534,10 @@ var icondata = [
         "i": "female_hair_03",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1792,
-        "v": "? female_hair_03"
+        "x": 640,
+        "y": 896,
+        "v": "? female_hair_03",
+        "l": "female_hair_03"
     },
     {
         "s": "01",
@@ -11265,9 +12545,10 @@ var icondata = [
         "i": "female_hair_04",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 1792,
-        "v": "? female_hair_04"
+        "x": 640,
+        "y": 1024,
+        "v": "? female_hair_04",
+        "l": "female_hair_04"
     },
     {
         "s": "01",
@@ -11275,9 +12556,10 @@ var icondata = [
         "i": "female_hair_05",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1792,
-        "v": "? female_hair_05"
+        "x": 640,
+        "y": 1152,
+        "v": "? female_hair_05",
+        "l": "female_hair_05"
     },
     {
         "s": "01",
@@ -11285,9 +12567,10 @@ var icondata = [
         "i": "female_hair_06",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 1792,
-        "v": "? female_hair_06"
+        "x": 640,
+        "y": 1280,
+        "v": "? female_hair_06",
+        "l": "female_hair_06"
     },
     {
         "s": "01",
@@ -11295,9 +12578,10 @@ var icondata = [
         "i": "female_hair_07",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 0,
-        "v": "? female_hair_07"
+        "x": 640,
+        "y": 1408,
+        "v": "? female_hair_07",
+        "l": "female_hair_07"
     },
     {
         "s": "01",
@@ -11305,9 +12589,10 @@ var icondata = [
         "i": "female_hair_08",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1792,
-        "v": "? female_hair_08"
+        "x": 640,
+        "y": 1536,
+        "v": "? female_hair_08",
+        "l": "female_hair_08"
     },
     {
         "s": "01",
@@ -11315,9 +12600,10 @@ var icondata = [
         "i": "female_hair_09",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 128,
-        "v": "? female_hair_09"
+        "x": 640,
+        "y": 1664,
+        "v": "? female_hair_09",
+        "l": "female_hair_09"
     },
     {
         "s": "01",
@@ -11325,9 +12611,10 @@ var icondata = [
         "i": "female_head_01",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 384,
-        "v": "? female_head_01"
+        "x": 640,
+        "y": 1792,
+        "v": "? female_head_01",
+        "l": "female_head_01"
     },
     {
         "s": "01",
@@ -11335,9 +12622,10 @@ var icondata = [
         "i": "female_head_02",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 512,
-        "v": "? female_head_02"
+        "x": 640,
+        "y": 1920,
+        "v": "? female_head_02",
+        "l": "female_head_02"
     },
     {
         "s": "01",
@@ -11345,9 +12633,10 @@ var icondata = [
         "i": "female_head_03",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 640,
-        "v": "? female_head_03"
+        "x": 640,
+        "y": 2048,
+        "v": "? female_head_03",
+        "l": "female_head_03"
     },
     {
         "s": "01",
@@ -11355,9 +12644,10 @@ var icondata = [
         "i": "female_head_04",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 768,
-        "v": "? female_head_04"
+        "x": 640,
+        "y": 2176,
+        "v": "? female_head_04",
+        "l": "female_head_04"
     },
     {
         "s": "01",
@@ -11365,9 +12655,21 @@ var icondata = [
         "i": "female_head_05",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 896,
-        "v": "? female_head_05"
+        "x": 640,
+        "y": 2304,
+        "v": "? female_head_05",
+        "l": "female_head_05"
+    },
+    {
+        "s": "01",
+        "id": 525,
+        "i": "fence_spooky",
+        "w": 128,
+        "h": 128,
+        "x": 640,
+        "y": 2432,
+        "v": "Spooky Fence",
+        "l": "fence_spooky"
     },
     {
         "s": "01",
@@ -11375,9 +12677,21 @@ var icondata = [
         "i": "filet_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1024,
-        "v": "Filet o' Karrotfish"
+        "x": 640,
+        "y": 2560,
+        "v": "Filet o' Karrotfish",
+        "l": "filet_o_karrotfish"
+    },
+    {
+        "s": "01",
+        "id": 502,
+        "i": "filter_item",
+        "w": 128,
+        "h": 128,
+        "x": 2048,
+        "y": 3328,
+        "v": "Item Sorter",
+        "l": "filter_item"
     },
     {
         "s": "01",
@@ -11385,9 +12699,10 @@ var icondata = [
         "i": "flashlight_babyleafi",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1280,
-        "v": "Baby Leafi Flashlight"
+        "x": 896,
+        "y": 2944,
+        "v": "Baby Leafi Flashlight",
+        "l": "cosmetic_sparc_illumination_baby_leafi"
     },
     {
         "s": "01",
@@ -11395,9 +12710,10 @@ var icondata = [
         "i": "flashlight_reaudolph",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1408,
-        "v": "Reaudolph Flashlight"
+        "x": 1024,
+        "y": 640,
+        "v": "Reaudolph Flashlight",
+        "l": "cosmetic_sparc_illumination_reaudolph"
     },
     {
         "s": "01",
@@ -11405,9 +12721,10 @@ var icondata = [
         "i": "floor_linoleum_tile",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1536,
-        "v": "Ornate Patterned Tile Floor"
+        "x": 896,
+        "y": 2816,
+        "v": "Ornate Patterned Tile Floor",
+        "l": "floor_linoleum_tile"
     },
     {
         "s": "01",
@@ -11415,9 +12732,10 @@ var icondata = [
         "i": "floor_wood_white",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1664,
-        "v": "White Wood Floor"
+        "x": 1152,
+        "y": 2560,
+        "v": "White Wood Floor",
+        "l": "floor_wood_white"
     },
     {
         "s": "01",
@@ -11425,9 +12743,10 @@ var icondata = [
         "i": "flower_poinsettia",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 1792,
-        "v": "Poinsettia"
+        "x": 1152,
+        "y": 2688,
+        "v": "Poinsettia",
+        "l": "flower_poinsettia"
     },
     {
         "s": "01",
@@ -11435,9 +12754,10 @@ var icondata = [
         "i": "flower_retro",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1920,
-        "v": "Fab Flower"
+        "x": 1152,
+        "y": 2816,
+        "v": "Fab Flower",
+        "l": "flower_retro"
     },
     {
         "s": "01",
@@ -11445,9 +12765,10 @@ var icondata = [
         "i": "flytrap_retro",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 1024,
-        "v": "Fanged Flytrap"
+        "x": 3968,
+        "y": 2944,
+        "v": "Fanged Flytrap",
+        "l": "flytrap_retro"
     },
     {
         "s": "01",
@@ -11455,9 +12776,10 @@ var icondata = [
         "i": "food_baked_hog",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 0,
-        "v": "Heavenly Baked Hog"
+        "x": 3840,
+        "y": 2944,
+        "v": "Heavenly Baked Hog",
+        "l": "food_baked_hog"
     },
     {
         "s": "01",
@@ -11465,9 +12787,10 @@ var icondata = [
         "i": "food_cake_shrew",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1408,
-        "v": "Poisonous Pastry"
+        "x": 3712,
+        "y": 2944,
+        "v": "Poisonous Pastry",
+        "l": "food_cake_shrew"
     },
     {
         "s": "01",
@@ -11475,9 +12798,10 @@ var icondata = [
         "i": "food_egg_skillet",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1408,
-        "v": "Eggsellent Egg Skillet"
+        "x": 3584,
+        "y": 2944,
+        "v": "Eggsellent Egg Skillet",
+        "l": "food_egg_skillet"
     },
     {
         "s": "01",
@@ -11485,9 +12809,10 @@ var icondata = [
         "i": "food_rotisserie_chizzard",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 768,
-        "v": "Exquisite Roast Bird"
+        "x": 3456,
+        "y": 2944,
+        "v": "Exquisite Roast Bird",
+        "l": "food_rotisserie_chizzard"
     },
     {
         "s": "01",
@@ -11495,9 +12820,10 @@ var icondata = [
         "i": "food_sushi_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 768,
-        "v": "Scrumptious Sushi Spread"
+        "x": 3328,
+        "y": 2944,
+        "v": "Scrumptious Sushi Spread",
+        "l": "food_sushi_karrotfish"
     },
     {
         "s": "01",
@@ -11505,9 +12831,10 @@ var icondata = [
         "i": "galactichunter_arms",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 768,
-        "v": "Galactic Hunter Arms"
+        "x": 3200,
+        "y": 2944,
+        "v": "Galactic Hunter Arms",
+        "l": "cosmetic_galactichunter_arms"
     },
     {
         "s": "01",
@@ -11515,9 +12842,10 @@ var icondata = [
         "i": "galactichunter_body",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 768,
-        "v": "Galactic Hunter Body"
+        "x": 3072,
+        "y": 2944,
+        "v": "Galactic Hunter Body",
+        "l": "cosmetic_galactichunter_body"
     },
     {
         "s": "01",
@@ -11525,9 +12853,10 @@ var icondata = [
         "i": "galactichunter_gauntlet",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 0,
-        "v": "Galactic Hunter Gauntlet"
+        "x": 2944,
+        "y": 2944,
+        "v": "Galactic Hunter Gauntlet",
+        "l": "cosmetic_galactichunter_gauntlet"
     },
     {
         "s": "01",
@@ -11535,9 +12864,10 @@ var icondata = [
         "i": "galactichunter_head",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 128,
-        "v": "Galactic Hunter Head"
+        "x": 2816,
+        "y": 2944,
+        "v": "Galactic Hunter Head",
+        "l": "cosmetic_galactichunter_head"
     },
     {
         "s": "01",
@@ -11545,9 +12875,10 @@ var icondata = [
         "i": "galactichunter_jumppack",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 256,
-        "v": "Rocket-Powered"
+        "x": 2688,
+        "y": 2944,
+        "v": "Rocket-Powered",
+        "l": "jump_pack_power_medium"
     },
     {
         "s": "01",
@@ -11555,9 +12886,10 @@ var icondata = [
         "i": "galactichunter_legs",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 384,
-        "v": "Galactic Hunter Legs"
+        "x": 2560,
+        "y": 2944,
+        "v": "Galactic Hunter Legs",
+        "l": "cosmetic_galactichunter_legs"
     },
     {
         "s": "01",
@@ -11565,9 +12897,10 @@ var icondata = [
         "i": "gamer_drink",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 512,
-        "v": "Rambrew Soda"
+        "x": 2432,
+        "y": 2944,
+        "v": "Rambrew Soda",
+        "l": "gamer_drink"
     },
     {
         "s": "01",
@@ -11575,9 +12908,10 @@ var icondata = [
         "i": "gamer_joystick",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 640,
-        "v": "Galactic Gamer Joystick"
+        "x": 2304,
+        "y": 2944,
+        "v": "Galactic Gamer Joystick",
+        "l": "gamer_joystick"
     },
     {
         "s": "01",
@@ -11585,9 +12919,10 @@ var icondata = [
         "i": "gamer_keyboard",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 768,
-        "v": "Galactic Gamer Keyboard"
+        "x": 2176,
+        "y": 2944,
+        "v": "Galactic Gamer Keyboard",
+        "l": "gamer_keyboard"
     },
     {
         "s": "01",
@@ -11595,9 +12930,21 @@ var icondata = [
         "i": "gamer_monitor",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 896,
-        "v": "Galactic Gamer Monitor"
+        "x": 2048,
+        "y": 2944,
+        "v": "Galactic Gamer Monitor",
+        "l": "gamer_monitor"
+    },
+    {
+        "s": "01",
+        "id": 526,
+        "i": "gate_spooky",
+        "w": 128,
+        "h": 128,
+        "x": 1920,
+        "y": 2944,
+        "v": "Spooky Gate",
+        "l": "gate_spooky"
     },
     {
         "s": "01",
@@ -11605,9 +12952,10 @@ var icondata = [
         "i": "gauntlet_bronze",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 896,
-        "v": "Bronze Focus"
+        "x": 1792,
+        "y": 2944,
+        "v": "Bronze Focus",
+        "l": "focus_bronze"
     },
     {
         "s": "01",
@@ -11615,9 +12963,10 @@ var icondata = [
         "i": "gauntlet_cozy",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 768,
-        "v": "Polka Dot Mitten"
+        "x": 1664,
+        "y": 2944,
+        "v": "Polka Dot Mitten",
+        "l": "cosmetic_focus_cozy"
     },
     {
         "s": "01",
@@ -11625,9 +12974,10 @@ var icondata = [
         "i": "gauntlet_diamond",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 896,
-        "v": "Diamond Mining Cell"
+        "x": 1536,
+        "y": 2944,
+        "v": "Diamond Mining Cell",
+        "l": "focus_diamond"
     },
     {
         "s": "01",
@@ -11635,9 +12985,10 @@ var icondata = [
         "i": "gauntlet_ghost",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 896,
-        "v": "Death's Touch"
+        "x": 1408,
+        "y": 2944,
+        "v": "Death's Touch",
+        "l": "cosmetic_focus_ghost"
     },
     {
         "s": "01",
@@ -11645,9 +12996,10 @@ var icondata = [
         "i": "gauntlet_gold",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 896,
-        "v": "Gold Focus"
+        "x": 1280,
+        "y": 2944,
+        "v": "Gold Focus",
+        "l": "focus_gold"
     },
     {
         "s": "01",
@@ -11655,9 +13007,10 @@ var icondata = [
         "i": "gauntlet_iron",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 896,
-        "v": "Iron Mining Cell"
+        "x": 1152,
+        "y": 2944,
+        "v": "Iron Mining Cell",
+        "l": "focus_iron"
     },
     {
         "s": "01",
@@ -11665,9 +13018,10 @@ var icondata = [
         "i": "gauntlet_lumite",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 1024,
         "y": 0,
-        "v": "Lumite Mining Cell"
+        "v": "Lumite Mining Cell",
+        "l": "focus_lumite"
     },
     {
         "s": "01",
@@ -11675,9 +13029,10 @@ var icondata = [
         "i": "gauntlet_mitten",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 1024,
         "y": 128,
-        "v": "Winter Mitten"
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten"
     },
     {
         "s": "01",
@@ -11685,9 +13040,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_01",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 1024,
         "y": 256,
-        "v": "Winter Mitten"
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_01"
     },
     {
         "s": "01",
@@ -11695,9 +13051,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_02",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 384,
-        "v": "Winter Mitten"
+        "x": 1152,
+        "y": 2432,
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_02"
     },
     {
         "s": "01",
@@ -11705,9 +13062,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_03",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 512,
-        "v": "Winter Mitten"
+        "x": 1152,
+        "y": 2304,
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_03"
     },
     {
         "s": "01",
@@ -11715,9 +13073,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_04",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 640,
-        "v": "Winter Mitten"
+        "x": 1152,
+        "y": 2176,
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_04"
     },
     {
         "s": "01",
@@ -11725,9 +13084,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_05",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 768,
-        "v": "Winter Mitten"
+        "x": 1152,
+        "y": 2048,
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_05"
     },
     {
         "s": "01",
@@ -11735,9 +13095,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_06",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 896,
-        "v": "Winter Mitten"
+        "x": 2944,
+        "y": 2816,
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_06"
     },
     {
         "s": "01",
@@ -11745,9 +13106,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_07",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1024,
-        "v": "Winter Mitten"
+        "x": 2816,
+        "y": 2816,
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_07"
     },
     {
         "s": "01",
@@ -11755,9 +13117,10 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_08",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1024,
-        "v": "Winter Mitten"
+        "x": 2688,
+        "y": 2816,
+        "v": "Winter Mitten",
+        "l": "cosmetic_focus_mitten_streamer_08"
     },
     {
         "s": "01",
@@ -11765,9 +13128,10 @@ var icondata = [
         "i": "gauntlet_monster",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 896,
-        "v": "The Hulking Hand"
+        "x": 2560,
+        "y": 2816,
+        "v": "The Hulking Hand",
+        "l": "cosmetic_focus_monster"
     },
     {
         "s": "01",
@@ -11775,9 +13139,10 @@ var icondata = [
         "i": "gauntlet_obsidian",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 640,
-        "v": "Obsidian Mining Cell"
+        "x": 2432,
+        "y": 2816,
+        "v": "Obsidian Mining Cell",
+        "l": "focus_obsidian"
     },
     {
         "s": "01",
@@ -11785,9 +13150,10 @@ var icondata = [
         "i": "gauntlet_powerglove",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 0,
-        "v": "Power Gauntlet"
+        "x": 2304,
+        "y": 2816,
+        "v": "Power Gauntlet",
+        "l": "cosmetic_focus_powerglove"
     },
     {
         "s": "01",
@@ -11795,9 +13161,10 @@ var icondata = [
         "i": "gauntlet_silver",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 512,
-        "v": "Silver Focus"
+        "x": 2176,
+        "y": 2816,
+        "v": "Silver Focus",
+        "l": "focus_silver"
     },
     {
         "s": "01",
@@ -11805,9 +13172,10 @@ var icondata = [
         "i": "gauntlet_stone",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 0,
-        "v": "Stone Mining Cell"
+        "x": 2048,
+        "y": 2816,
+        "v": "Stone Mining Cell",
+        "l": "focus_stone"
     },
     {
         "s": "01",
@@ -11815,9 +13183,10 @@ var icondata = [
         "i": "gauntlet_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 128,
-        "v": "Frost Gauntlet"
+        "x": 1920,
+        "y": 2816,
+        "v": "Frost Gauntlet",
+        "l": "cosmetic_focus_frost_trog"
     },
     {
         "s": "01",
@@ -11825,9 +13194,32 @@ var icondata = [
         "i": "gauntlet_wood",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 256,
-        "v": "Charged Wood Mining Cell"
+        "x": 1792,
+        "y": 2816,
+        "v": "Charged Wood Mining Cell",
+        "l": "focus_wood_charged"
+    },
+    {
+        "s": "01",
+        "id": 523,
+        "i": "glass_stained_apple",
+        "w": 128,
+        "h": 128,
+        "x": 1664,
+        "y": 2816,
+        "v": "Apple Stained Glass",
+        "l": "glass_stained_apple"
+    },
+    {
+        "s": "01",
+        "id": 524,
+        "i": "glass_stained_cat",
+        "w": 128,
+        "h": 128,
+        "x": 1536,
+        "y": 2816,
+        "v": "Cat Stained Glass",
+        "l": "glass_stained_cat"
     },
     {
         "s": "01",
@@ -11835,9 +13227,10 @@ var icondata = [
         "i": "glider_angelwings",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 384,
-        "v": "Angel Wings"
+        "x": 1408,
+        "y": 2816,
+        "v": "Angel Wings",
+        "l": "cosmetic_glider_angel"
     },
     {
         "s": "01",
@@ -11845,9 +13238,10 @@ var icondata = [
         "i": "glider_bat",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 384,
-        "v": "Bat Wings"
+        "x": 1280,
+        "y": 2816,
+        "v": "Bat Wings",
+        "l": "cosmetic_glider_bat"
     },
     {
         "s": "01",
@@ -11855,9 +13249,10 @@ var icondata = [
         "i": "glider_female",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 384,
-        "v": "? glider_female"
+        "x": 3072,
+        "y": 2816,
+        "v": "? glider_female",
+        "l": "glider_female"
     },
     {
         "s": "01",
@@ -11865,9 +13260,10 @@ var icondata = [
         "i": "glider_icon",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 1152,
         "y": 0,
-        "v": "Glider"
+        "v": "Glider",
+        "l": "cosmetic_glider_01"
     },
     {
         "s": "01",
@@ -11875,9 +13271,10 @@ var icondata = [
         "i": "glider_icon_red",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 128,
-        "v": "Hot Rod Glider"
+        "x": 1152,
+        "y": 256,
+        "v": "Hot Rod Glider",
+        "l": "cosmetic_glider_02"
     },
     {
         "s": "01",
@@ -11885,9 +13282,10 @@ var icondata = [
         "i": "glider_male",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 256,
-        "v": "? glider_male"
+        "x": 1152,
+        "y": 384,
+        "v": "? glider_male",
+        "l": "glider_male"
     },
     {
         "s": "01",
@@ -11895,9 +13293,10 @@ var icondata = [
         "i": "glider_steampunk",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 384,
-        "v": "Steam Glider"
+        "x": 1152,
+        "y": 512,
+        "v": "Steam Glider",
+        "l": "cosmetic_glider_steampunk"
     },
     {
         "s": "01",
@@ -11905,9 +13304,10 @@ var icondata = [
         "i": "globgooorange",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 512,
-        "v": "Glob of Goo"
+        "x": 1152,
+        "y": 640,
+        "v": "Glob of Goo",
+        "l": "glob_goo_orange"
     },
     {
         "s": "01",
@@ -11915,9 +13315,10 @@ var icondata = [
         "i": "globgoopurple",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 512,
-        "v": "Glob of Goo"
+        "x": 1152,
+        "y": 768,
+        "v": "Glob of Goo",
+        "l": "glob_goo_purple"
     },
     {
         "s": "01",
@@ -11925,9 +13326,32 @@ var icondata = [
         "i": "grass_retro",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 512,
-        "v": "Retro Grass"
+        "x": 1152,
+        "y": 896,
+        "v": "Retro Grass",
+        "l": "grass_retro"
+    },
+    {
+        "s": "01",
+        "id": 527,
+        "i": "gravestone_haunted_02",
+        "w": 128,
+        "h": 128,
+        "x": 1152,
+        "y": 1024,
+        "v": "Spooky Haunted Gravestone",
+        "l": "gravestone_haunted_02"
+    },
+    {
+        "s": "01",
+        "id": 528,
+        "i": "haunted_book",
+        "w": 128,
+        "h": 128,
+        "x": 1152,
+        "y": 1152,
+        "v": "Haunted Grimoire",
+        "l": "haunted_book"
     },
     {
         "s": "01",
@@ -11935,9 +13359,10 @@ var icondata = [
         "i": "head_chizzard",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 256,
-        "v": "Chizzard Head Costume"
+        "x": 1152,
+        "y": 1280,
+        "v": "Chizzard Head Costume",
+        "l": "cosmetic_head_chizzard"
     },
     {
         "s": "01",
@@ -11945,9 +13370,10 @@ var icondata = [
         "i": "head_horse",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 512,
-        "v": "Mr. Wilson Costume"
+        "x": 1152,
+        "y": 1408,
+        "v": "Mr. Wilson Costume",
+        "l": "cosmetic_head_horse"
     },
     {
         "s": "01",
@@ -11955,9 +13381,10 @@ var icondata = [
         "i": "head_leafi",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 128,
-        "v": "Leafi Head Costume"
+        "x": 1152,
+        "y": 1536,
+        "v": "Leafi Head Costume",
+        "l": "cosmetic_head_leafi"
     },
     {
         "s": "01",
@@ -11965,9 +13392,10 @@ var icondata = [
         "i": "head_pigsy",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 256,
-        "v": "Pigsy Head Costume"
+        "x": 1152,
+        "y": 1664,
+        "v": "Pigsy Head Costume",
+        "l": "cosmetic_head_pigsy"
     },
     {
         "s": "01",
@@ -11975,9 +13403,10 @@ var icondata = [
         "i": "head_reaudolph",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 384,
-        "v": "Reaudolph Head Costume"
+        "x": 1152,
+        "y": 1792,
+        "v": "Reaudolph Head Costume",
+        "l": "cosmetic_head_reaudolph"
     },
     {
         "s": "01",
@@ -11985,9 +13414,10 @@ var icondata = [
         "i": "head_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 512,
-        "v": "Frost Trog Head"
+        "x": 1152,
+        "y": 1920,
+        "v": "Frost Trog Head",
+        "l": "cosmetic_head_frost_trog"
     },
     {
         "s": "01",
@@ -11995,9 +13425,10 @@ var icondata = [
         "i": "head_unicorn",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 640,
-        "v": "Unicorn Head"
+        "x": 1024,
+        "y": 384,
+        "v": "Unicorn Head",
+        "l": "cosmetic_head_unicorn"
     },
     {
         "s": "01",
@@ -12005,9 +13436,10 @@ var icondata = [
         "i": "head_wukong",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 640,
-        "v": "Monkey King Head"
+        "x": 1152,
+        "y": 128,
+        "v": "Monkey King Head",
+        "l": "cosmetic_head_wukong"
     },
     {
         "s": "01",
@@ -12015,9 +13447,10 @@ var icondata = [
         "i": "helmet_destroyer",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 640,
-        "v": "Destroyer Suit Head"
+        "x": 1024,
+        "y": 512,
+        "v": "Destroyer Suit Head",
+        "l": "cosmetic_head_destroyer"
     },
     {
         "s": "01",
@@ -12025,9 +13458,10 @@ var icondata = [
         "i": "helmet_diamond",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 640,
-        "v": "First Fantasy Head"
+        "x": 1024,
+        "y": 2816,
+        "v": "First Fantasy Head",
+        "l": "cosmetic_helmet_diamond"
     },
     {
         "s": "01",
@@ -12035,9 +13469,10 @@ var icondata = [
         "i": "helmet_iron",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 640,
-        "v": "Metal Mk I Head"
+        "x": 1792,
+        "y": 3072,
+        "v": "Metal Mk I Head",
+        "l": "cosmetic_helmet_iron"
     },
     {
         "s": "01",
@@ -12045,9 +13480,10 @@ var icondata = [
         "i": "helmet_leather",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 0,
-        "v": "Fury Warrior Head"
+        "x": 1664,
+        "y": 3072,
+        "v": "Fury Warrior Head",
+        "l": "cosmetic_helmet_leather"
     },
     {
         "s": "01",
@@ -12055,9 +13491,10 @@ var icondata = [
         "i": "helmet_lumite",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 128,
-        "v": "Master Creator Head"
+        "x": 1536,
+        "y": 3072,
+        "v": "Master Creator Head",
+        "l": "cosmetic_helmet_lumite"
     },
     {
         "s": "01",
@@ -12065,9 +13502,10 @@ var icondata = [
         "i": "helmet_obsidian",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 256,
-        "v": "Electro Cycle Head"
+        "x": 1408,
+        "y": 3072,
+        "v": "Electro Cycle Head",
+        "l": "cosmetic_helmet_obsidian"
     },
     {
         "s": "01",
@@ -12075,9 +13513,10 @@ var icondata = [
         "i": "holiday_bed_candycane",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 384,
-        "v": "Candycane Bed"
+        "x": 1280,
+        "y": 3072,
+        "v": "Candycane Bed",
+        "l": "holiday_bed_candycane"
     },
     {
         "s": "01",
@@ -12085,9 +13524,10 @@ var icondata = [
         "i": "holiday_bed_giftwrap",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1024,
-        "v": "Giftwrapped Bed"
+        "x": 1152,
+        "y": 3072,
+        "v": "Giftwrapped Bed",
+        "l": "holiday_bed_giftwrap"
     },
     {
         "s": "01",
@@ -12095,9 +13535,10 @@ var icondata = [
         "i": "holiday_bed_plaid",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 768,
-        "v": "Plaid Bed"
+        "x": 1024,
+        "y": 3072,
+        "v": "Plaid Bed",
+        "l": "holiday_bed_plaid"
     },
     {
         "s": "01",
@@ -12105,9 +13546,10 @@ var icondata = [
         "i": "holiday_carpet_beige",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1024,
-        "v": "Beige Holiday Carpet"
+        "x": 896,
+        "y": 0,
+        "v": "Beige Holiday Carpet",
+        "l": "holiday_carpet_beige"
     },
     {
         "s": "01",
@@ -12115,9 +13557,10 @@ var icondata = [
         "i": "holiday_carpet_dark_beige",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1280,
-        "v": "Dark Beige Holiday Carpet"
+        "x": 896,
+        "y": 128,
+        "v": "Dark Beige Holiday Carpet",
+        "l": "holiday_carpet_dark_beige"
     },
     {
         "s": "01",
@@ -12125,9 +13568,10 @@ var icondata = [
         "i": "holiday_carpet_dark_grey",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1280,
-        "v": "Dark Grey Holiday Carpet"
+        "x": 896,
+        "y": 256,
+        "v": "Dark Grey Holiday Carpet",
+        "l": "holiday_carpet_dark_grey"
     },
     {
         "s": "01",
@@ -12135,9 +13579,10 @@ var icondata = [
         "i": "holiday_carpet_grey",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1280,
-        "v": "Grey Holiday Carpet"
+        "x": 896,
+        "y": 384,
+        "v": "Grey Holiday Carpet",
+        "l": "holiday_carpet_grey"
     },
     {
         "s": "01",
@@ -12145,9 +13590,10 @@ var icondata = [
         "i": "holiday_fireplace",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1280,
-        "v": "Red Brick Fireplace"
+        "x": 896,
+        "y": 512,
+        "v": "Red Brick Fireplace",
+        "l": "holiday_fireplace"
     },
     {
         "s": "01",
@@ -12155,9 +13601,10 @@ var icondata = [
         "i": "holiday_fireplace_white",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1280,
-        "v": "White Brick Fireplace"
+        "x": 896,
+        "y": 640,
+        "v": "White Brick Fireplace",
+        "l": "holiday_fireplace_white"
     },
     {
         "s": "01",
@@ -12165,9 +13612,10 @@ var icondata = [
         "i": "holiday_garland",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1280,
-        "v": "Holiday Garland"
+        "x": 896,
+        "y": 768,
+        "v": "Holiday Garland",
+        "l": "holiday_garland"
     },
     {
         "s": "01",
@@ -12175,9 +13623,10 @@ var icondata = [
         "i": "holiday_giftwrap_blue",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1280,
-        "v": "Blue Giftwrap Block"
+        "x": 896,
+        "y": 896,
+        "v": "Blue Giftwrap Block",
+        "l": "holiday_giftwrap_blue"
     },
     {
         "s": "01",
@@ -12185,9 +13634,10 @@ var icondata = [
         "i": "holiday_giftwrap_candycane",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1280,
-        "v": "Candycane Giftwrap Block"
+        "x": 896,
+        "y": 1024,
+        "v": "Candycane Giftwrap Block",
+        "l": "holiday_giftwrap_candycane"
     },
     {
         "s": "01",
@@ -12195,9 +13645,10 @@ var icondata = [
         "i": "holiday_giftwrap_green",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1280,
-        "v": "Green Giftwrap Block"
+        "x": 896,
+        "y": 1152,
+        "v": "Green Giftwrap Block",
+        "l": "holiday_giftwrap_green"
     },
     {
         "s": "01",
@@ -12205,9 +13656,10 @@ var icondata = [
         "i": "holiday_giftwrap_red",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 0,
-        "v": "Red Giftwrap Block"
+        "x": 896,
+        "y": 1280,
+        "v": "Red Giftwrap Block",
+        "l": "holiday_giftwrap_red"
     },
     {
         "s": "01",
@@ -12215,9 +13667,10 @@ var icondata = [
         "i": "holiday_ornament_red",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 128,
-        "v": "Red Ornament"
+        "x": 896,
+        "y": 1408,
+        "v": "Red Ornament",
+        "l": "holiday_ornament_red"
     },
     {
         "s": "01",
@@ -12225,9 +13678,10 @@ var icondata = [
         "i": "holiday_shelf_wood_white",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 256,
-        "v": "Holiday Mantle"
+        "x": 896,
+        "y": 1536,
+        "v": "Holiday Mantle",
+        "l": "holiday_shelf_wood_white"
     },
     {
         "s": "01",
@@ -12235,9 +13689,10 @@ var icondata = [
         "i": "holiday_stained_glass_blue",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 384,
-        "v": "Blue Snowflake Glass"
+        "x": 896,
+        "y": 1664,
+        "v": "Blue Snowflake Glass",
+        "l": "holiday_stained_glass_blue"
     },
     {
         "s": "01",
@@ -12245,9 +13700,10 @@ var icondata = [
         "i": "holiday_stained_glass_blue2",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 512,
-        "v": "Blue Star Glass"
+        "x": 896,
+        "y": 1792,
+        "v": "Blue Star Glass",
+        "l": "holiday_stained_glass_blue2"
     },
     {
         "s": "01",
@@ -12255,9 +13711,10 @@ var icondata = [
         "i": "holiday_stained_glass_green",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1280,
-        "v": "Green Snowflake Glass"
+        "x": 896,
+        "y": 1920,
+        "v": "Green Snowflake Glass",
+        "l": "holiday_stained_glass_green"
     },
     {
         "s": "01",
@@ -12265,9 +13722,10 @@ var icondata = [
         "i": "holiday_stained_glass_green2",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 640,
-        "v": "Green Star Glass"
+        "x": 896,
+        "y": 2048,
+        "v": "Green Star Glass",
+        "l": "holiday_stained_glass_green2"
     },
     {
         "s": "01",
@@ -12275,9 +13733,10 @@ var icondata = [
         "i": "holiday_stained_glass_red",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 896,
-        "v": "Red Snowflake Glass"
+        "x": 896,
+        "y": 2176,
+        "v": "Red Snowflake Glass",
+        "l": "holiday_stained_glass_red"
     },
     {
         "s": "01",
@@ -12285,9 +13744,10 @@ var icondata = [
         "i": "holiday_stained_glass_red2",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1024,
-        "v": "Red Star Glass"
+        "x": 896,
+        "y": 2304,
+        "v": "Red Star Glass",
+        "l": "holiday_stained_glass_red2"
     },
     {
         "s": "01",
@@ -12295,9 +13755,10 @@ var icondata = [
         "i": "holiday_stained_glass_white",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1152,
-        "v": "White Snowflake Glass"
+        "x": 896,
+        "y": 2432,
+        "v": "White Snowflake Glass",
+        "l": "holiday_stained_glass_white"
     },
     {
         "s": "01",
@@ -12305,9 +13766,10 @@ var icondata = [
         "i": "holiday_stained_glass_white2",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 1280,
-        "v": "White Star Glass"
+        "x": 896,
+        "y": 2560,
+        "v": "White Star Glass",
+        "l": "holiday_stained_glass_white2"
     },
     {
         "s": "01",
@@ -12315,9 +13777,10 @@ var icondata = [
         "i": "holiday_turtleneck_leafi",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1408,
-        "v": "Ugly Leafi Turtleneck"
+        "x": 896,
+        "y": 2688,
+        "v": "Ugly Leafi Turtleneck",
+        "l": "cosmetic_body_turtleneck_leafi"
     },
     {
         "s": "01",
@@ -12325,9 +13788,10 @@ var icondata = [
         "i": "holiday_wall_brick",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1408,
-        "v": "Red Brick Wall"
+        "x": 1920,
+        "y": 3072,
+        "v": "Red Brick Wall",
+        "l": "holiday_wall_brick"
     },
     {
         "s": "01",
@@ -12335,9 +13799,10 @@ var icondata = [
         "i": "holiday_wall_brick_white",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1408,
-        "v": "White Brick Wall"
+        "x": 2048,
+        "y": 3072,
+        "v": "White Brick Wall",
+        "l": "holiday_wall_brick_white"
     },
     {
         "s": "01",
@@ -12345,9 +13810,10 @@ var icondata = [
         "i": "holiday_window",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1408,
-        "v": "Holiday Window"
+        "x": 2176,
+        "y": 3072,
+        "v": "Holiday Window",
+        "l": "holiday_window"
     },
     {
         "s": "01",
@@ -12355,9 +13821,10 @@ var icondata = [
         "i": "holiday_wreath",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1408,
-        "v": "Holiday Wreath"
+        "x": 2304,
+        "y": 3072,
+        "v": "Holiday Wreath",
+        "l": "holiday_wreath"
     },
     {
         "s": "01",
@@ -12365,9 +13832,10 @@ var icondata = [
         "i": "hotel_bed",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1408,
-        "v": "Majestifying Mattress"
+        "x": 1024,
+        "y": 896,
+        "v": "Majestifying Mattress",
+        "l": "hotel_bed"
     },
     {
         "s": "01",
@@ -12375,9 +13843,10 @@ var icondata = [
         "i": "hotel_cabinets",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1408,
-        "v": "Cabernatious Cabinets"
+        "x": 1024,
+        "y": 1024,
+        "v": "Cabernatious Cabinets",
+        "l": "hotel_cabinets"
     },
     {
         "s": "01",
@@ -12385,9 +13854,10 @@ var icondata = [
         "i": "hotel_chair",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1408,
-        "v": "Cherishizing Chair"
+        "x": 1024,
+        "y": 1152,
+        "v": "Cherishizing Chair",
+        "l": "hotel_chair"
     },
     {
         "s": "01",
@@ -12395,9 +13865,10 @@ var icondata = [
         "i": "hotel_chandelier",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1408,
-        "v": "Charmacious Chandelier"
+        "x": 1024,
+        "y": 1280,
+        "v": "Charmacious Chandelier",
+        "l": "hotel_chandelier"
     },
     {
         "s": "01",
@@ -12405,9 +13876,10 @@ var icondata = [
         "i": "hotel_couch",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 768,
-        "v": "Cushceptional Couch"
+        "x": 1024,
+        "y": 1408,
+        "v": "Cushceptional Couch",
+        "l": "hotel_couch"
     },
     {
         "s": "01",
@@ -12415,9 +13887,10 @@ var icondata = [
         "i": "hotel_couch_corner",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1152,
-        "v": "Curvaciously Cushceptional Couch"
+        "x": 1024,
+        "y": 1536,
+        "v": "Curvaciously Cushceptional Couch",
+        "l": "hotel_couch_corner"
     },
     {
         "s": "01",
@@ -12425,9 +13898,10 @@ var icondata = [
         "i": "hotel_couch_ottoman",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 1152,
-        "v": "Ostenduring Ottoman"
+        "x": 1024,
+        "y": 1664,
+        "v": "Ostenduring Ottoman",
+        "l": "hotel_couch_ottoman"
     },
     {
         "s": "01",
@@ -12435,9 +13909,10 @@ var icondata = [
         "i": "hotel_curtain",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 1024,
-        "v": "Customazing Curtains"
+        "x": 1024,
+        "y": 1792,
+        "v": "Customazing Curtains",
+        "l": "hotel_curtain"
     },
     {
         "s": "01",
@@ -12445,9 +13920,10 @@ var icondata = [
         "i": "hotel_door",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1024,
-        "v": "Decorgeous Door"
+        "x": 1024,
+        "y": 1920,
+        "v": "Decorgeous Door",
+        "l": "hotel_door"
     },
     {
         "s": "01",
@@ -12455,9 +13931,10 @@ var icondata = [
         "i": "hotel_dresser",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1024,
-        "v": "Deluxrative Dresser"
+        "x": 1024,
+        "y": 2048,
+        "v": "Deluxrative Dresser",
+        "l": "hotel_dresser"
     },
     {
         "s": "01",
@@ -12465,9 +13942,10 @@ var icondata = [
         "i": "hotel_floor",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 0,
-        "v": "Comfavorited Carpet"
+        "x": 1024,
+        "y": 2176,
+        "v": "Comfavorited Carpet",
+        "l": "hotel_floor"
     },
     {
         "s": "01",
@@ -12475,9 +13953,10 @@ var icondata = [
         "i": "hotel_flower",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 128,
-        "v": "Beautacular Bouquet"
+        "x": 1024,
+        "y": 2304,
+        "v": "Beautacular Bouquet",
+        "l": "hotel_flower"
     },
     {
         "s": "01",
@@ -12485,9 +13964,10 @@ var icondata = [
         "i": "hotel_jabot",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 256,
-        "v": "Jaunstounding Jabot"
+        "x": 1024,
+        "y": 2432,
+        "v": "Jaunstounding Jabot",
+        "l": "hotel_jabot"
     },
     {
         "s": "01",
@@ -12495,9 +13975,10 @@ var icondata = [
         "i": "hotel_lamp_standing",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 384,
-        "v": "Elongracing Luxurousity Lamp"
+        "x": 1024,
+        "y": 2560,
+        "v": "Elongracing Luxurousity Lamp",
+        "l": "hotel_lamp_standing"
     },
     {
         "s": "01",
@@ -12505,9 +13986,10 @@ var icondata = [
         "i": "hotel_torch",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 512,
-        "v": "Luxurousity Lamp"
+        "x": 1024,
+        "y": 768,
+        "v": "Luxurousity Lamp",
+        "l": "hotel_torch"
     },
     {
         "s": "01",
@@ -12515,9 +13997,10 @@ var icondata = [
         "i": "hotel_wall",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 640,
-        "v": "Wonderfulfilling Wallpaper"
+        "x": 1024,
+        "y": 2688,
+        "v": "Wonderfulfilling Wallpaper",
+        "l": "hotel_wall"
     },
     {
         "s": "01",
@@ -12525,9 +14008,10 @@ var icondata = [
         "i": "hotel_wall_base",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 768,
-        "v": "Wonderfulfilling Wood Wall"
+        "x": 1024,
+        "y": 2944,
+        "v": "Wonderfulfilling Wood Wall",
+        "l": "hotel_wall_base"
     },
     {
         "s": "01",
@@ -12535,9 +14019,10 @@ var icondata = [
         "i": "hotel_wall_trim",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 896,
-        "v": "Wonderfulfilling Wallpaper Trim"
+        "x": 3968,
+        "y": 3072,
+        "v": "Wonderfulfilling Wallpaper Trim",
+        "l": "hotel_wall_trim"
     },
     {
         "s": "01",
@@ -12545,9 +14030,10 @@ var icondata = [
         "i": "igneous_sulfur",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1024,
-        "v": "Sulfur"
+        "x": 3840,
+        "y": 3072,
+        "v": "Sulfur",
+        "l": "sulfur_item"
     },
     {
         "s": "01",
@@ -12555,9 +14041,10 @@ var icondata = [
         "i": "industrial_barrel01",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 1152,
-        "v": "Industrial Safety Drum"
+        "x": 3712,
+        "y": 3072,
+        "v": "Industrial Safety Drum",
+        "l": "industrial_barrel01"
     },
     {
         "s": "01",
@@ -12565,9 +14052,10 @@ var icondata = [
         "i": "industrial_barrel02",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 1152,
-        "v": "Industrial Modern Barrel"
+        "x": 3584,
+        "y": 3072,
+        "v": "Industrial Modern Barrel",
+        "l": "industrial_barrel02"
     },
     {
         "s": "01",
@@ -12575,9 +14063,10 @@ var icondata = [
         "i": "industrial_barrel03",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1024,
-        "v": "Industrial Classic Barrel"
+        "x": 3456,
+        "y": 3072,
+        "v": "Industrial Classic Barrel",
+        "l": "industrial_barrel03"
     },
     {
         "s": "01",
@@ -12585,9 +14074,10 @@ var icondata = [
         "i": "industrial_barricade",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 1152,
-        "v": "Industrial Barrier"
+        "x": 3328,
+        "y": 3072,
+        "v": "Industrial Barrier",
+        "l": "industrial_barricade"
     },
     {
         "s": "01",
@@ -12595,9 +14085,10 @@ var icondata = [
         "i": "industrial_cone",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1152,
-        "v": "Industrial Safety Cone"
+        "x": 3200,
+        "y": 3072,
+        "v": "Industrial Safety Cone",
+        "l": "industrial_cone"
     },
     {
         "s": "01",
@@ -12605,9 +14096,10 @@ var icondata = [
         "i": "kitchen_cabinet",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 1152,
-        "v": "Better Home Cabinet"
+        "x": 3072,
+        "y": 3072,
+        "v": "Better Home Cabinet",
+        "l": "kitchen_cabinet"
     },
     {
         "s": "01",
@@ -12615,9 +14107,10 @@ var icondata = [
         "i": "kitchen_fridge",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 1152,
-        "v": "Better Home Refrigerator"
+        "x": 2944,
+        "y": 3072,
+        "v": "Better Home Refrigerator",
+        "l": "kitchen_fridge"
     },
     {
         "s": "01",
@@ -12625,9 +14118,10 @@ var icondata = [
         "i": "kitchen_percolator",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 1152,
-        "v": "Better Home Coffee Maker"
+        "x": 2816,
+        "y": 3072,
+        "v": "Better Home Coffee Maker",
+        "l": "kitchen_percolator"
     },
     {
         "s": "01",
@@ -12635,9 +14129,10 @@ var icondata = [
         "i": "kitchen_range",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 1152,
-        "v": "Better Home Range"
+        "x": 2688,
+        "y": 3072,
+        "v": "Better Home Range",
+        "l": "kitchen_range"
     },
     {
         "s": "01",
@@ -12645,9 +14140,10 @@ var icondata = [
         "i": "kitchen_sink",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 0,
-        "v": "Better Home Kitchen Sink"
+        "x": 2560,
+        "y": 3072,
+        "v": "Better Home Kitchen Sink",
+        "l": "kitchen_sink"
     },
     {
         "s": "01",
@@ -12655,9 +14151,10 @@ var icondata = [
         "i": "kitchen_toaster",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 128,
-        "v": "Better Home Pop-Up Toaster"
+        "x": 2432,
+        "y": 3072,
+        "v": "Better Home Pop-Up Toaster",
+        "l": "kitchen_toaster"
     },
     {
         "s": "01",
@@ -12665,9 +14162,10 @@ var icondata = [
         "i": "lantern_chinese_dog",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 256,
-        "v": "Year of the Dog Lantern"
+        "x": 512,
+        "y": 0,
+        "v": "Year of the Dog Lantern",
+        "l": "lantern_chinese_dog"
     },
     {
         "s": "01",
@@ -12675,9 +14173,10 @@ var icondata = [
         "i": "lantern_chinese_pig",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 384,
-        "v": "Year of the Pig Lantern"
+        "x": 512,
+        "y": 128,
+        "v": "Year of the Pig Lantern",
+        "l": "lantern_chinese_pigsy"
     },
     {
         "s": "01",
@@ -12685,9 +14184,10 @@ var icondata = [
         "i": "lantern_chinese_rat",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 512,
-        "v": "Year of the Rat Lantern"
+        "x": 512,
+        "y": 256,
+        "v": "Year of the Rat Lantern",
+        "l": "lantern_chinese_rat"
     },
     {
         "s": "01",
@@ -12695,9 +14195,10 @@ var icondata = [
         "i": "lava_retro",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 640,
-        "v": "Retro Hardened Lava"
+        "x": 384,
+        "y": 1664,
+        "v": "Retro Hardened Lava",
+        "l": "lava_retro"
     },
     {
         "s": "01",
@@ -12705,9 +14206,10 @@ var icondata = [
         "i": "leaf_autumnwood_fallen",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 768,
-        "v": "Fallen Leaves"
+        "x": 384,
+        "y": 3840,
+        "v": "Fallen Leaves",
+        "l": "leaves_autumn_fallen"
     },
     {
         "s": "01",
@@ -12715,9 +14217,10 @@ var icondata = [
         "i": "leaves_retro",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 896,
-        "v": "Retro Leaves"
+        "x": 256,
+        "y": 3840,
+        "v": "Retro Leaves",
+        "l": "leaves_retro"
     },
     {
         "s": "01",
@@ -12725,9 +14228,10 @@ var icondata = [
         "i": "led_holiday_tree",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 128,
-        "v": "LED Tree Block"
+        "x": 128,
+        "y": 0,
+        "v": "LED Tree Block",
+        "l": "led_holiday_tree"
     },
     {
         "s": "01",
@@ -12735,9 +14239,10 @@ var icondata = [
         "i": "leggings_diamond",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 256,
-        "v": "Diamond Leggings"
+        "x": 128,
+        "y": 128,
+        "v": "Diamond Leggings",
+        "l": "leggings_diamond"
     },
     {
         "s": "01",
@@ -12745,9 +14250,10 @@ var icondata = [
         "i": "leggings_iron",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 384,
-        "v": "Iron Leggings"
+        "x": 128,
+        "y": 256,
+        "v": "Iron Leggings",
+        "l": "leggings_iron"
     },
     {
         "s": "01",
@@ -12755,9 +14261,10 @@ var icondata = [
         "i": "leggings_leather",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 256,
-        "v": "Leather Leggings"
+        "x": 128,
+        "y": 384,
+        "v": "Leather Leggings",
+        "l": "leggings_leather"
     },
     {
         "s": "01",
@@ -12765,9 +14272,10 @@ var icondata = [
         "i": "leggings_lumite",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 512,
-        "v": "Lumite Leggings"
+        "v": "Lumite Leggings",
+        "l": "leggings_lumite"
     },
     {
         "s": "01",
@@ -12775,9 +14283,10 @@ var icondata = [
         "i": "leggings_obsidian",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 640,
-        "v": "Obsidian Leggings"
+        "v": "Obsidian Leggings",
+        "l": "leggings_obsidian"
     },
     {
         "s": "01",
@@ -12785,9 +14294,10 @@ var icondata = [
         "i": "legs_destroyer",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 768,
-        "v": "Destroyer Suit Legs"
+        "v": "Destroyer Suit Legs",
+        "l": "cosmetic_legs_destroyer"
     },
     {
         "s": "01",
@@ -12795,9 +14305,10 @@ var icondata = [
         "i": "legs_diamond",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 896,
-        "v": "First Fantasy Legs"
+        "v": "First Fantasy Legs",
+        "l": "cosmetic_legs_diamond"
     },
     {
         "s": "01",
@@ -12805,9 +14316,10 @@ var icondata = [
         "i": "legs_iron",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1024,
-        "v": "Metal Mk I Legs"
+        "v": "Metal Mk I Legs",
+        "l": "cosmetic_legs_iron"
     },
     {
         "s": "01",
@@ -12815,9 +14327,10 @@ var icondata = [
         "i": "legs_leather",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1152,
-        "v": "Fury Warrior Legs"
+        "v": "Fury Warrior Legs",
+        "l": "cosmetic_legs_leather"
     },
     {
         "s": "01",
@@ -12825,9 +14338,10 @@ var icondata = [
         "i": "legs_lumite",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1280,
-        "v": "Master Creator Legs"
+        "v": "Master Creator Legs",
+        "l": "cosmetic_legs_lumite"
     },
     {
         "s": "01",
@@ -12835,9 +14349,10 @@ var icondata = [
         "i": "legs_obsidian",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1408,
-        "v": "Electro Cycle Legs"
+        "v": "Electro Cycle Legs",
+        "l": "cosmetic_legs_obsidian"
     },
     {
         "s": "01",
@@ -12845,9 +14360,10 @@ var icondata = [
         "i": "legs_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1536,
-        "v": "Frost Trog Legs"
+        "v": "Frost Trog Legs",
+        "l": "cosmetic_legs_frost_trog"
     },
     {
         "s": "01",
@@ -12855,9 +14371,10 @@ var icondata = [
         "i": "legs_unicorn",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1664,
-        "v": "Unicorn Legs"
+        "v": "Unicorn Legs",
+        "l": "cosmetic_legs_unicorn"
     },
     {
         "s": "01",
@@ -12865,9 +14382,10 @@ var icondata = [
         "i": "legs_wukong",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1792,
-        "v": "Monkey King Legs"
+        "v": "Monkey King Legs",
+        "l": "cosmetic_legs_wukong"
     },
     {
         "s": "01",
@@ -12875,9 +14393,10 @@ var icondata = [
         "i": "logic_counter",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 128,
         "y": 1920,
-        "v": "Counter"
+        "v": "Counter",
+        "l": "logic_counter"
     },
     {
         "s": "01",
@@ -12885,9 +14404,10 @@ var icondata = [
         "i": "logic_rng",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 0,
-        "v": "Random Number Generator"
+        "x": 128,
+        "y": 2048,
+        "v": "Random Number Generator",
+        "l": "logic_rng"
     },
     {
         "s": "01",
@@ -12895,9 +14415,10 @@ var icondata = [
         "i": "male_body",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 384,
-        "v": "? male_body"
+        "x": 128,
+        "y": 2176,
+        "v": "? male_body",
+        "l": "male_body"
     },
     {
         "s": "01",
@@ -12905,9 +14426,10 @@ var icondata = [
         "i": "male_hair_00",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 128,
-        "v": "? male_hair_00"
+        "x": 128,
+        "y": 2304,
+        "v": "? male_hair_00",
+        "l": "male_hair_00"
     },
     {
         "s": "01",
@@ -12915,9 +14437,10 @@ var icondata = [
         "i": "male_hair_01",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 384,
-        "v": "? male_hair_01"
+        "x": 128,
+        "y": 2432,
+        "v": "? male_hair_01",
+        "l": "male_hair_01"
     },
     {
         "s": "01",
@@ -12925,9 +14448,10 @@ var icondata = [
         "i": "male_hair_02",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 512,
-        "v": "? male_hair_02"
+        "x": 128,
+        "y": 2560,
+        "v": "? male_hair_02",
+        "l": "male_hair_02"
     },
     {
         "s": "01",
@@ -12935,9 +14459,10 @@ var icondata = [
         "i": "male_hair_03",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 640,
-        "v": "? male_hair_03"
+        "x": 128,
+        "y": 2688,
+        "v": "? male_hair_03",
+        "l": "male_hair_03"
     },
     {
         "s": "01",
@@ -12945,9 +14470,10 @@ var icondata = [
         "i": "male_hair_04",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 768,
-        "v": "? male_hair_04"
+        "x": 128,
+        "y": 2816,
+        "v": "? male_hair_04",
+        "l": "male_hair_04"
     },
     {
         "s": "01",
@@ -12955,9 +14481,10 @@ var icondata = [
         "i": "male_hair_05",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 896,
-        "v": "? male_hair_05"
+        "x": 128,
+        "y": 2944,
+        "v": "? male_hair_05",
+        "l": "male_hair_05"
     },
     {
         "s": "01",
@@ -12965,9 +14492,10 @@ var icondata = [
         "i": "male_hair_06",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1024,
-        "v": "? male_hair_06"
+        "x": 128,
+        "y": 3072,
+        "v": "? male_hair_06",
+        "l": "male_hair_06"
     },
     {
         "s": "01",
@@ -12975,9 +14503,10 @@ var icondata = [
         "i": "male_hair_07",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1152,
-        "v": "? male_hair_07"
+        "x": 128,
+        "y": 3200,
+        "v": "? male_hair_07",
+        "l": "male_hair_07"
     },
     {
         "s": "01",
@@ -12985,9 +14514,10 @@ var icondata = [
         "i": "male_hair_08",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1280,
-        "v": "? male_hair_08"
+        "x": 128,
+        "y": 3328,
+        "v": "? male_hair_08",
+        "l": "male_hair_08"
     },
     {
         "s": "01",
@@ -12996,8 +14526,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 1408,
-        "v": "? male_hair_09"
+        "y": 3840,
+        "v": "? male_hair_09",
+        "l": "male_hair_09"
     },
     {
         "s": "01",
@@ -13005,9 +14536,10 @@ var icondata = [
         "i": "male_head_01",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1536,
-        "v": "? male_head_01"
+        "x": 640,
+        "y": 3840,
+        "v": "? male_head_01",
+        "l": "male_head_01"
     },
     {
         "s": "01",
@@ -13015,9 +14547,10 @@ var icondata = [
         "i": "male_head_02",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1664,
-        "v": "? male_head_02"
+        "x": 768,
+        "y": 3840,
+        "v": "? male_head_02",
+        "l": "male_head_02"
     },
     {
         "s": "01",
@@ -13025,9 +14558,10 @@ var icondata = [
         "i": "male_head_03",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1792,
-        "v": "? male_head_03"
+        "x": 896,
+        "y": 3840,
+        "v": "? male_head_03",
+        "l": "male_head_03"
     },
     {
         "s": "01",
@@ -13035,9 +14569,10 @@ var icondata = [
         "i": "male_head_04",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1920,
-        "v": "? male_head_04"
+        "x": 256,
+        "y": 3072,
+        "v": "? male_head_04",
+        "l": "male_head_04"
     },
     {
         "s": "01",
@@ -13045,9 +14580,21 @@ var icondata = [
         "i": "male_head_05",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 256,
-        "v": "? male_head_05"
+        "x": 256,
+        "y": 3200,
+        "v": "? male_head_05",
+        "l": "male_head_05"
+    },
+    {
+        "s": "01",
+        "id": 529,
+        "i": "mirror_haunted",
+        "w": 128,
+        "h": 128,
+        "x": 256,
+        "y": 3328,
+        "v": "Haunted Mirror",
+        "l": "mirror_haunted"
     },
     {
         "s": "01",
@@ -13055,9 +14602,10 @@ var icondata = [
         "i": "mob_babyleafi",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 128,
-        "v": "Baby Leafi Summoner"
+        "x": 256,
+        "y": 3456,
+        "v": "Baby Leafi Summoner",
+        "l": "summoner_baby_leafi"
     },
     {
         "s": "01",
@@ -13065,9 +14613,10 @@ var icondata = [
         "i": "mob_bosshog",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 256,
-        "v": "BossHog Summoner"
+        "x": 256,
+        "y": 3584,
+        "v": "BossHog Summoner",
+        "l": "summoner_bosshog"
     },
     {
         "s": "01",
@@ -13075,9 +14624,10 @@ var icondata = [
         "i": "mob_bosshog_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 0,
-        "v": "Clarice, Eternal Ominous Hog Summoner"
+        "x": 256,
+        "y": 3712,
+        "v": "Clarice, Eternal Ominous Hog Summoner",
+        "l": "summoner_bosshog_ghost_boss"
     },
     {
         "s": "01",
@@ -13085,9 +14635,10 @@ var icondata = [
         "i": "mob_chizzard",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 512,
-        "v": "Chizzard Summoner"
+        "x": 3968,
+        "y": 3840,
+        "v": "Chizzard Summoner",
+        "l": "summoner_chizzard"
     },
     {
         "s": "01",
@@ -13095,9 +14646,10 @@ var icondata = [
         "i": "mob_chizzard_arctic",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 640,
-        "v": "Blizzard Chizzard Summoner"
+        "x": 3840,
+        "y": 3840,
+        "v": "Blizzard Chizzard Summoner",
+        "l": "summoner_chizzard_blizzard"
     },
     {
         "s": "01",
@@ -13105,9 +14657,10 @@ var icondata = [
         "i": "mob_chizzard_corrupted",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 768,
-        "v": "Corrupted Chizzard Summoner"
+        "x": 3712,
+        "y": 3840,
+        "v": "Corrupted Chizzard Summoner",
+        "l": "summoner_corrupted_chizzard"
     },
     {
         "s": "01",
@@ -13115,9 +14668,10 @@ var icondata = [
         "i": "mob_chizzard_ghost",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 896,
-        "v": "Ghost Chizzard Summoner"
+        "x": 3584,
+        "y": 3840,
+        "v": "Ghost Chizzard Summoner",
+        "l": "summoner_chizzard_ghost"
     },
     {
         "s": "01",
@@ -13125,9 +14679,10 @@ var icondata = [
         "i": "mob_chizzard_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1024,
-        "v": "Poultry-geist Summoner"
+        "x": 3456,
+        "y": 3840,
+        "v": "Poultry-geist Summoner",
+        "l": "summoner_chizzard_ghost_aggressive"
     },
     {
         "s": "01",
@@ -13135,9 +14690,10 @@ var icondata = [
         "i": "mob_chizzard_night",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1152,
-        "v": "Night Chizzard Summoner"
+        "x": 3328,
+        "y": 3840,
+        "v": "Night Chizzard Summoner",
+        "l": "summoner_chizzard_night"
     },
     {
         "s": "01",
@@ -13145,9 +14701,10 @@ var icondata = [
         "i": "mob_dustevil",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1280,
-        "v": "Dustevil Summoner"
+        "x": 3200,
+        "y": 3840,
+        "v": "Dustevil Summoner",
+        "l": "summoner_dustevil"
     },
     {
         "s": "01",
@@ -13155,9 +14712,10 @@ var icondata = [
         "i": "mob_dustevil_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1408,
-        "v": "Ghostevil Summoner"
+        "x": 3072,
+        "y": 3840,
+        "v": "Ghostevil Summoner",
+        "l": "summoner_dustevil_ghost_aggressive"
     },
     {
         "s": "01",
@@ -13165,9 +14723,10 @@ var icondata = [
         "i": "mob_hoglet",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1536,
-        "v": "Night Hoglet Summoner"
+        "x": 256,
+        "y": 2944,
+        "v": "Night Hoglet Summoner",
+        "l": "summoner_hoglet_night"
     },
     {
         "s": "01",
@@ -13175,9 +14734,10 @@ var icondata = [
         "i": "mob_hotfoot",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1664,
-        "v": "Hot Foot Summoner"
+        "x": 2944,
+        "y": 3840,
+        "v": "Hot Foot Summoner",
+        "l": "summoner_hotfoot"
     },
     {
         "s": "01",
@@ -13185,9 +14745,10 @@ var icondata = [
         "i": "mob_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1792,
-        "v": "Karrotfish Summoner"
+        "x": 2688,
+        "y": 3840,
+        "v": "Karrotfish Summoner",
+        "l": "summoner_karrotfish"
     },
     {
         "s": "01",
@@ -13195,9 +14756,10 @@ var icondata = [
         "i": "mob_keepa",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1920,
-        "v": "Keepa Summoner"
+        "x": 2560,
+        "y": 3840,
+        "v": "Keepa Summoner",
+        "l": "summoner_keepa_c"
     },
     {
         "s": "01",
@@ -13205,9 +14767,10 @@ var icondata = [
         "i": "mob_keepa_gold",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 0,
-        "v": "Golden Keepa Summoner"
+        "x": 2432,
+        "y": 3840,
+        "v": "Golden Keepa Summoner",
+        "l": "summoner_keepa_r"
     },
     {
         "s": "01",
@@ -13215,9 +14778,10 @@ var icondata = [
         "i": "mob_keepa_silver",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 384,
-        "v": "Silver Keepa Summoner"
+        "x": 2304,
+        "y": 3840,
+        "v": "Silver Keepa Summoner",
+        "l": "summoner_keepa_uc"
     },
     {
         "s": "01",
@@ -13225,9 +14789,10 @@ var icondata = [
         "i": "mob_leafi",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 128,
-        "v": "Leafi Summoner"
+        "x": 2176,
+        "y": 3840,
+        "v": "Leafi Summoner",
+        "l": "summoner_leafi"
     },
     {
         "s": "01",
@@ -13235,9 +14800,10 @@ var icondata = [
         "i": "mob_leafi_autumn",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 384,
-        "v": "Autumn Leafi Summoner"
+        "x": 2048,
+        "y": 3840,
+        "v": "Autumn Leafi Summoner",
+        "l": "summoner_leafi_autumn"
     },
     {
         "s": "01",
@@ -13245,9 +14811,10 @@ var icondata = [
         "i": "mob_leafi_corrupted",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 512,
-        "v": "Corrupted Leafi Summoner"
+        "x": 1920,
+        "y": 3840,
+        "v": "Corrupted Leafi Summoner",
+        "l": "summoner_corrupted_leafi"
     },
     {
         "s": "01",
@@ -13255,9 +14822,10 @@ var icondata = [
         "i": "mob_leafi_dried",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 640,
-        "v": "Dried Leafi Summoner"
+        "x": 1792,
+        "y": 3840,
+        "v": "Dried Leafi Summoner",
+        "l": "summoner_leafi_desert"
     },
     {
         "s": "01",
@@ -13265,9 +14833,10 @@ var icondata = [
         "i": "mob_leafi_ghost",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 768,
-        "v": "Ghost Leafi Summoner"
+        "x": 1664,
+        "y": 3840,
+        "v": "Ghost Leafi Summoner",
+        "l": "summoner_leafi_ghost"
     },
     {
         "s": "01",
@@ -13275,9 +14844,10 @@ var icondata = [
         "i": "mob_leafi_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 896,
-        "v": "Eidoleafi Summoner"
+        "x": 1536,
+        "y": 3840,
+        "v": "Eidoleafi Summoner",
+        "l": "summoner_leafi_ghost_aggressive"
     },
     {
         "s": "01",
@@ -13285,9 +14855,10 @@ var icondata = [
         "i": "mob_leafi_mossy",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1024,
-        "v": "Mossy Leafi Summoner"
+        "x": 1408,
+        "y": 3840,
+        "v": "Mossy Leafi Summoner",
+        "l": "summoner_leafi_swamp"
     },
     {
         "s": "01",
@@ -13295,9 +14866,10 @@ var icondata = [
         "i": "mob_leafi_night",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1152,
-        "v": "Night Leafi Summoner"
+        "x": 1280,
+        "y": 3840,
+        "v": "Night Leafi Summoner",
+        "l": "summoner_leafi_night"
     },
     {
         "s": "01",
@@ -13305,9 +14877,10 @@ var icondata = [
         "i": "mob_miru",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1280,
-        "v": "Miru Summoner"
+        "x": 1152,
+        "y": 3840,
+        "v": "Miru Summoner",
+        "l": "summoner_miru"
     },
     {
         "s": "01",
@@ -13315,9 +14888,10 @@ var icondata = [
         "i": "mob_miru_arctic",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1408,
-        "v": "Arctic Miru Summoner"
+        "x": 1024,
+        "y": 3840,
+        "v": "Arctic Miru Summoner",
+        "l": "summoner_miru_arctic"
     },
     {
         "s": "01",
@@ -13325,9 +14899,10 @@ var icondata = [
         "i": "mob_miru_corrupted",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1536,
-        "v": "Corrupted Miru Summoner"
+        "x": 128,
+        "y": 3456,
+        "v": "Corrupted Miru Summoner",
+        "l": "summoner_corrupted_miru"
     },
     {
         "s": "01",
@@ -13335,9 +14910,10 @@ var icondata = [
         "i": "mob_miru_ghost",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1664,
-        "v": "Ghost Miru Summoner"
+        "x": 128,
+        "y": 3584,
+        "v": "Ghost Miru Summoner",
+        "l": "summoner_miru_ghost"
     },
     {
         "s": "01",
@@ -13345,9 +14921,10 @@ var icondata = [
         "i": "mob_miru_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1792,
-        "v": "Mirghoul Summoner"
+        "x": 128,
+        "y": 3712,
+        "v": "Mirghoul Summoner",
+        "l": "summoner_miru_ghost_aggressive"
     },
     {
         "s": "01",
@@ -13356,8 +14933,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1920,
-        "v": "Parroki Summoner"
+        "y": 0,
+        "v": "Parroki Summoner",
+        "l": "summoner_parroki"
     },
     {
         "s": "01",
@@ -13365,9 +14943,10 @@ var icondata = [
         "i": "mob_pebble",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 1920,
-        "v": "Pebble Summoner"
+        "x": 0,
+        "y": 256,
+        "v": "Pebble Summoner",
+        "l": "summoner_pebble"
     },
     {
         "s": "01",
@@ -13375,9 +14954,10 @@ var icondata = [
         "i": "mob_pigsy",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 0,
-        "v": "Pigsy Summoner"
+        "x": 0,
+        "y": 384,
+        "v": "Pigsy Summoner",
+        "l": "summoner_pigsy"
     },
     {
         "s": "01",
@@ -13385,9 +14965,10 @@ var icondata = [
         "i": "mob_pigsy_corrupted",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 128,
-        "v": "Corrupted Pigsy Summoner"
+        "x": 0,
+        "y": 512,
+        "v": "Corrupted Pigsy Summoner",
+        "l": "summoner_corrupted_pigsy"
     },
     {
         "s": "01",
@@ -13395,9 +14976,10 @@ var icondata = [
         "i": "mob_pigsy_feral",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 256,
-        "v": "Feral Pigsy Summoner"
+        "x": 0,
+        "y": 640,
+        "v": "Feral Pigsy Summoner",
+        "l": "summoner_pigsy_feral"
     },
     {
         "s": "01",
@@ -13405,9 +14987,10 @@ var icondata = [
         "i": "mob_pigsy_ghost",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 256,
-        "v": "Ghost Pigsy Summoner"
+        "x": 0,
+        "y": 768,
+        "v": "Ghost Pigsy Summoner",
+        "l": "summoner_pigsy_ghost"
     },
     {
         "s": "01",
@@ -13415,9 +14998,10 @@ var icondata = [
         "i": "mob_pigsy_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 512,
-        "v": "Polturpigsy Summoner"
+        "x": 0,
+        "y": 896,
+        "v": "Polturpigsy Summoner",
+        "l": "summoner_pigsy_ghost_aggressive"
     },
     {
         "s": "01",
@@ -13425,9 +15009,10 @@ var icondata = [
         "i": "mob_pigsy_night",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 640,
-        "v": "Night Pigsy Summoner"
+        "x": 0,
+        "y": 1024,
+        "v": "Night Pigsy Summoner",
+        "l": "summoner_pigsy_night"
     },
     {
         "s": "01",
@@ -13435,9 +15020,10 @@ var icondata = [
         "i": "mob_rambeau",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 768,
-        "v": "Rambeau Summoner"
+        "x": 0,
+        "y": 1152,
+        "v": "Rambeau Summoner",
+        "l": "summoner_rambeau"
     },
     {
         "s": "01",
@@ -13445,9 +15031,10 @@ var icondata = [
         "i": "mob_rockster",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 896,
-        "v": "Rockster Summoner"
+        "x": 0,
+        "y": 1280,
+        "v": "Rockster Summoner",
+        "l": "summoner_rockster"
     },
     {
         "s": "01",
@@ -13455,9 +15042,10 @@ var icondata = [
         "i": "mob_rockster_corrupted",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1024,
-        "v": "Corrupted Rockster Summoner"
+        "x": 0,
+        "y": 1408,
+        "v": "Corrupted Rockster Summoner",
+        "l": "summoner_corrupted_rockster"
     },
     {
         "s": "01",
@@ -13465,9 +15053,10 @@ var icondata = [
         "i": "mob_rockster_ghost",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1152,
-        "v": "Ghost Rockster Summoner"
+        "x": 0,
+        "y": 1536,
+        "v": "Ghost Rockster Summoner",
+        "l": "summoner_rockster_ghost"
     },
     {
         "s": "01",
@@ -13475,9 +15064,10 @@ var icondata = [
         "i": "mob_rockster_ghost_boss",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1280,
-        "v": "Ghostzilla Summoner"
+        "x": 0,
+        "y": 1664,
+        "v": "Ghostzilla Summoner",
+        "l": "summoner_rockster_ghost_boss"
     },
     {
         "s": "01",
@@ -13485,9 +15075,10 @@ var icondata = [
         "i": "mob_rockster_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1408,
-        "v": "Hauntster Summoner"
+        "x": 0,
+        "y": 1792,
+        "v": "Hauntster Summoner",
+        "l": "summoner_rockster_ghost_aggressive"
     },
     {
         "s": "01",
@@ -13495,9 +15086,10 @@ var icondata = [
         "i": "mob_rockster_night",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1536,
-        "v": "Night Rockster Summoner"
+        "x": 0,
+        "y": 1920,
+        "v": "Night Rockster Summoner",
+        "l": "summoner_rockster_night"
     },
     {
         "s": "01",
@@ -13505,9 +15097,10 @@ var icondata = [
         "i": "mob_shrewdshrew",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1664,
-        "v": "ShrewdShrew Summoner"
+        "x": 0,
+        "y": 2048,
+        "v": "ShrewdShrew Summoner",
+        "l": "summoner_shrewdshrew"
     },
     {
         "s": "01",
@@ -13515,9 +15108,10 @@ var icondata = [
         "i": "mob_thing",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1792,
-        "v": "Thing Summoner"
+        "x": 0,
+        "y": 2176,
+        "v": "Thing Summoner",
+        "l": "summoner_thing"
     },
     {
         "s": "01",
@@ -13525,9 +15119,10 @@ var icondata = [
         "i": "mob_thing_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 1920,
-        "v": "Th'ang The Unyielding Summoner"
+        "x": 0,
+        "y": 2304,
+        "v": "Th'ang The Unyielding Summoner",
+        "l": "summoner_thing_ghost_boss"
     },
     {
         "s": "01",
@@ -13536,8 +15131,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 0,
-        "v": "Trog Summoner"
+        "y": 2432,
+        "v": "Trog Summoner",
+        "l": "summoner_trog"
     },
     {
         "s": "01",
@@ -13546,8 +15142,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 128,
-        "v": "Night Twiggy Summoner"
+        "y": 2560,
+        "v": "Night Twiggy Summoner",
+        "l": "summoner_twiggy_night"
     },
     {
         "s": "01",
@@ -13556,8 +15153,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 256,
-        "v": "Warmworm Summoner"
+        "y": 2688,
+        "v": "Warmworm Summoner",
+        "l": "summoner_warmworm"
     },
     {
         "s": "01",
@@ -13566,8 +15164,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 384,
-        "v": "W'urm the Infernal Summoner"
+        "y": 2816,
+        "v": "W'urm the Infernal Summoner",
+        "l": "summoner_warmworm_ghost_boss"
     },
     {
         "s": "01",
@@ -13576,8 +15175,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 512,
-        "v": "Wraithworm Summoner"
+        "y": 2944,
+        "v": "Wraithworm Summoner",
+        "l": "summoner_warmworm_ghost_aggressive"
     },
     {
         "s": "01",
@@ -13586,8 +15186,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 640,
-        "v": "? mushroom_brown_block"
+        "y": 3072,
+        "v": "? mushroom_brown_block",
+        "l": "cheat_mushroom_brown"
     },
     {
         "s": "01",
@@ -13596,8 +15197,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 768,
-        "v": "? mushroom_glowing_block"
+        "y": 3200,
+        "v": "? mushroom_glowing_block",
+        "l": "mushroom_glowing_block"
     },
     {
         "s": "01",
@@ -13606,8 +15208,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 896,
-        "v": "? mushroom_red_place"
+        "y": 3328,
+        "v": "? mushroom_red_place",
+        "l": "cheat_mushroom_red"
     },
     {
         "s": "01",
@@ -13616,8 +15219,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1024,
-        "v": "Totally Toadstool"
+        "y": 3456,
+        "v": "Totally Toadstool",
+        "l": "mushroom_retro"
     },
     {
         "s": "01",
@@ -13626,8 +15230,20 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1152,
-        "v": "Meal"
+        "y": 3584,
+        "v": "Meal",
+        "l": "mystery_meal"
+    },
+    {
+        "s": "01",
+        "id": 515,
+        "i": "npc_anchor",
+        "w": 128,
+        "h": 128,
+        "x": 0,
+        "y": 3712,
+        "v": "Villager",
+        "l": "npc_anchor"
     },
     {
         "s": "01",
@@ -13636,8 +15252,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1280,
-        "v": "Memory Gate"
+        "y": 3840,
+        "v": "Memory Gate",
+        "l": "numberstorage"
     },
     {
         "s": "01",
@@ -13646,8 +15263,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1408,
-        "v": "? paintbrush_icon"
+        "y": 128,
+        "v": "? paintbrush_icon",
+        "l": "paintbrush_icon"
     },
     {
         "s": "01",
@@ -13655,9 +15273,10 @@ var icondata = [
         "i": "party_hat_blue",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 1536,
-        "v": "Blue Party Hat"
+        "x": 128,
+        "y": 3968,
+        "v": "Blue Party Hat",
+        "l": "party_hat_blue"
     },
     {
         "s": "01",
@@ -13665,9 +15284,10 @@ var icondata = [
         "i": "party_hat_red",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 1664,
-        "v": "Red Party Hat"
+        "x": 128,
+        "y": 3840,
+        "v": "Red Party Hat",
+        "l": "party_hat_red"
     },
     {
         "s": "01",
@@ -13675,9 +15295,10 @@ var icondata = [
         "i": "party_hat_yellow",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 1792,
-        "v": "Yellow Party Hat"
+        "x": 256,
+        "y": 3968,
+        "v": "Yellow Party Hat",
+        "l": "party_hat_yellow"
     },
     {
         "s": "01",
@@ -13685,9 +15306,10 @@ var icondata = [
         "i": "pedestal_haunted",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 384,
-        "v": "Spooky Pedestal"
+        "x": 3968,
+        "y": 3968,
+        "v": "Spooky Pedestal",
+        "l": "planter_haunted"
     },
     {
         "s": "01",
@@ -13695,9 +15317,10 @@ var icondata = [
         "i": "pipe_retro",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 256,
-        "v": "Retro Pipe"
+        "x": 3840,
+        "y": 3968,
+        "v": "Retro Pipe",
+        "l": "pipe_retro"
     },
     {
         "s": "01",
@@ -13705,9 +15328,10 @@ var icondata = [
         "i": "planter_elevated",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 128,
-        "v": "Wood Base Planter"
+        "x": 3712,
+        "y": 3968,
+        "v": "Wood Base Planter",
+        "l": "planter_elevated"
     },
     {
         "s": "01",
@@ -13715,9 +15339,10 @@ var icondata = [
         "i": "planter_footed",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 0,
-        "v": "Tripod Planter"
+        "x": 3584,
+        "y": 3968,
+        "v": "Tripod Planter",
+        "l": "planter_footed"
     },
     {
         "s": "01",
@@ -13725,9 +15350,10 @@ var icondata = [
         "i": "planter_geometric",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 512,
-        "v": "Geometric Planter"
+        "x": 3456,
+        "y": 3968,
+        "v": "Geometric Planter",
+        "l": "planter_geometric"
     },
     {
         "s": "01",
@@ -13735,9 +15361,10 @@ var icondata = [
         "i": "planter_pigsy",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 640,
-        "v": "Lil' Pigsy Planter"
+        "x": 3328,
+        "y": 3968,
+        "v": "Lil' Pigsy Planter",
+        "l": "planter_pigsy"
     },
     {
         "s": "01",
@@ -13745,9 +15372,10 @@ var icondata = [
         "i": "planter_terracotta",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 768,
-        "v": "Terracotta Planter"
+        "x": 3200,
+        "y": 3968,
+        "v": "Terracotta Planter",
+        "l": "planter_terracotta"
     },
     {
         "s": "01",
@@ -13755,9 +15383,10 @@ var icondata = [
         "i": "plant_bamboo",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 896,
-        "v": "Wild Bamboo"
+        "x": 3072,
+        "y": 3968,
+        "v": "Wild Bamboo",
+        "l": "natural_plant_bamboo"
     },
     {
         "s": "01",
@@ -13765,9 +15394,10 @@ var icondata = [
         "i": "plant_bamboo_food",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1024,
-        "v": "Wild Bamboo"
+        "x": 2944,
+        "y": 3968,
+        "v": "Wild Bamboo",
+        "l": "plant_bamboo"
     },
     {
         "s": "01",
@@ -13775,9 +15405,10 @@ var icondata = [
         "i": "plant_cactus01",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1152,
-        "v": "Big Pokey Cactus"
+        "x": 2816,
+        "y": 3968,
+        "v": "Big Pokey Cactus",
+        "l": "natural_plant_cactus01"
     },
     {
         "s": "01",
@@ -13785,9 +15416,10 @@ var icondata = [
         "i": "plant_cactus01_food",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1280,
-        "v": "Big Pokey Cactus"
+        "x": 2688,
+        "y": 3968,
+        "v": "Big Pokey Cactus",
+        "l": "plant_cactus01"
     },
     {
         "s": "01",
@@ -13795,9 +15427,10 @@ var icondata = [
         "i": "plant_cactus02",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1408,
-        "v": "Prickly Pal Cactus"
+        "x": 2560,
+        "y": 3968,
+        "v": "Prickly Pal Cactus",
+        "l": "natural_plant_cactus02"
     },
     {
         "s": "01",
@@ -13805,9 +15438,10 @@ var icondata = [
         "i": "plant_cactus02_food",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1536,
-        "v": "Prickly Pal Cactus"
+        "x": 2432,
+        "y": 3968,
+        "v": "Prickly Pal Cactus",
+        "l": "plant_cactus02"
     },
     {
         "s": "01",
@@ -13815,9 +15449,10 @@ var icondata = [
         "i": "plant_pilea",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1664,
-        "v": "Mirror Grass"
+        "x": 2304,
+        "y": 3968,
+        "v": "Mirror Grass",
+        "l": "natural_plant_pilea"
     },
     {
         "s": "01",
@@ -13825,9 +15460,10 @@ var icondata = [
         "i": "plant_pilea_food",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1792,
-        "v": "Mirror Grass"
+        "x": 2176,
+        "y": 3968,
+        "v": "Mirror Grass",
+        "l": "plant_pilea"
     },
     {
         "s": "01",
@@ -13835,9 +15471,10 @@ var icondata = [
         "i": "plant_succulent",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1920,
-        "v": "Desert Succulent"
+        "x": 2048,
+        "y": 3968,
+        "v": "Desert Succulent",
+        "l": "natural_plant_succulent"
     },
     {
         "s": "01",
@@ -13845,9 +15482,10 @@ var icondata = [
         "i": "plant_succulent_food",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 0,
-        "v": "Desert Succulent"
+        "x": 1920,
+        "y": 3968,
+        "v": "Desert Succulent",
+        "l": "plant_succulent"
     },
     {
         "s": "01",
@@ -13855,9 +15493,10 @@ var icondata = [
         "i": "plum_blossom",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 384,
-        "v": "Plum Blossom"
+        "x": 1792,
+        "y": 3968,
+        "v": "Plum Blossom",
+        "l": "plum_blossom"
     },
     {
         "s": "01",
@@ -13865,9 +15504,43 @@ var icondata = [
         "i": "pork_chop",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 128,
-        "v": "Pork Chop"
+        "x": 1664,
+        "y": 3968,
+        "v": "Pork Chop",
+        "l": "pork_chop"
+    },
+    {
+        "s": "01",
+        "id": 532,
+        "i": "potion_pink",
+        "w": 128,
+        "h": 128,
+        "x": 1536,
+        "y": 3968,
+        "v": "Springheel Potion",
+        "l": "potion_speed_and_jump"
+    },
+    {
+        "s": "01",
+        "id": 533,
+        "i": "potion_round",
+        "w": 128,
+        "h": 128,
+        "x": 1408,
+        "y": 3968,
+        "v": "Armored Tortoise Potion",
+        "l": "potion_tanky_turtle"
+    },
+    {
+        "s": "01",
+        "id": 530,
+        "i": "potion_skull_poison",
+        "w": 128,
+        "h": 128,
+        "x": 1280,
+        "y": 3968,
+        "v": "Suspicious Skull-Shaped Potion",
+        "l": "potion_skull_poison"
     },
     {
         "s": "01",
@@ -13875,9 +15548,10 @@ var icondata = [
         "i": "poultry_parts",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 384,
-        "v": "Poultry Parts"
+        "x": 1152,
+        "y": 3968,
+        "v": "Poultry Parts",
+        "l": "poultry_parts"
     },
     {
         "s": "01",
@@ -13885,9 +15559,10 @@ var icondata = [
         "i": "prism",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 512,
-        "v": "Mysterious Bauble"
+        "x": 1024,
+        "y": 3968,
+        "v": "Mysterious Bauble",
+        "l": "arc_prism"
     },
     {
         "s": "01",
@@ -13895,9 +15570,10 @@ var icondata = [
         "i": "qb_token",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 640,
-        "v": "QBit"
+        "x": 896,
+        "y": 3968,
+        "v": "QBit",
+        "l": "drone_token"
     },
     {
         "s": "01",
@@ -13905,9 +15581,10 @@ var icondata = [
         "i": "sand_retro",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 768,
-        "v": "Retro Sand"
+        "x": 768,
+        "y": 3968,
+        "v": "Retro Sand",
+        "l": "sand_retro"
     },
     {
         "s": "01",
@@ -13915,9 +15592,10 @@ var icondata = [
         "i": "scales_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 896,
-        "v": "Scales"
+        "x": 640,
+        "y": 3968,
+        "v": "Scales",
+        "l": "scales"
     },
     {
         "s": "01",
@@ -13925,9 +15603,10 @@ var icondata = [
         "i": "shoulder_diamond",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 1024,
-        "v": "Diamond Pauldron"
+        "x": 512,
+        "y": 3968,
+        "v": "Diamond Pauldron",
+        "l": "helmet_diamond"
     },
     {
         "s": "01",
@@ -13935,9 +15614,10 @@ var icondata = [
         "i": "shoulder_iron",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 1152,
-        "v": "Iron Pauldron"
+        "x": 384,
+        "y": 3968,
+        "v": "Iron Pauldron",
+        "l": "helmet_iron"
     },
     {
         "s": "01",
@@ -13945,9 +15625,10 @@ var icondata = [
         "i": "shoulder_leather",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 1280,
-        "v": "Leather Pauldron"
+        "x": 2816,
+        "y": 3840,
+        "v": "Leather Pauldron",
+        "l": "helmet_leather"
     },
     {
         "s": "01",
@@ -13956,8 +15637,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1408,
-        "v": "Lumite Pauldron"
+        "y": 2816,
+        "v": "Lumite Pauldron",
+        "l": "helmet_lumite"
     },
     {
         "s": "01",
@@ -13966,8 +15648,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1536,
-        "v": "Obsidian Pauldron"
+        "y": 2688,
+        "v": "Obsidian Pauldron",
+        "l": "helmet_obsidian"
     },
     {
         "s": "01",
@@ -13976,8 +15659,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1664,
-        "v": "Spooky Skull"
+        "y": 2560,
+        "v": "Spooky Skull",
+        "l": "skull_haunted"
     },
     {
         "s": "01",
@@ -13985,9 +15669,10 @@ var icondata = [
         "i": "slab_canvas",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 1792,
-        "v": "Canvas Slab"
+        "x": 2688,
+        "y": 3584,
+        "v": "Canvas Slab",
+        "l": "slab_canvas"
     },
     {
         "s": "01",
@@ -13995,9 +15680,10 @@ var icondata = [
         "i": "slab_eighth_canvas",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 1920,
-        "v": "Canvas Eighth"
+        "x": 2560,
+        "y": 3584,
+        "v": "Canvas Eighth",
+        "l": "eighth_canvas"
     },
     {
         "s": "01",
@@ -14005,9 +15691,10 @@ var icondata = [
         "i": "slab_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 256,
-        "v": "Plain Gingerbread Slab"
+        "x": 2432,
+        "y": 3584,
+        "v": "Plain Gingerbread Slab",
+        "l": "slab_gingerbread_basic"
     },
     {
         "s": "01",
@@ -14015,9 +15702,10 @@ var icondata = [
         "i": "slab_goo_green",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 128,
-        "v": "Green Goo Slab"
+        "x": 2304,
+        "y": 3584,
+        "v": "Green Goo Slab",
+        "l": "slab_goo_green"
     },
     {
         "s": "01",
@@ -14025,9 +15713,10 @@ var icondata = [
         "i": "slab_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 384,
-        "v": "Orange Goo Slab"
+        "x": 2176,
+        "y": 3584,
+        "v": "Orange Goo Slab",
+        "l": "slab_goo_orange"
     },
     {
         "s": "01",
@@ -14035,9 +15724,21 @@ var icondata = [
         "i": "slab_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 0,
-        "v": "Purple Goo Slab"
+        "x": 2048,
+        "y": 3584,
+        "v": "Purple Goo Slab",
+        "l": "slab_goo_purple"
+    },
+    {
+        "s": "01",
+        "id": 510,
+        "i": "slab_grass_full",
+        "w": 128,
+        "h": 128,
+        "x": 1920,
+        "y": 3584,
+        "v": "Full Grass Slab",
+        "l": "slab_grass_full"
     },
     {
         "s": "01",
@@ -14045,9 +15746,10 @@ var icondata = [
         "i": "slab_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 640,
-        "v": "Beveled Lumite Slab"
+        "x": 1792,
+        "y": 3584,
+        "v": "Beveled Lumite Slab",
+        "l": "slab_lumite_beveled"
     },
     {
         "s": "01",
@@ -14056,8 +15758,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1664,
-        "y": 768,
-        "v": "Dark Lumite Slab"
+        "y": 3584,
+        "v": "Dark Lumite Slab",
+        "l": "slab_lumite_dark"
     },
     {
         "s": "01",
@@ -14065,9 +15768,10 @@ var icondata = [
         "i": "slab_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 896,
-        "v": "Light Lumite Slab"
+        "x": 1536,
+        "y": 3584,
+        "v": "Light Lumite Slab",
+        "l": "slab_lumite_light"
     },
     {
         "s": "01",
@@ -14075,9 +15779,10 @@ var icondata = [
         "i": "slab_snow",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1024,
-        "v": "Snow Slab"
+        "x": 1408,
+        "y": 3584,
+        "v": "Snow Slab",
+        "l": "slab_snow"
     },
     {
         "s": "01",
@@ -14085,9 +15790,10 @@ var icondata = [
         "i": "slab_wood_red_chinese",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1152,
-        "v": "Forbidden Red Wood Slab"
+        "x": 1280,
+        "y": 3584,
+        "v": "Forbidden Red Wood Slab",
+        "l": "slab_wood_red_chinese"
     },
     {
         "s": "01",
@@ -14095,9 +15801,10 @@ var icondata = [
         "i": "slope_canvas",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1280,
-        "v": "Canvas Slope"
+        "x": 1152,
+        "y": 3584,
+        "v": "Canvas Slope",
+        "l": "slope_canvas"
     },
     {
         "s": "01",
@@ -14105,9 +15812,10 @@ var icondata = [
         "i": "slope_canvas_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1408,
-        "v": "Canvas Slope Inner Corner"
+        "x": 1024,
+        "y": 3584,
+        "v": "Canvas Slope Inner Corner",
+        "l": "slope_canvas_inner_corner"
     },
     {
         "s": "01",
@@ -14115,9 +15823,10 @@ var icondata = [
         "i": "slope_canvas_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1536,
-        "v": "Canvas Slope Outer Corner"
+        "x": 896,
+        "y": 3584,
+        "v": "Canvas Slope Outer Corner",
+        "l": "slope_canvas_outer_corner"
     },
     {
         "s": "01",
@@ -14125,9 +15834,10 @@ var icondata = [
         "i": "slope_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1664,
-        "v": "Plain Gingerbread Slope"
+        "x": 768,
+        "y": 3584,
+        "v": "Plain Gingerbread Slope",
+        "l": "slope_gingerbread_basic"
     },
     {
         "s": "01",
@@ -14135,9 +15845,10 @@ var icondata = [
         "i": "slope_gingerbread_basic_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1792,
-        "v": "Plain Gingerbread Slope Inner Corner"
+        "x": 640,
+        "y": 3584,
+        "v": "Plain Gingerbread Slope Inner Corner",
+        "l": "slope_gingerbread_basic_inner_corner"
     },
     {
         "s": "01",
@@ -14145,9 +15856,10 @@ var icondata = [
         "i": "slope_gingerbread_basic_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 1920,
-        "v": "Plain Gingerbread Slope Outer Corner"
+        "x": 512,
+        "y": 3584,
+        "v": "Plain Gingerbread Slope Outer Corner",
+        "l": "slope_gingerbread_basic_outer_corner"
     },
     {
         "s": "01",
@@ -14155,9 +15867,10 @@ var icondata = [
         "i": "slope_goo_green",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 0,
-        "v": "Green Goo Slope"
+        "v": "Green Goo Slope",
+        "l": "slope_goo_green"
     },
     {
         "s": "01",
@@ -14165,9 +15878,10 @@ var icondata = [
         "i": "slope_goo_green_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 128,
-        "v": "Green Goo Slope Inner Corner"
+        "v": "Green Goo Slope Inner Corner",
+        "l": "slope_goo_green_inner_corner"
     },
     {
         "s": "01",
@@ -14175,9 +15889,10 @@ var icondata = [
         "i": "slope_goo_green_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 512,
-        "v": "Green Goo Slope Outer Corner"
+        "x": 384,
+        "y": 256,
+        "v": "Green Goo Slope Outer Corner",
+        "l": "slope_goo_green_outer_corner"
     },
     {
         "s": "01",
@@ -14185,9 +15900,10 @@ var icondata = [
         "i": "slope_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 256,
-        "v": "Orange Goo Slope"
+        "x": 384,
+        "y": 384,
+        "v": "Orange Goo Slope",
+        "l": "slope_goo_orange"
     },
     {
         "s": "01",
@@ -14195,9 +15911,10 @@ var icondata = [
         "i": "slope_goo_orange_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 512,
-        "v": "Orange Goo Slope Inner Corner"
+        "v": "Orange Goo Slope Inner Corner",
+        "l": "slope_goo_orange_inner_corner"
     },
     {
         "s": "01",
@@ -14205,9 +15922,10 @@ var icondata = [
         "i": "slope_goo_orange_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 640,
-        "v": "Orange Goo Slope Outer Corner"
+        "v": "Orange Goo Slope Outer Corner",
+        "l": "slope_goo_orange_outer_corner"
     },
     {
         "s": "01",
@@ -14215,9 +15933,10 @@ var icondata = [
         "i": "slope_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 768,
-        "v": "Purple Goo Slope"
+        "v": "Purple Goo Slope",
+        "l": "slope_goo_purple"
     },
     {
         "s": "01",
@@ -14225,9 +15944,10 @@ var icondata = [
         "i": "slope_goo_purple_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 896,
-        "v": "Purple Goo Slope Inner Corner"
+        "v": "Purple Goo Slope Inner Corner",
+        "l": "slope_goo_purple_inner_corner"
     },
     {
         "s": "01",
@@ -14235,9 +15955,10 @@ var icondata = [
         "i": "slope_goo_purple_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 1024,
-        "v": "Purple Goo Slope Outer Corner"
+        "v": "Purple Goo Slope Outer Corner",
+        "l": "slope_goo_purple_outer_corner"
     },
     {
         "s": "01",
@@ -14245,9 +15966,10 @@ var icondata = [
         "i": "slope_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 1152,
-        "v": "Lumite Slope"
+        "v": "Lumite Slope",
+        "l": "slope_lumite_beveled"
     },
     {
         "s": "01",
@@ -14255,9 +15977,10 @@ var icondata = [
         "i": "slope_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 384,
         "y": 1280,
-        "v": "Dark Lumite Slope"
+        "v": "Dark Lumite Slope",
+        "l": "slope_lumite_dark"
     },
     {
         "s": "01",
@@ -14265,9 +15988,10 @@ var icondata = [
         "i": "slope_lumite_bevel_dark_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1408,
-        "v": "Dark Lumite Slope Inner Corner"
+        "x": 2816,
+        "y": 3584,
+        "v": "Dark Lumite Slope Inner Corner",
+        "l": "slope_lumite_dark_inner_corner"
     },
     {
         "s": "01",
@@ -14275,9 +15999,10 @@ var icondata = [
         "i": "slope_lumite_bevel_dark_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1536,
-        "v": "Dark Lumite Slope Outer Corner"
+        "x": 2944,
+        "y": 3584,
+        "v": "Dark Lumite Slope Outer Corner",
+        "l": "slope_lumite_dark_outer_corner"
     },
     {
         "s": "01",
@@ -14285,9 +16010,10 @@ var icondata = [
         "i": "slope_lumite_bevel_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1664,
-        "v": "Lumite Slope Inner Corner"
+        "x": 3072,
+        "y": 3584,
+        "v": "Lumite Slope Inner Corner",
+        "l": "slope_lumite_beveled_inner_corner"
     },
     {
         "s": "01",
@@ -14295,9 +16021,10 @@ var icondata = [
         "i": "slope_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1792,
-        "v": "Light Lumite Slope"
+        "x": 3200,
+        "y": 3584,
+        "v": "Light Lumite Slope",
+        "l": "slope_lumite_light"
     },
     {
         "s": "01",
@@ -14305,9 +16032,10 @@ var icondata = [
         "i": "slope_lumite_bevel_light_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 1920,
-        "v": "Light Lumite Slope Inner Corner"
+        "x": 512,
+        "y": 512,
+        "v": "Light Lumite Slope Inner Corner",
+        "l": "slope_lumite_light_inner_corner"
     },
     {
         "s": "01",
@@ -14315,9 +16043,10 @@ var icondata = [
         "i": "slope_lumite_bevel_light_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 0,
-        "v": "Light Lumite Slope Outer Corner"
+        "x": 512,
+        "y": 640,
+        "v": "Light Lumite Slope Outer Corner",
+        "l": "slope_lumite_light_outer_corner"
     },
     {
         "s": "01",
@@ -14325,9 +16054,10 @@ var icondata = [
         "i": "slope_lumite_bevel_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 384,
-        "v": "Lumite Slope Outer Corner"
+        "x": 512,
+        "y": 768,
+        "v": "Lumite Slope Outer Corner",
+        "l": "slope_lumite_beveled_outer_corner"
     },
     {
         "s": "01",
@@ -14335,9 +16065,10 @@ var icondata = [
         "i": "slope_round_canvas",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 256,
-        "v": "Rounded Canvas Slope"
+        "x": 512,
+        "y": 896,
+        "v": "Rounded Canvas Slope",
+        "l": "slope_round_canvas"
     },
     {
         "s": "01",
@@ -14345,9 +16076,10 @@ var icondata = [
         "i": "slope_round_goo_green",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 384,
-        "v": "Green Goo Rounded Slope"
+        "x": 512,
+        "y": 1024,
+        "v": "Green Goo Rounded Slope",
+        "l": "slope_round_goo_green"
     },
     {
         "s": "01",
@@ -14355,9 +16087,10 @@ var icondata = [
         "i": "slope_round_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 128,
-        "v": "Orange Goo Rounded Slope"
+        "x": 512,
+        "y": 1152,
+        "v": "Orange Goo Rounded Slope",
+        "l": "slope_round_goo_orange"
     },
     {
         "s": "01",
@@ -14365,9 +16098,10 @@ var icondata = [
         "i": "slope_round_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 640,
-        "v": "Purple Goo Rounded Slope"
+        "x": 512,
+        "y": 1280,
+        "v": "Purple Goo Rounded Slope",
+        "l": "slope_round_goo_purple"
     },
     {
         "s": "01",
@@ -14375,9 +16109,10 @@ var icondata = [
         "i": "slope_round_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 768,
-        "v": "Rounded Lumite Slope"
+        "x": 512,
+        "y": 1408,
+        "v": "Rounded Lumite Slope",
+        "l": "slope_round_lumite_beveled"
     },
     {
         "s": "01",
@@ -14385,9 +16120,10 @@ var icondata = [
         "i": "slope_round_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 896,
-        "v": "Rounded Dark Lumite Slope"
+        "x": 512,
+        "y": 1536,
+        "v": "Rounded Dark Lumite Slope",
+        "l": "slope_round_lumite_dark"
     },
     {
         "s": "01",
@@ -14395,9 +16131,10 @@ var icondata = [
         "i": "slope_round_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1024,
-        "v": "Rounded Light Lumite Slope"
+        "x": 512,
+        "y": 1664,
+        "v": "Rounded Light Lumite Slope",
+        "l": "slope_round_lumite_light"
     },
     {
         "s": "01",
@@ -14405,9 +16142,10 @@ var icondata = [
         "i": "slope_round_snow",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1152,
-        "v": "Rounded Snow Slope"
+        "x": 512,
+        "y": 1792,
+        "v": "Rounded Snow Slope",
+        "l": "slope_round_snow"
     },
     {
         "s": "01",
@@ -14415,9 +16153,10 @@ var icondata = [
         "i": "slope_snow",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1280,
-        "v": "Snow Slope"
+        "x": 512,
+        "y": 1920,
+        "v": "Snow Slope",
+        "l": "slope_snow"
     },
     {
         "s": "01",
@@ -14425,9 +16164,10 @@ var icondata = [
         "i": "slope_snow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1408,
-        "v": "Snow Slope Inner Corner"
+        "x": 512,
+        "y": 2048,
+        "v": "Snow Slope Inner Corner",
+        "l": "slope_snow_inner_corner"
     },
     {
         "s": "01",
@@ -14435,9 +16175,10 @@ var icondata = [
         "i": "slope_snow_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1536,
-        "v": "Snow Slope Outer Corner"
+        "x": 512,
+        "y": 2176,
+        "v": "Snow Slope Outer Corner",
+        "l": "slope_snow_outer_corner"
     },
     {
         "s": "01",
@@ -14445,9 +16186,10 @@ var icondata = [
         "i": "snow_globe",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1664,
-        "v": "Snow Globe"
+        "x": 512,
+        "y": 384,
+        "v": "Snow Globe",
+        "l": "snow_globe"
     },
     {
         "s": "01",
@@ -14455,9 +16197,10 @@ var icondata = [
         "i": "snow_globe_frosted",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1792,
-        "v": "Magic Snow Globe"
+        "x": 512,
+        "y": 2304,
+        "v": "Magic Snow Globe",
+        "l": "snow_globe_frosted"
     },
     {
         "s": "01",
@@ -14465,9 +16208,10 @@ var icondata = [
         "i": "snow_globe_leafi",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 1920,
-        "v": "Leafi Snow Globe"
+        "x": 512,
+        "y": 2560,
+        "v": "Leafi Snow Globe",
+        "l": "snow_globe_leafi"
     },
     {
         "s": "01",
@@ -14475,9 +16219,10 @@ var icondata = [
         "i": "snow_globe_pigsy",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 0,
-        "v": "Pigsy Snow Globe"
+        "x": 512,
+        "y": 2688,
+        "v": "Pigsy Snow Globe",
+        "l": "snow_globe_pigsy"
     },
     {
         "s": "01",
@@ -14485,9 +16230,10 @@ var icondata = [
         "i": "snow_globe_reaudolph",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 128,
-        "v": "Reaudolph Snow Globe"
+        "x": 512,
+        "y": 2816,
+        "v": "Reaudolph Snow Globe",
+        "l": "snow_globe_reaudolph"
     },
     {
         "s": "01",
@@ -14495,9 +16241,10 @@ var icondata = [
         "i": "snow_globe_trog",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 512,
-        "v": "Trog Snow Globe"
+        "x": 512,
+        "y": 2944,
+        "v": "Trog Snow Globe",
+        "l": "snow_globe_trog"
     },
     {
         "s": "01",
@@ -14505,9 +16252,10 @@ var icondata = [
         "i": "soup_bonebroth",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 256,
-        "v": "Bone Broth"
+        "x": 512,
+        "y": 3072,
+        "v": "Bone Broth",
+        "l": "bone_broth"
     },
     {
         "s": "01",
@@ -14515,9 +16263,10 @@ var icondata = [
         "i": "spore_mushroom_brown",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 512,
-        "v": "Brown Mushroom Spores"
+        "x": 512,
+        "y": 3200,
+        "v": "Brown Mushroom Spores",
+        "l": "spore_mushroom_brown"
     },
     {
         "s": "01",
@@ -14525,9 +16274,10 @@ var icondata = [
         "i": "spore_mushroom_glowing",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 640,
-        "v": "Glowing Mushroom Spores"
+        "x": 512,
+        "y": 3328,
+        "v": "Glowing Mushroom Spores",
+        "l": "spore_mushroom_glowing"
     },
     {
         "s": "01",
@@ -14535,9 +16285,10 @@ var icondata = [
         "i": "spore_mushroom_red",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 768,
-        "v": "Red Mushroom Spores"
+        "x": 512,
+        "y": 3456,
+        "v": "Red Mushroom Spores",
+        "l": "spore_mushroom_red"
     },
     {
         "s": "01",
@@ -14545,9 +16296,10 @@ var icondata = [
         "i": "stairs_brick_retro",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 896,
-        "v": "Retro Brick Stairs"
+        "x": 3968,
+        "y": 3584,
+        "v": "Retro Brick Stairs",
+        "l": "stairs_brick_retro"
     },
     {
         "s": "01",
@@ -14555,9 +16307,10 @@ var icondata = [
         "i": "stairs_brick_retro_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1024,
-        "v": "Retro Brick Stairs Inner Corner"
+        "x": 3840,
+        "y": 3584,
+        "v": "Retro Brick Stairs Inner Corner",
+        "l": "stairs_brick_retro_inner_corner"
     },
     {
         "s": "01",
@@ -14565,9 +16318,10 @@ var icondata = [
         "i": "stairs_brick_retro_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1152,
-        "v": "Retro Brick Stairs Outer Corner"
+        "x": 3712,
+        "y": 3584,
+        "v": "Retro Brick Stairs Outer Corner",
+        "l": "stairs_brick_retro_outer_corner"
     },
     {
         "s": "01",
@@ -14575,9 +16329,10 @@ var icondata = [
         "i": "stairs_canvas",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1280,
-        "v": "Canvas Stairs"
+        "x": 3584,
+        "y": 3584,
+        "v": "Canvas Stairs",
+        "l": "stairs_canvas"
     },
     {
         "s": "01",
@@ -14585,9 +16340,10 @@ var icondata = [
         "i": "stairs_canvas_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1408,
-        "v": "Canvas Stairs Inner Corner"
+        "x": 3456,
+        "y": 3584,
+        "v": "Canvas Stairs Inner Corner",
+        "l": "stairs_canvas_inner_corner"
     },
     {
         "s": "01",
@@ -14595,9 +16351,10 @@ var icondata = [
         "i": "stairs_canvas_inner_corner2",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1536,
-        "v": "? stairs_canvas_inner_corner2"
+        "x": 3328,
+        "y": 3584,
+        "v": "? stairs_canvas_inner_corner2",
+        "l": "stairs_canvas_inner_corner2"
     },
     {
         "s": "01",
@@ -14605,9 +16362,10 @@ var icondata = [
         "i": "stairs_canvas_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1664,
-        "v": "Canvas Stairs Outer Corner"
+        "x": 384,
+        "y": 1408,
+        "v": "Canvas Stairs Outer Corner",
+        "l": "stairs_canvas_outer_corner"
     },
     {
         "s": "01",
@@ -14615,9 +16373,10 @@ var icondata = [
         "i": "stairs_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1792,
-        "v": "Plain Gingerbread Stairs"
+        "x": 512,
+        "y": 2432,
+        "v": "Plain Gingerbread Stairs",
+        "l": "stairs_gingerbread_basic"
     },
     {
         "s": "01",
@@ -14625,9 +16384,10 @@ var icondata = [
         "i": "stairs_gingerbread_basic_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 1920,
-        "v": "Plain Gingerbread Stairs Inner Corner"
+        "x": 384,
+        "y": 1536,
+        "v": "Plain Gingerbread Stairs Inner Corner",
+        "l": "stairs_gingerbread_basic_inner_corner"
     },
     {
         "s": "01",
@@ -14635,9 +16395,10 @@ var icondata = [
         "i": "stairs_gingerbread_basic_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 0,
-        "v": "Plain Gingerbread Stairs Outer Corner"
+        "x": 3840,
+        "y": 3712,
+        "v": "Plain Gingerbread Stairs Outer Corner",
+        "l": "stairs_gingerbread_basic_outer_corner"
     },
     {
         "s": "01",
@@ -14646,8 +16407,9 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1408,
-        "y": 128,
-        "v": "Green Goo Stairs"
+        "y": 3712,
+        "v": "Green Goo Stairs",
+        "l": "stairs_goo_green"
     },
     {
         "s": "01",
@@ -14655,9 +16417,10 @@ var icondata = [
         "i": "stairs_goo_green_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 256,
-        "v": "Green Goo Stairs Inner Corner"
+        "x": 1280,
+        "y": 3712,
+        "v": "Green Goo Stairs Inner Corner",
+        "l": "stairs_goo_green_inner_corner"
     },
     {
         "s": "01",
@@ -14665,9 +16428,10 @@ var icondata = [
         "i": "stairs_goo_green_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 384,
-        "v": "Green Goo Stairs Outer Corner"
+        "x": 1152,
+        "y": 3712,
+        "v": "Green Goo Stairs Outer Corner",
+        "l": "stairs_goo_green_outer_corner"
     },
     {
         "s": "01",
@@ -14675,9 +16439,10 @@ var icondata = [
         "i": "stairs_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 384,
-        "v": "Orange Goo Stairs"
+        "x": 1024,
+        "y": 3712,
+        "v": "Orange Goo Stairs",
+        "l": "stairs_goo_orange"
     },
     {
         "s": "01",
@@ -14685,9 +16450,10 @@ var icondata = [
         "i": "stairs_goo_orange_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 640,
-        "v": "Orange Goo Stairs Inner Corner"
+        "x": 896,
+        "y": 3712,
+        "v": "Orange Goo Stairs Inner Corner",
+        "l": "stairs_goo_orange_inner_corner"
     },
     {
         "s": "01",
@@ -14695,9 +16461,10 @@ var icondata = [
         "i": "stairs_goo_orange_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 768,
-        "v": "Orange Goo Stairs Outer Corner"
+        "x": 768,
+        "y": 3712,
+        "v": "Orange Goo Stairs Outer Corner",
+        "l": "stairs_goo_orange_outer_corner"
     },
     {
         "s": "01",
@@ -14705,9 +16472,10 @@ var icondata = [
         "i": "stairs_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 896,
-        "v": "Purple Goo Stairs"
+        "x": 640,
+        "y": 3712,
+        "v": "Purple Goo Stairs",
+        "l": "stairs_goo_purple"
     },
     {
         "s": "01",
@@ -14715,9 +16483,10 @@ var icondata = [
         "i": "stairs_goo_purple_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1024,
-        "v": "Purple Goo Stairs Inner Corner"
+        "x": 512,
+        "y": 3712,
+        "v": "Purple Goo Stairs Inner Corner",
+        "l": "stairs_goo_purple_inner_corner"
     },
     {
         "s": "01",
@@ -14725,9 +16494,10 @@ var icondata = [
         "i": "stairs_goo_purple_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1152,
-        "v": "Purple Goo Stairs Outer Corner"
+        "x": 384,
+        "y": 3712,
+        "v": "Purple Goo Stairs Outer Corner",
+        "l": "stairs_goo_purple_outer_corner"
     },
     {
         "s": "01",
@@ -14735,9 +16505,10 @@ var icondata = [
         "i": "stairs_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1280,
-        "v": "? stairs_lumite_bevel"
+        "x": 256,
+        "y": 0,
+        "v": "? stairs_lumite_bevel",
+        "l": "stairs_lumite_bevel"
     },
     {
         "s": "01",
@@ -14745,9 +16516,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1408,
-        "v": "Dark Lumite Stairs"
+        "x": 256,
+        "y": 128,
+        "v": "Dark Lumite Stairs",
+        "l": "stairs_lumite_dark"
     },
     {
         "s": "01",
@@ -14755,9 +16527,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_dark_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1536,
-        "v": "Dark Lumite Slope Inner Corner"
+        "x": 256,
+        "y": 256,
+        "v": "Dark Lumite Slope Inner Corner",
+        "l": "stairs_lumite_dark_inner_corner"
     },
     {
         "s": "01",
@@ -14765,9 +16538,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_dark_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1664,
-        "v": "Dark Lumite Slope Outer Corner"
+        "x": 256,
+        "y": 384,
+        "v": "Dark Lumite Slope Outer Corner",
+        "l": "stairs_lumite_dark_outer_corner"
     },
     {
         "s": "01",
@@ -14775,9 +16549,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1792,
-        "v": "? stairs_lumite_bevel_inner_corner"
+        "x": 256,
+        "y": 512,
+        "v": "? stairs_lumite_bevel_inner_corner",
+        "l": "stairs_lumite_bevel_inner_corner"
     },
     {
         "s": "01",
@@ -14785,9 +16560,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1920,
-        "v": "Light Lumite Stairs"
+        "x": 256,
+        "y": 640,
+        "v": "Light Lumite Stairs",
+        "l": "stairs_lumite_light"
     },
     {
         "s": "01",
@@ -14795,9 +16571,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_light_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 0,
-        "v": "Light Lumite Stairs Inner Corner"
+        "x": 256,
+        "y": 768,
+        "v": "Light Lumite Stairs Inner Corner",
+        "l": "stairs_lumite_light_inner_corner"
     },
     {
         "s": "01",
@@ -14805,9 +16582,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_light_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 128,
-        "v": "Light Lumite Stairs Outer Corner"
+        "x": 256,
+        "y": 896,
+        "v": "Light Lumite Stairs Outer Corner",
+        "l": "stairs_lumite_light_outer_corner"
     },
     {
         "s": "01",
@@ -14815,9 +16593,10 @@ var icondata = [
         "i": "stairs_lumite_bevel_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 256,
-        "v": "? stairs_lumite_bevel_outer_corner"
+        "x": 256,
+        "y": 1024,
+        "v": "? stairs_lumite_bevel_outer_corner",
+        "l": "stairs_lumite_bevel_outer_corner"
     },
     {
         "s": "01",
@@ -14825,9 +16604,10 @@ var icondata = [
         "i": "stairs_snow",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 384,
-        "v": "Snow Stairs"
+        "x": 256,
+        "y": 1152,
+        "v": "Snow Stairs",
+        "l": "stairs_snow"
     },
     {
         "s": "01",
@@ -14835,9 +16615,10 @@ var icondata = [
         "i": "stairs_snow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 512,
-        "v": "Snow Stairs Inner Corner"
+        "x": 256,
+        "y": 1280,
+        "v": "Snow Stairs Inner Corner",
+        "l": "stairs_snow_inner_corner"
     },
     {
         "s": "01",
@@ -14845,9 +16626,10 @@ var icondata = [
         "i": "stairs_snow_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 640,
-        "v": "Snow Stairs Outer Corner"
+        "x": 256,
+        "y": 1408,
+        "v": "Snow Stairs Outer Corner",
+        "l": "stairs_snow_outer_corner"
     },
     {
         "s": "01",
@@ -14855,9 +16637,10 @@ var icondata = [
         "i": "stairs_wood_red_chinese",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 768,
-        "v": "Forbidden Red Wood Stairs"
+        "x": 256,
+        "y": 1536,
+        "v": "Forbidden Red Wood Stairs",
+        "l": "stairs_wood_red_chinese"
     },
     {
         "s": "01",
@@ -14865,9 +16648,10 @@ var icondata = [
         "i": "stairs_wood_red_chinese_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 896,
-        "v": "Forbidden Red Wood Stairs Inner Corner"
+        "x": 256,
+        "y": 1664,
+        "v": "Forbidden Red Wood Stairs Inner Corner",
+        "l": "stairs_wood_red_chinese_inner_corner"
     },
     {
         "s": "01",
@@ -14875,9 +16659,10 @@ var icondata = [
         "i": "stairs_wood_red_chinese_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1024,
-        "v": "Forbidden Red Wood Stairs Outer Corner"
+        "x": 256,
+        "y": 1792,
+        "v": "Forbidden Red Wood Stairs Outer Corner",
+        "l": "stairs_wood_red_chinese_outer_corner"
     },
     {
         "s": "01",
@@ -14885,9 +16670,10 @@ var icondata = [
         "i": "star_retro",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1152,
-        "v": "Starlight Light"
+        "x": 256,
+        "y": 1920,
+        "v": "Starlight Light",
+        "l": "star_retro"
     },
     {
         "s": "01",
@@ -14895,9 +16681,10 @@ var icondata = [
         "i": "statue_retro",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1280,
-        "v": "Stomp Statue"
+        "x": 256,
+        "y": 2048,
+        "v": "Stomp Statue",
+        "l": "statue_retro"
     },
     {
         "s": "01",
@@ -14905,9 +16692,10 @@ var icondata = [
         "i": "stick_icon",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1408,
-        "v": "? stick_icon"
+        "x": 256,
+        "y": 2176,
+        "v": "? stick_icon",
+        "l": "pattern_item"
     },
     {
         "s": "01",
@@ -14915,9 +16703,10 @@ var icondata = [
         "i": "stone_retro",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1536,
-        "v": "Retro Stone"
+        "x": 256,
+        "y": 2304,
+        "v": "Retro Stone",
+        "l": "stone_retro"
     },
     {
         "s": "01",
@@ -14925,9 +16714,10 @@ var icondata = [
         "i": "sword_arc",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1664,
-        "v": "? sword_arc"
+        "x": 256,
+        "y": 2432,
+        "v": "? sword_arc",
+        "l": "sword_arc"
     },
     {
         "s": "01",
@@ -14935,9 +16725,10 @@ var icondata = [
         "i": "sword_axe_bone",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1792,
-        "v": "Crypt Cutter"
+        "x": 1536,
+        "y": 3712,
+        "v": "Crypt Cutter",
+        "l": "sword_axe_bone"
     },
     {
         "s": "01",
@@ -14945,9 +16736,10 @@ var icondata = [
         "i": "sword_bit_hammer",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1920,
-        "v": "Super Retro Hammer"
+        "x": 1664,
+        "y": 3712,
+        "v": "Super Retro Hammer",
+        "l": "cosmetic_weapon_bit_hammer"
     },
     {
         "s": "01",
@@ -14955,9 +16747,10 @@ var icondata = [
         "i": "sword_bit_pickaxe",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 512,
-        "v": "Super Retro Pickaxe"
+        "x": 1792,
+        "y": 3712,
+        "v": "Super Retro Pickaxe",
+        "l": "cosmetic_weapon_bit_pickaxe"
     },
     {
         "s": "01",
@@ -14965,9 +16758,10 @@ var icondata = [
         "i": "sword_candycane",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 384,
-        "v": "Candycane Blade"
+        "x": 1920,
+        "y": 3712,
+        "v": "Candycane Blade",
+        "l": "cosmetic_weapon_candycane_sword"
     },
     {
         "s": "01",
@@ -14975,9 +16769,10 @@ var icondata = [
         "i": "sword_crowbar",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 256,
-        "v": "Industrial Crowbar"
+        "x": 384,
+        "y": 1920,
+        "v": "Industrial Crowbar",
+        "l": "sword_crowbar"
     },
     {
         "s": "01",
@@ -14985,9 +16780,10 @@ var icondata = [
         "i": "sword_diamond",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 128,
-        "v": "Diamond Sword"
+        "x": 384,
+        "y": 2048,
+        "v": "Diamond Sword",
+        "l": "sword_diamond"
     },
     {
         "s": "01",
@@ -14995,9 +16791,10 @@ var icondata = [
         "i": "sword_fire",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 640,
-        "v": "Phoenix Flame Sword"
+        "x": 384,
+        "y": 2176,
+        "v": "Phoenix Flame Sword",
+        "l": "cosmetic_weapon_sword_fire"
     },
     {
         "s": "01",
@@ -15005,9 +16802,10 @@ var icondata = [
         "i": "sword_gold",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 768,
-        "v": "Golden Sword"
+        "x": 384,
+        "y": 2304,
+        "v": "Golden Sword",
+        "l": "sword_gold_welcome"
     },
     {
         "s": "01",
@@ -15015,9 +16813,10 @@ var icondata = [
         "i": "sword_hammer_atlantis",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 896,
-        "v": "Miru's Hammer"
+        "x": 384,
+        "y": 2432,
+        "v": "Miru's Hammer",
+        "l": "cosmetic_weapon_hammer_atlantis"
     },
     {
         "s": "01",
@@ -15025,9 +16824,10 @@ var icondata = [
         "i": "sword_ice",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1024,
-        "v": "Frostbourne"
+        "x": 384,
+        "y": 2560,
+        "v": "Frostbourne",
+        "l": "cosmetic_weapon_ice_sword"
     },
     {
         "s": "01",
@@ -15035,9 +16835,10 @@ var icondata = [
         "i": "sword_iron",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1152,
-        "v": "Iron Sword"
+        "x": 384,
+        "y": 2688,
+        "v": "Iron Sword",
+        "l": "sword_iron"
     },
     {
         "s": "01",
@@ -15045,9 +16846,10 @@ var icondata = [
         "i": "sword_jade",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1280,
-        "v": "Emperor's Blade"
+        "x": 384,
+        "y": 2816,
+        "v": "Emperor's Blade",
+        "l": "cosmetic_weapon_sword_jade"
     },
     {
         "s": "01",
@@ -15055,9 +16857,10 @@ var icondata = [
         "i": "sword_lollipop",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1408,
-        "v": "Danger Pop"
+        "x": 384,
+        "y": 2944,
+        "v": "Danger Pop",
+        "l": "cosmetic_weapon_lollipop"
     },
     {
         "s": "01",
@@ -15065,9 +16868,10 @@ var icondata = [
         "i": "sword_lumite",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1536,
-        "v": "Lumite Sword"
+        "x": 384,
+        "y": 3072,
+        "v": "Lumite Sword",
+        "l": "sword_lumite"
     },
     {
         "s": "01",
@@ -15075,9 +16879,10 @@ var icondata = [
         "i": "sword_mayan",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1664,
-        "v": "Hidden Temple Sword"
+        "x": 384,
+        "y": 3200,
+        "v": "Hidden Temple Sword",
+        "l": "sword_mayan"
     },
     {
         "s": "01",
@@ -15085,9 +16890,10 @@ var icondata = [
         "i": "sword_medieval",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1792,
-        "v": "Medieval Sword"
+        "x": 384,
+        "y": 3328,
+        "v": "Medieval Sword",
+        "l": "sword_medieval"
     },
     {
         "s": "01",
@@ -15095,9 +16901,10 @@ var icondata = [
         "i": "sword_obsidian",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 1920,
-        "v": "Obsidian Sword"
+        "x": 384,
+        "y": 3456,
+        "v": "Obsidian Sword",
+        "l": "sword_obsidian"
     },
     {
         "s": "01",
@@ -15105,9 +16912,10 @@ var icondata = [
         "i": "sword_paintbrush",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 0,
-        "v": "Leo's Paintbrush"
+        "x": 384,
+        "y": 3584,
+        "v": "Leo's Paintbrush",
+        "l": "cosmetic_weapon_paintbrush"
     },
     {
         "s": "01",
@@ -15115,9 +16923,10 @@ var icondata = [
         "i": "sword_rockster_claw",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 128,
-        "v": "Rockster's Claw"
+        "x": 384,
+        "y": 1792,
+        "v": "Rockster's Claw",
+        "l": "cosmetic_weapon_rockster_claw"
     },
     {
         "s": "01",
@@ -15125,9 +16934,10 @@ var icondata = [
         "i": "sword_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 512,
-        "v": "Galactic Flux Incapacitator"
+        "x": 3968,
+        "y": 3712,
+        "v": "Galactic Flux Incapacitator",
+        "l": "sword_sci_fi"
     },
     {
         "s": "01",
@@ -15135,9 +16945,10 @@ var icondata = [
         "i": "sword_scythe",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 256,
-        "v": "The Grim Reaper"
+        "x": 3712,
+        "y": 3712,
+        "v": "The Grim Reaper",
+        "l": "cosmetic_weapon_scythe"
     },
     {
         "s": "01",
@@ -15145,9 +16956,10 @@ var icondata = [
         "i": "sword_starsabre",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 512,
-        "v": "Beam of Orion"
+        "x": 3584,
+        "y": 3712,
+        "v": "Beam of Orion",
+        "l": "cosmetic_weapon_starsabre"
     },
     {
         "s": "01",
@@ -15155,9 +16967,10 @@ var icondata = [
         "i": "sword_stone",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 640,
-        "v": "Stone Sword"
+        "x": 3456,
+        "y": 3712,
+        "v": "Stone Sword",
+        "l": "sword_stone"
     },
     {
         "s": "01",
@@ -15165,9 +16978,10 @@ var icondata = [
         "i": "sword_unicorn",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 768,
-        "v": "Rainbownator 5000"
+        "x": 3328,
+        "y": 3712,
+        "v": "Rainbownator 5000",
+        "l": "sword_unicorn"
     },
     {
         "s": "01",
@@ -15175,9 +16989,10 @@ var icondata = [
         "i": "sword_wood",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 896,
-        "v": "Wood Sword"
+        "x": 3200,
+        "y": 3712,
+        "v": "Wood Sword",
+        "l": "taming_collar_worn"
     },
     {
         "s": "01",
@@ -15185,9 +17000,10 @@ var icondata = [
         "i": "table_wood_white",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1024,
-        "v": "White Wood Table"
+        "x": 3072,
+        "y": 3712,
+        "v": "White Wood Table",
+        "l": "table_wood_white"
     },
     {
         "s": "01",
@@ -15195,9 +17011,10 @@ var icondata = [
         "i": "top_hat_black",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1152,
-        "v": "Top Hat"
+        "x": 2944,
+        "y": 3712,
+        "v": "Top Hat",
+        "l": "top_hat"
     },
     {
         "s": "01",
@@ -15205,9 +17022,10 @@ var icondata = [
         "i": "top_hat_blue",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1280,
-        "v": "Blue Top Hat"
+        "x": 2816,
+        "y": 3712,
+        "v": "Blue Top Hat",
+        "l": "top_hat_blue"
     },
     {
         "s": "01",
@@ -15215,9 +17033,10 @@ var icondata = [
         "i": "top_hat_pumpkiru",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1408,
-        "v": "Top Hat"
+        "x": 2688,
+        "y": 3712,
+        "v": "Top Hat",
+        "l": "cosmetic_top_hat_custom_colors"
     },
     {
         "s": "01",
@@ -15225,9 +17044,10 @@ var icondata = [
         "i": "top_hat_red",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1536,
-        "v": "Red Top Hat"
+        "x": 2560,
+        "y": 3712,
+        "v": "Red Top Hat",
+        "l": "top_hat_red"
     },
     {
         "s": "01",
@@ -15235,9 +17055,10 @@ var icondata = [
         "i": "top_hat_yellow",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1664,
-        "v": "Yellow Top Hat"
+        "x": 2432,
+        "y": 3712,
+        "v": "Yellow Top Hat",
+        "l": "top_hat_yellow"
     },
     {
         "s": "01",
@@ -15245,9 +17066,10 @@ var icondata = [
         "i": "wall_brick_retro",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1792,
-        "v": "Retro Brick Wall"
+        "x": 2304,
+        "y": 3712,
+        "v": "Retro Brick Wall",
+        "l": "wall_brick_retro"
     },
     {
         "s": "01",
@@ -15255,9 +17077,10 @@ var icondata = [
         "i": "wall_canvas",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 1920,
-        "v": "Canvas Wall"
+        "x": 2176,
+        "y": 3712,
+        "v": "Canvas Wall",
+        "l": "canvas"
     },
     {
         "s": "01",
@@ -15265,9 +17088,10 @@ var icondata = [
         "i": "wall_subway_tile",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 0,
-        "v": "Subway Tile Wall"
+        "x": 2048,
+        "y": 3712,
+        "v": "Subway Tile Wall",
+        "l": "wall_subway_tile"
     },
     {
         "s": "01",
@@ -15275,9 +17099,10 @@ var icondata = [
         "i": "wall_wood_white",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 1024,
-        "v": "White Wood Wall"
+        "x": 896,
+        "y": 3072,
+        "v": "White Wood Wall",
+        "l": "wall_wood_white"
     },
     {
         "s": "01",
@@ -15285,8 +17110,9 @@ var icondata = [
         "i": "wood_retro",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 256,
-        "v": "Retro Wood"
+        "x": 3200,
+        "y": 2816,
+        "v": "Retro Wood",
+        "l": "wood_retro"
     }
 ]
