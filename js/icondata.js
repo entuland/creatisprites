@@ -11248,7 +11248,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1280,
+        "y": 896,
         "v": "Reinbeau Antlers",
         "l": "cosmetic_antlers"
     },
@@ -11259,7 +11259,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1408,
+        "y": 768,
         "v": "Diamond Armguards",
         "l": "armguards_diamond"
     },
@@ -11270,7 +11270,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1536,
+        "y": 640,
         "v": "Iron Armguards",
         "l": "armguards_iron"
     },
@@ -11281,7 +11281,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1664,
+        "y": 512,
         "v": "Leather Armguards",
         "l": "armguards_leather"
     },
@@ -11292,7 +11292,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1792,
+        "y": 384,
         "v": "Lumite Armguards",
         "l": "armguards_lumite"
     },
@@ -11303,7 +11303,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1920,
+        "y": 256,
         "v": "Obsidian Armguards",
         "l": "armguards_obsidian"
     },
@@ -11314,7 +11314,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 2048,
+        "y": 0,
         "v": "Destroyer Suit Arms",
         "l": "cosmetic_arms_destroyer"
     },
@@ -11324,8 +11324,8 @@ var icondata = [
         "i": "arms_diamond",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2176,
+        "x": 1664,
+        "y": 3200,
         "v": "First Fantasy Arms",
         "l": "cosmetic_arms_diamond"
     },
@@ -11335,8 +11335,8 @@ var icondata = [
         "i": "arms_iron",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2304,
+        "x": 896,
+        "y": 3200,
         "v": "Metal Mk I Arms",
         "l": "cosmetic_arms_iron"
     },
@@ -11346,8 +11346,8 @@ var icondata = [
         "i": "arms_leather",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2432,
+        "x": 1024,
+        "y": 3200,
         "v": "Fury Warrior Arms",
         "l": "cosmetic_arms_leather"
     },
@@ -11357,8 +11357,8 @@ var icondata = [
         "i": "arms_lumite",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2560,
+        "x": 1152,
+        "y": 3200,
         "v": "Master Creator Arms",
         "l": "cosmetic_arms_lumite"
     },
@@ -11368,8 +11368,8 @@ var icondata = [
         "i": "arms_obsidian",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2688,
+        "x": 1280,
+        "y": 3200,
         "v": "Electro Cycle Arms",
         "l": "cosmetic_arms_obsidian"
     },
@@ -11379,8 +11379,8 @@ var icondata = [
         "i": "arms_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2816,
+        "x": 1408,
+        "y": 3200,
         "v": "Arms NPC",
         "l": "cosmetic_arms_npc_01"
     },
@@ -11390,8 +11390,8 @@ var icondata = [
         "i": "arms_unicorn",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 2944,
+        "x": 1536,
+        "y": 3200,
         "v": "Unicorn Arms",
         "l": "cosmetic_arms_unicorn"
     },
@@ -11402,7 +11402,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 3072,
+        "y": 1024,
         "v": "Monkey King Arms",
         "l": "cosmetic_arms_wukong"
     },
@@ -11413,7 +11413,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 3200,
+        "y": 1152,
         "v": "Atlantis Altar",
         "l": "altar_atlantis"
     },
@@ -11423,8 +11423,8 @@ var icondata = [
         "i": "atlantis_chest",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 3328,
+        "x": 768,
+        "y": 1280,
         "v": "Atlantis Chest",
         "l": "chest_atlantis"
     },
@@ -11434,8 +11434,8 @@ var icondata = [
         "i": "atlantis_door",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3328,
+        "x": 768,
+        "y": 1408,
         "v": "Atlantis Door",
         "l": "door_atlantis"
     },
@@ -11445,8 +11445,8 @@ var icondata = [
         "i": "atlantis_door_trap",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3328,
+        "x": 768,
+        "y": 1536,
         "v": "Atlantis Trap Door",
         "l": "trap_door_atlantis"
     },
@@ -11456,8 +11456,8 @@ var icondata = [
         "i": "atlantis_table",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 3328,
+        "x": 768,
+        "y": 1664,
         "v": "Atlantis Table",
         "l": "table_atlantis"
     },
@@ -11467,8 +11467,8 @@ var icondata = [
         "i": "automation_portal",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 3328,
+        "x": 768,
+        "y": 1792,
         "v": "Arc Portal",
         "l": "automation_portal"
     },
@@ -11478,8 +11478,8 @@ var icondata = [
         "i": "babyleafi_leaf",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 3328,
+        "x": 768,
+        "y": 1920,
         "v": "Baby Leafi Leaf",
         "l": "baby_leafi_leaf"
     },
@@ -11489,8 +11489,8 @@ var icondata = [
         "i": "bathroom_bathtub",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 3328,
+        "x": 768,
+        "y": 2048,
         "v": "Better Home Bathtub",
         "l": "bathroom_bathtub"
     },
@@ -11500,8 +11500,8 @@ var icondata = [
         "i": "bathroom_sink",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 3328,
+        "x": 768,
+        "y": 2176,
         "v": "Better Home Bathroom Sink",
         "l": "bathroom_sink"
     },
@@ -11511,8 +11511,8 @@ var icondata = [
         "i": "bathroom_soap",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 3328,
+        "x": 768,
+        "y": 2304,
         "v": "Better Home Soap Dispenser",
         "l": "book_grimoire"
     },
@@ -11522,8 +11522,8 @@ var icondata = [
         "i": "bathroom_toilet",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 3328,
+        "x": 768,
+        "y": 2432,
         "v": "Better Home Toilet",
         "l": "bathroom_toilet"
     },
@@ -11533,8 +11533,8 @@ var icondata = [
         "i": "bathroom_toilet_paper",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 3328,
+        "x": 768,
+        "y": 2560,
         "v": "Ultra Soft 12-Ply Toilet Paper",
         "l": "bomb_toilet_paper"
     },
@@ -11544,8 +11544,8 @@ var icondata = [
         "i": "bathroom_toilet_paper_holder",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 3328,
+        "x": 768,
+        "y": 2688,
         "v": "Better Home Toilet Paper Holder",
         "l": "bathroom_toilet_paper_holder"
     },
@@ -11555,8 +11555,8 @@ var icondata = [
         "i": "blockhero_arms",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 3328,
+        "x": 768,
+        "y": 2816,
         "v": "Super Block Hero Arms",
         "l": "cosmetic_blockhero_arms"
     },
@@ -11567,7 +11567,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1152,
+        "y": 2944,
         "v": "Super Block Hero Body",
         "l": "cosmetic_blockhero_body"
     },
@@ -11578,7 +11578,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 1024,
+        "y": 3072,
         "v": "Super Block Hero Gauntlet",
         "l": "cosmetic_blockhero_gauntlet"
     },
@@ -11589,7 +11589,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 768,
-        "y": 896,
+        "y": 128,
         "v": "Super Block Hero Head",
         "l": "cosmetic_blockhero_head"
     },
@@ -11599,8 +11599,8 @@ var icondata = [
         "i": "blockhero_legs",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 768,
+        "x": 1920,
+        "y": 3200,
         "v": "Super Block Hero Legs",
         "l": "cosmetic_blockhero_legs"
     },
@@ -11610,8 +11610,8 @@ var icondata = [
         "i": "body_destroyer",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3200,
+        "x": 896,
+        "y": 2048,
         "v": "Destroyer Suit Torso",
         "l": "cosmetic_body_destroyer"
     },
@@ -11621,7 +11621,7 @@ var icondata = [
         "i": "body_diamond",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 2048,
         "y": 3200,
         "v": "First Fantasy Torso",
         "l": "cosmetic_body_diamond"
@@ -11632,8 +11632,8 @@ var icondata = [
         "i": "body_iron",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 3200,
+        "x": 896,
+        "y": 2816,
         "v": "Metal Mk I Torso",
         "l": "cosmetic_body_iron"
     },
@@ -11643,8 +11643,8 @@ var icondata = [
         "i": "body_leather",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 3200,
+        "x": 896,
+        "y": 2688,
         "v": "Fury Warrior Torso",
         "l": "cosmetic_body_leather"
     },
@@ -11654,8 +11654,8 @@ var icondata = [
         "i": "body_lumite",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 3200,
+        "x": 896,
+        "y": 2560,
         "v": "Master Creator Torso",
         "l": "cosmetic_body_lumite"
     },
@@ -11665,8 +11665,8 @@ var icondata = [
         "i": "body_obsidian",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 3200,
+        "x": 896,
+        "y": 2432,
         "v": "Electro Cycle Torso",
         "l": "cosmetic_body_obsidian"
     },
@@ -11676,8 +11676,8 @@ var icondata = [
         "i": "body_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 3200,
+        "x": 896,
+        "y": 2304,
         "v": "Legs Base",
         "l": "cosmetic_legs_base"
     },
@@ -11687,8 +11687,8 @@ var icondata = [
         "i": "body_unicorn",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 3200,
+        "x": 896,
+        "y": 2176,
         "v": "Unicorn Torso",
         "l": "cosmetic_body_unicorn"
     },
@@ -11698,8 +11698,8 @@ var icondata = [
         "i": "body_wukong",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 3200,
+        "x": 896,
+        "y": 1920,
         "v": "Monkey King Torso",
         "l": "cosmetic_body_wukong"
     },
@@ -11709,8 +11709,8 @@ var icondata = [
         "i": "bomb_defoliage",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 3200,
+        "x": 896,
+        "y": 1024,
         "v": "Un-Plant Bomb",
         "l": "bomb_defoliage"
     },
@@ -11720,8 +11720,8 @@ var icondata = [
         "i": "bomb_foliage",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 3200,
+        "x": 896,
+        "y": 1792,
         "v": "Plant Bomb",
         "l": "bomb_foliage"
     },
@@ -11731,8 +11731,8 @@ var icondata = [
         "i": "bomb_retro",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 3200,
+        "x": 896,
+        "y": 1664,
         "v": "Big Ka-boom",
         "l": "bomb_retro"
     },
@@ -11742,8 +11742,8 @@ var icondata = [
         "i": "bow_tie_black",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 3200,
+        "x": 896,
+        "y": 1536,
         "v": "Bow Tie",
         "l": "bow_tie"
     },
@@ -11753,8 +11753,8 @@ var icondata = [
         "i": "bow_tie_blue",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 3200,
+        "x": 896,
+        "y": 1408,
         "v": "Blue Bow Tie",
         "l": "bow_tie_blue"
     },
@@ -11764,8 +11764,8 @@ var icondata = [
         "i": "bow_tie_red",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 3200,
+        "x": 896,
+        "y": 1280,
         "v": "Red Bow Tie",
         "l": "bow_tie_red"
     },
@@ -11775,8 +11775,8 @@ var icondata = [
         "i": "bow_tie_yellow",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 3200,
+        "x": 896,
+        "y": 1152,
         "v": "Yellow Bow Tie",
         "l": "bow_tie_yellow"
     },
@@ -11786,8 +11786,8 @@ var icondata = [
         "i": "breastplate_diamond",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 3200,
+        "x": 896,
+        "y": 2944,
         "v": "Diamond Breastplate",
         "l": "breastplate_diamond"
     },
@@ -11797,8 +11797,8 @@ var icondata = [
         "i": "breastplate_iron",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 3200,
+        "x": 896,
+        "y": 3072,
         "v": "Iron Breastplate",
         "l": "breastplate_iron"
     },
@@ -11808,7 +11808,7 @@ var icondata = [
         "i": "breastplate_leather",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 3968,
         "y": 3200,
         "v": "Leather Breastplate",
         "l": "breastplate_leather"
@@ -11819,7 +11819,7 @@ var icondata = [
         "i": "breastplate_lumite",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 3840,
         "y": 3200,
         "v": "Lumite Breastplate",
         "l": "breastplate_lumite"
@@ -11830,7 +11830,7 @@ var icondata = [
         "i": "breastplate_obsidian",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 3712,
         "y": 3200,
         "v": "Obsidian Breastplate",
         "l": "breastplate_obsidian"
@@ -11841,7 +11841,7 @@ var icondata = [
         "i": "candles_haunted",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 3584,
         "y": 3200,
         "v": "Spooky Candles",
         "l": "candles_haunted"
@@ -11852,7 +11852,7 @@ var icondata = [
         "i": "cauldron_goo_green",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 3456,
         "y": 3200,
         "v": "Green Goo Cauldron",
         "l": "cauldron_goo_green"
@@ -11863,7 +11863,7 @@ var icondata = [
         "i": "cauldron_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 3328,
         "y": 3200,
         "v": "Orange Goo Cauldron",
         "l": "cauldron_goo_orange"
@@ -11874,8 +11874,8 @@ var icondata = [
         "i": "cauldron_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 0,
+        "x": 3200,
+        "y": 3200,
         "v": "Purple Goo Cauldron",
         "l": "cauldron_goo_purple"
     },
@@ -11885,8 +11885,8 @@ var icondata = [
         "i": "cauldron_haunted",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 128,
+        "x": 3072,
+        "y": 3200,
         "v": "Spooky Cauldron",
         "l": "cauldron_haunted"
     },
@@ -11896,8 +11896,8 @@ var icondata = [
         "i": "chair_haunted",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 256,
+        "x": 2944,
+        "y": 3200,
         "v": "Spooky Bench",
         "l": "bench_haunted"
     },
@@ -11907,8 +11907,8 @@ var icondata = [
         "i": "chair_wood_white",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 384,
+        "x": 2816,
+        "y": 3200,
         "v": "White Wood Chair",
         "l": "chair_wood_white"
     },
@@ -11918,8 +11918,8 @@ var icondata = [
         "i": "chest_arctek_vault",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 512,
+        "x": 2688,
+        "y": 3200,
         "v": "Arc Vault",
         "l": "arc_vault"
     },
@@ -11929,8 +11929,8 @@ var icondata = [
         "i": "chest_treasure_06",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 640,
+        "x": 2560,
+        "y": 3200,
         "v": "Obsidian Treasure Chest",
         "l": "treasure_chest_obsidian"
     },
@@ -11940,8 +11940,8 @@ var icondata = [
         "i": "chest_treasure_07",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 3328,
+        "x": 2432,
+        "y": 3200,
         "v": "Stone Treasure Chest",
         "l": "treasure_chest_stone"
     },
@@ -11951,7 +11951,7 @@ var icondata = [
         "i": "coffin_haunted",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 2304,
         "y": 3200,
         "v": "Spooky Coffin",
         "l": "coffin_haunted"
@@ -11963,7 +11963,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2176,
-        "y": 3328,
+        "y": 3200,
         "v": "Canvas Column",
         "l": "column_canvas"
     },
@@ -11973,8 +11973,8 @@ var icondata = [
         "i": "column_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 768,
+        "x": 768,
+        "y": 3200,
         "v": "Plain Gingerbread Column",
         "l": "column_gingerbread_basic"
     },
@@ -11984,8 +11984,8 @@ var icondata = [
         "i": "column_goo_green",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3200,
+        "x": 3968,
+        "y": 3328,
         "v": "Green Goo Column",
         "l": "column_goo_green"
     },
@@ -11995,7 +11995,7 @@ var icondata = [
         "i": "column_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 3840,
         "y": 3328,
         "v": "Orange Goo Column",
         "l": "column_goo_orange"
@@ -12006,8 +12006,8 @@ var icondata = [
         "i": "column_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 3456,
+        "x": 2688,
+        "y": 3328,
         "v": "Purple Goo Column",
         "l": "column_goo_purple"
     },
@@ -12017,8 +12017,8 @@ var icondata = [
         "i": "column_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3456,
+        "x": 640,
+        "y": 1536,
         "v": "Dark Lumite Column",
         "l": "column_lumite_dark"
     },
@@ -12028,8 +12028,8 @@ var icondata = [
         "i": "column_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3456,
+        "x": 640,
+        "y": 1664,
         "v": "Light Lumite Column",
         "l": "column_lumite_light"
     },
@@ -12039,8 +12039,8 @@ var icondata = [
         "i": "column_snow",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 3456,
+        "x": 640,
+        "y": 1792,
         "v": "Snow Column",
         "l": "column_snow"
     },
@@ -12050,8 +12050,8 @@ var icondata = [
         "i": "cosmetic_arms_turtleneck_leafi",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 3456,
+        "x": 640,
+        "y": 1920,
         "v": "Ugly Leafi Turtleneck",
         "l": "cosmetic_arms_turtleneck_leafi"
     },
@@ -12061,8 +12061,8 @@ var icondata = [
         "i": "cosmetic_beanie_hat",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 3456,
+        "x": 640,
+        "y": 2048,
         "v": "Knit Cap",
         "l": "cosmetic_beanie_hat"
     },
@@ -12072,8 +12072,8 @@ var icondata = [
         "i": "cosmetic_bunny_arms",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 3456,
+        "x": 640,
+        "y": 2176,
         "v": "Bunny Suit Arms",
         "l": "cosmetic_bunny_arms"
     },
@@ -12083,8 +12083,8 @@ var icondata = [
         "i": "cosmetic_bunny_body",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 3456,
+        "x": 640,
+        "y": 2304,
         "v": "Bunny Suit Body",
         "l": "cosmetic_bunny_body"
     },
@@ -12094,8 +12094,8 @@ var icondata = [
         "i": "cosmetic_bunny_legs",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 3456,
+        "x": 640,
+        "y": 2432,
         "v": "Bunny Suit Legs",
         "l": "cosmetic_bunny_legs"
     },
@@ -12105,10 +12105,21 @@ var icondata = [
         "i": "cosmetic_chef_hat",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 3456,
+        "x": 640,
+        "y": 2560,
         "v": "Chef Hat",
-        "l": "cosmetic_chef_hat"
+        "l": "cosmetic_mysterioustrader_hat"
+    },
+    {
+        "s": "01",
+        "id": 549,
+        "i": "cosmetic_companion_mushu",
+        "w": 128,
+        "h": 128,
+        "x": 640,
+        "y": 2688,
+        "v": "General Moo Moo",
+        "l": "cosmetic_sparc_illumination_mushu"
     },
     {
         "s": "01",
@@ -12116,8 +12127,8 @@ var icondata = [
         "i": "cosmetic_egghead_arms",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 3456,
+        "x": 640,
+        "y": 2816,
         "v": "Egghead Arms",
         "l": "cosmetic_egghead_arms"
     },
@@ -12127,8 +12138,8 @@ var icondata = [
         "i": "cosmetic_egghead_body",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 3456,
+        "x": 640,
+        "y": 2944,
         "v": "Egghead Body",
         "l": "cosmetic_egghead_body"
     },
@@ -12138,8 +12149,8 @@ var icondata = [
         "i": "cosmetic_egghead_head",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 3456,
+        "x": 640,
+        "y": 3072,
         "v": "Egghead Egg Head",
         "l": "cosmetic_egghead_head"
     },
@@ -12149,8 +12160,8 @@ var icondata = [
         "i": "cosmetic_egghead_legs",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 3456,
+        "x": 640,
+        "y": 3200,
         "v": "Egghead Legs",
         "l": "cosmetic_egghead_legs"
     },
@@ -12160,8 +12171,8 @@ var icondata = [
         "i": "cosmetic_glider_flame",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 3456,
+        "x": 640,
+        "y": 1408,
         "v": "Wings of the Phoenix",
         "l": "cosmetic_glider_flame"
     },
@@ -12171,8 +12182,8 @@ var icondata = [
         "i": "cosmetic_glider_raven",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 3456,
+        "x": 640,
+        "y": 3328,
         "v": "Lenore's Raven Wings",
         "l": "cosmetic_glider_raven"
     },
@@ -12182,7 +12193,7 @@ var icondata = [
         "i": "cosmetic_glider_unicorn",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 3840,
         "y": 3456,
         "v": "Unicorn Wings",
         "l": "cosmetic_glider_unicorn"
@@ -12193,7 +12204,7 @@ var icondata = [
         "i": "cosmetic_graduation_hat",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 3712,
         "y": 3456,
         "v": "Graduation Cap",
         "l": "cosmetic_graduation_hat"
@@ -12204,10 +12215,21 @@ var icondata = [
         "i": "cosmetic_hard_hat",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 3584,
         "y": 3456,
         "v": "Hard Hat",
         "l": "cosmetic_hard_hat"
+    },
+    {
+        "s": "01",
+        "id": 535,
+        "i": "cosmetic_hat_beret",
+        "w": 128,
+        "h": 128,
+        "x": 3456,
+        "y": 3456,
+        "v": "Outfitter's Beret",
+        "l": "cosmetic_outfitter_hat"
     },
     {
         "s": "01",
@@ -12215,10 +12237,21 @@ var icondata = [
         "i": "cosmetic_hat_bunny",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 3328,
         "y": 3456,
         "v": "Bunny Suit Helmet",
         "l": "cosmetic_hat_bunny"
+    },
+    {
+        "s": "01",
+        "id": 536,
+        "i": "cosmetic_hat_cowboy",
+        "w": 128,
+        "h": 128,
+        "x": 3200,
+        "y": 3456,
+        "v": "Cowboy Hat",
+        "l": "costmetic_blacksmith_hat"
     },
     {
         "s": "01",
@@ -12226,7 +12259,7 @@ var icondata = [
         "i": "cosmetic_logger_hat",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 3072,
         "y": 3456,
         "v": "Logger Hat",
         "l": "cosmetic_logger_hat"
@@ -12237,7 +12270,7 @@ var icondata = [
         "i": "cosmetic_researcher_hat",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 2944,
         "y": 3456,
         "v": "Researcher Hat",
         "l": "cosmetic_researcher_hat"
@@ -12248,10 +12281,65 @@ var icondata = [
         "i": "cosmetic_safari_hat",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 3968,
+        "x": 2816,
+        "y": 3456,
         "v": "Explorer Hat",
         "l": "cosmetic_safari_hat"
+    },
+    {
+        "s": "01",
+        "id": 542,
+        "i": "cosmetic_samurai_arms",
+        "w": 128,
+        "h": 128,
+        "x": 2688,
+        "y": 3456,
+        "v": "Bracers of the Crane",
+        "l": "cosmetic_samurai_arms"
+    },
+    {
+        "s": "01",
+        "id": 543,
+        "i": "cosmetic_samurai_body",
+        "w": 128,
+        "h": 128,
+        "x": 2560,
+        "y": 3456,
+        "v": "Robes of the Tiger",
+        "l": "cosmetic_samurai_body"
+    },
+    {
+        "s": "01",
+        "id": 544,
+        "i": "cosmetic_samurai_gauntlet",
+        "w": 128,
+        "h": 128,
+        "x": 2432,
+        "y": 3456,
+        "v": "Gauntlet of the Ox",
+        "l": "cosmetic_samurai_focus"
+    },
+    {
+        "s": "01",
+        "id": 545,
+        "i": "cosmetic_samurai_hat",
+        "w": 128,
+        "h": 128,
+        "x": 2304,
+        "y": 3456,
+        "v": "Helmet of the Mantis",
+        "l": "cosmetic_samurai_hat"
+    },
+    {
+        "s": "01",
+        "id": 546,
+        "i": "cosmetic_samurai_legs",
+        "w": 128,
+        "h": 128,
+        "x": 2176,
+        "y": 3456,
+        "v": "Pants of the Viper",
+        "l": "cosmetic_samurai_legs"
     },
     {
         "s": "01",
@@ -12259,7 +12347,7 @@ var icondata = [
         "i": "cosmetic_sparc_illumination_bee",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 3968,
         "y": 3456,
         "v": "Buzzkill Companion",
         "l": "cosmetic_sparc_illumination_buzzkill"
@@ -12270,8 +12358,8 @@ var icondata = [
         "i": "cosmetic_sparc_illumination_bot",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 3456,
+        "x": 640,
+        "y": 1280,
         "v": "Alphi",
         "l": "cosmetic_sparc_illumination_bot"
     },
@@ -12281,8 +12369,8 @@ var icondata = [
         "i": "cosmetic_sparc_illumination_king",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 3456,
+        "x": 640,
+        "y": 1152,
         "v": "King Companion",
         "l": "cosmetic_sparc_illumination_king"
     },
@@ -12292,8 +12380,8 @@ var icondata = [
         "i": "cosmetic_sparc_illumination_petey",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 3456,
+        "x": 640,
+        "y": 1024,
         "v": "Petey the Parroki Companion",
         "l": "cosmetic_sparc_illumination_petey"
     },
@@ -12303,8 +12391,8 @@ var icondata = [
         "i": "cosmetic_straw_hat",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3456,
+        "x": 1920,
+        "y": 3328,
         "v": "Gardener's Hat",
         "l": "cosmetic_straw_hat"
     },
@@ -12314,8 +12402,8 @@ var icondata = [
         "i": "cosmetic_trainer_arms",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3072,
+        "x": 2048,
+        "y": 3328,
         "v": "Trainer Suit Arms",
         "l": "cosmetic_trainer_arms"
     },
@@ -12325,8 +12413,8 @@ var icondata = [
         "i": "cosmetic_trainer_body",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2944,
+        "x": 2176,
+        "y": 3328,
         "v": "Trainer Suit Body",
         "l": "cosmetic_trainer_body"
     },
@@ -12336,8 +12424,8 @@ var icondata = [
         "i": "cosmetic_trainer_hat",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2816,
+        "x": 2304,
+        "y": 3328,
         "v": "Trainer Suit Cap",
         "l": "cosmetic_trainer_hat"
     },
@@ -12347,8 +12435,8 @@ var icondata = [
         "i": "cosmetic_trainer_legs",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2688,
+        "x": 2432,
+        "y": 3328,
         "v": "Trainer Suit Pants",
         "l": "cosmetic_trainer_legs"
     },
@@ -12358,7 +12446,7 @@ var icondata = [
         "i": "cosmetic_weapon_broom",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 2560,
         "y": 3328,
         "v": "The Sweeper Agent",
         "l": "cosmetic_weapon_broom"
@@ -12369,7 +12457,7 @@ var icondata = [
         "i": "cosmetic_weapon_ironhammer",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 2816,
         "y": 3328,
         "v": "Ye Olde Hammer",
         "l": "cosmetic_weapon_ironhammer"
@@ -12380,7 +12468,7 @@ var icondata = [
         "i": "cosmetic_weapon_shovel",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 3712,
         "y": 3328,
         "v": "Dirtslayer",
         "l": "cosmetic_weapon_shovel"
@@ -12391,10 +12479,21 @@ var icondata = [
         "i": "cosmetic_weapon_skillet",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 2944,
         "y": 3328,
         "v": "Slammin' Skillet",
         "l": "cosmetic_weapon_skillet"
+    },
+    {
+        "s": "01",
+        "id": 547,
+        "i": "cosmetic_weapon_sword_chinese",
+        "w": 128,
+        "h": 128,
+        "x": 3072,
+        "y": 3328,
+        "v": "Dragon's Fury",
+        "l": "cosmetic_weapon_sword_chinese"
     },
     {
         "s": "01",
@@ -12402,7 +12501,7 @@ var icondata = [
         "i": "cosmetic_weapon_wrench",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 3200,
         "y": 3328,
         "v": "The Fixer",
         "l": "cosmetic_weapon_wrench"
@@ -12413,7 +12512,7 @@ var icondata = [
         "i": "cosmetic_witch_hat",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 3328,
         "y": 3328,
         "v": "Witch Hat",
         "l": "cosmetic_witch_hat"
@@ -12424,7 +12523,7 @@ var icondata = [
         "i": "dirt_retro",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 3456,
         "y": 3328,
         "v": "Retro Dirt",
         "l": "dirt_retro"
@@ -12435,7 +12534,7 @@ var icondata = [
         "i": "door_wood_white",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 3584,
         "y": 3328,
         "v": "White Wood Door",
         "l": "door_wood_white"
@@ -12446,7 +12545,7 @@ var icondata = [
         "i": "easel_icon",
         "w": 128,
         "h": 128,
-        "x": 768,
+        "x": 1792,
         "y": 3328,
         "v": "Easel",
         "l": "easel"
@@ -12457,8 +12556,8 @@ var icondata = [
         "i": "eighth_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 0,
+        "x": 1664,
+        "y": 3328,
         "v": "Plain Gingerbread Eighth",
         "l": "eighth_gingerbread_basic"
     },
@@ -12468,8 +12567,8 @@ var icondata = [
         "i": "eighth_wood_red_chinese",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 128,
+        "x": 1536,
+        "y": 3328,
         "v": "Forbidden Red Wood Eighth",
         "l": "eighth_wood_red_chinese"
     },
@@ -12479,8 +12578,8 @@ var icondata = [
         "i": "exclamation_retro",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 256,
+        "x": 1408,
+        "y": 3328,
         "v": "Retro Exclamation Block!",
         "l": "exclamation_retro"
     },
@@ -12490,8 +12589,8 @@ var icondata = [
         "i": "female_body",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 384,
+        "x": 1280,
+        "y": 3328,
         "v": "? female_body",
         "l": "female_body"
     },
@@ -12501,8 +12600,8 @@ var icondata = [
         "i": "female_hair_00",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 512,
+        "x": 1152,
+        "y": 3328,
         "v": "? female_hair_00",
         "l": "female_hair_00"
     },
@@ -12512,7 +12611,7 @@ var icondata = [
         "i": "female_hair_01",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 1024,
         "y": 3328,
         "v": "? female_hair_01",
         "l": "female_hair_01"
@@ -12523,8 +12622,8 @@ var icondata = [
         "i": "female_hair_02",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 640,
+        "x": 896,
+        "y": 3328,
         "v": "? female_hair_02",
         "l": "female_hair_02"
     },
@@ -12534,8 +12633,8 @@ var icondata = [
         "i": "female_hair_03",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 896,
+        "x": 768,
+        "y": 3328,
         "v": "? female_hair_03",
         "l": "female_hair_03"
     },
@@ -12546,7 +12645,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1024,
+        "y": 0,
         "v": "? female_hair_04",
         "l": "female_hair_04"
     },
@@ -12557,7 +12656,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1152,
+        "y": 128,
         "v": "? female_hair_05",
         "l": "female_hair_05"
     },
@@ -12568,7 +12667,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1280,
+        "y": 256,
         "v": "? female_hair_06",
         "l": "female_hair_06"
     },
@@ -12579,7 +12678,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1408,
+        "y": 384,
         "v": "? female_hair_07",
         "l": "female_hair_07"
     },
@@ -12590,7 +12689,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1536,
+        "y": 512,
         "v": "? female_hair_08",
         "l": "female_hair_08"
     },
@@ -12601,7 +12700,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1664,
+        "y": 640,
         "v": "? female_hair_09",
         "l": "female_hair_09"
     },
@@ -12612,7 +12711,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1792,
+        "y": 768,
         "v": "? female_head_01",
         "l": "female_head_01"
     },
@@ -12623,7 +12722,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 640,
-        "y": 1920,
+        "y": 896,
         "v": "? female_head_02",
         "l": "female_head_02"
     },
@@ -12633,8 +12732,8 @@ var icondata = [
         "i": "female_head_03",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2048,
+        "x": 1792,
+        "y": 3200,
         "v": "? female_head_03",
         "l": "female_head_03"
     },
@@ -12644,8 +12743,8 @@ var icondata = [
         "i": "female_head_04",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2176,
+        "x": 896,
+        "y": 896,
         "v": "? female_head_04",
         "l": "female_head_04"
     },
@@ -12655,8 +12754,8 @@ var icondata = [
         "i": "female_head_05",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2304,
+        "x": 896,
+        "y": 768,
         "v": "? female_head_05",
         "l": "female_head_05"
     },
@@ -12666,8 +12765,8 @@ var icondata = [
         "i": "fence_spooky",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2432,
+        "x": 896,
+        "y": 640,
         "v": "Spooky Fence",
         "l": "fence_spooky"
     },
@@ -12677,8 +12776,8 @@ var icondata = [
         "i": "filet_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 2560,
+        "x": 1152,
+        "y": 1408,
         "v": "Filet o' Karrotfish",
         "l": "filet_o_karrotfish"
     },
@@ -12688,8 +12787,8 @@ var icondata = [
         "i": "filter_item",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 3328,
+        "x": 1152,
+        "y": 1280,
         "v": "Item Sorter",
         "l": "filter_item"
     },
@@ -12699,8 +12798,8 @@ var icondata = [
         "i": "flashlight_babyleafi",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2944,
+        "x": 1152,
+        "y": 1152,
         "v": "Baby Leafi Flashlight",
         "l": "cosmetic_sparc_illumination_baby_leafi"
     },
@@ -12710,8 +12809,8 @@ var icondata = [
         "i": "flashlight_reaudolph",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 640,
+        "x": 1152,
+        "y": 1024,
         "v": "Reaudolph Flashlight",
         "l": "cosmetic_sparc_illumination_reaudolph"
     },
@@ -12721,8 +12820,8 @@ var icondata = [
         "i": "floor_linoleum_tile",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2816,
+        "x": 1152,
+        "y": 896,
         "v": "Ornate Patterned Tile Floor",
         "l": "floor_linoleum_tile"
     },
@@ -12733,7 +12832,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2560,
+        "y": 768,
         "v": "White Wood Floor",
         "l": "floor_wood_white"
     },
@@ -12744,7 +12843,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1152,
-        "y": 2688,
+        "y": 512,
         "v": "Poinsettia",
         "l": "flower_poinsettia"
     },
@@ -12754,7 +12853,7 @@ var icondata = [
         "i": "flower_retro",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 1536,
         "y": 2816,
         "v": "Fab Flower",
         "l": "flower_retro"
@@ -12765,8 +12864,8 @@ var icondata = [
         "i": "flytrap_retro",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 2944,
+        "x": 1152,
+        "y": 384,
         "v": "Fanged Flytrap",
         "l": "flytrap_retro"
     },
@@ -12776,8 +12875,8 @@ var icondata = [
         "i": "food_baked_hog",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 2944,
+        "x": 1152,
+        "y": 256,
         "v": "Heavenly Baked Hog",
         "l": "food_baked_hog"
     },
@@ -12787,8 +12886,8 @@ var icondata = [
         "i": "food_cake_shrew",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 2944,
+        "x": 1152,
+        "y": 128,
         "v": "Poisonous Pastry",
         "l": "food_cake_shrew"
     },
@@ -12798,8 +12897,8 @@ var icondata = [
         "i": "food_egg_skillet",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 2944,
+        "x": 1152,
+        "y": 0,
         "v": "Eggsellent Egg Skillet",
         "l": "food_egg_skillet"
     },
@@ -12809,8 +12908,8 @@ var icondata = [
         "i": "food_rotisserie_chizzard",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 2944,
+        "x": 1280,
+        "y": 2816,
         "v": "Exquisite Roast Bird",
         "l": "food_rotisserie_chizzard"
     },
@@ -12820,8 +12919,8 @@ var icondata = [
         "i": "food_sushi_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 2944,
+        "x": 1408,
+        "y": 2816,
         "v": "Scrumptious Sushi Spread",
         "l": "food_sushi_karrotfish"
     },
@@ -12831,8 +12930,8 @@ var icondata = [
         "i": "galactichunter_arms",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 2944,
+        "x": 1152,
+        "y": 1536,
         "v": "Galactic Hunter Arms",
         "l": "cosmetic_galactichunter_arms"
     },
@@ -12842,8 +12941,8 @@ var icondata = [
         "i": "galactichunter_body",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 2944,
+        "x": 1152,
+        "y": 1664,
         "v": "Galactic Hunter Body",
         "l": "cosmetic_galactichunter_body"
     },
@@ -12853,8 +12952,8 @@ var icondata = [
         "i": "galactichunter_gauntlet",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 2944,
+        "x": 1152,
+        "y": 1792,
         "v": "Galactic Hunter Gauntlet",
         "l": "cosmetic_galactichunter_gauntlet"
     },
@@ -12864,8 +12963,8 @@ var icondata = [
         "i": "galactichunter_head",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 2944,
+        "x": 1152,
+        "y": 1920,
         "v": "Galactic Hunter Head",
         "l": "cosmetic_galactichunter_head"
     },
@@ -12875,8 +12974,8 @@ var icondata = [
         "i": "galactichunter_jumppack",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 2944,
+        "x": 1152,
+        "y": 2048,
         "v": "Rocket-Powered",
         "l": "jump_pack_power_medium"
     },
@@ -12886,8 +12985,8 @@ var icondata = [
         "i": "galactichunter_legs",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2944,
+        "x": 1152,
+        "y": 2176,
         "v": "Galactic Hunter Legs",
         "l": "cosmetic_galactichunter_legs"
     },
@@ -12897,8 +12996,8 @@ var icondata = [
         "i": "gamer_drink",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 2944,
+        "x": 1152,
+        "y": 2304,
         "v": "Rambrew Soda",
         "l": "gamer_drink"
     },
@@ -12908,8 +13007,8 @@ var icondata = [
         "i": "gamer_joystick",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2944,
+        "x": 1152,
+        "y": 2432,
         "v": "Galactic Gamer Joystick",
         "l": "gamer_joystick"
     },
@@ -12919,8 +13018,8 @@ var icondata = [
         "i": "gamer_keyboard",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2944,
+        "x": 1152,
+        "y": 2560,
         "v": "Galactic Gamer Keyboard",
         "l": "gamer_keyboard"
     },
@@ -12930,8 +13029,8 @@ var icondata = [
         "i": "gamer_monitor",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2944,
+        "x": 1152,
+        "y": 2688,
         "v": "Galactic Gamer Monitor",
         "l": "gamer_monitor"
     },
@@ -12941,8 +13040,8 @@ var icondata = [
         "i": "gate_spooky",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2944,
+        "x": 1152,
+        "y": 2816,
         "v": "Spooky Gate",
         "l": "gate_spooky"
     },
@@ -12952,7 +13051,7 @@ var icondata = [
         "i": "gauntlet_bronze",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 3968,
         "y": 2944,
         "v": "Bronze Focus",
         "l": "focus_bronze"
@@ -12963,7 +13062,7 @@ var icondata = [
         "i": "gauntlet_cozy",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 3840,
         "y": 2944,
         "v": "Polka Dot Mitten",
         "l": "cosmetic_focus_cozy"
@@ -12974,7 +13073,7 @@ var icondata = [
         "i": "gauntlet_diamond",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 3712,
         "y": 2944,
         "v": "Diamond Mining Cell",
         "l": "focus_diamond"
@@ -12985,7 +13084,7 @@ var icondata = [
         "i": "gauntlet_ghost",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 3584,
         "y": 2944,
         "v": "Death's Touch",
         "l": "cosmetic_focus_ghost"
@@ -12996,7 +13095,7 @@ var icondata = [
         "i": "gauntlet_gold",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 3456,
         "y": 2944,
         "v": "Gold Focus",
         "l": "focus_gold"
@@ -13007,7 +13106,7 @@ var icondata = [
         "i": "gauntlet_iron",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 3328,
         "y": 2944,
         "v": "Iron Mining Cell",
         "l": "focus_iron"
@@ -13018,8 +13117,8 @@ var icondata = [
         "i": "gauntlet_lumite",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 0,
+        "x": 1152,
+        "y": 640,
         "v": "Lumite Mining Cell",
         "l": "focus_lumite"
     },
@@ -13029,8 +13128,8 @@ var icondata = [
         "i": "gauntlet_mitten",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 128,
+        "x": 1792,
+        "y": 2816,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten"
     },
@@ -13040,8 +13139,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_01",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 256,
+        "x": 1280,
+        "y": 1792,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_01"
     },
@@ -13051,8 +13150,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_02",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 2432,
+        "x": 1920,
+        "y": 2816,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_02"
     },
@@ -13062,8 +13161,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_03",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 2304,
+        "x": 1280,
+        "y": 2560,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_03"
     },
@@ -13073,8 +13172,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_04",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 2176,
+        "x": 1280,
+        "y": 2432,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_04"
     },
@@ -13084,8 +13183,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_05",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 2048,
+        "x": 1280,
+        "y": 2304,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_05"
     },
@@ -13095,8 +13194,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_06",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 2816,
+        "x": 1280,
+        "y": 2176,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_06"
     },
@@ -13106,8 +13205,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_07",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 2816,
+        "x": 1280,
+        "y": 2048,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_07"
     },
@@ -13117,8 +13216,8 @@ var icondata = [
         "i": "gauntlet_mitten_streamer_08",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 2816,
+        "x": 1280,
+        "y": 1920,
         "v": "Winter Mitten",
         "l": "cosmetic_focus_mitten_streamer_08"
     },
@@ -13128,8 +13227,8 @@ var icondata = [
         "i": "gauntlet_monster",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 2816,
+        "x": 1280,
+        "y": 1664,
         "v": "The Hulking Hand",
         "l": "cosmetic_focus_monster"
     },
@@ -13139,8 +13238,8 @@ var icondata = [
         "i": "gauntlet_obsidian",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 2816,
+        "x": 1280,
+        "y": 768,
         "v": "Obsidian Mining Cell",
         "l": "focus_obsidian"
     },
@@ -13150,8 +13249,8 @@ var icondata = [
         "i": "gauntlet_powerglove",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 2816,
+        "x": 1280,
+        "y": 1536,
         "v": "Power Gauntlet",
         "l": "cosmetic_focus_powerglove"
     },
@@ -13161,8 +13260,8 @@ var icondata = [
         "i": "gauntlet_silver",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 2816,
+        "x": 1280,
+        "y": 1408,
         "v": "Silver Focus",
         "l": "focus_silver"
     },
@@ -13172,8 +13271,8 @@ var icondata = [
         "i": "gauntlet_stone",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 2816,
+        "x": 1280,
+        "y": 1280,
         "v": "Stone Mining Cell",
         "l": "focus_stone"
     },
@@ -13183,8 +13282,8 @@ var icondata = [
         "i": "gauntlet_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 2816,
+        "x": 1280,
+        "y": 1152,
         "v": "Frost Gauntlet",
         "l": "cosmetic_focus_frost_trog"
     },
@@ -13194,8 +13293,8 @@ var icondata = [
         "i": "gauntlet_wood",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 2816,
+        "x": 1280,
+        "y": 1024,
         "v": "Charged Wood Mining Cell",
         "l": "focus_wood_charged"
     },
@@ -13205,8 +13304,8 @@ var icondata = [
         "i": "glass_stained_apple",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 2816,
+        "x": 1280,
+        "y": 896,
         "v": "Apple Stained Glass",
         "l": "glass_stained_apple"
     },
@@ -13216,8 +13315,8 @@ var icondata = [
         "i": "glass_stained_cat",
         "w": 128,
         "h": 128,
-        "x": 1536,
-        "y": 2816,
+        "x": 1280,
+        "y": 2688,
         "v": "Cat Stained Glass",
         "l": "glass_stained_cat"
     },
@@ -13227,7 +13326,7 @@ var icondata = [
         "i": "glider_angelwings",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 3968,
         "y": 2816,
         "v": "Angel Wings",
         "l": "cosmetic_glider_angel"
@@ -13238,7 +13337,7 @@ var icondata = [
         "i": "glider_bat",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 3840,
         "y": 2816,
         "v": "Bat Wings",
         "l": "cosmetic_glider_bat"
@@ -13249,7 +13348,7 @@ var icondata = [
         "i": "glider_female",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 3712,
         "y": 2816,
         "v": "? glider_female",
         "l": "glider_female"
@@ -13260,8 +13359,8 @@ var icondata = [
         "i": "glider_icon",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 0,
+        "x": 3584,
+        "y": 2816,
         "v": "Glider",
         "l": "cosmetic_glider_01"
     },
@@ -13271,8 +13370,8 @@ var icondata = [
         "i": "glider_icon_red",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 256,
+        "x": 3456,
+        "y": 2816,
         "v": "Hot Rod Glider",
         "l": "cosmetic_glider_02"
     },
@@ -13282,8 +13381,8 @@ var icondata = [
         "i": "glider_male",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 384,
+        "x": 3328,
+        "y": 2816,
         "v": "? glider_male",
         "l": "glider_male"
     },
@@ -13293,8 +13392,8 @@ var icondata = [
         "i": "glider_steampunk",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 512,
+        "x": 3200,
+        "y": 2816,
         "v": "Steam Glider",
         "l": "cosmetic_glider_steampunk"
     },
@@ -13304,8 +13403,8 @@ var icondata = [
         "i": "globgooorange",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 640,
+        "x": 3072,
+        "y": 2816,
         "v": "Glob of Goo",
         "l": "glob_goo_orange"
     },
@@ -13315,10 +13414,65 @@ var icondata = [
         "i": "globgoopurple",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 768,
+        "x": 2944,
+        "y": 2816,
         "v": "Glob of Goo",
         "l": "glob_goo_purple"
+    },
+    {
+        "s": "01",
+        "id": 538,
+        "i": "gold_band",
+        "w": 128,
+        "h": 128,
+        "x": 2816,
+        "y": 2816,
+        "v": "Gold Banding Wall",
+        "l": "gold_band"
+    },
+    {
+        "s": "01",
+        "id": 539,
+        "i": "gold_column",
+        "w": 128,
+        "h": 128,
+        "x": 2688,
+        "y": 2816,
+        "v": "Gold Column Wall",
+        "l": "gold_column"
+    },
+    {
+        "s": "01",
+        "id": 550,
+        "i": "gold_slab",
+        "w": 128,
+        "h": 128,
+        "x": 2560,
+        "y": 2816,
+        "v": "Gold Slab",
+        "l": "gold_slab"
+    },
+    {
+        "s": "01",
+        "id": 540,
+        "i": "gold_swirl",
+        "w": 128,
+        "h": 128,
+        "x": 2432,
+        "y": 2816,
+        "v": "Gold Swirl",
+        "l": "gold_swirl"
+    },
+    {
+        "s": "01",
+        "id": 541,
+        "i": "gold_wave",
+        "w": 128,
+        "h": 128,
+        "x": 2304,
+        "y": 2816,
+        "v": "Gold Column Cap",
+        "l": "gold_wave"
     },
     {
         "s": "01",
@@ -13326,8 +13480,8 @@ var icondata = [
         "i": "grass_retro",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 896,
+        "x": 2176,
+        "y": 2816,
         "v": "Retro Grass",
         "l": "grass_retro"
     },
@@ -13337,10 +13491,32 @@ var icondata = [
         "i": "gravestone_haunted_02",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1024,
+        "x": 2048,
+        "y": 2816,
         "v": "Spooky Haunted Gravestone",
         "l": "gravestone_haunted_02"
+    },
+    {
+        "s": "01",
+        "id": 537,
+        "i": "hat_beret",
+        "w": 128,
+        "h": 128,
+        "x": 3200,
+        "y": 2944,
+        "v": "Toolmaker Hat",
+        "l": "cosmetic_toolmaker_hat"
+    },
+    {
+        "s": "01",
+        "id": 534,
+        "i": "hat_soldier",
+        "w": 128,
+        "h": 128,
+        "x": 1664,
+        "y": 2816,
+        "v": "Explosives Expert Hat",
+        "l": "cosmetic_explosivesexpert_hat"
     },
     {
         "s": "01",
@@ -13348,8 +13524,8 @@ var icondata = [
         "i": "haunted_book",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1152,
+        "x": 3072,
+        "y": 2944,
         "v": "Haunted Grimoire",
         "l": "haunted_book"
     },
@@ -13359,8 +13535,8 @@ var icondata = [
         "i": "head_chizzard",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1280,
+        "x": 1024,
+        "y": 2560,
         "v": "Chizzard Head Costume",
         "l": "cosmetic_head_chizzard"
     },
@@ -13370,8 +13546,8 @@ var icondata = [
         "i": "head_horse",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1408,
+        "x": 2560,
+        "y": 3072,
         "v": "Mr. Wilson Costume",
         "l": "cosmetic_head_horse"
     },
@@ -13381,8 +13557,8 @@ var icondata = [
         "i": "head_leafi",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1536,
+        "x": 2688,
+        "y": 3072,
         "v": "Leafi Head Costume",
         "l": "cosmetic_head_leafi"
     },
@@ -13392,8 +13568,8 @@ var icondata = [
         "i": "head_pigsy",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1664,
+        "x": 2816,
+        "y": 3072,
         "v": "Pigsy Head Costume",
         "l": "cosmetic_head_pigsy"
     },
@@ -13403,8 +13579,8 @@ var icondata = [
         "i": "head_reaudolph",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1792,
+        "x": 2944,
+        "y": 3072,
         "v": "Reaudolph Head Costume",
         "l": "cosmetic_head_reaudolph"
     },
@@ -13414,8 +13590,8 @@ var icondata = [
         "i": "head_trog_frost",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 1920,
+        "x": 3072,
+        "y": 3072,
         "v": "Frost Trog Head",
         "l": "cosmetic_head_frost_trog"
     },
@@ -13425,8 +13601,8 @@ var icondata = [
         "i": "head_unicorn",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 384,
+        "x": 3200,
+        "y": 3072,
         "v": "Unicorn Head",
         "l": "cosmetic_head_unicorn"
     },
@@ -13436,8 +13612,8 @@ var icondata = [
         "i": "head_wukong",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 128,
+        "x": 3456,
+        "y": 3072,
         "v": "Monkey King Head",
         "l": "cosmetic_head_wukong"
     },
@@ -13448,7 +13624,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 512,
+        "y": 2688,
         "v": "Destroyer Suit Head",
         "l": "cosmetic_head_destroyer"
     },
@@ -13458,8 +13634,8 @@ var icondata = [
         "i": "helmet_diamond",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 2816,
+        "x": 3584,
+        "y": 3072,
         "v": "First Fantasy Head",
         "l": "cosmetic_helmet_diamond"
     },
@@ -13469,7 +13645,7 @@ var icondata = [
         "i": "helmet_iron",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 3712,
         "y": 3072,
         "v": "Metal Mk I Head",
         "l": "cosmetic_helmet_iron"
@@ -13480,7 +13656,7 @@ var icondata = [
         "i": "helmet_leather",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 3840,
         "y": 3072,
         "v": "Fury Warrior Head",
         "l": "cosmetic_helmet_leather"
@@ -13491,7 +13667,7 @@ var icondata = [
         "i": "helmet_lumite",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 3968,
         "y": 3072,
         "v": "Master Creator Head",
         "l": "cosmetic_helmet_lumite"
@@ -13502,8 +13678,8 @@ var icondata = [
         "i": "helmet_obsidian",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 3072,
+        "x": 1024,
+        "y": 2944,
         "v": "Electro Cycle Head",
         "l": "cosmetic_helmet_obsidian"
     },
@@ -13513,8 +13689,8 @@ var icondata = [
         "i": "holiday_bed_candycane",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 3072,
+        "x": 1024,
+        "y": 2816,
         "v": "Candycane Bed",
         "l": "holiday_bed_candycane"
     },
@@ -13524,7 +13700,7 @@ var icondata = [
         "i": "holiday_bed_giftwrap",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 2432,
         "y": 3072,
         "v": "Giftwrapped Bed",
         "l": "holiday_bed_giftwrap"
@@ -13535,7 +13711,7 @@ var icondata = [
         "i": "holiday_bed_plaid",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 2304,
         "y": 3072,
         "v": "Plaid Bed",
         "l": "holiday_bed_plaid"
@@ -13546,8 +13722,8 @@ var icondata = [
         "i": "holiday_carpet_beige",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 0,
+        "x": 2176,
+        "y": 3072,
         "v": "Beige Holiday Carpet",
         "l": "holiday_carpet_beige"
     },
@@ -13557,8 +13733,8 @@ var icondata = [
         "i": "holiday_carpet_dark_beige",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 128,
+        "x": 2048,
+        "y": 3072,
         "v": "Dark Beige Holiday Carpet",
         "l": "holiday_carpet_dark_beige"
     },
@@ -13568,8 +13744,8 @@ var icondata = [
         "i": "holiday_carpet_dark_grey",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 256,
+        "x": 1920,
+        "y": 3072,
         "v": "Dark Grey Holiday Carpet",
         "l": "holiday_carpet_dark_grey"
     },
@@ -13579,8 +13755,8 @@ var icondata = [
         "i": "holiday_carpet_grey",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 384,
+        "x": 1792,
+        "y": 3072,
         "v": "Grey Holiday Carpet",
         "l": "holiday_carpet_grey"
     },
@@ -13590,8 +13766,8 @@ var icondata = [
         "i": "holiday_fireplace",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 512,
+        "x": 1664,
+        "y": 3072,
         "v": "Red Brick Fireplace",
         "l": "holiday_fireplace"
     },
@@ -13601,8 +13777,8 @@ var icondata = [
         "i": "holiday_fireplace_white",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 640,
+        "x": 1536,
+        "y": 3072,
         "v": "White Brick Fireplace",
         "l": "holiday_fireplace_white"
     },
@@ -13612,8 +13788,8 @@ var icondata = [
         "i": "holiday_garland",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 768,
+        "x": 1408,
+        "y": 3072,
         "v": "Holiday Garland",
         "l": "holiday_garland"
     },
@@ -13623,8 +13799,8 @@ var icondata = [
         "i": "holiday_giftwrap_blue",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 896,
+        "x": 1280,
+        "y": 3072,
         "v": "Blue Giftwrap Block",
         "l": "holiday_giftwrap_blue"
     },
@@ -13634,8 +13810,8 @@ var icondata = [
         "i": "holiday_giftwrap_candycane",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1024,
+        "x": 1152,
+        "y": 3072,
         "v": "Candycane Giftwrap Block",
         "l": "holiday_giftwrap_candycane"
     },
@@ -13645,8 +13821,8 @@ var icondata = [
         "i": "holiday_giftwrap_green",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1152,
+        "x": 1024,
+        "y": 3072,
         "v": "Green Giftwrap Block",
         "l": "holiday_giftwrap_green"
     },
@@ -13657,7 +13833,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1280,
+        "y": 0,
         "v": "Red Giftwrap Block",
         "l": "holiday_giftwrap_red"
     },
@@ -13668,7 +13844,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1408,
+        "y": 128,
         "v": "Red Ornament",
         "l": "holiday_ornament_red"
     },
@@ -13679,7 +13855,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1536,
+        "y": 256,
         "v": "Holiday Mantle",
         "l": "holiday_shelf_wood_white"
     },
@@ -13690,7 +13866,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1664,
+        "y": 384,
         "v": "Blue Snowflake Glass",
         "l": "holiday_stained_glass_blue"
     },
@@ -13701,7 +13877,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 896,
-        "y": 1792,
+        "y": 512,
         "v": "Blue Star Glass",
         "l": "holiday_stained_glass_blue2"
     },
@@ -13711,8 +13887,8 @@ var icondata = [
         "i": "holiday_stained_glass_green",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 1920,
+        "x": 3328,
+        "y": 3072,
         "v": "Green Snowflake Glass",
         "l": "holiday_stained_glass_green"
     },
@@ -13722,8 +13898,8 @@ var icondata = [
         "i": "holiday_stained_glass_green2",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2048,
+        "x": 1024,
+        "y": 2432,
         "v": "Green Star Glass",
         "l": "holiday_stained_glass_green2"
     },
@@ -13733,8 +13909,8 @@ var icondata = [
         "i": "holiday_stained_glass_red",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2176,
+        "x": 1792,
+        "y": 2944,
         "v": "Red Snowflake Glass",
         "l": "holiday_stained_glass_red"
     },
@@ -13744,7 +13920,7 @@ var icondata = [
         "i": "holiday_stained_glass_red2",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 1024,
         "y": 2304,
         "v": "Red Star Glass",
         "l": "holiday_stained_glass_red2"
@@ -13755,8 +13931,8 @@ var icondata = [
         "i": "holiday_stained_glass_white",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2432,
+        "x": 1024,
+        "y": 0,
         "v": "White Snowflake Glass",
         "l": "holiday_stained_glass_white"
     },
@@ -13766,8 +13942,8 @@ var icondata = [
         "i": "holiday_stained_glass_white2",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2560,
+        "x": 1152,
+        "y": 2944,
         "v": "White Star Glass",
         "l": "holiday_stained_glass_white2"
     },
@@ -13777,8 +13953,8 @@ var icondata = [
         "i": "holiday_turtleneck_leafi",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 2688,
+        "x": 1280,
+        "y": 2944,
         "v": "Ugly Leafi Turtleneck",
         "l": "cosmetic_body_turtleneck_leafi"
     },
@@ -13788,8 +13964,8 @@ var icondata = [
         "i": "holiday_wall_brick",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 3072,
+        "x": 1408,
+        "y": 2944,
         "v": "Red Brick Wall",
         "l": "holiday_wall_brick"
     },
@@ -13799,8 +13975,8 @@ var icondata = [
         "i": "holiday_wall_brick_white",
         "w": 128,
         "h": 128,
-        "x": 2048,
-        "y": 3072,
+        "x": 1536,
+        "y": 2944,
         "v": "White Brick Wall",
         "l": "holiday_wall_brick_white"
     },
@@ -13810,8 +13986,8 @@ var icondata = [
         "i": "holiday_window",
         "w": 128,
         "h": 128,
-        "x": 2176,
-        "y": 3072,
+        "x": 1664,
+        "y": 2944,
         "v": "Holiday Window",
         "l": "holiday_window"
     },
@@ -13821,8 +13997,8 @@ var icondata = [
         "i": "holiday_wreath",
         "w": 128,
         "h": 128,
-        "x": 2304,
-        "y": 3072,
+        "x": 1920,
+        "y": 2944,
         "v": "Holiday Wreath",
         "l": "holiday_wreath"
     },
@@ -13832,8 +14008,8 @@ var icondata = [
         "i": "hotel_bed",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 896,
+        "x": 2816,
+        "y": 2944,
         "v": "Majestifying Mattress",
         "l": "hotel_bed"
     },
@@ -13843,8 +14019,8 @@ var icondata = [
         "i": "hotel_cabinets",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1024,
+        "x": 2048,
+        "y": 2944,
         "v": "Cabernatious Cabinets",
         "l": "hotel_cabinets"
     },
@@ -13854,8 +14030,8 @@ var icondata = [
         "i": "hotel_chair",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1152,
+        "x": 2176,
+        "y": 2944,
         "v": "Cherishizing Chair",
         "l": "hotel_chair"
     },
@@ -13865,8 +14041,8 @@ var icondata = [
         "i": "hotel_chandelier",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1280,
+        "x": 2304,
+        "y": 2944,
         "v": "Charmacious Chandelier",
         "l": "hotel_chandelier"
     },
@@ -13876,8 +14052,8 @@ var icondata = [
         "i": "hotel_couch",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1408,
+        "x": 2432,
+        "y": 2944,
         "v": "Cushceptional Couch",
         "l": "hotel_couch"
     },
@@ -13887,8 +14063,8 @@ var icondata = [
         "i": "hotel_couch_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1536,
+        "x": 2560,
+        "y": 2944,
         "v": "Curvaciously Cushceptional Couch",
         "l": "hotel_couch_corner"
     },
@@ -13898,8 +14074,8 @@ var icondata = [
         "i": "hotel_couch_ottoman",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 1664,
+        "x": 2688,
+        "y": 2944,
         "v": "Ostenduring Ottoman",
         "l": "hotel_couch_ottoman"
     },
@@ -13910,7 +14086,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1792,
+        "y": 128,
         "v": "Customazing Curtains",
         "l": "hotel_curtain"
     },
@@ -13921,7 +14097,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 1920,
+        "y": 256,
         "v": "Decorgeous Door",
         "l": "hotel_door"
     },
@@ -13932,7 +14108,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2048,
+        "y": 384,
         "v": "Deluxrative Dresser",
         "l": "hotel_dresser"
     },
@@ -13943,7 +14119,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2176,
+        "y": 512,
         "v": "Comfavorited Carpet",
         "l": "hotel_floor"
     },
@@ -13954,7 +14130,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2304,
+        "y": 640,
         "v": "Beautacular Bouquet",
         "l": "hotel_flower"
     },
@@ -13965,7 +14141,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2432,
+        "y": 768,
         "v": "Jaunstounding Jabot",
         "l": "hotel_jabot"
     },
@@ -13976,7 +14152,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2560,
+        "y": 896,
         "v": "Elongracing Luxurousity Lamp",
         "l": "hotel_lamp_standing"
     },
@@ -13987,7 +14163,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 768,
+        "y": 1024,
         "v": "Luxurousity Lamp",
         "l": "hotel_torch"
     },
@@ -13998,7 +14174,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2688,
+        "y": 1152,
         "v": "Wonderfulfilling Wallpaper",
         "l": "hotel_wall"
     },
@@ -14009,7 +14185,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 1024,
-        "y": 2944,
+        "y": 1280,
         "v": "Wonderfulfilling Wood Wall",
         "l": "hotel_wall_base"
     },
@@ -14019,8 +14195,8 @@ var icondata = [
         "i": "hotel_wall_trim",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 3072,
+        "x": 1024,
+        "y": 1408,
         "v": "Wonderfulfilling Wallpaper Trim",
         "l": "hotel_wall_trim"
     },
@@ -14030,8 +14206,8 @@ var icondata = [
         "i": "igneous_sulfur",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3072,
+        "x": 1024,
+        "y": 1536,
         "v": "Sulfur",
         "l": "sulfur_item"
     },
@@ -14041,8 +14217,8 @@ var icondata = [
         "i": "industrial_barrel01",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3072,
+        "x": 1024,
+        "y": 1664,
         "v": "Industrial Safety Drum",
         "l": "industrial_barrel01"
     },
@@ -14052,8 +14228,8 @@ var icondata = [
         "i": "industrial_barrel02",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 3072,
+        "x": 1024,
+        "y": 1792,
         "v": "Industrial Modern Barrel",
         "l": "industrial_barrel02"
     },
@@ -14063,8 +14239,8 @@ var icondata = [
         "i": "industrial_barrel03",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 3072,
+        "x": 1024,
+        "y": 1920,
         "v": "Industrial Classic Barrel",
         "l": "industrial_barrel03"
     },
@@ -14074,8 +14250,8 @@ var icondata = [
         "i": "industrial_barricade",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 3072,
+        "x": 1024,
+        "y": 2048,
         "v": "Industrial Barrier",
         "l": "industrial_barricade"
     },
@@ -14085,8 +14261,8 @@ var icondata = [
         "i": "industrial_cone",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 3072,
+        "x": 1024,
+        "y": 2176,
         "v": "Industrial Safety Cone",
         "l": "industrial_cone"
     },
@@ -14096,8 +14272,8 @@ var icondata = [
         "i": "kitchen_cabinet",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 3072,
+        "x": 2048,
+        "y": 3456,
         "v": "Better Home Cabinet",
         "l": "kitchen_cabinet"
     },
@@ -14108,7 +14284,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 2944,
-        "y": 3072,
+        "y": 2944,
         "v": "Better Home Refrigerator",
         "l": "kitchen_fridge"
     },
@@ -14118,8 +14294,8 @@ var icondata = [
         "i": "kitchen_percolator",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 3072,
+        "x": 1920,
+        "y": 3456,
         "v": "Better Home Coffee Maker",
         "l": "kitchen_percolator"
     },
@@ -14129,8 +14305,8 @@ var icondata = [
         "i": "kitchen_range",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 3072,
+        "x": 384,
+        "y": 512,
         "v": "Better Home Range",
         "l": "kitchen_range"
     },
@@ -14140,8 +14316,8 @@ var icondata = [
         "i": "kitchen_sink",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 3072,
+        "x": 128,
+        "y": 768,
         "v": "Better Home Kitchen Sink",
         "l": "kitchen_sink"
     },
@@ -14151,8 +14327,8 @@ var icondata = [
         "i": "kitchen_toaster",
         "w": 128,
         "h": 128,
-        "x": 2432,
-        "y": 3072,
+        "x": 128,
+        "y": 640,
         "v": "Better Home Pop-Up Toaster",
         "l": "kitchen_toaster"
     },
@@ -14162,10 +14338,21 @@ var icondata = [
         "i": "lantern_chinese_dog",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 0,
+        "x": 128,
+        "y": 512,
         "v": "Year of the Dog Lantern",
         "l": "lantern_chinese_dog"
+    },
+    {
+        "s": "01",
+        "id": 548,
+        "i": "lantern_chinese_ox",
+        "w": 128,
+        "h": 128,
+        "x": 128,
+        "y": 384,
+        "v": "Year of the Ox lantern",
+        "l": "lantern_chinese_ox"
     },
     {
         "s": "01",
@@ -14173,8 +14360,8 @@ var icondata = [
         "i": "lantern_chinese_pig",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 128,
+        "x": 128,
+        "y": 256,
         "v": "Year of the Pig Lantern",
         "l": "lantern_chinese_pigsy"
     },
@@ -14184,8 +14371,8 @@ var icondata = [
         "i": "lantern_chinese_rat",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 256,
+        "x": 128,
+        "y": 128,
         "v": "Year of the Rat Lantern",
         "l": "lantern_chinese_rat"
     },
@@ -14195,8 +14382,8 @@ var icondata = [
         "i": "lava_retro",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1664,
+        "x": 256,
+        "y": 3840,
         "v": "Retro Hardened Lava",
         "l": "lava_retro"
     },
@@ -14206,7 +14393,7 @@ var icondata = [
         "i": "leaf_autumnwood_fallen",
         "w": 128,
         "h": 128,
-        "x": 384,
+        "x": 1152,
         "y": 3840,
         "v": "Fallen Leaves",
         "l": "leaves_autumn_fallen"
@@ -14217,7 +14404,7 @@ var icondata = [
         "i": "leaves_retro",
         "w": 128,
         "h": 128,
-        "x": 256,
+        "x": 384,
         "y": 3840,
         "v": "Retro Leaves",
         "l": "leaves_retro"
@@ -14228,8 +14415,8 @@ var icondata = [
         "i": "led_holiday_tree",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 0,
+        "x": 512,
+        "y": 3840,
         "v": "LED Tree Block",
         "l": "led_holiday_tree"
     },
@@ -14239,8 +14426,8 @@ var icondata = [
         "i": "leggings_diamond",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 128,
+        "x": 640,
+        "y": 3840,
         "v": "Diamond Leggings",
         "l": "leggings_diamond"
     },
@@ -14250,8 +14437,8 @@ var icondata = [
         "i": "leggings_iron",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 256,
+        "x": 768,
+        "y": 3840,
         "v": "Iron Leggings",
         "l": "leggings_iron"
     },
@@ -14261,8 +14448,8 @@ var icondata = [
         "i": "leggings_leather",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 384,
+        "x": 896,
+        "y": 3840,
         "v": "Leather Leggings",
         "l": "leggings_leather"
     },
@@ -14272,8 +14459,8 @@ var icondata = [
         "i": "leggings_lumite",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 512,
+        "x": 1024,
+        "y": 3840,
         "v": "Lumite Leggings",
         "l": "leggings_lumite"
     },
@@ -14284,7 +14471,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 640,
+        "y": 896,
         "v": "Obsidian Leggings",
         "l": "leggings_obsidian"
     },
@@ -14295,7 +14482,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 768,
+        "y": 1024,
         "v": "Destroyer Suit Legs",
         "l": "cosmetic_legs_destroyer"
     },
@@ -14306,7 +14493,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 896,
+        "y": 1152,
         "v": "First Fantasy Legs",
         "l": "cosmetic_legs_diamond"
     },
@@ -14317,7 +14504,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1024,
+        "y": 1280,
         "v": "Metal Mk I Legs",
         "l": "cosmetic_legs_iron"
     },
@@ -14328,7 +14515,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1152,
+        "y": 1408,
         "v": "Fury Warrior Legs",
         "l": "cosmetic_legs_leather"
     },
@@ -14339,7 +14526,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1280,
+        "y": 1536,
         "v": "Master Creator Legs",
         "l": "cosmetic_legs_lumite"
     },
@@ -14350,7 +14537,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1408,
+        "y": 1664,
         "v": "Electro Cycle Legs",
         "l": "cosmetic_legs_obsidian"
     },
@@ -14361,7 +14548,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1536,
+        "y": 1792,
         "v": "Frost Trog Legs",
         "l": "cosmetic_legs_frost_trog"
     },
@@ -14372,7 +14559,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1664,
+        "y": 1920,
         "v": "Unicorn Legs",
         "l": "cosmetic_legs_unicorn"
     },
@@ -14383,7 +14570,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1792,
+        "y": 2048,
         "v": "Monkey King Legs",
         "l": "cosmetic_legs_wukong"
     },
@@ -14394,7 +14581,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 1920,
+        "y": 2176,
         "v": "Counter",
         "l": "logic_counter"
     },
@@ -14405,7 +14592,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2048,
+        "y": 2304,
         "v": "Random Number Generator",
         "l": "logic_rng"
     },
@@ -14416,7 +14603,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2176,
+        "y": 2432,
         "v": "? male_body",
         "l": "male_body"
     },
@@ -14427,7 +14614,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2304,
+        "y": 2560,
         "v": "? male_hair_00",
         "l": "male_hair_00"
     },
@@ -14438,7 +14625,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2432,
+        "y": 2688,
         "v": "? male_hair_01",
         "l": "male_hair_01"
     },
@@ -14449,7 +14636,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2560,
+        "y": 2816,
         "v": "? male_hair_02",
         "l": "male_hair_02"
     },
@@ -14460,7 +14647,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2688,
+        "y": 2944,
         "v": "? male_hair_03",
         "l": "male_hair_03"
     },
@@ -14471,7 +14658,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 128,
-        "y": 2816,
+        "y": 0,
         "v": "? male_hair_04",
         "l": "male_hair_04"
     },
@@ -14481,8 +14668,8 @@ var icondata = [
         "i": "male_hair_05",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 2944,
+        "x": 1408,
+        "y": 3840,
         "v": "? male_hair_05",
         "l": "male_hair_05"
     },
@@ -14492,8 +14679,8 @@ var icondata = [
         "i": "male_hair_06",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3072,
+        "x": 256,
+        "y": 3200,
         "v": "? male_hair_06",
         "l": "male_hair_06"
     },
@@ -14503,8 +14690,8 @@ var icondata = [
         "i": "male_hair_07",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3200,
+        "x": 1536,
+        "y": 3840,
         "v": "? male_hair_07",
         "l": "male_hair_07"
     },
@@ -14514,8 +14701,8 @@ var icondata = [
         "i": "male_hair_08",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3328,
+        "x": 3840,
+        "y": 3840,
         "v": "? male_hair_08",
         "l": "male_hair_08"
     },
@@ -14525,7 +14712,7 @@ var icondata = [
         "i": "male_hair_09",
         "w": 128,
         "h": 128,
-        "x": 512,
+        "x": 3968,
         "y": 3840,
         "v": "? male_hair_09",
         "l": "male_hair_09"
@@ -14536,8 +14723,8 @@ var icondata = [
         "i": "male_head_01",
         "w": 128,
         "h": 128,
-        "x": 640,
-        "y": 3840,
+        "x": 256,
+        "y": 3712,
         "v": "? male_head_01",
         "l": "male_head_01"
     },
@@ -14547,8 +14734,8 @@ var icondata = [
         "i": "male_head_02",
         "w": 128,
         "h": 128,
-        "x": 768,
-        "y": 3840,
+        "x": 256,
+        "y": 3584,
         "v": "? male_head_02",
         "l": "male_head_02"
     },
@@ -14558,8 +14745,8 @@ var icondata = [
         "i": "male_head_03",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 3840,
+        "x": 256,
+        "y": 3456,
         "v": "? male_head_03",
         "l": "male_head_03"
     },
@@ -14570,7 +14757,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 3072,
+        "y": 3328,
         "v": "? male_head_04",
         "l": "male_head_04"
     },
@@ -14581,7 +14768,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 3200,
+        "y": 3072,
         "v": "? male_head_05",
         "l": "male_head_05"
     },
@@ -14592,7 +14779,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 3328,
+        "y": 2176,
         "v": "Haunted Mirror",
         "l": "mirror_haunted"
     },
@@ -14603,7 +14790,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 3456,
+        "y": 2944,
         "v": "Baby Leafi Summoner",
         "l": "summoner_baby_leafi"
     },
@@ -14614,7 +14801,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 3584,
+        "y": 2816,
         "v": "BossHog Summoner",
         "l": "summoner_bosshog"
     },
@@ -14625,7 +14812,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 3712,
+        "y": 2688,
         "v": "Clarice, Eternal Ominous Hog Summoner",
         "l": "summoner_bosshog_ghost_boss"
     },
@@ -14635,8 +14822,8 @@ var icondata = [
         "i": "mob_chizzard",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 3840,
+        "x": 256,
+        "y": 2560,
         "v": "Chizzard Summoner",
         "l": "summoner_chizzard"
     },
@@ -14646,8 +14833,8 @@ var icondata = [
         "i": "mob_chizzard_arctic",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3840,
+        "x": 256,
+        "y": 2432,
         "v": "Blizzard Chizzard Summoner",
         "l": "summoner_chizzard_blizzard"
     },
@@ -14657,8 +14844,8 @@ var icondata = [
         "i": "mob_chizzard_corrupted",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3840,
+        "x": 256,
+        "y": 2304,
         "v": "Corrupted Chizzard Summoner",
         "l": "summoner_corrupted_chizzard"
     },
@@ -14668,7 +14855,7 @@ var icondata = [
         "i": "mob_chizzard_ghost",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3712,
         "y": 3840,
         "v": "Ghost Chizzard Summoner",
         "l": "summoner_chizzard_ghost"
@@ -14679,7 +14866,7 @@ var icondata = [
         "i": "mob_chizzard_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3584,
         "y": 3840,
         "v": "Poultry-geist Summoner",
         "l": "summoner_chizzard_ghost_aggressive"
@@ -14690,7 +14877,7 @@ var icondata = [
         "i": "mob_chizzard_night",
         "w": 128,
         "h": 128,
-        "x": 3328,
+        "x": 3456,
         "y": 3840,
         "v": "Night Chizzard Summoner",
         "l": "summoner_chizzard_night"
@@ -14701,7 +14888,7 @@ var icondata = [
         "i": "mob_dustevil",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 3328,
         "y": 3840,
         "v": "Dustevil Summoner",
         "l": "summoner_dustevil"
@@ -14712,7 +14899,7 @@ var icondata = [
         "i": "mob_dustevil_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 3200,
         "y": 3840,
         "v": "Ghostevil Summoner",
         "l": "summoner_dustevil_ghost_aggressive"
@@ -14723,8 +14910,8 @@ var icondata = [
         "i": "mob_hoglet",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 2944,
+        "x": 3072,
+        "y": 3840,
         "v": "Night Hoglet Summoner",
         "l": "summoner_hoglet_night"
     },
@@ -14745,7 +14932,7 @@ var icondata = [
         "i": "mob_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 2816,
         "y": 3840,
         "v": "Karrotfish Summoner",
         "l": "summoner_karrotfish"
@@ -14756,7 +14943,7 @@ var icondata = [
         "i": "mob_keepa",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 2688,
         "y": 3840,
         "v": "Keepa Summoner",
         "l": "summoner_keepa_c"
@@ -14767,7 +14954,7 @@ var icondata = [
         "i": "mob_keepa_gold",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2560,
         "y": 3840,
         "v": "Golden Keepa Summoner",
         "l": "summoner_keepa_r"
@@ -14778,7 +14965,7 @@ var icondata = [
         "i": "mob_keepa_silver",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 2432,
         "y": 3840,
         "v": "Silver Keepa Summoner",
         "l": "summoner_keepa_uc"
@@ -14789,7 +14976,7 @@ var icondata = [
         "i": "mob_leafi",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 2304,
         "y": 3840,
         "v": "Leafi Summoner",
         "l": "summoner_leafi"
@@ -14800,7 +14987,7 @@ var icondata = [
         "i": "mob_leafi_autumn",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 2176,
         "y": 3840,
         "v": "Autumn Leafi Summoner",
         "l": "summoner_leafi_autumn"
@@ -14811,7 +14998,7 @@ var icondata = [
         "i": "mob_leafi_corrupted",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 2048,
         "y": 3840,
         "v": "Corrupted Leafi Summoner",
         "l": "summoner_corrupted_leafi"
@@ -14822,7 +15009,7 @@ var icondata = [
         "i": "mob_leafi_dried",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 1920,
         "y": 3840,
         "v": "Dried Leafi Summoner",
         "l": "summoner_leafi_desert"
@@ -14833,7 +15020,7 @@ var icondata = [
         "i": "mob_leafi_ghost",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 1792,
         "y": 3840,
         "v": "Ghost Leafi Summoner",
         "l": "summoner_leafi_ghost"
@@ -14844,7 +15031,7 @@ var icondata = [
         "i": "mob_leafi_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1664,
         "y": 3840,
         "v": "Eidoleafi Summoner",
         "l": "summoner_leafi_ghost_aggressive"
@@ -14855,8 +15042,8 @@ var icondata = [
         "i": "mob_leafi_mossy",
         "w": 128,
         "h": 128,
-        "x": 1408,
-        "y": 3840,
+        "x": 128,
+        "y": 3072,
         "v": "Mossy Leafi Summoner",
         "l": "summoner_leafi_swamp"
     },
@@ -14866,8 +15053,8 @@ var icondata = [
         "i": "mob_leafi_night",
         "w": 128,
         "h": 128,
-        "x": 1280,
-        "y": 3840,
+        "x": 128,
+        "y": 3200,
         "v": "Night Leafi Summoner",
         "l": "summoner_leafi_night"
     },
@@ -14877,8 +15064,8 @@ var icondata = [
         "i": "mob_miru",
         "w": 128,
         "h": 128,
-        "x": 1152,
-        "y": 3840,
+        "x": 128,
+        "y": 3328,
         "v": "Miru Summoner",
         "l": "summoner_miru"
     },
@@ -14888,8 +15075,8 @@ var icondata = [
         "i": "mob_miru_arctic",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 3840,
+        "x": 3456,
+        "y": 3968,
         "v": "Arctic Miru Summoner",
         "l": "summoner_miru_arctic"
     },
@@ -14899,8 +15086,8 @@ var icondata = [
         "i": "mob_miru_corrupted",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3456,
+        "x": 0,
+        "y": 128,
         "v": "Corrupted Miru Summoner",
         "l": "summoner_corrupted_miru"
     },
@@ -14910,8 +15097,8 @@ var icondata = [
         "i": "mob_miru_ghost",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3584,
+        "x": 0,
+        "y": 256,
         "v": "Ghost Miru Summoner",
         "l": "summoner_miru_ghost"
     },
@@ -14921,8 +15108,8 @@ var icondata = [
         "i": "mob_miru_ghost_red",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3712,
+        "x": 0,
+        "y": 384,
         "v": "Mirghoul Summoner",
         "l": "summoner_miru_ghost_aggressive"
     },
@@ -14933,7 +15120,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 0,
+        "y": 512,
         "v": "Parroki Summoner",
         "l": "summoner_parroki"
     },
@@ -14944,7 +15131,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 256,
+        "y": 640,
         "v": "Pebble Summoner",
         "l": "summoner_pebble"
     },
@@ -14955,7 +15142,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 384,
+        "y": 768,
         "v": "Pigsy Summoner",
         "l": "summoner_pigsy"
     },
@@ -14966,7 +15153,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 512,
+        "y": 896,
         "v": "Corrupted Pigsy Summoner",
         "l": "summoner_corrupted_pigsy"
     },
@@ -14977,7 +15164,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 640,
+        "y": 1024,
         "v": "Feral Pigsy Summoner",
         "l": "summoner_pigsy_feral"
     },
@@ -14988,7 +15175,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 768,
+        "y": 1152,
         "v": "Ghost Pigsy Summoner",
         "l": "summoner_pigsy_ghost"
     },
@@ -14999,7 +15186,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 896,
+        "y": 1280,
         "v": "Polturpigsy Summoner",
         "l": "summoner_pigsy_ghost_aggressive"
     },
@@ -15010,7 +15197,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1024,
+        "y": 1408,
         "v": "Night Pigsy Summoner",
         "l": "summoner_pigsy_night"
     },
@@ -15021,7 +15208,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1152,
+        "y": 1536,
         "v": "Rambeau Summoner",
         "l": "summoner_rambeau"
     },
@@ -15032,7 +15219,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1280,
+        "y": 1664,
         "v": "Rockster Summoner",
         "l": "summoner_rockster"
     },
@@ -15043,7 +15230,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1408,
+        "y": 1792,
         "v": "Corrupted Rockster Summoner",
         "l": "summoner_corrupted_rockster"
     },
@@ -15054,7 +15241,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1536,
+        "y": 0,
         "v": "Ghost Rockster Summoner",
         "l": "summoner_rockster_ghost"
     },
@@ -15065,7 +15252,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1664,
+        "y": 1920,
         "v": "Ghostzilla Summoner",
         "l": "summoner_rockster_ghost_boss"
     },
@@ -15076,7 +15263,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1792,
+        "y": 2176,
         "v": "Hauntster Summoner",
         "l": "summoner_rockster_ghost_aggressive"
     },
@@ -15087,7 +15274,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 1920,
+        "y": 2304,
         "v": "Night Rockster Summoner",
         "l": "summoner_rockster_night"
     },
@@ -15098,7 +15285,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2048,
+        "y": 2432,
         "v": "ShrewdShrew Summoner",
         "l": "summoner_shrewdshrew"
     },
@@ -15109,7 +15296,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2176,
+        "y": 2560,
         "v": "Thing Summoner",
         "l": "summoner_thing"
     },
@@ -15120,7 +15307,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2304,
+        "y": 2688,
         "v": "Th'ang The Unyielding Summoner",
         "l": "summoner_thing_ghost_boss"
     },
@@ -15131,7 +15318,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2432,
+        "y": 2816,
         "v": "Trog Summoner",
         "l": "summoner_trog"
     },
@@ -15142,7 +15329,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2560,
+        "y": 2944,
         "v": "Night Twiggy Summoner",
         "l": "summoner_twiggy_night"
     },
@@ -15153,7 +15340,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2688,
+        "y": 3072,
         "v": "Warmworm Summoner",
         "l": "summoner_warmworm"
     },
@@ -15164,7 +15351,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2816,
+        "y": 3968,
         "v": "W'urm the Infernal Summoner",
         "l": "summoner_warmworm_ghost_boss"
     },
@@ -15175,7 +15362,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 2944,
+        "y": 3200,
         "v": "Wraithworm Summoner",
         "l": "summoner_warmworm_ghost_aggressive"
     },
@@ -15186,7 +15373,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3072,
+        "y": 3328,
         "v": "? mushroom_brown_block",
         "l": "cheat_mushroom_brown"
     },
@@ -15197,7 +15384,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3200,
+        "y": 3456,
         "v": "? mushroom_glowing_block",
         "l": "mushroom_glowing_block"
     },
@@ -15208,7 +15395,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3328,
+        "y": 3584,
         "v": "? mushroom_red_place",
         "l": "cheat_mushroom_red"
     },
@@ -15219,7 +15406,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3456,
+        "y": 3712,
         "v": "Totally Toadstool",
         "l": "mushroom_retro"
     },
@@ -15230,7 +15417,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3584,
+        "y": 3840,
         "v": "Meal",
         "l": "mystery_meal"
     },
@@ -15241,7 +15428,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 0,
-        "y": 3712,
+        "y": 2048,
         "v": "Villager",
         "l": "npc_anchor"
     },
@@ -15251,8 +15438,8 @@ var icondata = [
         "i": "numberstorage",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 3840,
+        "x": 128,
+        "y": 3968,
         "v": "Memory Gate",
         "l": "numberstorage"
     },
@@ -15262,8 +15449,8 @@ var icondata = [
         "i": "paintbrush_icon",
         "w": 128,
         "h": 128,
-        "x": 0,
-        "y": 128,
+        "x": 256,
+        "y": 3968,
         "v": "? paintbrush_icon",
         "l": "paintbrush_icon"
     },
@@ -15273,7 +15460,7 @@ var icondata = [
         "i": "party_hat_blue",
         "w": 128,
         "h": 128,
-        "x": 128,
+        "x": 384,
         "y": 3968,
         "v": "Blue Party Hat",
         "l": "party_hat_blue"
@@ -15284,8 +15471,8 @@ var icondata = [
         "i": "party_hat_red",
         "w": 128,
         "h": 128,
-        "x": 128,
-        "y": 3840,
+        "x": 2688,
+        "y": 3968,
         "v": "Red Party Hat",
         "l": "party_hat_red"
     },
@@ -15295,7 +15482,7 @@ var icondata = [
         "i": "party_hat_yellow",
         "w": 128,
         "h": 128,
-        "x": 256,
+        "x": 2816,
         "y": 3968,
         "v": "Yellow Party Hat",
         "l": "party_hat_yellow"
@@ -15306,7 +15493,7 @@ var icondata = [
         "i": "pedestal_haunted",
         "w": 128,
         "h": 128,
-        "x": 3968,
+        "x": 2944,
         "y": 3968,
         "v": "Spooky Pedestal",
         "l": "planter_haunted"
@@ -15317,7 +15504,7 @@ var icondata = [
         "i": "pipe_retro",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 3072,
         "y": 3968,
         "v": "Retro Pipe",
         "l": "pipe_retro"
@@ -15328,7 +15515,7 @@ var icondata = [
         "i": "planter_elevated",
         "w": 128,
         "h": 128,
-        "x": 3712,
+        "x": 3200,
         "y": 3968,
         "v": "Wood Base Planter",
         "l": "planter_elevated"
@@ -15339,7 +15526,7 @@ var icondata = [
         "i": "planter_footed",
         "w": 128,
         "h": 128,
-        "x": 3584,
+        "x": 3328,
         "y": 3968,
         "v": "Tripod Planter",
         "l": "planter_footed"
@@ -15350,7 +15537,7 @@ var icondata = [
         "i": "planter_geometric",
         "w": 128,
         "h": 128,
-        "x": 3456,
+        "x": 3584,
         "y": 3968,
         "v": "Geometric Planter",
         "l": "planter_geometric"
@@ -15361,8 +15548,8 @@ var icondata = [
         "i": "planter_pigsy",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 3968,
+        "x": 128,
+        "y": 3456,
         "v": "Lil' Pigsy Planter",
         "l": "planter_pigsy"
     },
@@ -15372,7 +15559,7 @@ var icondata = [
         "i": "planter_terracotta",
         "w": 128,
         "h": 128,
-        "x": 3200,
+        "x": 3712,
         "y": 3968,
         "v": "Terracotta Planter",
         "l": "planter_terracotta"
@@ -15383,7 +15570,7 @@ var icondata = [
         "i": "plant_bamboo",
         "w": 128,
         "h": 128,
-        "x": 3072,
+        "x": 3840,
         "y": 3968,
         "v": "Wild Bamboo",
         "l": "natural_plant_bamboo"
@@ -15394,7 +15581,7 @@ var icondata = [
         "i": "plant_bamboo_food",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 3968,
         "y": 3968,
         "v": "Wild Bamboo",
         "l": "plant_bamboo"
@@ -15405,8 +15592,8 @@ var icondata = [
         "i": "plant_cactus01",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 3968,
+        "x": 128,
+        "y": 3840,
         "v": "Big Pokey Cactus",
         "l": "natural_plant_cactus01"
     },
@@ -15416,8 +15603,8 @@ var icondata = [
         "i": "plant_cactus01_food",
         "w": 128,
         "h": 128,
-        "x": 2688,
-        "y": 3968,
+        "x": 128,
+        "y": 3712,
         "v": "Big Pokey Cactus",
         "l": "plant_cactus01"
     },
@@ -15427,8 +15614,8 @@ var icondata = [
         "i": "plant_cactus02",
         "w": 128,
         "h": 128,
-        "x": 2560,
-        "y": 3968,
+        "x": 128,
+        "y": 3584,
         "v": "Prickly Pal Cactus",
         "l": "natural_plant_cactus02"
     },
@@ -15438,7 +15625,7 @@ var icondata = [
         "i": "plant_cactus02_food",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2560,
         "y": 3968,
         "v": "Prickly Pal Cactus",
         "l": "plant_cactus02"
@@ -15449,7 +15636,7 @@ var icondata = [
         "i": "plant_pilea",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 2432,
         "y": 3968,
         "v": "Mirror Grass",
         "l": "natural_plant_pilea"
@@ -15460,7 +15647,7 @@ var icondata = [
         "i": "plant_pilea_food",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 2304,
         "y": 3968,
         "v": "Mirror Grass",
         "l": "plant_pilea"
@@ -15471,7 +15658,7 @@ var icondata = [
         "i": "plant_succulent",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 2176,
         "y": 3968,
         "v": "Desert Succulent",
         "l": "natural_plant_succulent"
@@ -15482,7 +15669,7 @@ var icondata = [
         "i": "plant_succulent_food",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 2048,
         "y": 3968,
         "v": "Desert Succulent",
         "l": "plant_succulent"
@@ -15493,7 +15680,7 @@ var icondata = [
         "i": "plum_blossom",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 1920,
         "y": 3968,
         "v": "Plum Blossom",
         "l": "plum_blossom"
@@ -15504,7 +15691,7 @@ var icondata = [
         "i": "pork_chop",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 1792,
         "y": 3968,
         "v": "Pork Chop",
         "l": "pork_chop"
@@ -15515,7 +15702,7 @@ var icondata = [
         "i": "potion_pink",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 1664,
         "y": 3968,
         "v": "Springheel Potion",
         "l": "potion_speed_and_jump"
@@ -15526,7 +15713,7 @@ var icondata = [
         "i": "potion_round",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1536,
         "y": 3968,
         "v": "Armored Tortoise Potion",
         "l": "potion_tanky_turtle"
@@ -15537,7 +15724,7 @@ var icondata = [
         "i": "potion_skull_poison",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 1408,
         "y": 3968,
         "v": "Suspicious Skull-Shaped Potion",
         "l": "potion_skull_poison"
@@ -15548,7 +15735,7 @@ var icondata = [
         "i": "poultry_parts",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 1280,
         "y": 3968,
         "v": "Poultry Parts",
         "l": "poultry_parts"
@@ -15559,7 +15746,7 @@ var icondata = [
         "i": "prism",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 1152,
         "y": 3968,
         "v": "Mysterious Bauble",
         "l": "arc_prism"
@@ -15570,7 +15757,7 @@ var icondata = [
         "i": "qb_token",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 1024,
         "y": 3968,
         "v": "QBit",
         "l": "drone_token"
@@ -15581,7 +15768,7 @@ var icondata = [
         "i": "sand_retro",
         "w": 128,
         "h": 128,
-        "x": 768,
+        "x": 896,
         "y": 3968,
         "v": "Retro Sand",
         "l": "sand_retro"
@@ -15592,7 +15779,7 @@ var icondata = [
         "i": "scales_karrotfish",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 768,
         "y": 3968,
         "v": "Scales",
         "l": "scales"
@@ -15603,7 +15790,7 @@ var icondata = [
         "i": "shoulder_diamond",
         "w": 128,
         "h": 128,
-        "x": 512,
+        "x": 640,
         "y": 3968,
         "v": "Diamond Pauldron",
         "l": "helmet_diamond"
@@ -15614,7 +15801,7 @@ var icondata = [
         "i": "shoulder_iron",
         "w": 128,
         "h": 128,
-        "x": 384,
+        "x": 512,
         "y": 3968,
         "v": "Iron Pauldron",
         "l": "helmet_iron"
@@ -15625,7 +15812,7 @@ var icondata = [
         "i": "shoulder_leather",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 1280,
         "y": 3840,
         "v": "Leather Pauldron",
         "l": "helmet_leather"
@@ -15637,7 +15824,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2816,
+        "y": 2048,
         "v": "Lumite Pauldron",
         "l": "helmet_lumite"
     },
@@ -15648,7 +15835,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2688,
+        "y": 1920,
         "v": "Obsidian Pauldron",
         "l": "helmet_obsidian"
     },
@@ -15659,7 +15846,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2560,
+        "y": 1792,
         "v": "Spooky Skull",
         "l": "skull_haunted"
     },
@@ -15669,7 +15856,7 @@ var icondata = [
         "i": "slab_canvas",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 2432,
         "y": 3584,
         "v": "Canvas Slab",
         "l": "slab_canvas"
@@ -15691,7 +15878,7 @@ var icondata = [
         "i": "slab_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 2688,
         "y": 3584,
         "v": "Plain Gingerbread Slab",
         "l": "slab_gingerbread_basic"
@@ -15702,7 +15889,7 @@ var icondata = [
         "i": "slab_goo_green",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 2816,
         "y": 3584,
         "v": "Green Goo Slab",
         "l": "slab_goo_green"
@@ -15713,7 +15900,7 @@ var icondata = [
         "i": "slab_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 2944,
         "y": 3584,
         "v": "Orange Goo Slab",
         "l": "slab_goo_orange"
@@ -15724,7 +15911,7 @@ var icondata = [
         "i": "slab_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 3072,
         "y": 3584,
         "v": "Purple Goo Slab",
         "l": "slab_goo_purple"
@@ -15735,7 +15922,7 @@ var icondata = [
         "i": "slab_grass_full",
         "w": 128,
         "h": 128,
-        "x": 1920,
+        "x": 3328,
         "y": 3584,
         "v": "Full Grass Slab",
         "l": "slab_grass_full"
@@ -15746,8 +15933,8 @@ var icondata = [
         "i": "slab_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 1792,
-        "y": 3584,
+        "x": 512,
+        "y": 3328,
         "v": "Beveled Lumite Slab",
         "l": "slab_lumite_beveled"
     },
@@ -15757,7 +15944,7 @@ var icondata = [
         "i": "slab_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 1664,
+        "x": 3456,
         "y": 3584,
         "v": "Dark Lumite Slab",
         "l": "slab_lumite_dark"
@@ -15768,7 +15955,7 @@ var icondata = [
         "i": "slab_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 3584,
         "y": 3584,
         "v": "Light Lumite Slab",
         "l": "slab_lumite_light"
@@ -15779,7 +15966,7 @@ var icondata = [
         "i": "slab_snow",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 3712,
         "y": 3584,
         "v": "Snow Slab",
         "l": "slab_snow"
@@ -15790,7 +15977,7 @@ var icondata = [
         "i": "slab_wood_red_chinese",
         "w": 128,
         "h": 128,
-        "x": 1280,
+        "x": 3840,
         "y": 3584,
         "v": "Forbidden Red Wood Slab",
         "l": "slab_wood_red_chinese"
@@ -15801,7 +15988,7 @@ var icondata = [
         "i": "slope_canvas",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 3968,
         "y": 3584,
         "v": "Canvas Slope",
         "l": "slope_canvas"
@@ -15812,8 +15999,8 @@ var icondata = [
         "i": "slope_canvas_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 1024,
-        "y": 3584,
+        "x": 512,
+        "y": 3456,
         "v": "Canvas Slope Inner Corner",
         "l": "slope_canvas_inner_corner"
     },
@@ -15823,7 +16010,7 @@ var icondata = [
         "i": "slope_canvas_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 2304,
         "y": 3584,
         "v": "Canvas Slope Outer Corner",
         "l": "slope_canvas_outer_corner"
@@ -15834,7 +16021,7 @@ var icondata = [
         "i": "slope_gingerbread_basic",
         "w": 128,
         "h": 128,
-        "x": 768,
+        "x": 2176,
         "y": 3584,
         "v": "Plain Gingerbread Slope",
         "l": "slope_gingerbread_basic"
@@ -15845,7 +16032,7 @@ var icondata = [
         "i": "slope_gingerbread_basic_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 2048,
         "y": 3584,
         "v": "Plain Gingerbread Slope Inner Corner",
         "l": "slope_gingerbread_basic_inner_corner"
@@ -15856,10 +16043,43 @@ var icondata = [
         "i": "slope_gingerbread_basic_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
+        "x": 1920,
         "y": 3584,
         "v": "Plain Gingerbread Slope Outer Corner",
         "l": "slope_gingerbread_basic_outer_corner"
+    },
+    {
+        "s": "01",
+        "id": 551,
+        "i": "slope_gold",
+        "w": 128,
+        "h": 128,
+        "x": 1792,
+        "y": 3584,
+        "v": "Gold Slope",
+        "l": "slope_gold"
+    },
+    {
+        "s": "01",
+        "id": 552,
+        "i": "slope_gold_inner_corner",
+        "w": 128,
+        "h": 128,
+        "x": 1664,
+        "y": 3584,
+        "v": "Gold Slope Inner Corner",
+        "l": "slope_gold_inner_corner"
+    },
+    {
+        "s": "01",
+        "id": 553,
+        "i": "slope_gold_outer_corner",
+        "w": 128,
+        "h": 128,
+        "x": 1536,
+        "y": 3584,
+        "v": "Gold Slope Outer Corner",
+        "l": "slope_gold_outer_corner"
     },
     {
         "s": "01",
@@ -15867,8 +16087,8 @@ var icondata = [
         "i": "slope_goo_green",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 0,
+        "x": 1408,
+        "y": 3584,
         "v": "Green Goo Slope",
         "l": "slope_goo_green"
     },
@@ -15878,8 +16098,8 @@ var icondata = [
         "i": "slope_goo_green_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 128,
+        "x": 1280,
+        "y": 3584,
         "v": "Green Goo Slope Inner Corner",
         "l": "slope_goo_green_inner_corner"
     },
@@ -15889,8 +16109,8 @@ var icondata = [
         "i": "slope_goo_green_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 256,
+        "x": 1152,
+        "y": 3584,
         "v": "Green Goo Slope Outer Corner",
         "l": "slope_goo_green_outer_corner"
     },
@@ -15900,8 +16120,8 @@ var icondata = [
         "i": "slope_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 384,
+        "x": 1024,
+        "y": 3584,
         "v": "Orange Goo Slope",
         "l": "slope_goo_orange"
     },
@@ -15911,8 +16131,8 @@ var icondata = [
         "i": "slope_goo_orange_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 512,
+        "x": 896,
+        "y": 3584,
         "v": "Orange Goo Slope Inner Corner",
         "l": "slope_goo_orange_inner_corner"
     },
@@ -15922,8 +16142,8 @@ var icondata = [
         "i": "slope_goo_orange_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 640,
+        "x": 768,
+        "y": 3584,
         "v": "Orange Goo Slope Outer Corner",
         "l": "slope_goo_orange_outer_corner"
     },
@@ -15933,8 +16153,8 @@ var icondata = [
         "i": "slope_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 768,
+        "x": 640,
+        "y": 3584,
         "v": "Purple Goo Slope",
         "l": "slope_goo_purple"
     },
@@ -15944,8 +16164,8 @@ var icondata = [
         "i": "slope_goo_purple_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 896,
+        "x": 512,
+        "y": 3584,
         "v": "Purple Goo Slope Inner Corner",
         "l": "slope_goo_purple_inner_corner"
     },
@@ -15956,7 +16176,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1024,
+        "y": 0,
         "v": "Purple Goo Slope Outer Corner",
         "l": "slope_goo_purple_outer_corner"
     },
@@ -15967,7 +16187,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1152,
+        "y": 128,
         "v": "Lumite Slope",
         "l": "slope_lumite_beveled"
     },
@@ -15977,8 +16197,8 @@ var icondata = [
         "i": "slope_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 384,
-        "y": 1280,
+        "x": 3200,
+        "y": 3584,
         "v": "Dark Lumite Slope",
         "l": "slope_lumite_dark"
     },
@@ -15988,8 +16208,8 @@ var icondata = [
         "i": "slope_lumite_bevel_dark_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 2816,
-        "y": 3584,
+        "x": 512,
+        "y": 3072,
         "v": "Dark Lumite Slope Inner Corner",
         "l": "slope_lumite_dark_inner_corner"
     },
@@ -15999,8 +16219,8 @@ var icondata = [
         "i": "slope_lumite_bevel_dark_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 2944,
-        "y": 3584,
+        "x": 640,
+        "y": 3456,
         "v": "Dark Lumite Slope Outer Corner",
         "l": "slope_lumite_dark_outer_corner"
     },
@@ -16010,8 +16230,8 @@ var icondata = [
         "i": "slope_lumite_bevel_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 3584,
+        "x": 512,
+        "y": 2944,
         "v": "Lumite Slope Inner Corner",
         "l": "slope_lumite_beveled_inner_corner"
     },
@@ -16021,8 +16241,8 @@ var icondata = [
         "i": "slope_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 3584,
+        "x": 512,
+        "y": 640,
         "v": "Light Lumite Slope",
         "l": "slope_lumite_light"
     },
@@ -16044,7 +16264,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 640,
+        "y": 384,
         "v": "Light Lumite Slope Outer Corner",
         "l": "slope_lumite_light_outer_corner"
     },
@@ -16055,7 +16275,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 768,
+        "y": 256,
         "v": "Lumite Slope Outer Corner",
         "l": "slope_lumite_beveled_outer_corner"
     },
@@ -16066,7 +16286,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 896,
+        "y": 128,
         "v": "Rounded Canvas Slope",
         "l": "slope_round_canvas"
     },
@@ -16077,7 +16297,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 1024,
+        "y": 0,
         "v": "Green Goo Rounded Slope",
         "l": "slope_round_goo_green"
     },
@@ -16087,8 +16307,8 @@ var icondata = [
         "i": "slope_round_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1152,
+        "x": 768,
+        "y": 3456,
         "v": "Orange Goo Rounded Slope",
         "l": "slope_round_goo_orange"
     },
@@ -16098,8 +16318,8 @@ var icondata = [
         "i": "slope_round_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1280,
+        "x": 1664,
+        "y": 3456,
         "v": "Purple Goo Rounded Slope",
         "l": "slope_round_goo_purple"
     },
@@ -16109,8 +16329,8 @@ var icondata = [
         "i": "slope_round_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1408,
+        "x": 896,
+        "y": 3456,
         "v": "Rounded Lumite Slope",
         "l": "slope_round_lumite_beveled"
     },
@@ -16120,8 +16340,8 @@ var icondata = [
         "i": "slope_round_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1536,
+        "x": 1024,
+        "y": 3456,
         "v": "Rounded Dark Lumite Slope",
         "l": "slope_round_lumite_dark"
     },
@@ -16131,8 +16351,8 @@ var icondata = [
         "i": "slope_round_lumite_bevel_light",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1664,
+        "x": 1152,
+        "y": 3456,
         "v": "Rounded Light Lumite Slope",
         "l": "slope_round_lumite_light"
     },
@@ -16142,8 +16362,8 @@ var icondata = [
         "i": "slope_round_snow",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1792,
+        "x": 1280,
+        "y": 3456,
         "v": "Rounded Snow Slope",
         "l": "slope_round_snow"
     },
@@ -16153,8 +16373,8 @@ var icondata = [
         "i": "slope_snow",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 1920,
+        "x": 1408,
+        "y": 3456,
         "v": "Snow Slope",
         "l": "slope_snow"
     },
@@ -16164,8 +16384,8 @@ var icondata = [
         "i": "slope_snow_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
-        "y": 2048,
+        "x": 1536,
+        "y": 3456,
         "v": "Snow Slope Inner Corner",
         "l": "slope_snow_inner_corner"
     },
@@ -16176,7 +16396,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2176,
+        "y": 768,
         "v": "Snow Slope Outer Corner",
         "l": "slope_snow_outer_corner"
     },
@@ -16187,7 +16407,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 384,
+        "y": 896,
         "v": "Snow Globe",
         "l": "snow_globe"
     },
@@ -16198,7 +16418,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2304,
+        "y": 1024,
         "v": "Magic Snow Globe",
         "l": "snow_globe_frosted"
     },
@@ -16209,7 +16429,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2560,
+        "y": 1152,
         "v": "Leafi Snow Globe",
         "l": "snow_globe_leafi"
     },
@@ -16220,7 +16440,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2688,
+        "y": 1280,
         "v": "Pigsy Snow Globe",
         "l": "snow_globe_pigsy"
     },
@@ -16231,7 +16451,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2816,
+        "y": 1408,
         "v": "Reaudolph Snow Globe",
         "l": "snow_globe_reaudolph"
     },
@@ -16242,7 +16462,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2944,
+        "y": 1536,
         "v": "Trog Snow Globe",
         "l": "snow_globe_trog"
     },
@@ -16253,7 +16473,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 3072,
+        "y": 1664,
         "v": "Bone Broth",
         "l": "bone_broth"
     },
@@ -16264,7 +16484,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 3200,
+        "y": 1792,
         "v": "Brown Mushroom Spores",
         "l": "spore_mushroom_brown"
     },
@@ -16275,7 +16495,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 3328,
+        "y": 1920,
         "v": "Glowing Mushroom Spores",
         "l": "spore_mushroom_glowing"
     },
@@ -16286,7 +16506,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 3456,
+        "y": 2048,
         "v": "Red Mushroom Spores",
         "l": "spore_mushroom_red"
     },
@@ -16296,8 +16516,8 @@ var icondata = [
         "i": "stairs_brick_retro",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 3584,
+        "x": 512,
+        "y": 2176,
         "v": "Retro Brick Stairs",
         "l": "stairs_brick_retro"
     },
@@ -16307,8 +16527,8 @@ var icondata = [
         "i": "stairs_brick_retro_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3840,
-        "y": 3584,
+        "x": 512,
+        "y": 2304,
         "v": "Retro Brick Stairs Inner Corner",
         "l": "stairs_brick_retro_inner_corner"
     },
@@ -16318,8 +16538,8 @@ var icondata = [
         "i": "stairs_brick_retro_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3584,
+        "x": 512,
+        "y": 2432,
         "v": "Retro Brick Stairs Outer Corner",
         "l": "stairs_brick_retro_outer_corner"
     },
@@ -16329,8 +16549,8 @@ var icondata = [
         "i": "stairs_canvas",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 3584,
+        "x": 512,
+        "y": 2560,
         "v": "Canvas Stairs",
         "l": "stairs_canvas"
     },
@@ -16340,8 +16560,8 @@ var icondata = [
         "i": "stairs_canvas_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 3584,
+        "x": 512,
+        "y": 2688,
         "v": "Canvas Stairs Inner Corner",
         "l": "stairs_canvas_inner_corner"
     },
@@ -16351,8 +16571,8 @@ var icondata = [
         "i": "stairs_canvas_inner_corner2",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 3584,
+        "x": 512,
+        "y": 2816,
         "v": "? stairs_canvas_inner_corner2",
         "l": "stairs_canvas_inner_corner2"
     },
@@ -16363,7 +16583,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1408,
+        "y": 256,
         "v": "Canvas Stairs Outer Corner",
         "l": "stairs_canvas_outer_corner"
     },
@@ -16374,7 +16594,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 512,
-        "y": 2432,
+        "y": 3200,
         "v": "Plain Gingerbread Stairs",
         "l": "stairs_gingerbread_basic"
     },
@@ -16385,7 +16605,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1536,
+        "y": 384,
         "v": "Plain Gingerbread Stairs Inner Corner",
         "l": "stairs_gingerbread_basic_inner_corner"
     },
@@ -16395,10 +16615,43 @@ var icondata = [
         "i": "stairs_gingerbread_basic_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 3840,
+        "x": 2688,
         "y": 3712,
         "v": "Plain Gingerbread Stairs Outer Corner",
         "l": "stairs_gingerbread_basic_outer_corner"
+    },
+    {
+        "s": "01",
+        "id": 554,
+        "i": "stairs_gold_gilded",
+        "w": 128,
+        "h": 128,
+        "x": 768,
+        "y": 3712,
+        "v": "Gold Stairs",
+        "l": "stairs_gold_gilded"
+    },
+    {
+        "s": "01",
+        "id": 555,
+        "i": "stairs_gold_inner_corner",
+        "w": 128,
+        "h": 128,
+        "x": 896,
+        "y": 3712,
+        "v": "Gold Stairs Inner Corner",
+        "l": "stairs_gold_inner_corner"
+    },
+    {
+        "s": "01",
+        "id": 556,
+        "i": "stairs_gold_outer_corner",
+        "w": 128,
+        "h": 128,
+        "x": 1024,
+        "y": 3712,
+        "v": "Gold Stairs Outer Corner",
+        "l": "stairs_gold_outer_corner"
     },
     {
         "s": "01",
@@ -16406,7 +16659,7 @@ var icondata = [
         "i": "stairs_goo_green",
         "w": 128,
         "h": 128,
-        "x": 1408,
+        "x": 1152,
         "y": 3712,
         "v": "Green Goo Stairs",
         "l": "stairs_goo_green"
@@ -16428,7 +16681,7 @@ var icondata = [
         "i": "stairs_goo_green_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 1152,
+        "x": 1408,
         "y": 3712,
         "v": "Green Goo Stairs Outer Corner",
         "l": "stairs_goo_green_outer_corner"
@@ -16439,7 +16692,7 @@ var icondata = [
         "i": "stairs_goo_orange",
         "w": 128,
         "h": 128,
-        "x": 1024,
+        "x": 1664,
         "y": 3712,
         "v": "Orange Goo Stairs",
         "l": "stairs_goo_orange"
@@ -16450,7 +16703,7 @@ var icondata = [
         "i": "stairs_goo_orange_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 896,
+        "x": 2560,
         "y": 3712,
         "v": "Orange Goo Stairs Inner Corner",
         "l": "stairs_goo_orange_inner_corner"
@@ -16461,7 +16714,7 @@ var icondata = [
         "i": "stairs_goo_orange_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 768,
+        "x": 1792,
         "y": 3712,
         "v": "Orange Goo Stairs Outer Corner",
         "l": "stairs_goo_orange_outer_corner"
@@ -16472,7 +16725,7 @@ var icondata = [
         "i": "stairs_goo_purple",
         "w": 128,
         "h": 128,
-        "x": 640,
+        "x": 1920,
         "y": 3712,
         "v": "Purple Goo Stairs",
         "l": "stairs_goo_purple"
@@ -16483,7 +16736,7 @@ var icondata = [
         "i": "stairs_goo_purple_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 512,
+        "x": 2048,
         "y": 3712,
         "v": "Purple Goo Stairs Inner Corner",
         "l": "stairs_goo_purple_inner_corner"
@@ -16494,7 +16747,7 @@ var icondata = [
         "i": "stairs_goo_purple_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 384,
+        "x": 2176,
         "y": 3712,
         "v": "Purple Goo Stairs Outer Corner",
         "l": "stairs_goo_purple_outer_corner"
@@ -16505,8 +16758,8 @@ var icondata = [
         "i": "stairs_lumite_bevel",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 0,
+        "x": 2304,
+        "y": 3712,
         "v": "? stairs_lumite_bevel",
         "l": "stairs_lumite_bevel"
     },
@@ -16516,8 +16769,8 @@ var icondata = [
         "i": "stairs_lumite_bevel_dark",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 128,
+        "x": 2432,
+        "y": 3712,
         "v": "Dark Lumite Stairs",
         "l": "stairs_lumite_dark"
     },
@@ -16527,8 +16780,8 @@ var icondata = [
         "i": "stairs_lumite_bevel_dark_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 256,
+        "x": 640,
+        "y": 3712,
         "v": "Dark Lumite Slope Inner Corner",
         "l": "stairs_lumite_dark_inner_corner"
     },
@@ -16538,8 +16791,8 @@ var icondata = [
         "i": "stairs_lumite_bevel_dark_outer_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 384,
+        "x": 512,
+        "y": 3712,
         "v": "Dark Lumite Slope Outer Corner",
         "l": "stairs_lumite_dark_outer_corner"
     },
@@ -16549,8 +16802,8 @@ var icondata = [
         "i": "stairs_lumite_bevel_inner_corner",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 512,
+        "x": 384,
+        "y": 3712,
         "v": "? stairs_lumite_bevel_inner_corner",
         "l": "stairs_lumite_bevel_inner_corner"
     },
@@ -16561,7 +16814,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 640,
+        "y": 0,
         "v": "Light Lumite Stairs",
         "l": "stairs_lumite_light"
     },
@@ -16572,7 +16825,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 768,
+        "y": 128,
         "v": "Light Lumite Stairs Inner Corner",
         "l": "stairs_lumite_light_inner_corner"
     },
@@ -16583,7 +16836,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 896,
+        "y": 256,
         "v": "Light Lumite Stairs Outer Corner",
         "l": "stairs_lumite_light_outer_corner"
     },
@@ -16594,7 +16847,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1024,
+        "y": 384,
         "v": "? stairs_lumite_bevel_outer_corner",
         "l": "stairs_lumite_bevel_outer_corner"
     },
@@ -16605,7 +16858,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1152,
+        "y": 512,
         "v": "Snow Stairs",
         "l": "stairs_snow"
     },
@@ -16616,7 +16869,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1280,
+        "y": 640,
         "v": "Snow Stairs Inner Corner",
         "l": "stairs_snow_inner_corner"
     },
@@ -16627,7 +16880,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1408,
+        "y": 768,
         "v": "Snow Stairs Outer Corner",
         "l": "stairs_snow_outer_corner"
     },
@@ -16638,7 +16891,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1536,
+        "y": 896,
         "v": "Forbidden Red Wood Stairs",
         "l": "stairs_wood_red_chinese"
     },
@@ -16649,7 +16902,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1664,
+        "y": 1024,
         "v": "Forbidden Red Wood Stairs Inner Corner",
         "l": "stairs_wood_red_chinese_inner_corner"
     },
@@ -16660,7 +16913,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1792,
+        "y": 1152,
         "v": "Forbidden Red Wood Stairs Outer Corner",
         "l": "stairs_wood_red_chinese_outer_corner"
     },
@@ -16671,7 +16924,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 1920,
+        "y": 1280,
         "v": "Starlight Light",
         "l": "star_retro"
     },
@@ -16682,7 +16935,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2048,
+        "y": 1408,
         "v": "Stomp Statue",
         "l": "statue_retro"
     },
@@ -16693,7 +16946,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2176,
+        "y": 1536,
         "v": "? stick_icon",
         "l": "pattern_item"
     },
@@ -16704,7 +16957,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 256,
-        "y": 2304,
+        "y": 1664,
         "v": "Retro Stone",
         "l": "stone_retro"
     },
@@ -16714,8 +16967,8 @@ var icondata = [
         "i": "sword_arc",
         "w": 128,
         "h": 128,
-        "x": 256,
-        "y": 2432,
+        "x": 1536,
+        "y": 3712,
         "v": "? sword_arc",
         "l": "sword_arc"
     },
@@ -16725,7 +16978,7 @@ var icondata = [
         "i": "sword_axe_bone",
         "w": 128,
         "h": 128,
-        "x": 1536,
+        "x": 2816,
         "y": 3712,
         "v": "Crypt Cutter",
         "l": "sword_axe_bone"
@@ -16736,8 +16989,8 @@ var icondata = [
         "i": "sword_bit_hammer",
         "w": 128,
         "h": 128,
-        "x": 1664,
-        "y": 3712,
+        "x": 384,
+        "y": 1664,
         "v": "Super Retro Hammer",
         "l": "cosmetic_weapon_bit_hammer"
     },
@@ -16747,7 +17000,7 @@ var icondata = [
         "i": "sword_bit_pickaxe",
         "w": 128,
         "h": 128,
-        "x": 1792,
+        "x": 2944,
         "y": 3712,
         "v": "Super Retro Pickaxe",
         "l": "cosmetic_weapon_bit_pickaxe"
@@ -16758,8 +17011,8 @@ var icondata = [
         "i": "sword_candycane",
         "w": 128,
         "h": 128,
-        "x": 1920,
-        "y": 3712,
+        "x": 384,
+        "y": 2432,
         "v": "Candycane Blade",
         "l": "cosmetic_weapon_candycane_sword"
     },
@@ -16770,7 +17023,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1920,
+        "y": 2304,
         "v": "Industrial Crowbar",
         "l": "sword_crowbar"
     },
@@ -16781,7 +17034,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2048,
+        "y": 2176,
         "v": "Diamond Sword",
         "l": "sword_diamond"
     },
@@ -16792,7 +17045,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2176,
+        "y": 2048,
         "v": "Phoenix Flame Sword",
         "l": "cosmetic_weapon_sword_fire"
     },
@@ -16803,7 +17056,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2304,
+        "y": 1920,
         "v": "Golden Sword",
         "l": "sword_gold_welcome"
     },
@@ -16814,7 +17067,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2432,
+        "y": 1792,
         "v": "Miru's Hammer",
         "l": "cosmetic_weapon_hammer_atlantis"
     },
@@ -16825,7 +17078,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2560,
+        "y": 1536,
         "v": "Frostbourne",
         "l": "cosmetic_weapon_ice_sword"
     },
@@ -16836,7 +17089,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2688,
+        "y": 640,
         "v": "Iron Sword",
         "l": "sword_iron"
     },
@@ -16847,7 +17100,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2816,
+        "y": 1408,
         "v": "Emperor's Blade",
         "l": "cosmetic_weapon_sword_jade"
     },
@@ -16858,7 +17111,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 2944,
+        "y": 1280,
         "v": "Danger Pop",
         "l": "cosmetic_weapon_lollipop"
     },
@@ -16869,7 +17122,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 3072,
+        "y": 1152,
         "v": "Lumite Sword",
         "l": "sword_lumite"
     },
@@ -16880,7 +17133,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 3200,
+        "y": 1024,
         "v": "Hidden Temple Sword",
         "l": "sword_mayan"
     },
@@ -16891,7 +17144,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 3328,
+        "y": 896,
         "v": "Medieval Sword",
         "l": "sword_medieval"
     },
@@ -16902,7 +17155,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 3456,
+        "y": 768,
         "v": "Obsidian Sword",
         "l": "sword_obsidian"
     },
@@ -16913,7 +17166,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 3584,
+        "y": 2560,
         "v": "Leo's Paintbrush",
         "l": "cosmetic_weapon_paintbrush"
     },
@@ -16924,7 +17177,7 @@ var icondata = [
         "w": 128,
         "h": 128,
         "x": 384,
-        "y": 1792,
+        "y": 2688,
         "v": "Rockster's Claw",
         "l": "cosmetic_weapon_rockster_claw"
     },
@@ -16934,8 +17187,8 @@ var icondata = [
         "i": "sword_sci_fi",
         "w": 128,
         "h": 128,
-        "x": 3968,
-        "y": 3712,
+        "x": 384,
+        "y": 2816,
         "v": "Galactic Flux Incapacitator",
         "l": "sword_sci_fi"
     },
@@ -16945,8 +17198,8 @@ var icondata = [
         "i": "sword_scythe",
         "w": 128,
         "h": 128,
-        "x": 3712,
-        "y": 3712,
+        "x": 384,
+        "y": 2944,
         "v": "The Grim Reaper",
         "l": "cosmetic_weapon_scythe"
     },
@@ -16956,8 +17209,8 @@ var icondata = [
         "i": "sword_starsabre",
         "w": 128,
         "h": 128,
-        "x": 3584,
-        "y": 3712,
+        "x": 384,
+        "y": 3072,
         "v": "Beam of Orion",
         "l": "cosmetic_weapon_starsabre"
     },
@@ -16967,8 +17220,8 @@ var icondata = [
         "i": "sword_stone",
         "w": 128,
         "h": 128,
-        "x": 3456,
-        "y": 3712,
+        "x": 384,
+        "y": 3200,
         "v": "Stone Sword",
         "l": "sword_stone"
     },
@@ -16978,8 +17231,8 @@ var icondata = [
         "i": "sword_unicorn",
         "w": 128,
         "h": 128,
-        "x": 3328,
-        "y": 3712,
+        "x": 384,
+        "y": 3328,
         "v": "Rainbownator 5000",
         "l": "sword_unicorn"
     },
@@ -16989,8 +17242,8 @@ var icondata = [
         "i": "sword_wood",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 3712,
+        "x": 384,
+        "y": 3456,
         "v": "Wood Sword",
         "l": "taming_collar_worn"
     },
@@ -17000,8 +17253,8 @@ var icondata = [
         "i": "table_wood_white",
         "w": 128,
         "h": 128,
-        "x": 3072,
-        "y": 3712,
+        "x": 384,
+        "y": 3584,
         "v": "White Wood Table",
         "l": "table_wood_white"
     },
@@ -17011,7 +17264,7 @@ var icondata = [
         "i": "top_hat_black",
         "w": 128,
         "h": 128,
-        "x": 2944,
+        "x": 3968,
         "y": 3712,
         "v": "Top Hat",
         "l": "top_hat"
@@ -17022,7 +17275,7 @@ var icondata = [
         "i": "top_hat_blue",
         "w": 128,
         "h": 128,
-        "x": 2816,
+        "x": 3840,
         "y": 3712,
         "v": "Blue Top Hat",
         "l": "top_hat_blue"
@@ -17033,7 +17286,7 @@ var icondata = [
         "i": "top_hat_pumpkiru",
         "w": 128,
         "h": 128,
-        "x": 2688,
+        "x": 3712,
         "y": 3712,
         "v": "Top Hat",
         "l": "cosmetic_top_hat_custom_colors"
@@ -17044,7 +17297,7 @@ var icondata = [
         "i": "top_hat_red",
         "w": 128,
         "h": 128,
-        "x": 2560,
+        "x": 3584,
         "y": 3712,
         "v": "Red Top Hat",
         "l": "top_hat_red"
@@ -17055,7 +17308,7 @@ var icondata = [
         "i": "top_hat_yellow",
         "w": 128,
         "h": 128,
-        "x": 2432,
+        "x": 3456,
         "y": 3712,
         "v": "Yellow Top Hat",
         "l": "top_hat_yellow"
@@ -17066,7 +17319,7 @@ var icondata = [
         "i": "wall_brick_retro",
         "w": 128,
         "h": 128,
-        "x": 2304,
+        "x": 3328,
         "y": 3712,
         "v": "Retro Brick Wall",
         "l": "wall_brick_retro"
@@ -17077,7 +17330,7 @@ var icondata = [
         "i": "wall_canvas",
         "w": 128,
         "h": 128,
-        "x": 2176,
+        "x": 3200,
         "y": 3712,
         "v": "Canvas Wall",
         "l": "canvas"
@@ -17088,7 +17341,7 @@ var icondata = [
         "i": "wall_subway_tile",
         "w": 128,
         "h": 128,
-        "x": 2048,
+        "x": 3072,
         "y": 3712,
         "v": "Subway Tile Wall",
         "l": "wall_subway_tile"
@@ -17099,8 +17352,8 @@ var icondata = [
         "i": "wall_wood_white",
         "w": 128,
         "h": 128,
-        "x": 896,
-        "y": 3072,
+        "x": 1792,
+        "y": 3456,
         "v": "White Wood Wall",
         "l": "wall_wood_white"
     },
@@ -17110,8 +17363,8 @@ var icondata = [
         "i": "wood_retro",
         "w": 128,
         "h": 128,
-        "x": 3200,
-        "y": 2816,
+        "x": 1280,
+        "y": 640,
         "v": "Retro Wood",
         "l": "wood_retro"
     }
